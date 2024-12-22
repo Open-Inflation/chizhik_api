@@ -22,3 +22,6 @@ async def cities_list(search_name: str, page: int = 1) -> dict:
 
 async def active_inout() -> dict:
     return await Chizhik.request(f"{CATALOG_URL}/catalog/unauthorized/active_inout/")
+
+def set_debug(debug: bool) -> None:
+    Chizhik.debug = debug
