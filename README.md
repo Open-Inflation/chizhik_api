@@ -24,7 +24,14 @@ async def main():
 
     # RUS: Выводит список всех товаров выбранной категории (ограничение 100 элементов, если превышает - запрашивайте через дополнительные страницы)
     # ENG: Outputs a list of all items in the selected category (limiting to 100 elements, if exceeds - request through additional pages)
-    print(f"Items list output: {await chizhik_api.products_list(category_id=catalog[0]['id'], page=1)!s:.100s}...\n") # Счет страниц с единицы / index starts from 1
+    items = await chizhik_api.products_list(category_id=catalog[0]['id'], page=1)
+    print(f"Items list output: {items!s:.100s}...\n") # Счет страниц с единицы / index starts from 1
+
+    # RUS: Сохраняем изображение с сервера (в принципе, сервер отдал бы их и без обертки моего объекта, но лучше максимально претворяться обычным пользователем)
+    # ENG: Saving an image from the server (in fact, the server gave them and without wrapping my object, but better to be as a regular user)
+    image = await chizhik_api.download_image(items['items'][0]['images'][0]['image'])
+    with open(image.name, 'wb') as f:
+        f.write(image.getvalue())
 
     # RUS: Если требуется, можно настроить вывод логов в консоль
     # ENG: If required, you can configure the output of logs in the console

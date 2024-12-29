@@ -2,6 +2,7 @@ import aiohttp
 from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
 import json
+from io import BytesIO
 
 
 class ChizhikAPI:
@@ -73,7 +74,7 @@ class ChizhikAPI:
             if self.debug: print("Done!\n")
             return real_output
 
-    async def _fetch(self, url: str) -> tuple[bool, dict]:
+    async def _fetch(self, url: str) -> tuple[bool, dict | BytesIO]:
         """
         Asynchronously fetches data from the specified URL using aiohttp.
 
@@ -92,14 +93,12 @@ class ChizhikAPI:
         async with aiohttp.ClientSession() as session:
             if self.debug: print(f"Requesting \"{url}\"... Cookies: {self.cookies}")
 
-
-
             async with session.get(
                 url=url,
                 headers=self.session_dict,
                 cookies=self.cookies
             ) as response:
-                if response.status == 200:  # 200 OK
+                if response.status == 200: # 200 OK
                     if self.debug:
                         print(f"Response status: {response.status}, response type: {response.headers['content-type']}")
 
@@ -107,6 +106,17 @@ class ChizhikAPI:
                         return False, {}
                     elif response.headers['content-type'].startswith('application/json'):
                         return True, await response.json()
+                    elif response.headers['content-type'].startswith('image'):
+                        image_data = BytesIO()
+                        while True:
+                            chunk = await response.content.read(1024)
+                            if not chunk:
+                                break
+                            image_data.write(chunk)
+                        
+                        image_data.name = url.split("/")[-1]
+                        
+                        return True, image_data
                     else:
                         raise Exception(f"Unknown response type: {response.headers['content-type']}")
                 elif response.status == 403:  # 403 Forbidden (сервер воспринял как бота)
@@ -114,7 +124,7 @@ class ChizhikAPI:
                 else:
                     raise Exception(f"Response status: {response.status} (unknown error/status code). Please, create issue on GitHub")
 
-    async def request(self, url: str) -> dict:
+    async def request(self, url: str, is_image: bool = False) -> dict | BytesIO | None:
         """
         Asynchronously sends a request to the specified URL using the playwright and aiohttp.
 
@@ -127,15 +137,21 @@ class ChizhikAPI:
 
         Returns:
             dict: A dictionary containing the response data.
+            BytesIO: A BytesIO object containing the image data.
+            None: If the requesting image failed, the function returns None.
         """
-        if len(self.cookies) > 0:
+        if len(self.cookies) > 0 or is_image:
             response_ok, response = await self._fetch(url=url)
             if not response_ok:
-                if self.debug: print('Unable to fetch categories list, start browser...')
+                if is_image:
+                    if self.debug: print('Unable to fetch image :(')
+                    return None
+
+                if self.debug: print('Unable to fetch, start browser...')
                 # Если получен HTML, переходим в браузер
                 return await self._launch_browser(url=url) # возвращаем результат из браузера
             else:
-                if self.debug: print('Categories list fetched successfully!\n')
+                if self.debug: print('Fetched successfully!\n')
                 return response
         else:
             if self.debug: print('No cookies found, start browser (maybe first start)...')
