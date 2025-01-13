@@ -2,6 +2,7 @@ import aiohttp
 from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
 import json
+import urllib
 from io import BytesIO
 
 
@@ -55,7 +56,7 @@ class ChizhikAPI:
             if self.debug: print("Fetching cookies...")
             output_cookies = {}
             for cookie in await context.cookies():
-                output_cookies[cookie["name"]] = cookie["value"]
+                output_cookies[urllib.parse.unquote(cookie["name"])] = urllib.parse.unquote(cookie["value"])
             self.cookies = output_cookies
 
             if self.debug: print("Fetching HTML...")
