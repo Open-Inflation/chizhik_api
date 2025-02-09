@@ -1,4 +1,5 @@
 aiohttp~=3.10.3
 playwright~=1.49.1
+playwright_stealth~=1.0.6
 snapshottest~=0.6.0
 pytest~=8.3.4
