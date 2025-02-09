@@ -2,6 +2,8 @@
 
 Chizhik (Чижик) - https://chizhik.club/
 
+![GitHub Actions](https://github.com/Open-Inflation/chizhik_api/workflows/Run%20API%20Tests%20Daily/badge.svg)
+
 ### Usage / Использование:
 ```py
 import chizhik_api
