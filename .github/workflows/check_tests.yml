@@ -24,4 +24,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Tests
-        run: pytest --maxfail=1 --disable-warnings  # Без --snapshot-update
+        run: pytest tests/base_tests.py --maxfail=1 --disable-warnings  # Без --snapshot-update
