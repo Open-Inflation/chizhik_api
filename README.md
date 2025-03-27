@@ -2,7 +2,7 @@
 
 Chizhik (Чижик) - https://chizhik.club/
 
-![GitHub Actions](https://github.com/Open-Inflation/chizhik_api/workflows/Run%20API%20Tests%20Daily/badge.svg)
+[![GitHub Actions](https://github.com/Open-Inflation/chizhik_api/workflows/Run%20API%20Tests%20Daily/badge.svg)](https://github.com/Open-Inflation/chizhik_api/actions?query=workflow%3A"Run+API+Tests+Daily")
 
 ### Usage / Использование:
 ```py
