@@ -3,4 +3,5 @@ playwright~=1.49.1
 playwright_stealth~=1.0.6
 snapshottest~=1.0.0a1
 pytest~=8.3.4
+pytest-asyncio
 setuptools
