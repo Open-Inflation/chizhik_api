@@ -1,7 +1,7 @@
-aiohttp~=3.10.3
-playwright~=1.49.1
-playwright_stealth~=1.0.6
+aiohttp
+playwright
+playwright_stealth
 snapshottest~=1.0.0a1
-pytest~=8.3.4
+pytest
 pytest-asyncio
 setuptools

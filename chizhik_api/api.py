@@ -27,7 +27,7 @@ class ChizhikAPI:
 
     async def _launch_browser(self, url: str) -> dict:
         async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=self.debug)
+            browser = await p.chromium.launch(headless=not self.debug)
             context = await browser.new_context(
                 viewport={"width": 1280, "height": 800},
                 locale="ru-RU",
@@ -36,17 +36,16 @@ class ChizhikAPI:
                 timezone_id="Europe/Moscow",
             )
 
-            # 1) Одна страница — ставим на неё stealth и от неё открываем popup
             base = await context.new_page()
             await stealth_async(base)
 
-            # 2) Открываем новую вкладку «по‑человечески»
+            # Открываем новую вкладку «по‑человечески»
             async with context.expect_page() as popup_info:
                 await base.evaluate(f"window.open('{url}', '_blank');")
             popup = await popup_info.value
             await popup.wait_for_load_state("domcontentloaded")
 
-            # 3) Ловим первый ответ с JSON нашего API
+            # Ловим первый ответ с JSON нашего API
             response = await popup.wait_for_event(
                 "response",
                 predicate=lambda resp: urllib.parse.unquote(resp.url).startswith(url) and resp.request.method == "GET",
@@ -54,7 +53,7 @@ class ChizhikAPI:
             )
             data = await response.json()
 
-            # 4) Собираем куки
+            # Собираем куки
             raw_cookies = await context.cookies()
             self.cookies = {
                 urllib.parse.unquote(c["name"]): urllib.parse.unquote(c["value"])
