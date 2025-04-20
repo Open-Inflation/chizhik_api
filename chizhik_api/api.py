@@ -3,6 +3,7 @@ from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
 import json
 import urllib
+import asyncio
 from io import BytesIO
 
 
@@ -25,55 +26,45 @@ class ChizhikAPI:
         }
 
     async def _launch_browser(self, url: str) -> dict:
-        """
-        Asynchronously launches a browser using the Playwright API to fetch data from a given URL.
-
-        Args:
-            url (str): The URL to fetch data from.
-
-        Returns:
-            dict: A dictionary containing the fetched data.
-        """
-        # Используем асинхронный Playwright API
         async with async_playwright() as p:
-            if self.debug: print("Launching browser...")
-            browser = await p.chromium.launch(headless=True)  # Включите headless=False для визуального интерфейса
+            browser = await p.chromium.launch(headless=self.debug)
             context = await browser.new_context(
-                user_agent=self.user_agent,
-                no_viewport=True
+                viewport={"width": 1280, "height": 800},
+                locale="ru-RU",
+                java_script_enabled=True,
+                permissions=["geolocation"],
+                timezone_id="Europe/Moscow",
             )
 
-            if self.debug: print("Creating page...")
-            page = await context.new_page()
+            # 1) Одна страница — ставим на неё stealth и от неё открываем popup
+            base = await context.new_page()
+            await stealth_async(base)
 
-            # Применяем Stealth-режим
-            if self.debug: print("Applying Stealth mode...")
-            await stealth_async(page)
+            # 2) Открываем новую вкладку «по‑человечески»
+            async with context.expect_page() as popup_info:
+                await base.evaluate(f"window.open('{url}', '_blank');")
+            popup = await popup_info.value
+            await popup.wait_for_load_state("domcontentloaded")
 
-            if self.debug: print("Rendering page...")
-            await page.goto(url, wait_until="networkidle")
+            # 3) Ловим первый ответ с JSON нашего API
+            response = await popup.wait_for_event(
+                "response",
+                predicate=lambda resp: urllib.parse.unquote(resp.url).startswith(url) and resp.request.method == "GET",
+                timeout=10_000
+            )
+            data = await response.json()
 
-            if self.debug: print("Fetching cookies...")
-            output_cookies = {}
-            for cookie in await context.cookies():
-                output_cookies[urllib.parse.unquote(cookie["name"])] = urllib.parse.unquote(cookie["value"])
-            self.cookies = output_cookies
+            # 4) Собираем куки
+            raw_cookies = await context.cookies()
+            self.cookies = {
+                urllib.parse.unquote(c["name"]): urllib.parse.unquote(c["value"])
+                for c in raw_cookies
+            }
 
-            if self.debug: print("Fetching HTML...")
-            content = await page.content()
-
-            if self.debug: print("Closing browser...")
             await browser.close()
+            return data
 
-            if self.debug: print("Parsing HTML...")
-            real_output = json.loads(
-                content.\
-                    removeprefix('<html><head><meta name="color-scheme" content="light dark"><meta charset="utf-8"></head><body><pre>').\
-                    removesuffix('</pre><div class="json-formatter-container"></div></body></html>')
-            )
 
-            if self.debug: print("Done!\n")
-            return real_output
 
     async def _fetch(self, url: str) -> tuple[bool, dict | BytesIO]:
         """
@@ -104,6 +95,7 @@ class ChizhikAPI:
                         print(f"Response status: {response.status}, response type: {response.headers['content-type']}")
 
                     if response.headers['content-type'].startswith('text/html'):
+                        if self.debug: print(f"CONTENT: {await response.text()}")
                         return False, {}
                     elif response.headers['content-type'].startswith('application/json'):
                         return True, await response.json()
@@ -148,7 +140,7 @@ class ChizhikAPI:
                     if self.debug: print('Unable to fetch image :(')
                     return None
 
-                if self.debug: print('Unable to fetch, start browser...')
+                if self.debug: print(f'Unable to fetch: {response}\n\nStarting browser...')
                 # Если получен HTML, переходим в браузер
                 return await self._launch_browser(url=url) # возвращаем результат из браузера
             else:
