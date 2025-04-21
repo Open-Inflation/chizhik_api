@@ -1,7 +1,6 @@
 import aiohttp
 from playwright.async_api import async_playwright
 from playwright_stealth import stealth_async
-import json
 import urllib
 import asyncio
 from io import BytesIO
@@ -34,30 +33,56 @@ class ChizhikAPI:
                 java_script_enabled=True,
                 permissions=["geolocation"],
                 timezone_id="Europe/Moscow",
+                user_agent=self.user_agent
             )
 
+            # Включаем stealth на всех страницах
+            await context.add_init_script(
+                """() => {
+                    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+                }"""
+            )
+            context.on("page", lambda page: asyncio.create_task(stealth_async(page)))
+
+            # Готовим Future и колбэк
+            loop = asyncio.get_running_loop()
+            response_future = loop.create_future()
+
+            def _on_response(resp):
+                full_url = urllib.parse.unquote(resp.url)
+                # фильтруем по URL и методу
+                if not (full_url.startswith(url) and resp.request.method == "GET"):
+                    return
+
+                # Отсекаем HTML‑версию: проверяем заголовок
+                ctype = resp.headers.get("content-type", "").lower()
+                if "application/json" not in ctype:
+                    return
+
+                # Только тут — резолвим Future
+                if not response_future.done():
+                    response_future.set_result(resp)
+
+            context.on("response", _on_response)
+
+            # Открываем popup «по‑человечески»
             base = await context.new_page()
             await stealth_async(base)
-
-            # Открываем новую вкладку «по‑человечески»
-            async with context.expect_page() as popup_info:
+            async with context.expect_page() as ev:
                 await base.evaluate(f"window.open('{url}', '_blank');")
-            popup = await popup_info.value
-            await popup.wait_for_load_state("domcontentloaded")
+            popup = await ev.value
 
-            # Ловим первый ответ с JSON нашего API
-            response = await popup.wait_for_event(
-                "response",
-                predicate=lambda resp: urllib.parse.unquote(resp.url).startswith(url) and resp.request.method == "GET",
-                timeout=10_000
-            )
-            data = await response.json()
+            # Ждём DOM и затем настоящий JSON‑ответ
+            #await popup.wait_for_load_state("domcontentloaded")
+            resp = await asyncio.wait_for(response_future, timeout=10.0)
+
+            data = await resp.json()
 
             # Собираем куки
-            raw_cookies = await context.cookies()
+            raw = await context.cookies()
             self.cookies = {
                 urllib.parse.unquote(c["name"]): urllib.parse.unquote(c["value"])
-                for c in raw_cookies
+                for c in raw
             }
 
             await browser.close()
