@@ -1,5 +1,5 @@
 aiohttp
-camoufox
+camoufox[geoip]
 snapshottest~=1.0.0a1
 pytest
 pytest-asyncio
