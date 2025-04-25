@@ -2,12 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='chizhik_api',
-    version='0.1.5',
+    version='0.1.6',
     packages=find_packages(),
     install_requires=[
         'aiohttp',
-        'playwright',
-        'playwright_stealth',
+        'camoufox[geoip]',
     ],
     author='Miskler',
     description='A Python API client for Chizhik catalog',
