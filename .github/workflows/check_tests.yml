@@ -2,137 +2,32 @@ name: API Tests Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # daily at 00:00 UTC
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Запуск каждый день в 00:00 UTC
+  workflow_dispatch:  # Возможность запустить вручную
 
 jobs:
-  build_env:
-    name: Build test environment
+  test:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set Up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Create virtual environment
-        run: python -m venv venv
-
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-          source venv/bin/activate
           python -m pip install --upgrade pip
-          pip install -r requirements.txt camoufox
-          playwright install-deps
-          playwright install
+          pip install -r requirements.txt
 
-      - name: Upload environment
-        uses: actions/upload-artifact@v2
-        with:
-          name: venv
-          path: venv
+      - name: Install Playwright Dependencies
+        run: sudo apt-get install -y libwoff1 libvpx9 libevent-2.1-7t64 libopus0 libgstreamer-plugins-base1.0-0 libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0 libflite1 libavif16 libharfbuzz-icu0 libsecret-1-0 libhyphen0 libmanette-0.2-0 libgles2 gstreamer1.0-libav
 
-  test_active_inout:
-    name: Test active_inout
-    needs: build_env
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+      - name: Fetch browsers via Camoufox
+        run: camoufox fetch
 
-      - name: Download environment
-        uses: actions/download-artifact@v2
-        with:
-          name: venv
-
-      - name: Activate and test
-        run: |
-          source venv/bin/activate
-          venv/bin/python -m pytest tests/base_tests.py::test_active_inout --maxfail=3
-
-  test_cities_list:
-    name: Test cities_list
-    needs: build_env
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download environment
-        uses: actions/download-artifact@v2
-        with:
-          name: venv
-
-      - name: Activate and test
-        run: |
-          source venv/bin/activate
-          venv/bin/python -m pytest tests/base_tests.py::test_cities_list --maxfail=3
-
-  test_categories_list:
-    name: Test categories_list
-    needs: build_env
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download environment
-        uses: actions/download-artifact@v2
-        with:
-          name: venv
-
-      - name: Activate and test
-        run: |
-          source venv/bin/activate
-          venv/bin/python -m pytest tests/base_tests.py::test_categories_list --maxfail=3
-
-  test_products_list:
-    name: Test products_list
-    needs: build_env
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download environment
-        uses: actions/download-artifact@v2
-        with:
-          name: venv
-
-      - name: Activate and test
-        run: |
-          source venv/bin/activate
-          venv/bin/python -m pytest tests/base_tests.py::test_products_list --maxfail=3
-
-  test_download_image:
-    name: Test download_image
-    needs: build_env
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download environment
-        uses: actions/download-artifact@v2
-        with:
-          name: venv
-
-      - name: Activate and test
-        run: |
-          source venv/bin/activate
-          venv/bin/python -m pytest tests/base_tests.py::test_download_image --maxfail=3
-
-  test_set_debug:
-    name: Test set_debug
-    needs: build_env
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download environment
-        uses: actions/download-artifact@v2
-        with:
-          name: venv
-
-      - name: Activate and test
-        run: |
-          source venv/bin/activate
-          venv/bin/python -m pytest tests/base_tests.py::test_set_debug --maxfail=3
+      - name: Run Tests
+        run: pytest tests/base_tests.py --maxfail=3 # --disable-warnings  # Без --snapshot-update

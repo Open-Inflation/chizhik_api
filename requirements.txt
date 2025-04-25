@@ -1,6 +1,5 @@
 aiohttp
-playwright
-playwright_stealth
+camoufox
 snapshottest~=1.0.0a1
 pytest
 pytest-asyncio
