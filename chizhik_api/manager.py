@@ -24,7 +24,10 @@ class Chizhik:
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-        pass
+        await self.close()
+
+    async def close(self) -> None:
+        await self.api.close()
 
     @property
     def debug(self) -> bool:

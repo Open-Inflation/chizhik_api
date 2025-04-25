@@ -11,6 +11,7 @@ class ChizhikAPI:
         self.cookies = cookies
         self.session_dict = {}
         self._proxy = proxy
+        self._session = None
 
     @property
     def proxy(self) -> str | None:
@@ -104,13 +105,29 @@ class ChizhikAPI:
 
             # Собираем куки
             raw = await context.cookies()
-            self.cookies = {
+            new_cookies = {
                 urllib.parse.unquote(c["name"]): urllib.parse.unquote(c["value"])
                 for c in raw
             }
 
             await browser.close()
+
+            self.cookies = new_cookies
+            await self._new_session()
+            
             return data
+
+    async def _new_session(self) -> None:
+        await self.close()
+
+        request_kwargs = dict(
+            headers=self.session_dict,
+            cookies=self.cookies
+        )
+        if self.proxy:
+            request_kwargs['proxy'] = self.proxy if self.proxy.startswith('http://') or self.proxy.startswith('https://') else f"http://{self.proxy}"
+        
+        self._session = aiohttp.ClientSession(**request_kwargs)
 
     async def _fetch(self, url: str) -> tuple[bool, dict | BytesIO]:
         """
@@ -128,44 +145,39 @@ class ChizhikAPI:
             aiohttp.ClientError: If there was an error connecting to the server.
             Exception: If the response content type is unknown or the response status is 403 (Forbidden) or any other unknown error/status code.
         """
-        async with aiohttp.ClientSession() as session:
-            if self.debug: print(f"Requesting \"{url}\"... Cookies: {self.cookies}")
+        # Ensure persistent aiohttp session
+        if self._session is None or self._session.closed:
+            await self._new_session()
 
-            request_kwargs = dict(
-                url=url,
-                headers=self.session_dict,
-                cookies=self.cookies
-            )
-            if self.proxy:
-                request_kwargs['proxy'] = self.proxy if self.proxy.startswith('http://') or self.proxy.startswith('https://') else f"http://{self.proxy}"
+        if self.debug: print(f"Requesting \"{url}\"... Cookies: {self.cookies}")
 
-            async with session.get(**request_kwargs) as response:
-                if response.status == 200: # 200 OK
-                    if self.debug:
-                        print(f"Response status: {response.status}, response type: {response.headers['content-type']}")
+        async with self._session.get(url=url) as response:
+            if response.status == 200: # 200 OK
+                if self.debug:
+                    print(f"Response status: {response.status}, response type: {response.headers['content-type']}")
 
-                    if response.headers['content-type'].startswith('text/html'):
-                        if self.debug: print(f"CONTENT: {await response.text()}")
-                        return False, {}
-                    elif response.headers['content-type'].startswith('application/json'):
-                        return True, await response.json()
-                    elif response.headers['content-type'].startswith('image'):
-                        image_data = BytesIO()
-                        while True:
-                            chunk = await response.content.read(1024)
-                            if not chunk:
-                                break
-                            image_data.write(chunk)
-                        
-                        image_data.name = url.split("/")[-1]
-                        
-                        return True, image_data
-                    else:
-                        raise Exception(f"Unknown response type: {response.headers['content-type']}")
-                elif response.status == 403:  # 403 Forbidden (сервер воспринял как бота)
-                    raise Exception("Anti-bot protection. Use Russia IP address and try again.")
+                if response.headers['content-type'].startswith('text/html'):
+                    if self.debug: print(f"CONTENT: {await response.text()}")
+                    return False, {}
+                elif response.headers['content-type'].startswith('application/json'):
+                    return True, await response.json()
+                elif response.headers['content-type'].startswith('image'):
+                    image_data = BytesIO()
+                    while True:
+                        chunk = await response.content.read(1024)
+                        if not chunk:
+                            break
+                        image_data.write(chunk)
+                    
+                    image_data.name = url.split("/")[-1]
+                    
+                    return True, image_data
                 else:
-                    raise Exception(f"Response status: {response.status} (unknown error/status code). Please, create issue on GitHub")
+                    raise Exception(f"Unknown response type: {response.headers['content-type']}")
+            elif response.status == 403:  # 403 Forbidden (сервер воспринял как бота)
+                raise Exception("Anti-bot protection. Use Russia IP address and try again.")
+            else:
+                raise Exception(f"Response status: {response.status} (unknown error/status code). Please, create issue on GitHub")
 
     async def request(self, url: str, is_image: bool = False) -> dict | BytesIO | None:
         """
@@ -199,3 +211,9 @@ class ChizhikAPI:
         else:
             if self.debug: print('No cookies found, start browser (maybe first start)...')
             return await self._launch_browser(url=url)
+
+    async def close(self) -> None:
+        """Close the aiohttp session if open."""
+        if self._session and not self._session.closed:
+            await self._session.close()
+            self._session = None
