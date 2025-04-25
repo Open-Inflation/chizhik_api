@@ -1,48 +1,47 @@
 import aiohttp
-from playwright.async_api import async_playwright
-from playwright_stealth import stealth_async
+from camoufox.async_api import AsyncCamoufox
 import urllib
 import asyncio
 from io import BytesIO
-
 
 class ChizhikAPI:
     def __init__(self, debug: bool = False, cookies: dict = {}):
         self.debug = debug
         self.cookies = cookies
-        self.user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
-        self.session_dict = {
-            "User-Agent": self.user_agent,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-GB,en;q=0.5",
-            "Accept-Encoding": "gzip, deflate, br, zstd",
-            "Connection": "keep-alive",
-            "Upgrade-Insecure-Requests": "1",
-            "Sec-Fetch-Dest": "document",
-            "Sec-Fetch-Mode": "navigate",
-            "Sec-Fetch-Site": "none",
-            "Sec-Fetch-User": "?1"
-        }
+        self.session_dict = {}
 
     async def _launch_browser(self, url: str) -> dict:
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(headless=not self.debug)
-            context = await browser.new_context(
-                viewport={"width": 1280, "height": 800},
-                locale="ru-RU",
-                java_script_enabled=True,
-                permissions=["geolocation"],
-                timezone_id="Europe/Moscow",
-                user_agent=self.user_agent
-            )
+        # TODO: прокси
+        # TODO: реюз браузера
 
-            # Включаем stealth на всех страницах
-            await context.add_init_script(
-                """() => {
-                    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-                }"""
-            )
-            context.on("page", lambda page: asyncio.create_task(stealth_async(page)))
+        async with AsyncCamoufox(headless=not self.debug) as browser:
+            context = await browser.new_context()
+            page = await context.new_page()
+
+            # camoufox автоматически внедряет fingerprint-инъекции
+            # Получаем fingerprint-заголовки для aiohttp
+            try:
+                fp_headers = getattr(context, 'fingerprint_headers', None)
+                if fp_headers:
+                    self.session_dict = dict(fp_headers)
+                else:
+                    # Получаем реальные значения из браузера
+                    user_agent = await page.evaluate('navigator.userAgent')
+                    accept_language = await page.evaluate('navigator.language')
+                    self.session_dict = {
+                        "User-Agent": user_agent,
+                        "Accept-Language": accept_language,
+                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "Accept-Encoding": "gzip, deflate, br, zstd",
+                        "Connection": "keep-alive",
+                        "Upgrade-Insecure-Requests": "1",
+                        "Sec-Fetch-Dest": "document",
+                        "Sec-Fetch-Mode": "navigate",
+                        "Sec-Fetch-Site": "none",
+                        "Sec-Fetch-User": "?1"
+                    }
+            except Exception:
+                if self.debug: print("Unable to get fingerprint headers")
 
             # Готовим Future и колбэк
             loop = asyncio.get_running_loop()
@@ -50,32 +49,21 @@ class ChizhikAPI:
 
             def _on_response(resp):
                 full_url = urllib.parse.unquote(resp.url)
-                # фильтруем по URL и методу
                 if not (full_url.startswith(url) and resp.request.method == "GET"):
                     return
-
-                # Отсекаем HTML‑версию: проверяем заголовок
                 ctype = resp.headers.get("content-type", "").lower()
                 if "application/json" not in ctype:
                     return
-
-                # Только тут — резолвим Future
                 if not response_future.done():
                     response_future.set_result(resp)
 
             context.on("response", _on_response)
 
-            # Открываем popup «по‑человечески»
-            base = await context.new_page()
-            await stealth_async(base)
             async with context.expect_page() as ev:
-                await base.evaluate(f"window.open('{url}', '_blank');")
+                await page.evaluate(f"window.open('{url}', '_blank');")
             popup = await ev.value
 
-            # Ждём DOM и затем настоящий JSON‑ответ
-            #await popup.wait_for_load_state("domcontentloaded")
             resp = await asyncio.wait_for(response_future, timeout=10.0)
-
             data = await resp.json()
 
             # Собираем куки
@@ -87,8 +75,6 @@ class ChizhikAPI:
 
             await browser.close()
             return data
-
-
 
     async def _fetch(self, url: str) -> tuple[bool, dict | BytesIO]:
         """
