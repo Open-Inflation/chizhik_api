@@ -17,7 +17,7 @@ pip install chizhik_api
 ```
 2. ***Debian/Ubuntu Linux***: Install dependencies / Установка зависимостей:
 ```bash
-sudo apt install -y libgtk-3-0 libx11-xcb1 libasound2
+sudo apt install -y libgtk-3-0 libx11-xcb1
 ```
 3. Install browser / Установка браузера:
 ```bash
