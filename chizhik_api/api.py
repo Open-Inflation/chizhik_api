@@ -5,16 +5,24 @@ import asyncio
 from io import BytesIO
 
 class ChizhikAPI:
-    def __init__(self, debug: bool = False, cookies: dict = {}):
+    def __init__(self, debug: bool = False, cookies: dict = {}, proxy: str = None):
         self.debug = debug
         self.cookies = cookies
         self.session_dict = {}
+        self._proxy = proxy
+
+    @property
+    def proxy(self):
+        return self._proxy if hasattr(self, '_proxy') else None
+
+    @proxy.setter
+    def proxy(self, value):
+        self._proxy = value
 
     async def _launch_browser(self, url: str) -> dict:
         # TODO: прокси
-        # TODO: реюз браузера
 
-        async with AsyncCamoufox(headless=not self.debug) as browser:
+        async with AsyncCamoufox(headless=not self.debug, proxy=self.proxy, geoip=True) as browser:
             context = await browser.new_context()
             page = await context.new_page()
 
@@ -95,11 +103,15 @@ class ChizhikAPI:
         async with aiohttp.ClientSession() as session:
             if self.debug: print(f"Requesting \"{url}\"... Cookies: {self.cookies}")
 
-            async with session.get(
+            request_kwargs = dict(
                 url=url,
                 headers=self.session_dict,
                 cookies=self.cookies
-            ) as response:
+            )
+            if self.proxy:
+                request_kwargs['proxy'] = self.proxy
+
+            async with session.get(**request_kwargs) as response:
                 if response.status == 200: # 200 OK
                     if self.debug:
                         print(f"Response status: {response.status}, response type: {response.headers['content-type']}")

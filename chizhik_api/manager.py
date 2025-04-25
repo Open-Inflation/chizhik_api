@@ -5,15 +5,22 @@ from io import BytesIO
 class Chizhik:
     CATALOG_URL = "https://app.chizhik.club/api/v1"
 
+    def __init__(self, debug: bool = False, proxy: str = None):
+        self._debug = debug
+        self._proxy = proxy
+
     def __enter__(self):
         raise NotImplementedError("Use `async with Chizhik() as ...:`")
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         pass
 
-    async def __aenter__(self, debug: bool = False):
-        self._debug = debug
-        self.api = ChizhikAPI(debug=debug)
+    async def __aenter__(self, debug: bool = None, proxy: str = None):
+        if debug is not None:
+            self._debug = debug
+        if proxy is not None:
+            self._proxy = proxy
+        self.api = ChizhikAPI(debug=self._debug, proxy=self._proxy)
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
@@ -28,6 +35,15 @@ class Chizhik:
     def debug(self, value: bool):
         self._debug = value
         self.api.debug = value
+
+    @property
+    def proxy(self) -> str:
+        return self._proxy
+
+    @proxy.setter
+    def proxy(self, value: str):
+        self._proxy = value
+        self.api.proxy = value
 
     async def categories_list(self, city_id: str = None) -> dict:
         url = f"{self.CATALOG_URL}/catalog/unauthorized/categories/"
@@ -47,4 +63,3 @@ class Chizhik:
 
     async def download_image(self, url: str) -> BytesIO:
         return await self.api.request(url=url, is_image=True)
-
