@@ -5,72 +5,44 @@ on:
     - cron: '0 0 * * *'  # daily at 00:00 UTC
   workflow_dispatch:
 
-# Common setup steps for all test jobs
-x-setup-steps: &setup_steps
-  - name: Checkout repository
-    uses: actions/checkout@v4
-
-  - name: Setup Python 3.12
-    uses: actions/setup-python@v5
-    with:
-      python-version: '3.12'
-
-  - name: Install Python dependencies
-    run: |
-      python -m pip install --upgrade pip
-      pip install -r requirements.txt camoufox
-
-  - name: Install Playwright dependencies
-    run: playwright install-deps
-
-  - name: Install Playwright browsers
-    run: playwright install
-
 jobs:
-  test_active_inout:
-    name: Test active_inout
+  test:
+    name: Test ${{ matrix.function }}
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - function: active_inout
+            spec: tests/base_tests.py::test_active_inout
+          - function: cities_list
+            spec: tests/base_tests.py::test_cities_list
+          - function: categories_list
+            spec: tests/base_tests.py::test_categories_list
+          - function: products_list
+            spec: tests/base_tests.py::test_products_list
+          - function: download_image
+            spec: tests/base_tests.py::test_download_image
+          - function: set_debug
+            spec: tests/base_tests.py::test_set_debug
     steps:
-      *setup_steps
-      - name: Run active_inout test
-        run: pytest tests/base_tests.py::test_active_inout --maxfail=3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  test_cities_list:
-    name: Test cities_list
-    runs-on: ubuntu-latest
-    steps:
-      *setup_steps
-      - name: Run cities_list test
-        run: pytest tests/base_tests.py::test_cities_list --maxfail=3
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-  test_categories_list:
-    name: Test categories_list
-    runs-on: ubuntu-latest
-    steps:
-      *setup_steps
-      - name: Run categories_list test
-        run: pytest tests/base_tests.py::test_categories_list --maxfail=3
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt camoufox
 
-  test_products_list:
-    name: Test products_list
-    runs-on: ubuntu-latest
-    steps:
-      *setup_steps
-      - name: Run products_list test
-        run: pytest tests/base_tests.py::test_products_list --maxfail=3
+      - name: Install Playwright dependencies
+        run: playwright install-deps
 
-  test_download_image:
-    name: Test download_image
-    runs-on: ubuntu-latest
-    steps:
-      *setup_steps
-      - name: Run download_image test
-        run: pytest tests/base_tests.py::test_download_image --maxfail=3
+      - name: Install Playwright browsers
+        run: playwright install
 
-  test_set_debug:
-    name: Test set_debug
-    runs-on: ubuntu-latest
-    steps:
-      *setup_steps
-      - name: Run set_debug test
-        run: pytest tests/base_tests.py::test_set_debug --maxfail=3
+      - name: Run ${{ matrix.function }}
+        run: pytest ${{ matrix.spec }} --maxfail=3
