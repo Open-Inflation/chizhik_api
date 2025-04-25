@@ -14,13 +14,13 @@ snapshots['test_active_inout active_inout'] = {
     'end_timestamp': 'str',
     'image': 'str',
     'is_thematic': 'bool',
-    'logo': 'str',
+    'logo': 'NoneType',
     'pdf': 'str',
     'pdf_data': {
         'background_color': 'str',
         'banner': 'NoneType',
         'file': 'str',
-        'image': 'str',
+        'image': 'NoneType',
         'subtitle': 'str',
         'text_color': 'str',
         'title': 'str'
