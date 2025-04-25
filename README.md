@@ -10,7 +10,19 @@ Chizhik (Чижик) - https://chizhik.club/
 
 
 
-
+## Installation / Установка:
+1. Install package / Установка пакета:
+```bash
+pip install chizhik_api
+```
+2. ***Debian/Ubuntu Linux***: Install dependencies / Установка зависимостей:
+```bash
+sudo apt install -y libgtk-3-0 libx11-xcb1 libasound2
+```
+3. Install browser / Установка браузера:
+```bash
+camoufox fetch
+```
 
 ### Usage / Использование:
 ```py
