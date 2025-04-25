@@ -14,39 +14,49 @@ Chizhik (Чижик) - https://chizhik.club/
 
 ### Usage / Использование:
 ```py
-import chizhik_api
+from chizhik_api import Chizhik
 import asyncio
 
 
 async def main():
-    # RUS: Выводит активные предложения магазина
-    # ENG: Outputs active offers of the store
-    print(f"Active offers output: {await chizhik_api.active_inout()!s:.100s}...\n")
+    # RUS: Использование проксирования опционально. Вы можете создать несколько агентов с разными прокси для ускорения парса.
+    # ENG: Proxy usage is optional. You can create multiple agents with different proxies for faster parsing.
+    async with Chizhik(proxy="user:password@host:port", debug=False) as API:
+        # RUS: Выводит активные предложения магазина
+        # ENG: Outputs active offers of the store
+        print(f"Active offers output: {await API.active_inout()!s:.100s}...\n")
 
-    # RUS: Выводит список городов соответствующих поисковому запросу (только на русском языке)
-    # ENG: Outputs a list of cities corresponding to the search query (only in Russian language)
-    print(f"Cities list output: {await chizhik_api.cities_list(search_name='ар', page=1)!s:.100s}...\n") # Счет страниц с единицы / index starts from 1
+        # RUS: Выводит список городов соответствующих поисковому запросу (только на русском языке)
+        # ENG: Outputs a list of cities corresponding to the search query (only in Russian language)
+        print(f"Cities list output: {await API.cities_list(search_name='ар', page=1)!s:.100s}...\n")
+        # Счет страниц с единицы / index starts from 1
 
-    # RUS: Выводит список всех категорий на сайте
-    # ENG: Outputs a list of all categories on the site
-    catalog = await chizhik_api.categories_list()
-    print(f"Categories list output: {catalog!s:.100s}...\n")
+        # RUS: Выводит список всех категорий на сайте
+        # ENG: Outputs a list of all categories on the site
+        catalog = await API.categories_list()
+        print(f"Categories list output: {catalog!s:.100s}...\n")
 
-    # RUS: Выводит список всех товаров выбранной категории (ограничение 100 элементов, если превышает - запрашивайте через дополнительные страницы)
-    # ENG: Outputs a list of all items in the selected category (limiting to 100 elements, if exceeds - request through additional pages)
-    items = await chizhik_api.products_list(category_id=catalog[0]['id'], page=1)
-    print(f"Items list output: {items!s:.100s}...\n") # Счет страниц с единицы / index starts from 1
+        # RUS: Выводит список всех товаров выбранной категории (ограничение 100 элементов, если превышает - запрашивайте через дополнительные страницы)
+        # ENG: Outputs a list of all items in the selected category (limiting to 100 elements, if exceeds - request through additional pages)
+        items = await API.products_list(category_id=catalog[0]['id'], page=1)
+        print(f"Items list output: {items!s:.100s}...\n")
+        # Счет страниц с единицы / index starts from 1
 
-    # RUS: Сохраняем изображение с сервера (в принципе, сервер отдал бы их и без обертки моего объекта, но лучше максимально претворяться обычным пользователем)
-    # ENG: Saving an image from the server (in fact, the server gave them and without wrapping my object, but better to be as a regular user)
-    image = await chizhik_api.download_image(items['items'][0]['images'][0]['image'])
-    with open(image.name, 'wb') as f:
-        f.write(image.getvalue())
+        # RUS: Сохраняем изображение с сервера (в принципе, сервер отдал бы их и без обертки моего объекта, но лучше максимально претворяться обычным пользователем)
+        # ENG: Saving an image from the server (in fact, the server gave them and without wrapping my object, but better to be as a regular user)
+        image = await API.download_image(items['items'][0]['images'][0]['image'])
+        with open(image.name, 'wb') as f:
+            f.write(image.getvalue())
 
-    # RUS: Если требуется, можно настроить вывод логов в консоль
-    # ENG: If required, you can configure the output of logs in the console
-    chizhik_api.set_debug(True)
-    await chizhik_api.products_list(category_id=catalog[0]['id'], page=2)
+        # RUS: Если требуется, можно настроить вывод логов в консоль после иницализации
+        # ENG: If required, you can configure the output of logs in the console after initialization
+        API.debug = True
+        await API.products_list(category_id=catalog[0]['id'], page=2)
+
+        # RUS: Так же как и debug, в рантайме можно переназначить прокси
+        # ENG: As with debug, you can reassign the proxy in runtime
+        API.proxy = "user:password@host:port"
+        await API.products_list(category_id=catalog[0]['id'], page=3)
 
 
 if __name__ == '__main__':

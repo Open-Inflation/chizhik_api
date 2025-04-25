@@ -2,6 +2,7 @@ import aiohttp
 from camoufox.async_api import AsyncCamoufox
 import urllib
 import asyncio
+import re
 from io import BytesIO
 
 class ChizhikAPI:
@@ -19,10 +20,28 @@ class ChizhikAPI:
     def proxy(self, value):
         self._proxy = value
 
-    async def _launch_browser(self, url: str) -> dict:
-        # TODO: прокси
+    def _parse_proxy(self, proxy_str):
+        if not proxy_str:
+            return None
+        # Example: user:pass@host:port or just host:port
+        match = re.match(r'^(?:(?P<username>[^:@]+):(?P<password>[^@]+)@)?(?P<host>[^:]+):(?P<port>\d+)$', proxy_str)
+        if not match:
+            if proxy_str.startswith('http://') or proxy_str.startswith('https://'):
+                return {'server': proxy_str}
+            else:
+                return {'server': f"http://{proxy_str}"}
+        d = match.groupdict()
+        server = f"http://{d['host']}:{d['port']}"
+        proxy_dict = {'server': server}
+        if d['username']:
+            proxy_dict['username'] = d['username']
+        if d['password']:
+            proxy_dict['password'] = d['password']
+        return proxy_dict
 
-        async with AsyncCamoufox(headless=not self.debug, proxy=self.proxy, geoip=True) as browser:
+    async def _launch_browser(self, url: str) -> dict:
+        proxy_dict = self._parse_proxy(self.proxy)
+        async with AsyncCamoufox(headless=not self.debug, proxy=proxy_dict, geoip=True) as browser:
             context = await browser.new_context()
             page = await context.new_page()
 
@@ -109,7 +128,7 @@ class ChizhikAPI:
                 cookies=self.cookies
             )
             if self.proxy:
-                request_kwargs['proxy'] = self.proxy
+                request_kwargs['proxy'] = self.proxy if self.proxy.startswith('http://') or self.proxy.startswith('https://') else f"http://{self.proxy}"
 
             async with session.get(**request_kwargs) as response:
                 if response.status == 200: # 200 OK
