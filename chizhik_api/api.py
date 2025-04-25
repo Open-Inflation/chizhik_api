@@ -13,31 +13,40 @@ class ChizhikAPI:
         self._proxy = proxy
 
     @property
-    def proxy(self):
+    def proxy(self) -> str | None:
         return self._proxy if hasattr(self, '_proxy') else None
 
     @proxy.setter
-    def proxy(self, value):
+    def proxy(self, value: str | None) -> None:
         self._proxy = value
 
-    def _parse_proxy(self, proxy_str):
+    def _parse_proxy(self, proxy_str: str | None) -> dict | None:
         if not proxy_str:
             return None
+
         # Example: user:pass@host:port or just host:port
-        match = re.match(r'^(?:(?P<username>[^:@]+):(?P<password>[^@]+)@)?(?P<host>[^:]+):(?P<port>\d+)$', proxy_str)
+        match = re.match(
+            r'^(?:(?P<scheme>https?:\/\/))?(?:(?P<username>[^:@]+):(?P<password>[^@]+)@)?(?P<host>[^:]+):(?P<port>\d+)$',
+            proxy_str,
+        )
+
+        proxy_dict = {}
         if not match:
-            if proxy_str.startswith('http://') or proxy_str.startswith('https://'):
-                return {'server': proxy_str}
-            else:
-                return {'server': f"http://{proxy_str}"}
-        d = match.groupdict()
-        server = f"http://{d['host']}:{d['port']}"
-        proxy_dict = {'server': server}
-        if d['username']:
-            proxy_dict['username'] = d['username']
-        if d['password']:
-            proxy_dict['password'] = d['password']
-        return proxy_dict
+            proxy_dict['server'] = proxy_str
+            
+            if not proxy_str.startswith('http://') and not proxy_str.startswith('https://'):
+                proxy_dict['server'] = f"http://{proxy_str}"
+            
+            return proxy_dict
+        else:
+            match_dict = match.groupdict()
+            proxy_dict['server'] = f"{match_dict['scheme'] or 'http://'}{match_dict['host']}:{match_dict['port']}"
+            
+            for key in ['username', 'password']:
+                if match_dict[key]:
+                    proxy_dict[key] = match_dict[key]
+            
+            return proxy_dict
 
     async def _launch_browser(self, url: str) -> dict:
         proxy_dict = self._parse_proxy(self.proxy)
