@@ -66,3 +66,6 @@ class Chizhik:
 
     async def download_image(self, url: str) -> BytesIO:
         return await self.api.request(url=url, is_image=True)
+
+    async def rebuild_connection(self) -> None:
+        await self.api._new_session()
