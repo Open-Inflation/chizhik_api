@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='chizhik_api',
-    version='0.1.7',
+    version='0.1.7.1',
     packages=find_packages(),
     install_requires=[
         'aiohttp',

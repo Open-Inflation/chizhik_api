@@ -70,7 +70,7 @@ async def main():
         API.proxy = "user:password@host:port"
         # RUS: Чтобы применить изменения, нужно пересоздать подключение
         # ENG: To apply changes, you need rebuild connection
-        API.rebuild_connection()
+        await API.rebuild_connection()
         await API.products_list(category_id=catalog[0]['id'], page=3)
 
 
