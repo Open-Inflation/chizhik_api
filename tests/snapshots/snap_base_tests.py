@@ -156,4 +156,6 @@ snapshots['test_products_list products_list'] = {
     'total_pages': 'int'
 }
 
+snapshots['test_rebuild_connection rebuild_connection'] = 'connection has been rebuilt'
+
 snapshots['test_set_debug set_debug'] = 'debug mode toggled'
