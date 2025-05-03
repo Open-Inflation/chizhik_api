@@ -68,6 +68,9 @@ async def main():
         # RUS: Так же как и debug, в рантайме можно переназначить прокси
         # ENG: As with debug, you can reassign the proxy in runtime
         API.proxy = "user:password@host:port"
+        # RUS: Чтобы применить изменения, нужно пересоздать подключение
+        # ENG: To apply changes, you need rebuild connection
+        API.rebuild_connection()
         await API.products_list(category_id=catalog[0]['id'], page=3)
 
 

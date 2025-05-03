@@ -50,3 +50,9 @@ async def test_set_debug(snapshot: SnapshotTest):
     async with Chizhik(debug=True) as API:
         API.debug = False
         snapshot.assert_match("debug mode toggled", "set_debug")
+
+@pytest.mark.asyncio
+async def test_rebuild_connection(snapshot: SnapshotTest):
+    async with Chizhik(debug=True) as API:
+        await API.rebuild_connection()
+        snapshot.assert_match("connection has been rebuilt", "rebuild_connection")
