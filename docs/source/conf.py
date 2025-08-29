@@ -194,7 +194,7 @@ def linkcode_resolve(domain: str, info: dict) -> Optional[str]:
 # JSONCrack for Sphinx (твои настройки сохранены)
 # ──────────────────────────────────────────────────────────────────────────────
 import os as _os
-json_schema_dir = _os.path.join(HERE, "..", "..", "tests", "endpoints", "__snapshots__")
+json_schema_dir = _os.path.join(HERE, "..", "..", "tests", "__snapshots__")
 
 from jsoncrack_for_sphinx.config import (
     RenderMode,
@@ -209,7 +209,7 @@ jsoncrack_default_options = {
     "render": RenderConfig(mode=RenderMode.OnClick()),
     "container": ContainerConfig(direction=Directions.DOWN, height="500", width="100%"),
     "theme": Theme.AUTO,
-    "search_policy": SearchPolicy(custom_patterns=['{class_name}.{method_name}.main.json']),
+    "search_policy": SearchPolicy(custom_patterns=['{class_name}.{method_name}.json']),
     "autodoc_ignore": [
     ],
 }
