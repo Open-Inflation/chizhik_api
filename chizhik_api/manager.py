@@ -51,10 +51,10 @@ class ChizhikAPI:
             session=hrequests.Session(
                 browser=self.browser,
                 timeout=self.timeout,
-                proxy=self.proxy,  # ← автоподхват из env, если есть
             ),
             browser=self.browser,
             headless=self.headless,
+            proxy=self.proxy,
             **self.browser_opts,
         )
 
