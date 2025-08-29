@@ -12,4 +12,5 @@ class ClassAdvertising:
         self.CATALOG_URL = CATALOG_URL
     
     def active_inout(self) -> hrequests.Response:
+        """Получить активные рекламные баннеры."""
         return self._parent._request("GET", f"{self.CATALOG_URL}/catalog/unauthorized/active_inout/")

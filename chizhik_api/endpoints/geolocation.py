@@ -13,4 +13,5 @@ class ClassGeolocation:
         self.CATALOG_URL = CATALOG_URL
 
     def cities_list(self, search_name: str, page: int = 1) -> hrequests.Response:
+        """Получить список городов по частичному совпадению имени."""
         return self._parent._request("GET", f"{self.CATALOG_URL}/geo/cities/?name={search_name}&page={page}")

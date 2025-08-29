@@ -13,4 +13,5 @@ class ClassGeneral:
         self.CATALOG_URL = CATALOG_URL
 
     def download_image(self, url: str) -> hrequests.Response:
+        """Скачать изображение по URL."""
         return self._parent._request("GET", url=url)

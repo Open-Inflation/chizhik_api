@@ -27,15 +27,23 @@ class ChizhikAPI:
     """
 
     timeout: float          = 15.0
+    """Время ожидания ответа от сервера."""
     browser: str            = "firefox"
+    """Используемый браузер: firefox / chrome."""
     headless: bool          = True
+    """Запускать браузер в headless режиме?"""
     proxy: str | None       = field(default_factory=_pick_https_proxy)
+    """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть)"""
     browser_opts: dict[str, Any] = field(default_factory=dict)
-    CATALOG_URL = "https://app.chizhik.club/api/v1"
-    MAIN_SITE_URL = "https://chizhik.club/catalog/"
+    """Дополнительные опции для браузера (см. hrequests.BrowserSession)"""
+    CATALOG_URL: str = "https://app.chizhik.club/api/v1"
+    """URL для работы с каталогом."""
+    MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
+    """URL главной страницы сайта."""
 
     # будет создана в __post_init__
     session: hrequests.BrowserSession = field(init=False, repr=False)
+    """Внутренняя сессия для выполнения HTTP-запросов."""
 
     # ───── lifecycle ─────
     def __post_init__(self) -> None:
