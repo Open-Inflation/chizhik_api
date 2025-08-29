@@ -1,3 +1,3 @@
 from .manager import ChizhikAPI
 
-__all__ = ['ChizhikAPI']
+__all__ = ["ChizhikAPI"]

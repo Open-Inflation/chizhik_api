@@ -1,7 +1,10 @@
 # conftest.py
 import os
+
 import pytest
+
 from chizhik_api import ChizhikAPI
+
 
 def _dump_debug(name: str, resp) -> None:
     """Опциональный дамп ответа для отладки, если выставлен CHIZHIK_DEBUG=1."""
@@ -12,6 +15,7 @@ def _dump_debug(name: str, resp) -> None:
         except Exception:
             pass
 
+
 @pytest.fixture(scope="session")
 def api():
     """
@@ -19,11 +23,12 @@ def api():
     Корректно зовём менеджер контекста вручную.
     """
     client = ChizhikAPI()
-    client.__enter__()          # эквивалент 'with ChizhikAPI() as api'
+    client.__enter__()  # эквивалент 'with ChizhikAPI() as api'
     try:
         yield client
     finally:
         client.__exit__(None, None, None)
+
 
 @pytest.fixture(scope="session")
 def tree_json(api):
@@ -35,10 +40,12 @@ def tree_json(api):
         pytest.skip("Пустое дерево категорий")
     return data
 
+
 @pytest.fixture(scope="session")
 def first_category_id(tree_json):
     """id первой категории из дерева."""
     return tree_json[0]["id"]
+
 
 @pytest.fixture(scope="session")
 def products_list_json(api, first_category_id):
@@ -50,6 +57,7 @@ def products_list_json(api, first_category_id):
     if not items:
         pytest.skip("В категории нет товаров")
     return data
+
 
 @pytest.fixture(scope="session")
 def first_product_id(products_list_json):
