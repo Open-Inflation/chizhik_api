@@ -39,3 +39,6 @@ def test_product_info(schemashot):
 def test_download_image(schemashot):
     with ChizhikAPI() as API:
         result = API.General.download_image("https://media.chizhik.club/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png")
+        assert result.status_code == 200
+        assert result.headers['content-type'] == 'image/png'
+        assert result.content.startswith(b'\x89PNG\r\n\x1a\n')

@@ -105,7 +105,6 @@ class ChizhikAPI:
 
         ctype = resp.headers.get("content-type", "")
         if "text/html" in ctype:
-            print("RENDER")
             # исполним скрипт в браузерном контексте; куки запишутся в сессию
             with resp.render(headless=self.headless, browser=self.browser) as rend:
                 rend.awaitSelector(selector="pre", timeout=self.timeout)
