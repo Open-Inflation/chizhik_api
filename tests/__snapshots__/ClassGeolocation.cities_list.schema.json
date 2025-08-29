@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "integer"
+    },
+    "next": {
+      "type": "null"
+    },
+    "previous": {
+      "type": "null"
+    },
+    "page_size": {
+      "type": "integer"
+    },
+    "total_pages": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "distance": {
+            "type": "number"
+          },
+          "has_shop": {
+            "type": "boolean"
+          },
+          "fias_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "distance",
+          "fias_id",
+          "has_shop",
+          "name"
+        ]
+      }
+    }
+  },
+  "required": [
+    "count",
+    "items",
+    "next",
+    "page_size",
+    "previous",
+    "total_pages"
+  ]
+}

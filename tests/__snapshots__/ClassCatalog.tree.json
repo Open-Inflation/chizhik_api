@@ -1,0 +1,1853 @@
+[
+  {
+    "id": 133,
+    "name": "Основной каталог",
+    "image": null,
+    "icon": null,
+    "depth": 1,
+    "is_adults": false,
+    "is_inout": false,
+    "slug": "osnovnoi-katalog",
+    "children": [
+      {
+        "id": 149,
+        "name": "НАДО УСПЕТЬ",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Frame_2087325305_003.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/IMG_Categories_inout.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": true,
+        "slug": "nado-uspet",
+        "children": [
+          {
+            "id": 165,
+            "name": "Товары текущей недели",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "tovary-tekushchei-nedeli",
+            "children": []
+          },
+          {
+            "id": 164,
+            "name": "Товары предыдущих недель",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "tovary-predydushchikh-nedel",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Молочные продукты, яйцо",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "molochnye-produkty-iaitso",
+        "children": [
+          {
+            "id": 39,
+            "name": "Молоко/Сливки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "molokoslivki",
+            "children": []
+          },
+          {
+            "id": 37,
+            "name": "Кефир/Ряженка",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "kefirriazhenka",
+            "children": []
+          },
+          {
+            "id": 42,
+            "name": "Творог",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "tvorog",
+            "children": []
+          },
+          {
+            "id": 40,
+            "name": "Сметана",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "smetana",
+            "children": []
+          },
+          {
+            "id": 38,
+            "name": "Масло",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "maslo",
+            "children": []
+          },
+          {
+            "id": 167,
+            "name": "Маргарин",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "margarin",
+            "children": []
+          },
+          {
+            "id": 44,
+            "name": "Яйца",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "iaitsa",
+            "children": []
+          },
+          {
+            "id": 140,
+            "name": "Молочные десерты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "molochnye-deserty",
+            "children": []
+          },
+          {
+            "id": 36,
+            "name": "Йогурт",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "iogurt",
+            "children": []
+          },
+          {
+            "id": 41,
+            "name": "Сырки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "syrki",
+            "children": []
+          },
+          {
+            "id": 43,
+            "name": "Творожные десерты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "tvorozhnye-deserty",
+            "children": []
+          },
+          {
+            "id": 134,
+            "name": "Мороженое",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "morozhenoe",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 100,
+        "name": "Сыры и масло",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_2.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%9C%D0%B0%D1%81%D0%BB%D0%BE_%D0%B8_%D1%81%D1%8B%D1%80%D1%8B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "syry-i-maslo",
+        "children": [
+          {
+            "id": 141,
+            "name": "Масло",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "maslo",
+            "children": []
+          },
+          {
+            "id": 103,
+            "name": "Сыры",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "syry",
+            "children": []
+          },
+          {
+            "id": 104,
+            "name": "Сыры творожные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "syry-tvorozhnye",
+            "children": []
+          },
+          {
+            "id": 101,
+            "name": "Сыры плавленые",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "syry-plavlenye",
+            "children": []
+          },
+          {
+            "id": 102,
+            "name": "Сыры рассольные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "syry-rassolnye",
+            "children": []
+          },
+          {
+            "id": 166,
+            "name": "Маргарин",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "margarin",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Крупы и макароны",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_3_d4RRoyE.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "krupy-i-makarony",
+        "children": [
+          {
+            "id": 24,
+            "name": "Крупы",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "krupy",
+            "children": []
+          },
+          {
+            "id": 25,
+            "name": "Макароны",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "makarony",
+            "children": []
+          },
+          {
+            "id": 27,
+            "name": "Сухие завтраки, мюсли",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sukhie-zavtraki-miusli",
+            "children": []
+          },
+          {
+            "id": 23,
+            "name": "Быстрого приготовления",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "bystrogo-prigotovleniia",
+            "children": []
+          },
+          {
+            "id": 26,
+            "name": "Мука и ингредиенты для выпечки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "muka-i-ingredienty-dlia-vypechki",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 119,
+        "name": "Хлеб и выпечка",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "khleb-i-vypechka",
+        "children": [
+          {
+            "id": 123,
+            "name": "Хлеб",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "khleb",
+            "children": []
+          },
+          {
+            "id": 126,
+            "name": "Хлебцы, тосты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "khlebtsy-tosty",
+            "children": []
+          },
+          {
+            "id": 120,
+            "name": "Сдобные изделия",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sdobnye-izdeliia",
+            "children": []
+          },
+          {
+            "id": 121,
+            "name": "Сухари",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sukhari",
+            "children": []
+          },
+          {
+            "id": 122,
+            "name": "Сушки/Соломка",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sushkisolomka",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Масло, соусы, специи",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9C%D0%B0%D1%81%D0%BB%D0%B0_%D1%81%D0%BE%D1%83%D1%81%D1%8B_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B8_UYVVuPZ.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%91__%D0%91%D0%93%D0%91%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "maslo-sousy-spetsii",
+        "children": [
+          {
+            "id": 29,
+            "name": "Масло растительное",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "maslo-rastitelnoe",
+            "children": []
+          },
+          {
+            "id": 32,
+            "name": "Соусы",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sousy",
+            "children": []
+          },
+          {
+            "id": 33,
+            "name": "Специи",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "spetsii",
+            "children": []
+          },
+          {
+            "id": 30,
+            "name": "Сахар",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sakhar",
+            "children": []
+          },
+          {
+            "id": 31,
+            "name": "Соль",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sol",
+            "children": []
+          },
+          {
+            "id": 34,
+            "name": "Уксус",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "uksus",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "name": "Мясная гастрономия",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91%D0%9F_%D0%91%D0%92%D0%90%D0%9F-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "miasnaia-gastronomiia",
+        "children": [
+          {
+            "id": 47,
+            "name": "Колбасы",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "kolbasy",
+            "children": []
+          },
+          {
+            "id": 49,
+            "name": "Сосиски/Сардельки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sosiskisardelki",
+            "children": []
+          },
+          {
+            "id": 46,
+            "name": "Деликатесы",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "delikatesy",
+            "children": []
+          },
+          {
+            "id": 48,
+            "name": "Паштеты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "pashtety",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Мясо и птица",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_7.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "miaso-i-ptitsa",
+        "children": [
+          {
+            "id": 51,
+            "name": "Мясо",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "miaso",
+            "children": []
+          },
+          {
+            "id": 52,
+            "name": "Птица",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ptitsa",
+            "children": []
+          },
+          {
+            "id": 53,
+            "name": "Фарш",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "farsh",
+            "children": []
+          },
+          {
+            "id": 137,
+            "name": "Консервы мясные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konservy-miasnye",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 69,
+        "name": "Рыба и морепродукты",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_8.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B0%D0%9B__%D0%90-%D0%90%D0%93%D0%92%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "ryba-i-moreprodukty",
+        "children": [
+          {
+            "id": 70,
+            "name": "Замороженные морепродукты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zamorozhennye-moreprodukty",
+            "children": []
+          },
+          {
+            "id": 73,
+            "name": "Рыба вяленая, сушеная, копченая",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ryba-vialenaia-sushenaia-kopchenaia",
+            "children": []
+          },
+          {
+            "id": 71,
+            "name": "Икра/Крабовые палочки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ikrakrabovye-palochki",
+            "children": []
+          },
+          {
+            "id": 139,
+            "name": "Консервы рыбные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konservy-rybnye",
+            "children": []
+          },
+          {
+            "id": 72,
+            "name": "Рыба солёная",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ryba-solionaia",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "Овощи и фрукты",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_9.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "ovoshchi-i-frukty",
+        "children": [
+          {
+            "id": 62,
+            "name": "Овощи",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ovoshchi",
+            "children": []
+          },
+          {
+            "id": 63,
+            "name": "Фрукты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "frukty",
+            "children": []
+          },
+          {
+            "id": 61,
+            "name": "Замороженные овощи и ягоды",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zamorozhennye-ovoshchi-i-iagody",
+            "children": []
+          },
+          {
+            "id": 138,
+            "name": "Консервы овощные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konservy-ovoshchnye",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 131,
+        "name": "Замороженные продукты",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_10_Fvmf0NW.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A7%D0%90-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "zamorozhennye-produkty",
+        "children": [
+          {
+            "id": 132,
+            "name": "Замороженные полуфабрикаты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zamorozhennye-polufabrikaty",
+            "children": []
+          },
+          {
+            "id": 145,
+            "name": "Замороженные морепродукты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zamorozhennye-moreprodukty",
+            "children": []
+          },
+          {
+            "id": 146,
+            "name": "Замороженные овощи и ягоды",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zamorozhennye-ovoshchi-i-iagody",
+            "children": []
+          },
+          {
+            "id": 135,
+            "name": "Мороженое",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "morozhenoe",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Консервы",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "konservy",
+        "children": [
+          {
+            "id": 20,
+            "name": "Консервы овощные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konservy-ovoshchnye",
+            "children": []
+          },
+          {
+            "id": 19,
+            "name": "Консервы мясные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konservy-miasnye",
+            "children": []
+          },
+          {
+            "id": 21,
+            "name": "Консервы рыбные",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konservy-rybnye",
+            "children": []
+          },
+          {
+            "id": 18,
+            "name": "Варенье, мёд",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "varene-miod",
+            "children": []
+          },
+          {
+            "id": 148,
+            "name": "Паштеты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "pashtety",
+            "children": []
+          },
+          {
+            "id": 157,
+            "name": "Прочее",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prochee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Детские товары",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "detskie-tovary",
+        "children": [
+          {
+            "id": 10,
+            "name": "Детское питание",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskoe-pitanie",
+            "children": []
+          },
+          {
+            "id": 11,
+            "name": "Детские йогурты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskie-iogurty",
+            "children": []
+          },
+          {
+            "id": 13,
+            "name": "Детские соки и вода",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskie-soki-i-voda",
+            "children": []
+          },
+          {
+            "id": 15,
+            "name": "Детские творожки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskie-tvorozhki",
+            "children": []
+          },
+          {
+            "id": 16,
+            "name": "Детское молоко и кефир",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskoe-moloko-i-kefir",
+            "children": []
+          },
+          {
+            "id": 14,
+            "name": "Детские средства гигиены",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskie-sredstva-gigieny",
+            "children": []
+          },
+          {
+            "id": 154,
+            "name": "Детская одежда",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "detskaia-odezhda",
+            "children": []
+          },
+          {
+            "id": 156,
+            "name": "Игры/Игрушки/Книги",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "igryigrushkiknigi",
+            "children": []
+          },
+          {
+            "id": 155,
+            "name": "Прочее",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prochee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "name": "Чай, кофе",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Mobile_categories-2.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "chai-kofe",
+        "children": [
+          {
+            "id": 129,
+            "name": "Кофе",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "kofe",
+            "children": []
+          },
+          {
+            "id": 130,
+            "name": "Чай",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "chai",
+            "children": []
+          },
+          {
+            "id": 128,
+            "name": "Какао",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "kakao",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 54,
+        "name": "Напитки",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AD%D0%92-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "napitki",
+        "children": [
+          {
+            "id": 55,
+            "name": "Вода",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "voda",
+            "children": []
+          },
+          {
+            "id": 57,
+            "name": "Соки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "soki",
+            "children": []
+          },
+          {
+            "id": 56,
+            "name": "Газированные напитки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "gazirovannye-napitki",
+            "children": []
+          },
+          {
+            "id": 58,
+            "name": "Холодный чай",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "kholodnyi-chai",
+            "children": []
+          },
+          {
+            "id": 173,
+            "name": "Безалкогольное пиво",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "bezalkogolnoe-pivo",
+            "children": []
+          },
+          {
+            "id": 158,
+            "name": "Прочее",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prochee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "name": "Сладости, десерты, мороженое",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "sladosti-deserty-morozhenoe",
+        "children": [
+          {
+            "id": 82,
+            "name": "Конфеты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "konfety",
+            "children": []
+          },
+          {
+            "id": 88,
+            "name": "Шоколад",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "shokolad",
+            "children": []
+          },
+          {
+            "id": 77,
+            "name": "Батончики",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "batonchiki",
+            "children": []
+          },
+          {
+            "id": 85,
+            "name": "Печенье",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "pechene",
+            "children": []
+          },
+          {
+            "id": 81,
+            "name": "Кексы/Рулеты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "keksyrulety",
+            "children": []
+          },
+          {
+            "id": 174,
+            "name": "Сухие завтраки, мюсли",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sukhie-zavtraki-miusli",
+            "children": []
+          },
+          {
+            "id": 84,
+            "name": "Мороженое",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "morozhenoe",
+            "children": []
+          },
+          {
+            "id": 78,
+            "name": "Вафли",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "vafli",
+            "children": []
+          },
+          {
+            "id": 136,
+            "name": "Варенье, мёд",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "varene-miod",
+            "children": []
+          },
+          {
+            "id": 80,
+            "name": "Зефир/Мармелад/Пастила",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zefirmarmeladpastila",
+            "children": []
+          },
+          {
+            "id": 83,
+            "name": "Молочные десерты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "molochnye-deserty",
+            "children": []
+          },
+          {
+            "id": 142,
+            "name": "Сырки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "syrki",
+            "children": []
+          },
+          {
+            "id": 143,
+            "name": "Творожные десерты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "tvorozhnye-deserty",
+            "children": []
+          },
+          {
+            "id": 86,
+            "name": "Пряники",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prianiki",
+            "children": []
+          },
+          {
+            "id": 87,
+            "name": "Халва/Козинак",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "khalvakozinak",
+            "children": []
+          },
+          {
+            "id": 89,
+            "name": "Шоколадные пасты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "shokoladnye-pasty",
+            "children": []
+          },
+          {
+            "id": 79,
+            "name": "Жевательная резинка",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zhevatelnaia-rezinka",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 64,
+        "name": "Орехи, чипсы, снеки",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_16.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "orekhi-chipsy-sneki",
+        "children": [
+          {
+            "id": 65,
+            "name": "Орехи",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "orekhi",
+            "children": []
+          },
+          {
+            "id": 68,
+            "name": "Чипсы",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "chipsy",
+            "children": []
+          },
+          {
+            "id": 67,
+            "name": "Сухофрукты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sukhofrukty",
+            "children": []
+          },
+          {
+            "id": 66,
+            "name": "Семечки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "semechki",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "name": "Средства гигиены",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_17.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "sredstva-gigieny",
+        "children": [
+          {
+            "id": 92,
+            "name": "Гигиена полости рта",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "gigiena-polosti-rta",
+            "children": []
+          },
+          {
+            "id": 95,
+            "name": "Мыло/Гель для душа",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "mylogel-dlia-dusha",
+            "children": []
+          },
+          {
+            "id": 99,
+            "name": "Уход за волосами",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ukhod-za-volosami",
+            "children": []
+          },
+          {
+            "id": 91,
+            "name": "Ватные диски и палочки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "vatnye-diski-i-palochki",
+            "children": []
+          },
+          {
+            "id": 97,
+            "name": "Салфетки/Туалетная бумага",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "salfetkitualetnaia-bumaga",
+            "children": []
+          },
+          {
+            "id": 93,
+            "name": "Дезодоранты",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "dezodoranty",
+            "children": []
+          },
+          {
+            "id": 189,
+            "name": "Уход за лицом/телом",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ukhod-za-litsomtelom",
+            "children": []
+          },
+          {
+            "id": 94,
+            "name": "Крем для рук",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "krem-dlia-ruk",
+            "children": []
+          },
+          {
+            "id": 96,
+            "name": "Женская гигиена",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "zhenskaia-gigiena",
+            "children": []
+          },
+          {
+            "id": 98,
+            "name": "Средства для бритья",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sredstva-dlia-britia",
+            "children": []
+          },
+          {
+            "id": 171,
+            "name": "Презервативы",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prezervativy",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "name": "Товары для дома",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_APP.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_WEB.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "tovary-dlia-doma",
+        "children": [
+          {
+            "id": 159,
+            "name": "Для кухни",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "dlia-kukhni",
+            "children": []
+          },
+          {
+            "id": 160,
+            "name": "Бытовая техника",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "bytovaia-tekhnika",
+            "children": []
+          },
+          {
+            "id": 110,
+            "name": "Батарейки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "batareiki",
+            "children": []
+          },
+          {
+            "id": 163,
+            "name": "Сад/Огород/Кемпинг",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "sadogorodkemping",
+            "children": []
+          },
+          {
+            "id": 161,
+            "name": "Прочее",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prochee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 190,
+        "name": "Стирка и уборка",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "stirka-i-uborka",
+        "children": [
+          {
+            "id": 113,
+            "name": "Уход за бельем",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "ukhod-za-belem",
+            "children": []
+          },
+          {
+            "id": 111,
+            "name": "Моющие средства",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "moiushchie-sredstva",
+            "children": []
+          },
+          {
+            "id": 114,
+            "name": "Хозяйственные товары",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "khoziaistvennye-tovary",
+            "children": []
+          },
+          {
+            "id": 112,
+            "name": "Освежители",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "osvezhiteli",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 115,
+        "name": "Товары для животных",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "tovary-dlia-zhivotnykh",
+        "children": [
+          {
+            "id": 117,
+            "name": "Корм для собак",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "korm-dlia-sobak",
+            "children": []
+          },
+          {
+            "id": 116,
+            "name": "Корм для кошек",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "korm-dlia-koshek",
+            "children": []
+          },
+          {
+            "id": 118,
+            "name": "Наполнитель для туалета",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "napolnitel-dlia-tualeta",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Алкоголь",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+        "depth": 2,
+        "is_adults": true,
+        "is_inout": false,
+        "slug": "alkogol",
+        "children": [
+          {
+            "id": 2,
+            "name": "Вино белое",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "vino-beloe",
+            "children": []
+          },
+          {
+            "id": 3,
+            "name": "Вино игристое",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "vino-igristoe",
+            "children": []
+          },
+          {
+            "id": 4,
+            "name": "Вино красное",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "vino-krasnoe",
+            "children": []
+          },
+          {
+            "id": 151,
+            "name": "Розовое вино",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "rozovoe-vino",
+            "children": []
+          },
+          {
+            "id": 5,
+            "name": "Водка",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "vodka",
+            "children": []
+          },
+          {
+            "id": 153,
+            "name": "Коньяк",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "koniak",
+            "children": []
+          },
+          {
+            "id": 6,
+            "name": "Ликёро-водочные напитки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "likioro-vodochnye-napitki",
+            "children": []
+          },
+          {
+            "id": 7,
+            "name": "Пиво",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "pivo",
+            "children": []
+          },
+          {
+            "id": 172,
+            "name": "Безалкогольное пиво",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "bezalkogolnoe-pivo",
+            "children": []
+          },
+          {
+            "id": 8,
+            "name": "Слабоалкогольные напитки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "slaboalkogolnye-napitki",
+            "children": []
+          },
+          {
+            "id": 152,
+            "name": "Прочее",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "prochee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 183,
+        "name": "Одежда, обувь, текстиль",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9E%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0_%D0%BE%D0%B1%D1%83%D0%B2%D1%8C_%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B8%D0%BB%D1%8C_%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%9E%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0_%D0%B8_%D0%BE%D0%B1%D1%83%D0%B2%D1%8C_%D0%A1%D0%B0%D0%B9%D1%82.png",
+        "depth": 2,
+        "is_adults": false,
+        "is_inout": false,
+        "slug": "odezhda-obuv-tekstil",
+        "children": [
+          {
+            "id": 184,
+            "name": "Одежда",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "odezhda",
+            "children": []
+          },
+          {
+            "id": 185,
+            "name": "Обувь",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "obuv",
+            "children": []
+          },
+          {
+            "id": 186,
+            "name": "Текстиль",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "tekstil",
+            "children": []
+          },
+          {
+            "id": 188,
+            "name": "Прочее",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "prochee",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 175,
+        "name": "Энергетики",
+        "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B8_%D0%9C%D0%9F.png",
+        "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B8_WEB.png",
+        "depth": 2,
+        "is_adults": true,
+        "is_inout": false,
+        "slug": "energetiki",
+        "children": [
+          {
+            "id": 59,
+            "name": "Энергетические напитки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": true,
+            "is_inout": false,
+            "slug": "energeticheskie-napitki",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

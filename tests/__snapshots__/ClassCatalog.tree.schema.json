@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "image": {
+        "type": "null"
+      },
+      "icon": {
+        "type": "null"
+      },
+      "depth": {
+        "type": "integer"
+      },
+      "is_adults": {
+        "type": "boolean"
+      },
+      "is_inout": {
+        "type": "boolean"
+      },
+      "slug": {
+        "type": "string"
+      },
+      "children": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string",
+              "format": "uri"
+            },
+            "icon": {
+              "type": "string",
+              "format": "uri"
+            },
+            "depth": {
+              "type": "integer"
+            },
+            "is_adults": {
+              "type": "boolean"
+            },
+            "is_inout": {
+              "type": "boolean"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "children": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "image": {
+                    "type": "null"
+                  },
+                  "icon": {
+                    "type": "null"
+                  },
+                  "depth": {
+                    "type": "integer"
+                  },
+                  "is_adults": {
+                    "type": "boolean"
+                  },
+                  "is_inout": {
+                    "type": "boolean"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "children": {
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "children",
+                  "depth",
+                  "icon",
+                  "id",
+                  "image",
+                  "is_adults",
+                  "is_inout",
+                  "name",
+                  "slug"
+                ]
+              }
+            }
+          },
+          "required": [
+            "children",
+            "depth",
+            "icon",
+            "id",
+            "image",
+            "is_adults",
+            "is_inout",
+            "name",
+            "slug"
+          ]
+        }
+      }
+    },
+    "required": [
+      "children",
+      "depth",
+      "icon",
+      "id",
+      "image",
+      "is_adults",
+      "is_inout",
+      "name",
+      "slug"
+    ]
+  }
+}

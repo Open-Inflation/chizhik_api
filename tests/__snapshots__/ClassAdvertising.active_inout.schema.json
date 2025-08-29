@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "format": "uri"
+    },
+    "background": {
+      "type": "string",
+      "format": "uri"
+    },
+    "is_thematic": {
+      "type": "boolean"
+    },
+    "start_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "end_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string",
+      "format": "uri"
+    },
+    "pdf_data": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "text_color": {
+          "type": "string"
+        },
+        "background_color": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "file": {
+          "type": "string",
+          "format": "uri"
+        },
+        "banner": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "background_color",
+        "banner",
+        "file",
+        "image",
+        "subtitle",
+        "text_color",
+        "title"
+      ]
+    },
+    "banner": {
+      "type": "null"
+    },
+    "pdf": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "background",
+    "banner",
+    "description",
+    "end_timestamp",
+    "image",
+    "is_thematic",
+    "logo",
+    "pdf",
+    "pdf_data",
+    "start_timestamp",
+    "title",
+    "title_color"
+  ]
+}

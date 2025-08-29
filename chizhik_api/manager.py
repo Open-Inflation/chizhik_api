@@ -1,71 +1,138 @@
-from .api import ChizhikAPI
-from io import BytesIO
+from __future__ import annotations
+
+import json
+import os
+from dataclasses import dataclass, field
+from typing import Any
+
+import hrequests
+import hrequests.cookies
+from requests import Request
+
+from .endpoints.advertising import ClassAdvertising
+from .endpoints.catalog import ClassCatalog
+from .endpoints.general import ClassGeneral
+from .endpoints.geolocation import ClassGeolocation
 
 
-class Chizhik:
-    CATALOG_URL = "https://app.chizhik.club/api/v1"
+def _pick_https_proxy() -> str | None:
+    """Возвращает прокси из HTTPS_PROXY/https_proxy (если заданы)."""
+    return os.getenv("HTTPS_PROXY") or os.getenv("https_proxy")
 
-    def __init__(self, debug: bool = False, proxy: str = None):
-        self._debug = debug
-        self._proxy = proxy
+
+@dataclass
+class ChizhikAPI:
+    """
+    Клиент Чижика.
+    """
+
+    timeout: float = 15.0
+    """Время ожидания ответа от сервера."""
+    browser: str = "firefox"
+    """Используемый браузер: firefox / chrome."""
+    headless: bool = True
+    """Запускать браузер в headless режиме?"""
+    proxy: str | None = field(default_factory=_pick_https_proxy)
+    """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть)"""
+    browser_opts: dict[str, Any] = field(default_factory=dict)
+    """Дополнительные опции для браузера (см. hrequests.BrowserSession)"""
+    CATALOG_URL: str = "https://app.chizhik.club/api/v1"
+    """URL для работы с каталогом."""
+    MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
+    """URL главной страницы сайта."""
+
+    # будет создана в __post_init__
+    session: hrequests.BrowserSession = field(init=False, repr=False)
+    """Внутренняя сессия для выполнения HTTP-запросов."""
+
+    # ───── lifecycle ─────
+    def __post_init__(self) -> None:
+        self.session = hrequests.BrowserSession(
+            session=hrequests.Session(
+                browser=self.browser,
+                timeout=self.timeout,
+                proxy=self.proxy,  # ← автоподхват из env, если есть
+            ),
+            browser=self.browser,
+            headless=self.headless,
+            **self.browser_opts,
+        )
+
+        self.Geolocation: ClassGeolocation = ClassGeolocation(self, self.CATALOG_URL)
+        self.Catalog: ClassCatalog = ClassCatalog(self, self.CATALOG_URL)
+        self.Advertising: ClassAdvertising = ClassAdvertising(self, self.CATALOG_URL)
+        self.General: ClassGeneral = ClassGeneral(self, self.CATALOG_URL)
 
     def __enter__(self):
-        raise NotImplementedError("Use `async with Chizhik() as ...:`")
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        pass
-
-    async def __aenter__(self, debug: bool = None, proxy: str = None):
-        if debug is not None:
-            self._debug = debug
-        if proxy is not None:
-            self._proxy = proxy
-        self.api = ChizhikAPI(debug=self._debug, proxy=self._proxy)
+        """Вход в контекстный менеджер с автоматическим прогревом сессии."""
+        # self._warmup()
         return self
 
-    async def __aexit__(self, exc_type, exc_val, exc_tb):
-        await self.close()
+    # Прогрев сессии (headless ➜ cookie `session` ➜ accessToken)
+    def _warmup(self) -> None:
+        """Прогрев сессии через браузер для получения человекоподобности."""
+        self.session.goto(self.MAIN_SITE_URL)
+        self.session.awaitSelector("next-route-announcer", timeout=self.timeout)
 
-    async def close(self) -> None:
-        await self.api.close()
+    def __exit__(self, *exc):
+        """Выход из контекстного менеджера с закрытием сессии."""
+        self.close()
 
-    @property
-    def debug(self) -> bool:
-        """Get or set debug mode. If set to True, it will print debug messages and show browser."""
-        return self._debug
+    def close(self):
+        """Закрыть HTTP-сессию и освободить ресурсы."""
+        self.session.close()
 
-    @debug.setter
-    def debug(self, value: bool):
-        self._debug = value
-        self.api.debug = value
+    def _request(
+        self,
+        method: str,
+        url: str,
+        *,
+        json_body: Any | None = None,
+    ) -> hrequests.Response:
+        """Выполнить HTTP-запрос через внутреннюю сессию.
 
-    @property
-    def proxy(self) -> str:
-        return self._proxy
+        Единая точка входа для всех HTTP-запросов библиотеки.
+        Добавляет к ответу объект Request для совместимости.
 
-    @proxy.setter
-    def proxy(self, value: str):
-        self._proxy = value
-        self.api.proxy = value
+        Args:
+            method: HTTP метод (GET, POST, PUT, DELETE и т.д.)
+            url: URL для запроса
+            json_body: Тело запроса в формате JSON (опционально)
+        """
+        # Единая точка входа в чужую библиотеку для удобства
+        resp: hrequests.Response = self.session.request(
+            method.upper(), url, data=json_body, timeout=self.timeout
+        )
 
-    async def categories_list(self, city_id: str = None) -> dict:
-        url = f"{self.CATALOG_URL}/catalog/unauthorized/categories/"
-        if city_id: url += f"?city_id={city_id}"
-        return await self.api.request(url)
+        if hasattr(resp, "request"):
+            raise RuntimeError(
+                "Response object does have `request` attribute. "
+                "This may indicate an update in `hrequests` library."
+            )
 
-    async def products_list(self, category_id: int, page: int = 1, city_id: str = None) -> dict:
-        url = f"{self.CATALOG_URL}/catalog/unauthorized/products/?page={page}&category_id={category_id}"
-        if city_id: url += f"&city_id={city_id}"
-        return await self.api.request(url)
+        ctype = resp.headers.get("content-type", "")
+        if "text/html" in ctype:
+            # исполним скрипт в браузерном контексте; куки запишутся в сессию
+            with resp.render(headless=self.headless, browser=self.browser) as rend:
+                rend.awaitSelector(selector="pre", timeout=self.timeout)
 
-    async def cities_list(self, search_name: str, page: int = 1) -> dict:
-        return await self.api.request(f"{self.CATALOG_URL}/geo/cities/?name={search_name}&page={page}")
+                jsn = json.loads(rend.find("pre").text)
 
-    async def active_inout(self) -> dict:
-        return await self.api.request(f"{self.CATALOG_URL}/catalog/unauthorized/active_inout/")
+                fin_resp = hrequests.Response(
+                    url=resp.url,
+                    status_code=resp.status_code,
+                    headers=resp.headers,
+                    cookies=hrequests.cookies.cookiejar_from_dict(
+                        self.session.cookies.get_dict()
+                    ),
+                    raw=json.dumps(jsn, ensure_ascii=True).encode("utf-8"),
+                )
+        else:
+            fin_resp = resp
 
-    async def download_image(self, url: str) -> BytesIO:
-        return await self.api.request(url=url, is_image=True)
-
-    async def rebuild_connection(self) -> None:
-        await self.api._new_session()
+        fin_resp.request = Request(
+            method=method.upper(),
+            url=url,
+            json=json_body,
+        )
+        return fin_resp

@@ -1,3 +1,3 @@
-from .manager import Chizhik
+from .manager import ChizhikAPI
 
-__all__ = ['Chizhik']
+__all__ = ["ChizhikAPI"]
