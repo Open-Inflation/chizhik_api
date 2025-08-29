@@ -1,0 +1,139 @@
+{
+  "id": 2,
+  "plu": "11600",
+  "title": "Шоколад Вдохновение классический 100г",
+  "sub_title": "",
+  "base_unit": "шт",
+  "description": "",
+  "price": 139.0,
+  "old_price": null,
+  "price_piece_unit": null,
+  "rating": 4.6,
+  "feedbacks_count": 214,
+  "reviews_count": 66,
+  "is_inout": false,
+  "is_adults": false,
+  "is_favorite": false,
+  "slug": "shokolad-vdokhnovenie-klassicheskii-100g-2",
+  "images": [
+    {
+      "id": 10252,
+      "title": "Лицевая",
+      "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/11600.jpg"
+    }
+  ],
+  "meta_data": [
+    {
+      "name": "Белки",
+      "code": "proteins",
+      "value": 7.5
+    },
+    {
+      "name": "Вес брутто товара, г",
+      "code": "product_brut_weight",
+      "value": 105
+    },
+    {
+      "name": "Вес нетто продукта, г",
+      "code": "product_net_weight",
+      "value": 100
+    },
+    {
+      "name": "Жиры",
+      "code": "fats",
+      "value": 40
+    },
+    {
+      "name": "Ккал",
+      "code": "energy_value",
+      "value": 580
+    },
+    {
+      "name": "Название производителя",
+      "code": "producer_name",
+      "value": "ООО \"ОБЪЕДИНЕННЫЕ КОНДИТЕРЫ\""
+    },
+    {
+      "name": "Наименование бренда",
+      "code": "brand_name",
+      "value": "ВДОХНОВЕНИЕ"
+    },
+    {
+      "name": "О товаре",
+      "code": "about_product",
+      "value": "Шоколад Вдохновение Классический 100г"
+    },
+    {
+      "name": "Состав",
+      "code": "composition",
+      "value": "темный шоколад: сахар, какао тертое, какао масло, ядро ореха фундука дробленое, эмульгаторы Е322, коньяк, антиокислитель Е300, ароматизатор идентичный натуральному \"Ваниль\""
+    },
+    {
+      "name": "Срок годности (в днях)",
+      "code": "exp_date_days",
+      "value": 365
+    },
+    {
+      "name": "Страна",
+      "code": "country",
+      "value": "Россия"
+    },
+    {
+      "name": "Температура хранения 1",
+      "code": "temp_storage1",
+      "value": "+15-+21"
+    },
+    {
+      "name": "Тип упаковки",
+      "code": "type_package",
+      "value": "Флоу-пак"
+    },
+    {
+      "name": "Углеводы",
+      "code": "carboh",
+      "value": 43
+    },
+    {
+      "name": "Артикул",
+      "code": "plu",
+      "value": "11600"
+    }
+  ],
+  "categories_tree": [
+    {
+      "id": 133,
+      "name": "Основной каталог",
+      "image": null,
+      "icon": null,
+      "depth": 1,
+      "is_adults": false,
+      "is_inout": false,
+      "slug": "osnovnoi-katalog",
+      "children": [
+        {
+          "id": 76,
+          "name": "Сладости, десерты, мороженое",
+          "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
+          "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+          "depth": 2,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "sladosti-deserty-morozhenoe",
+          "children": [
+            {
+              "id": 88,
+              "name": "Шоколад",
+              "image": null,
+              "icon": null,
+              "depth": 3,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "shokolad",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
