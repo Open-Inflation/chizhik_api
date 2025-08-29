@@ -1,23 +1,38 @@
-# Chizhik API *(not official / не официальный)*
+<div align="center">
 
-Chizhik (Чижик) - https://chizhik.club/
+# Chizhik API *(not official)*
 
-[![GitHub Actions](https://github.com/Open-Inflation/chizhik_api/workflows/API%20Tests%20Daily/badge.svg)](https://github.com/Open-Inflation/chizhik_api/actions?query=workflow%3A"API+Tests+Daily?query=branch%3Amain")
+![Tests last run (ISO)](https://img.shields.io/badge/dynamic/json?label=Tests%20last%20run&query=%24.workflow_runs%5B0%5D.updated_at&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOpen-Inflation%2Fchizhik_api%2Factions%2Fworkflows%2Ftests.yml%2Fruns%3Fper_page%3D1%26status%3Dcompleted&logo=githubactions&cacheSeconds=300)
+[![Tests](https://github.com/Open-Inflation/chizhik_api/actions/workflows/tests.yml/badge.svg)](https://github.com/Open-Inflation/chizhik_api/actions/workflows/tests.yml)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/chizhik_api)
+![PyPI - Package Version](https://img.shields.io/pypi/v/chizhik_api?color=blue)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/chizhik_api?label=PyPi%20downloads)](https://pypi.org/project/chizhik-api/)
+[![License](https://img.shields.io/github/license/Open-Inflation/chizhik_api)](https://github.com/Open-Inflation/chizhik_api/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/792572437292253224?label=Discord&labelColor=%232c2f33&color=%237289da)](https://discord.gg/UnJnGHNbBp)
 [![Telegram](https://img.shields.io/badge/Telegram-24A1DE)](https://t.me/miskler_dev)
 
 
+Chizhik (Чижик) - https://chizhik.club/
 
-## Installation:
-1. Install package:
+**[⭐ Star us on GitHub](https://github.com/Open-Inflation/chizhik_api)** | **[📚 Read the Docs](https://open-inflation.github.io/chizhik_api/quick_start)** | **[🐛 Report Bug](https://github.com/Open-Inflation/chizhik_api/issues)**
+
+### Принцип работы
+
+</div>
+
+> Библиотека полностью повторяет сетевую работу обычного пользователя на сайте.
+
+<div align="center">
+
+## Usage:
+
+</div>
+
 ```bash
 pip install chizhik_api
 python -m hrequests install
 ```
 
-### Usage:
 ```py
 from chizhik_api import ChizhikAPI
 
@@ -56,6 +71,14 @@ if __name__ == '__main__':
     main()
 ```
 
-### Report / Обратная связь
+Для более подробной информации смотрите референсы [документации](https://open-inflation.github.io/chizhik_api/quick_start).
 
-If you have any problems using it /suggestions, do not hesitate to write to the [project's GitHub](https://github.com/Open-Inflation/chizhik_api/issues)!
+---
+
+<div align="center">
+
+### Report
+
+If you have any problems using it / suggestions, do not hesitate to write to the [project's GitHub](https://github.com/Open-Inflation/chizhik_api/issues)!
+
+</div>
