@@ -1,0 +1,257 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "plu": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "string"
+    },
+    "base_unit": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "old_price": {
+      "type": "null"
+    },
+    "price_piece_unit": {
+      "type": "null"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "feedbacks_count": {
+      "type": "integer"
+    },
+    "reviews_count": {
+      "type": "integer"
+    },
+    "is_inout": {
+      "type": "boolean"
+    },
+    "is_adults": {
+      "type": "boolean"
+    },
+    "is_favorite": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "image": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "id",
+          "image",
+          "title"
+        ]
+      }
+    },
+    "meta_data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "code",
+          "name",
+          "value"
+        ]
+      }
+    },
+    "categories_tree": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "image": {
+            "type": "null"
+          },
+          "icon": {
+            "type": "null"
+          },
+          "depth": {
+            "type": "integer"
+          },
+          "is_adults": {
+            "type": "boolean"
+          },
+          "is_inout": {
+            "type": "boolean"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "children": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "icon": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "depth": {
+                  "type": "integer"
+                },
+                "is_adults": {
+                  "type": "boolean"
+                },
+                "is_inout": {
+                  "type": "boolean"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "image": {
+                        "type": "null"
+                      },
+                      "icon": {
+                        "type": "null"
+                      },
+                      "depth": {
+                        "type": "integer"
+                      },
+                      "is_adults": {
+                        "type": "boolean"
+                      },
+                      "is_inout": {
+                        "type": "boolean"
+                      },
+                      "slug": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "children",
+                      "depth",
+                      "icon",
+                      "id",
+                      "image",
+                      "is_adults",
+                      "is_inout",
+                      "name",
+                      "slug"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "children",
+                "depth",
+                "icon",
+                "id",
+                "image",
+                "is_adults",
+                "is_inout",
+                "name",
+                "slug"
+              ]
+            }
+          }
+        },
+        "required": [
+          "children",
+          "depth",
+          "icon",
+          "id",
+          "image",
+          "is_adults",
+          "is_inout",
+          "name",
+          "slug"
+        ]
+      }
+    }
+  },
+  "required": [
+    "base_unit",
+    "categories_tree",
+    "description",
+    "feedbacks_count",
+    "id",
+    "images",
+    "is_adults",
+    "is_favorite",
+    "is_inout",
+    "meta_data",
+    "old_price",
+    "plu",
+    "price",
+    "price_piece_unit",
+    "rating",
+    "reviews_count",
+    "slug",
+    "sub_title",
+    "title"
+  ]
+}

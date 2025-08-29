@@ -1,0 +1,252 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "integer"
+    },
+    "next": {
+      "type": "integer"
+    },
+    "previous": {
+      "type": "null"
+    },
+    "page_size": {
+      "type": "integer"
+    },
+    "total_pages": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "plu": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "sub_title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "number"
+          },
+          "price": {
+            "type": "number"
+          },
+          "old_price": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "price_piece_unit": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "is_inout": {
+            "type": "boolean"
+          },
+          "is_favorite": {
+            "type": "boolean"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "required": [
+                "id",
+                "image",
+                "title"
+              ]
+            }
+          },
+          "categories_tree": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "null"
+                },
+                "icon": {
+                  "type": "null"
+                },
+                "depth": {
+                  "type": "integer"
+                },
+                "is_adults": {
+                  "type": "boolean"
+                },
+                "is_inout": {
+                  "type": "boolean"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "image": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "icon": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "depth": {
+                        "type": "integer"
+                      },
+                      "is_adults": {
+                        "type": "boolean"
+                      },
+                      "is_inout": {
+                        "type": "boolean"
+                      },
+                      "slug": {
+                        "type": "string"
+                      },
+                      "children": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "image": {
+                              "type": "null"
+                            },
+                            "icon": {
+                              "type": "null"
+                            },
+                            "depth": {
+                              "type": "integer"
+                            },
+                            "is_adults": {
+                              "type": "boolean"
+                            },
+                            "is_inout": {
+                              "type": "boolean"
+                            },
+                            "slug": {
+                              "type": "string"
+                            },
+                            "children": {
+                              "type": "array"
+                            }
+                          },
+                          "required": [
+                            "children",
+                            "depth",
+                            "icon",
+                            "id",
+                            "image",
+                            "is_adults",
+                            "is_inout",
+                            "name",
+                            "slug"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "children",
+                      "depth",
+                      "icon",
+                      "id",
+                      "image",
+                      "is_adults",
+                      "is_inout",
+                      "name",
+                      "slug"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "children",
+                "depth",
+                "icon",
+                "id",
+                "image",
+                "is_adults",
+                "is_inout",
+                "name",
+                "slug"
+              ]
+            }
+          }
+        },
+        "required": [
+          "categories_tree",
+          "description",
+          "id",
+          "images",
+          "is_favorite",
+          "is_inout",
+          "old_price",
+          "plu",
+          "price",
+          "price_piece_unit",
+          "rating",
+          "slug",
+          "sub_title",
+          "title"
+        ]
+      }
+    }
+  },
+  "required": [
+    "count",
+    "items",
+    "next",
+    "page_size",
+    "previous",
+    "total_pages"
+  ]
+}
