@@ -1,6 +1,5 @@
-aiohttp
-camoufox[geoip]
-snapshottest~=1.0.0a1
+hrequests[all]
+requests
+
 pytest
-pytest-asyncio
-setuptools
+pytest-jsonschema-snapshot
