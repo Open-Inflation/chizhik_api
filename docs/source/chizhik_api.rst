@@ -1,5 +1,5 @@
-perekrestok\_api package
-========================
+chizhik\_api package
+====================
 
 .. automodule:: chizhik_api
    :members:
