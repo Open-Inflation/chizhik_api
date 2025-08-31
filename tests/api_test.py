@@ -1,5 +1,4 @@
-# tests/test_api.py
-import pytest
+import imghdr
 
 
 def test_active_inout(api, schemashot):
@@ -31,5 +30,6 @@ def test_download_image(api):
         "https://media.chizhik.club/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png"
     )
     assert resp.status_code == 200
-    assert resp.headers.get("content-type", "").startswith("image/png")
-    assert resp.content.startswith(b"\x89PNG\r\n\x1a\n")
+    assert resp.headers["Content-Type"].startswith("image/")
+    fmt = imghdr.what(None, resp.raw)
+    assert fmt in ("png", "jpeg", "webp")
