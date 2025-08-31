@@ -2,6 +2,11 @@
 
 import hrequests
 
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from ..manager import ChizhikAPI
+
 
 class ClassAdvertising:
     """Методы для работы с рекламными материалами Перекрёстка.
@@ -9,9 +14,9 @@ class ClassAdvertising:
     Включает получение баннеров, слайдеров, буклетов и другого рекламного контента.
     """
 
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
+    def __init__(self, parent: "ChizhikAPI", CATALOG_URL: str):
+        self._parent: "ChizhikAPI" = parent
+        self.CATALOG_URL: str = CATALOG_URL
 
     def active_inout(self) -> hrequests.Response:
         """Получить активные рекламные баннеры."""

@@ -4,25 +4,26 @@ from typing import Optional
 
 import hrequests
 
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from ..manager import ChizhikAPI
+
 
 class ClassCatalog:
     """Методы для работы с каталогом товаров.
 
     Включает поиск товаров, получение информации о категориях,
     работу с фидами товаров и отзывами.
-
-    Attributes
-    ----------
-    Product : ProductService
-        Сервис для работы с товарами в каталоге.
     """
 
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
+    def __init__(self, parent: "ChizhikAPI", CATALOG_URL: str):
+        self._parent: "ChizhikAPI" = parent
         self.CATALOG_URL: str = CATALOG_URL
         self.Product: ProductService = ProductService(
             parent=self._parent, CATALOG_URL=CATALOG_URL
         )
+        """Сервис для работы с товарами в каталоге."""
 
     def tree(self, city_id: Optional[str] = None) -> hrequests.Response:
         """Получить дерево категорий."""
@@ -44,9 +45,9 @@ class ClassCatalog:
 class ProductService:
     """Сервис для работы с товарами в каталоге."""
 
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
+    def __init__(self, parent: "ChizhikAPI", CATALOG_URL: str):
+        self._parent: "ChizhikAPI" = parent
+        self.CATALOG_URL: str = CATALOG_URL
 
     def info(
         self, product_id: int, city_id: Optional[str] = None

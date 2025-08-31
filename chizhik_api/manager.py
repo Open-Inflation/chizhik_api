@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import os
 from dataclasses import dataclass, field
-from typing import Any
+from typing import Any, Literal
 
 import hrequests
 import hrequests.cookies
@@ -28,7 +28,7 @@ class ChizhikAPI:
 
     timeout: float = 15.0
     """Время ожидания ответа от сервера."""
-    browser: str = "firefox"
+    browser: Literal["firefox", "chrome"] = "firefox"
     """Используемый браузер: firefox / chrome."""
     headless: bool = True
     """Запускать браузер в headless режиме?"""
@@ -45,6 +45,15 @@ class ChizhikAPI:
     session: hrequests.BrowserSession = field(init=False, repr=False)
     """Внутренняя сессия для выполнения HTTP-запросов."""
 
+    Geolocation: ClassGeolocation = field(init=False)
+    """API для работы с геолокацией."""
+    Catalog: ClassCatalog = field(init=False)
+    """API для работы с каталогом товаров."""
+    Advertising: ClassAdvertising = field(init=False)
+    """API для работы с рекламой."""
+    General: ClassGeneral = field(init=False)
+    """API для работы с общими функциями."""
+
     # ───── lifecycle ─────
     def __post_init__(self) -> None:
         self.session = hrequests.BrowserSession(
@@ -58,10 +67,10 @@ class ChizhikAPI:
             **self.browser_opts,
         )
 
-        self.Geolocation: ClassGeolocation = ClassGeolocation(self, self.CATALOG_URL)
-        self.Catalog: ClassCatalog = ClassCatalog(self, self.CATALOG_URL)
-        self.Advertising: ClassAdvertising = ClassAdvertising(self, self.CATALOG_URL)
-        self.General: ClassGeneral = ClassGeneral(self, self.CATALOG_URL)
+        self.Geolocation = ClassGeolocation(self, self.CATALOG_URL)
+        self.Catalog = ClassCatalog(self, self.CATALOG_URL)
+        self.Advertising = ClassAdvertising(self, self.CATALOG_URL)
+        self.General = ClassGeneral(self, self.CATALOG_URL)
 
     def __enter__(self):
         """Вход в контекстный менеджер с автоматическим прогревом сессии."""
