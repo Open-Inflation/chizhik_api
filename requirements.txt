@@ -1,6 +1,7 @@
 camoufox[geoip]
 human_requests
 aiohttp
+aiohttp-retry
 
 pytest
 pytest-anyio

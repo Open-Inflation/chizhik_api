@@ -2,8 +2,8 @@
 
 from io import BytesIO
 from typing import TYPE_CHECKING
+from aiohttp_retry import RetryClient, ExponentialRetry
 
-import aiohttp
 
 if TYPE_CHECKING:
     from ..manager import ChizhikAPI
@@ -20,10 +20,15 @@ class ClassGeneral:
         self._parent: ChizhikAPI = parent
         self.CATALOG_URL: str = CATALOG_URL
 
-    async def download_image(self, url: str) -> BytesIO:
+    async def download_image(self, url: str, retry_attempts: int = 3) -> BytesIO:
         """Скачать изображение по URL."""
-        async with aiohttp.request("GET", url) as resp:
-            body = await resp.read()
-            file = BytesIO(body)
-            file.name = url.split("/")[-1]
-            return file
+        retry_options = ExponentialRetry(attempts=retry_attempts, start_timeout=1.0)
+    
+        async with RetryClient(retry_options=retry_options) as retry_client:
+            async with retry_client.get(url) as resp:
+                resp.raise_for_status() 
+                
+                body = await resp.read()
+                file = BytesIO(body)
+                file.name = url.split("/")[-1]
+                return file
