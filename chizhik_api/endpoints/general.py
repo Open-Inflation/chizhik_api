@@ -20,9 +20,12 @@ class ClassGeneral:
         self._parent: ChizhikAPI = parent
         self.CATALOG_URL: str = CATALOG_URL
 
-    async def download_image(self, url: str, retry_attempts: int = 3) -> BytesIO:
+    async def download_image(self,
+                             url: str,
+                             retry_attempts: int = 3,
+                             timeout: float = 10) -> BytesIO:
         """Скачать изображение по URL."""
-        retry_options = ExponentialRetry(attempts=retry_attempts, start_timeout=1.0)
+        retry_options = ExponentialRetry(attempts=retry_attempts, start_timeout=3.0, max_timeout=timeout)
     
         async with RetryClient(retry_options=retry_options) as retry_client:
             async with retry_client.get(url) as resp:
