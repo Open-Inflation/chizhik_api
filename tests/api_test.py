@@ -1,9 +1,10 @@
 # test_api.py
-from io import BytesIO
-from PIL import Image
-import pytest
-from chizhik_api import ChizhikAPI
 import os
+
+import pytest
+from PIL import Image
+
+from chizhik_api import ChizhikAPI
 
 
 def _dump_debug(name: str, resp) -> None:
@@ -90,12 +91,10 @@ async def test_product_info(schemashot):
 @pytest.mark.asyncio
 async def test_download_image():
     async with ChizhikAPI() as api:
-        url = "https://media.chizhik.club/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png"
+        url = "https://chizhik.x5static.net/media/chizhik-assets/product_images/3060608.jpg"
         resp = await api.General.download_image(url)
-        assert resp.status_code == 200
-        assert resp.headers["Content-Type"].startswith("image/")
 
         # Определение формата через Pillow
-        with Image.open(BytesIO(resp.raw)) as img:
+        with Image.open(resp) as img:
             fmt = img.format.lower()
         assert fmt in ("png", "jpeg", "webp")

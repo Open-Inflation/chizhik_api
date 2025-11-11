@@ -1,5 +1,5 @@
-hrequests[all]
-requests
+human_requests
+aiohttps
 
 pytest
 pytest-asyncio

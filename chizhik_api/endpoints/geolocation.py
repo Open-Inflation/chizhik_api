@@ -1,8 +1,8 @@
 """Геолокация"""
 
-from human_requests.abstraction import FetchResponse, HttpMethod
-
 from typing import TYPE_CHECKING
+
+from human_requests.abstraction import FetchResponse, HttpMethod
 
 if TYPE_CHECKING:
     from ..manager import ChizhikAPI
@@ -22,5 +22,6 @@ class ClassGeolocation:
     async def cities_list(self, search_name: str, page: int = 1) -> FetchResponse:
         """Получить список городов по частичному совпадению имени."""
         return await self._parent._request(
-            HttpMethod.GET, f"{self.CATALOG_URL}/geo/cities/?name={search_name}&page={page}"
+            HttpMethod.GET,
+            f"{self.CATALOG_URL}/geo/cities/?name={search_name}&page={page}",
         )

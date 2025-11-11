@@ -1,17 +1,16 @@
 """Общий (не класифицируемый) функционал"""
 
-from human_requests.abstraction import FetchResponse, HttpMethod
-import aiohttp
-from io import FileIO
-
+from io import BytesIO
 from typing import TYPE_CHECKING
+
+import aiohttp
 
 if TYPE_CHECKING:
     from ..manager import ChizhikAPI
 
 
 class ClassGeneral:
-    """Общие методы API Перекрёстка.
+    """Общие методы API Чижика.
 
     Включает методы для работы с изображениями, формой обратной связи,
     получения информации о пользователе и других общих функций.
@@ -21,6 +20,10 @@ class ClassGeneral:
         self._parent: ChizhikAPI = parent
         self.CATALOG_URL: str = CATALOG_URL
 
-    async def download_image(self, url: str) -> FileIO:
+    async def download_image(self, url: str) -> BytesIO:
         """Скачать изображение по URL."""
-        result = await aiohttp.request
+        async with aiohttp.request("GET", url) as resp:
+            body = await resp.read()
+            file = BytesIO(body)
+            file.name = url.split("/")[-1]
+            return file

@@ -3,11 +3,10 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass, field
 from typing import Any
-import asyncio
 
+from camoufox.async_api import AsyncCamoufox
 from human_requests import HumanBrowser, HumanContext, HumanPage
 from human_requests.abstraction import FetchResponse, HttpMethod
-from camoufox.async_api import AsyncCamoufox
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -83,10 +82,11 @@ class ChizhikAPI:
         self.ctx = await self.session.new_context()
         self.page = await self.ctx.new_page()
         await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
-        await self.page.wait_for_selector("pre", timeout=self.timeout_ms, state="attached")
-        #await self.page.wait_for_load_state("networkidle")
-        #await asyncio.sleep(3)
-
+        await self.page.wait_for_selector(
+            "pre", timeout=self.timeout_ms, state="attached"
+        )
+        # await self.page.wait_for_load_state("networkidle")
+        # await asyncio.sleep(3)
 
     async def __aexit__(self, *exc):
         """Выход из контекстного менеджера с закрытием сессии."""
@@ -123,27 +123,7 @@ class ChizhikAPI:
             mode="cors",
             timeout_ms=self.timeout_ms,
             referrer=self.MAIN_SITE_ORIGIN,
-            headers={"Accept": "application/json, text/plain, */*"}
+            headers={"Accept": "application/json, text/plain, */*"},
         )
 
-        #ctype = resp.headers.get("content-type", "")
-        #if "text/html" in ctype:
-        #    # исполним скрипт в браузерном контексте; куки запишутся в сессию
-        #    with resp.render(headless=self.headless, browser=self.browser) as rend:
-        #        rend.awaitSelector(selector="pre", timeout=self.timeout)
-#
-        #        jsn = json.loads(rend.find("pre").text)
-#
-        #        fin_resp = hrequests.Response(
-        #            url=resp.url,
-        #            status_code=resp.status_code,
-        #            headers=resp.headers,
-        #            cookies=hrequests.cookies.cookiejar_from_dict(
-        #                self.session.cookies.get_dict()
-        #            ),
-        #            raw=json.dumps(jsn, ensure_ascii=True).encode("utf-8"),
-        #        )
-        #else:
-        fin_resp = resp
-
-        return fin_resp
+        return resp

@@ -28,8 +28,8 @@ classifiers = [
     "Topic :: Utilities",
 ]
 dependencies = [
-    "hrequests[all]",
-    "requests",
+    "human_requests",
+    "aiohttps",
 ]
 
 [project.optional-dependencies]

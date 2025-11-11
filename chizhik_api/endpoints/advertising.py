@@ -1,8 +1,8 @@
 """Реклама"""
 
-from human_requests.abstraction import FetchResponse, HttpMethod
-
 from typing import TYPE_CHECKING
+
+from human_requests.abstraction import FetchResponse, HttpMethod
 
 if TYPE_CHECKING:
     from ..manager import ChizhikAPI

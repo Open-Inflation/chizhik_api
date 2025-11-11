@@ -1,10 +1,8 @@
 """Работа с каталогом"""
 
-from typing import Optional
+from typing import TYPE_CHECKING, Optional
 
 from human_requests.abstraction import FetchResponse, HttpMethod
-
-from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
     from ..manager import ChizhikAPI
