@@ -1,22 +1,22 @@
 {
   "title": "НАДО УСПЕТЬ",
   "description": "Новые товары каждую неделю.\r\nКоличество ограниченно!",
-  "image": "https://chizhik.x5static.net/media/backendprod-dpro/catalog/active_inout/Frame_2087325301_ptKUFck.png",
-  "background": "https://chizhik.x5static.net/media/backendprod-dpro/catalog/active_inout/Background_in-out_AP6ohw9.png",
+  "image": "https://chizhik.x5static.net/media/chizhik-assets/catalog/active_inout/Frame_2087325301_yAnGKyB.png",
+  "background": "https://chizhik.x5static.net/media/chizhik-assets/catalog/active_inout/Background_in-out_zVtZFRx.png",
   "is_thematic": false,
-  "start_timestamp": "2025-08-27T21:00:00Z",
-  "end_timestamp": "2025-09-03T20:59:59Z",
+  "start_timestamp": "2025-11-05T21:00:00Z",
+  "end_timestamp": "2025-11-12T20:59:59Z",
   "title_color": "#18181A",
-  "logo": "https://chizhik.x5static.net/media/backendprod-dpro/catalog/active_inout_logo/%D0%A7%D0%B8%D0%B6%D0%B8%D0%BA_%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_BS3STRu.png",
+  "logo": "https://chizhik.x5static.net/media/chizhik-assets/catalog/active_inout_logo/%D0%A7%D0%B8%D0%B6%D0%B8%D0%BA_%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_bCsVMsK.png",
   "pdf_data": {
     "title": "КАТАЛОГ НОВИНОК",
     "subtitle": "Товары следующей недели",
     "text_color": "#FFFFFF",
     "background_color": "#18181A",
-    "image": "https://chizhik.x5static.net/media/backendprod-dpro/catalog/pdf_image/%D0%BF%D0%B4%D1%84_2_dvZrlX1.png",
-    "file": "https://chizhik.x5static.net/media/backendprod-dpro/catalog/pdf_file/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3_CHIZHIK_36_mobile.pdf",
+    "image": "https://chizhik.x5static.net/media/chizhik-assets/catalog/pdf_image/%D0%BF%D0%B4%D1%84_2_Lq1KRai.png",
+    "file": "https://chizhik.x5static.net/media/chizhik-assets/catalog/pdf_file/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3_CHIZHIK_4622_mobile.pdf",
     "banner": null
   },
   "banner": null,
-  "pdf": "https://chizhik.x5static.net/media/backendprod-dpro/catalog/pdf_file/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3_CHIZHIK_36_mobile.pdf"
+  "pdf": "https://chizhik.x5static.net/media/chizhik-assets/catalog/pdf_file/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3_CHIZHIK_4622_mobile.pdf"
 }

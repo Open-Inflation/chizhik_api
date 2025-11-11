@@ -8,9 +8,9 @@
   "price": 139.0,
   "old_price": null,
   "price_piece_unit": null,
-  "rating": 4.6,
-  "feedbacks_count": 214,
-  "reviews_count": 66,
+  "rating": 4.4,
+  "feedbacks_count": 220,
+  "reviews_count": 70,
   "is_inout": false,
   "is_adults": false,
   "is_favorite": false,
@@ -19,7 +19,7 @@
     {
       "id": 10252,
       "title": "Лицевая",
-      "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/11600.jpg"
+      "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/11600.jpg"
     }
   ],
   "meta_data": [
@@ -113,8 +113,8 @@
         {
           "id": 76,
           "name": "Сладости, десерты, мороженое",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-          "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+          "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
           "depth": 2,
           "is_adults": false,
           "is_inout": false,
@@ -135,5 +135,6 @@
         }
       ]
     }
-  ]
+  ],
+  "required_ratings": []
 }

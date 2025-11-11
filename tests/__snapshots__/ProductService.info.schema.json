@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "id": {
@@ -62,8 +62,8 @@
             "type": "string"
           },
           "image": {
-            "type": "string",
-            "format": "uri"
+            "format": "uri",
+            "type": "string"
           }
         },
         "required": [
@@ -139,12 +139,12 @@
                   "type": "string"
                 },
                 "image": {
-                  "type": "string",
-                  "format": "uri"
+                  "format": "uri",
+                  "type": "string"
                 },
                 "icon": {
-                  "type": "string",
-                  "format": "uri"
+                  "format": "uri",
+                  "type": "string"
                 },
                 "depth": {
                   "type": "integer"
@@ -231,6 +231,9 @@
           "slug"
         ]
       }
+    },
+    "required_ratings": {
+      "type": "array"
     }
   },
   "required": [

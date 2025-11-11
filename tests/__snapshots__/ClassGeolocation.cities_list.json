@@ -6,88 +6,130 @@
   "total_pages": 1,
   "items": [
     {
-      "distance": 353.02754476,
-      "has_shop": true,
-      "fias_id": "fc9c55d0-c66e-455e-8034-b0944b025c38",
-      "name": "Армавир"
-    },
-    {
-      "distance": 324099.93461889,
+      "distance": 2186450.96250306,
       "has_shop": false,
-      "fias_id": "fc26547e-11ce-464b-b4f2-96b37df6f23f",
-      "name": "Ардон"
-    },
-    {
-      "distance": 423309.33014111,
-      "has_shop": false,
-      "fias_id": "3672454d-2697-4ce1-9666-cc9c744ba5c5",
-      "name": "Аргун"
-    },
-    {
-      "distance": 591870.69452615,
-      "has_shop": false,
+      "lon": 33.6910012,
+      "lat": 46.1059307,
       "fias_id": "2634dc63-5ab7-4b52-81de-ab6745a8eb02",
-      "name": "Армянск"
+      "name": "Армянск",
+      "slug": "armiansk"
     },
     {
-      "distance": 791105.79848868,
+      "distance": 2424688.5179553,
       "has_shop": false,
-      "fias_id": "9b58edf4-1ee2-43e0-9df9-d93d48a66ad1",
-      "name": "Аркадак"
-    },
-    {
-      "distance": 1153762.96218096,
-      "has_shop": true,
-      "fias_id": "edab359e-50ac-422a-9117-78ce44b6f758",
-      "name": "Ардатов"
-    },
-    {
-      "distance": 1171707.37914084,
-      "has_shop": true,
-      "fias_id": "7e42f157-87d6-4111-a406-17432e814723",
-      "name": "Арзамас"
-    },
-    {
-      "distance": 1377113.25534225,
-      "has_shop": true,
-      "fias_id": "d2c6e970-af35-41fe-9ba6-dc44a4187c67",
-      "name": "Арск"
-    },
-    {
-      "distance": 1886040.23677895,
-      "has_shop": true,
-      "fias_id": "c99ffa11-6b7e-4040-9f9e-baa1eeca8a91",
-      "name": "Арамиль"
-    },
-    {
-      "distance": 1979703.58217192,
-      "has_shop": true,
-      "fias_id": "fdc6b0ad-4096-43e7-a2e9-16404d2e1f68",
-      "name": "Артемовский"
-    },
-    {
-      "distance": 2173130.09393981,
-      "has_shop": false,
+      "lon": 40.5169606,
+      "lat": 64.5394289,
       "fias_id": "06814fb6-0dc3-4bec-ba20-11f894a0faf5",
-      "name": "Архангельск"
+      "name": "Архангельск",
+      "slug": "arkhangelsk"
     },
     {
-      "distance": 3808669.14265664,
+      "distance": 2540164.85380803,
+      "has_shop": true,
+      "lon": 43.8408141,
+      "lat": 55.3945814,
+      "fias_id": "7e42f157-87d6-4111-a406-17432e814723",
+      "name": "Арзамас",
+      "slug": "arzamas"
+    },
+    {
+      "distance": 2602300.18483839,
       "has_shop": false,
+      "lon": 43.4999221,
+      "lat": 51.938831,
+      "fias_id": "9b58edf4-1ee2-43e0-9df9-d93d48a66ad1",
+      "name": "Аркадак",
+      "slug": "arkadak"
+    },
+    {
+      "distance": 2701091.508038,
+      "has_shop": true,
+      "lon": 46.2411232,
+      "lat": 54.8465544,
+      "fias_id": "edab359e-50ac-422a-9117-78ce44b6f758",
+      "name": "Ардатов",
+      "slug": "ardatov"
+    },
+    {
+      "distance": 2750540.27993857,
+      "has_shop": true,
+      "lon": 41.1324168,
+      "lat": 45.0012149,
+      "fias_id": "fc9c55d0-c66e-455e-8034-b0944b025c38",
+      "name": "Армавир",
+      "slug": "armavir"
+    },
+    {
+      "distance": 2899202.15611563,
+      "has_shop": true,
+      "lon": 49.877067,
+      "lat": 56.0912567,
+      "fias_id": "d2c6e970-af35-41fe-9ba6-dc44a4187c67",
+      "name": "Арск",
+      "slug": "arsk"
+    },
+    {
+      "distance": 3072248.47916163,
+      "has_shop": false,
+      "lon": 44.2955775,
+      "lat": 43.1755152,
+      "fias_id": "fc26547e-11ce-464b-b4f2-96b37df6f23f",
+      "name": "Ардон",
+      "slug": "ardon"
+    },
+    {
+      "distance": 3172083.21413125,
+      "has_shop": false,
+      "lon": 45.8723105,
+      "lat": 43.2916774,
+      "fias_id": "3672454d-2697-4ce1-9666-cc9c744ba5c5",
+      "name": "Аргун",
+      "slug": "argun"
+    },
+    {
+      "distance": 3538307.55563809,
+      "has_shop": true,
+      "lon": 60.8343125,
+      "lat": 56.694632,
+      "fias_id": "c99ffa11-6b7e-4040-9f9e-baa1eeca8a91",
+      "name": "Арамиль",
+      "slug": "aramil"
+    },
+    {
+      "distance": 3579905.54211806,
+      "has_shop": true,
+      "lon": 61.8947443,
+      "lat": 57.3384177,
+      "fias_id": "fdc6b0ad-4096-43e7-a2e9-16404d2e1f68",
+      "name": "Артемовский",
+      "slug": "artemovskii"
+    },
+    {
+      "distance": 5477240.13130214,
+      "has_shop": false,
+      "lon": 93.4358377,
+      "lat": 54.3473075,
       "fias_id": "d0d7a2fa-5bdc-4944-8047-75e80e4e883c",
-      "name": "Артемовск"
+      "name": "Артемовск",
+      "slug": "artemovsk"
     },
     {
-      "distance": 6845867.40207469,
+      "distance": 8199866.3282965,
       "has_shop": false,
-      "fias_id": "3ce80b09-9b72-4e68-9b2d-becaaee4570e",
-      "name": "Артем"
-    },
-    {
-      "distance": 6863680.2843017,
-      "has_shop": false,
+      "lon": 133.2696209,
+      "lat": 44.1622031,
       "fias_id": "36e4c7ce-7320-48ee-8320-0587c1e09917",
-      "name": "Арсеньев"
+      "name": "Арсеньев",
+      "slug": "arsenev"
+    },
+    {
+      "distance": 8233211.64685072,
+      "has_shop": false,
+      "lon": 132.1596175,
+      "lat": 43.3501675,
+      "fias_id": "3ce80b09-9b72-4e68-9b2d-becaaee4570e",
+      "name": "Артем",
+      "slug": "artem"
     }
   ]
 }

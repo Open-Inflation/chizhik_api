@@ -1,9 +1,9 @@
 {
-  "count": 3793,
+  "count": 4037,
   "next": 2,
   "previous": null,
   "page_size": 100,
-  "total_pages": 38,
+  "total_pages": 41,
   "items": [
     {
       "id": 2,
@@ -11,7 +11,7 @@
       "title": "Шоколад Вдохновение классический 100г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.4,
       "price": 139.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -22,7 +22,7 @@
         {
           "id": 10252,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/11600.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/11600.jpg"
         }
       ],
       "categories_tree": [
@@ -39,8 +39,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -69,7 +69,7 @@
       "title": "Сода пищевая 500г",
       "sub_title": "",
       "description": "",
-      "rating": 4.9,
+      "rating": 4.8,
       "price": 29.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -80,12 +80,12 @@
         {
           "id": 11997,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/737228.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/737228.jpg"
         },
         {
           "id": 11998,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/740013.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/740013.jpg"
         }
       ],
       "categories_tree": [
@@ -102,8 +102,8 @@
             {
               "id": 22,
               "name": "Крупы и макароны",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_3_d4RRoyE.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_3_d4RRoyE.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -125,8 +125,8 @@
             {
               "id": 190,
               "name": "Стирка и уборка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -155,9 +155,9 @@
       "title": "Горошек Bonduelle зелёный 400г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 0.0,
       "price": 99.0,
-      "old_price": 119.0,
+      "old_price": 129.0,
       "price_piece_unit": 247.5,
       "is_inout": false,
       "is_favorite": false,
@@ -166,7 +166,7 @@
         {
           "id": 13806,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/16791_Zeleniy_goroshek_Bonduelle_425ml-400g2.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/16791_Zeleniy_goroshek_Bonduelle_425ml-400g2.png"
         }
       ],
       "categories_tree": [
@@ -183,8 +183,8 @@
             {
               "id": 17,
               "name": "Консервы",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -206,8 +206,8 @@
             {
               "id": 60,
               "name": "Овощи и фрукты",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_9.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_9.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -236,8 +236,8 @@
       "title": "Шоколад Kinder Chocolate молочный с молочной нач. 100г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
-      "price": 149.0,
+      "rating": 4.1,
+      "price": 169.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -247,7 +247,7 @@
         {
           "id": 9714,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/17333.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/17333.jpg"
         }
       ],
       "categories_tree": [
@@ -264,8 +264,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -294,7 +294,7 @@
       "title": "Конфеты Raffaello 150г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 0.0,
       "price": 259.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -305,7 +305,7 @@
         {
           "id": 17142,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/6119612551.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/6119612551.jpg"
         }
       ],
       "categories_tree": [
@@ -322,8 +322,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -352,7 +352,7 @@
       "title": "Мука Makfa пшеничная высший сорт 1кг",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
+      "rating": 3.5,
       "price": 59.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -363,7 +363,7 @@
         {
           "id": 43883,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/f2fuaOqgbhOFR0mHhuODUqqui8yai01717013684678.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/f2fuaOqgbhOFR0mHhuODUqqui8yai01717013684678.jpg"
         }
       ],
       "categories_tree": [
@@ -380,8 +380,8 @@
             {
               "id": 22,
               "name": "Крупы и макароны",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_3_d4RRoyE.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_3_d4RRoyE.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -410,7 +410,7 @@
       "title": "Презервативы Contex Classic 3шт",
       "sub_title": "",
       "description": "",
-      "rating": 4.0,
+      "rating": 2.7,
       "price": 119.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -421,7 +421,7 @@
         {
           "id": 11955,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/740037.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/740037.jpg"
         }
       ],
       "categories_tree": [
@@ -438,8 +438,8 @@
             {
               "id": 90,
               "name": "Средства гигиены",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_17.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_17.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -465,21 +465,31 @@
     {
       "id": 31,
       "plu": "20530",
-      "title": "Творог Агуша детский 100г",
+      "title": "Творог Агуша классический детский 4,5% 100г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
-      "price": 29.0,
+      "rating": 0.0,
+      "price": 39.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
       "is_favorite": false,
-      "slug": "tvorog-agusha-detskii-100g-31",
+      "slug": "tvorog-agusha-klassicheskii-detskii-45-100g-31",
       "images": [
         {
           "id": 9793,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/20530.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/20530.jpeg"
+        },
+        {
+          "id": 53374,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/20530_2.jpeg"
+        },
+        {
+          "id": 53375,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/20530_3.jpeg"
         }
       ],
       "categories_tree": [
@@ -496,8 +506,8 @@
             {
               "id": 9,
               "name": "Детские товары",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -518,13 +528,13 @@
             },
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 43,
@@ -542,8 +552,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -572,7 +582,7 @@
       "title": "Конфеты Маска РотФронт 250г",
       "sub_title": "",
       "description": "",
-      "rating": 3.9,
+      "rating": 3.8,
       "price": 169.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -583,7 +593,7 @@
         {
           "id": 9900,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/2057832.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/2057832.jpg"
         }
       ],
       "categories_tree": [
@@ -600,8 +610,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -630,7 +640,7 @@
       "title": "Конфеты РотФронт батончик 250г",
       "sub_title": "",
       "description": "",
-      "rating": 4.5,
+      "rating": 4.6,
       "price": 109.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -641,7 +651,7 @@
         {
           "id": 10444,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/262268_5.png.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/262268_5.png.jpg"
         }
       ],
       "categories_tree": [
@@ -658,8 +668,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -688,7 +698,7 @@
       "title": "Продукт Даниссимо творожный с хрустящ. шариками 7.2% 130г",
       "sub_title": "",
       "description": "",
-      "rating": 4.8,
+      "rating": 4.6,
       "price": 54.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -699,7 +709,7 @@
         {
           "id": 9276,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/2058043.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/2058043.jpg"
         }
       ],
       "categories_tree": [
@@ -715,13 +725,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 43,
@@ -739,8 +749,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -769,7 +779,7 @@
       "title": "Чай Greenfield Summer Bouquet травяной 25х2г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
+      "rating": 4.1,
       "price": 89.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -780,7 +790,7 @@
         {
           "id": 17137,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/39.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/39.png"
         }
       ],
       "categories_tree": [
@@ -797,8 +807,8 @@
             {
               "id": 127,
               "name": "Чай, кофе",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Mobile_categories-2.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Mobile_categories-2.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -827,7 +837,7 @@
       "title": "Молоко Простоквашино пастер. 3.4-4.5% 930мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.2,
       "price": 99.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -838,7 +848,7 @@
         {
           "id": 14468,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/22YufiNANuOb04k22skfmUN2D24u221732057060401.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/22YufiNANuOb04k22skfmUN2D24u221732057060401.jpg"
         }
       ],
       "categories_tree": [
@@ -854,13 +864,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 39,
@@ -885,7 +895,7 @@
       "title": "Пряник Ясная Поляна Тульский с фруктовой начинкой 140г",
       "sub_title": "",
       "description": "",
-      "rating": 3.9,
+      "rating": 4.7,
       "price": 39.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -896,7 +906,7 @@
         {
           "id": 10481,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/2109598.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/2109598.jpg"
         }
       ],
       "categories_tree": [
@@ -913,8 +923,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -943,7 +953,7 @@
       "title": "Чай Greenfield Spring Melody чёрный 25х1.5 г",
       "sub_title": "",
       "description": "",
-      "rating": 4.9,
+      "rating": 4.8,
       "price": 89.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -954,7 +964,7 @@
         {
           "id": 17139,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/52.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/52.png"
         }
       ],
       "categories_tree": [
@@ -971,8 +981,8 @@
             {
               "id": 127,
               "name": "Чай, кофе",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Mobile_categories-2.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Mobile_categories-2.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1001,7 +1011,7 @@
       "title": "Заправка Maggi для борща 250г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 4.3,
       "price": 99.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1012,12 +1022,12 @@
         {
           "id": 9541,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/qNvdgjzQHdiwY68jNF2OYbqCFY0Hz01717016324980_1.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/qNvdgjzQHdiwY68jNF2OYbqCFY0Hz01717016324980_1.jpg"
         },
         {
           "id": 42640,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/2jQiHMhNHgHdmdvRhgNUdq6huhOn8A1717016326473_1.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/2jQiHMhNHgHdmdvRhgNUdq6huhOn8A1717016326473_1.jpg"
         }
       ],
       "categories_tree": [
@@ -1034,8 +1044,8 @@
             {
               "id": 28,
               "name": "Масло, соусы, специи",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9C%D0%B0%D1%81%D0%BB%D0%B0_%D1%81%D0%BE%D1%83%D1%81%D1%8B_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B8_UYVVuPZ.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%91__%D0%91%D0%93%D0%91%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9C%D0%B0%D1%81%D0%BB%D0%B0_%D1%81%D0%BE%D1%83%D1%81%D1%8B_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B8_UYVVuPZ.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%91__%D0%91%D0%93%D0%91%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1064,8 +1074,8 @@
       "title": "Пирожное Медвежонок Барни бискв. с шоколад. нач. 150г",
       "sub_title": "",
       "description": "",
-      "rating": 4.8,
-      "price": 89.0,
+      "rating": 5.0,
+      "price": 109.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -1075,7 +1085,7 @@
         {
           "id": 41304,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/2143824.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/2143824.png"
         }
       ],
       "categories_tree": [
@@ -1092,8 +1102,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1122,7 +1132,7 @@
       "title": "Конфеты Toffifee 125г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 4.5,
       "price": 119.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1133,7 +1143,7 @@
         {
           "id": 17609,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/6021219583_KVlTder.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/6021219583_KVlTder.jpg"
         }
       ],
       "categories_tree": [
@@ -1150,8 +1160,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1180,7 +1190,7 @@
       "title": "Рулет Сдобная Особа с маковой начинкой 400г",
       "sub_title": "",
       "description": "",
-      "rating": 4.2,
+      "rating": 3.5,
       "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1191,7 +1201,7 @@
         {
           "id": 10025,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/26037.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/26037.jpg"
         }
       ],
       "categories_tree": [
@@ -1208,8 +1218,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1238,7 +1248,7 @@
       "title": "Дезодорант Акс Дарк Темптейшн муж. 150мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 0.0,
       "price": 299.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1249,7 +1259,7 @@
         {
           "id": 10083,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/z4nNgvOmAkinsuRkNcgQnyT2d0NHMw1734395688240_JpSzr6N.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/z4nNgvOmAkinsuRkNcgQnyT2d0NHMw1734395688240_JpSzr6N.jpg"
         }
       ],
       "categories_tree": [
@@ -1266,8 +1276,8 @@
             {
               "id": 90,
               "name": "Средства гигиены",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_17.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_17.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1296,8 +1306,8 @@
       "title": "Вода Фрутоняня питьевая 330мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
-      "price": 27.0,
+      "rating": 4.9,
+      "price": 29.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -1307,7 +1317,7 @@
         {
           "id": 10040,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3060608.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3060608.jpg"
         }
       ],
       "categories_tree": [
@@ -1324,8 +1334,8 @@
             {
               "id": 9,
               "name": "Детские товары",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1347,8 +1357,8 @@
             {
               "id": 54,
               "name": "Напитки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AD%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1377,7 +1387,7 @@
       "title": "Напиток MacCoffee Original 3в1 кофейный раств. 10х20г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.3,
       "price": 159.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1388,7 +1398,7 @@
         {
           "id": 14528,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/Kofe_MacCoffee_3-in-1_20x10_3072006.webp"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/Kofe_MacCoffee_3-in-1_20x10_3072006.webp"
         }
       ],
       "categories_tree": [
@@ -1405,8 +1415,8 @@
             {
               "id": 127,
               "name": "Чай, кофе",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Mobile_categories-2.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Mobile_categories-2.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1435,7 +1445,7 @@
       "title": "Вафли Яшкино Голландские с карамельной нач. 290г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.5,
       "price": 79.0,
       "old_price": 89.0,
       "price_piece_unit": null,
@@ -1446,7 +1456,7 @@
         {
           "id": 10070,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3141422_%D0%9A%D0%92118_Yashkino_Gollandskie_karamel_l_800px.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3141422_%D0%9A%D0%92118_Yashkino_Gollandskie_karamel_l_800px.jpg"
         }
       ],
       "categories_tree": [
@@ -1463,8 +1473,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1493,10 +1503,10 @@
       "title": "Тушка цыпленка охлаждённая 1кг",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
-      "price": 169.0,
+      "rating": 3.0,
+      "price": 179.0,
       "old_price": null,
-      "price_piece_unit": 169.0,
+      "price_piece_unit": 179.0,
       "is_inout": false,
       "is_favorite": false,
       "slug": "tushka-tsyplenka-okhlazhdionnaia-1kg-100",
@@ -1504,7 +1514,7 @@
         {
           "id": 9631,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3153446.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3153446.jpg"
         }
       ],
       "categories_tree": [
@@ -1521,8 +1531,8 @@
             {
               "id": 50,
               "name": "Мясо и птица",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_7.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_7.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1551,7 +1561,7 @@
       "title": "Дезодорант Garnier Mineral Активный контроль 50мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.3,
       "price": 169.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1562,7 +1572,7 @@
         {
           "id": 21240,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3191530.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3191530.png"
         }
       ],
       "categories_tree": [
@@ -1579,8 +1589,8 @@
             {
               "id": 90,
               "name": "Средства гигиены",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_17.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_17.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1620,7 +1630,7 @@
         {
           "id": 18314,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3124457-1000x1000.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3124457-1000x1000.jpg"
         }
       ],
       "categories_tree": [
@@ -1636,13 +1646,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 42,
@@ -1667,7 +1677,7 @@
       "title": "Зубная щетка Oral-B 1-2-3 средней жесткости",
       "sub_title": "",
       "description": "",
-      "rating": 3.6,
+      "rating": 3.4,
       "price": 89.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1678,7 +1688,7 @@
         {
           "id": 13801,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/119.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/119.png"
         }
       ],
       "categories_tree": [
@@ -1695,8 +1705,8 @@
             {
               "id": 90,
               "name": "Средства гигиены",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_17.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_17.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1725,7 +1735,7 @@
       "title": "Конфеты Коровка вафельн. шоколадн. 250г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 4.2,
       "price": 129.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1736,7 +1746,7 @@
         {
           "id": 9688,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/QzM4HQNsfL0fYNiumOMjFgNOgOb2dL1717017272460_1.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/QzM4HQNsfL0fYNiumOMjFgNOgOb2dL1717017272460_1.jpg"
         }
       ],
       "categories_tree": [
@@ -1753,8 +1763,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1783,7 +1793,7 @@
       "title": "Творожок Чудо молочный вишня-черешня 4% 100г",
       "sub_title": "",
       "description": "",
-      "rating": 4.9,
+      "rating": 4.3,
       "price": 54.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1794,7 +1804,17 @@
         {
           "id": 18318,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/8exda9da85828826a9436e90daca.webp"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3203090.jpeg"
+        },
+        {
+          "id": 53380,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3203090_3.jpeg"
+        },
+        {
+          "id": 53381,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3203090_6.jpeg"
         }
       ],
       "categories_tree": [
@@ -1810,13 +1830,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 43,
@@ -1834,8 +1854,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1864,7 +1884,7 @@
       "title": "Творожок Чудо клубника-земляника 4% 100г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.0,
       "price": 54.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1875,7 +1895,17 @@
         {
           "id": 18317,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/a32d82af46deb1524edaaf2b7628.webp"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3203097.jpeg"
+        },
+        {
+          "id": 53382,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3203097_2.jpeg"
+        },
+        {
+          "id": 53383,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3203097_6.jpeg"
         }
       ],
       "categories_tree": [
@@ -1891,13 +1921,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 43,
@@ -1915,8 +1945,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1945,7 +1975,7 @@
       "title": "Пирожное Orion Choco pie в глазури 6х30г",
       "sub_title": "",
       "description": "",
-      "rating": 4.8,
+      "rating": 4.7,
       "price": 79.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -1956,7 +1986,7 @@
         {
           "id": 17148,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/chokopaj-orion-6-sht.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/chokopaj-orion-6-sht.jpg"
         }
       ],
       "categories_tree": [
@@ -1973,8 +2003,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -1998,71 +2028,13 @@
       ]
     },
     {
-      "id": 149,
-      "plu": "3247323",
-      "title": "Коньяк Старейшина пятилетний 40% 0.5 л",
-      "sub_title": "",
-      "description": "",
-      "rating": 4.4,
-      "price": 651.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "koniak-stareishina-piatiletnii-40-05-l-149",
-      "images": [
-        {
-          "id": 9966,
-          "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3247323.jpg"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 1,
-              "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
-              "depth": 2,
-              "is_adults": true,
-              "is_inout": false,
-              "slug": "alkogol",
-              "children": [
-                {
-                  "id": 153,
-                  "name": "Коньяк",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": true,
-                  "is_inout": false,
-                  "slug": "koniak",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 167,
       "plu": "3276703",
       "title": "Пирожное Медвежонок Барни бисквитное молочная начинка 150г",
       "sub_title": "",
       "description": "",
-      "rating": 4.8,
-      "price": 89.0,
+      "rating": 5.0,
+      "price": 109.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -2072,7 +2044,7 @@
         {
           "id": 41303,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3276703.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3276703.png"
         }
       ],
       "categories_tree": [
@@ -2089,8 +2061,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2130,7 +2102,7 @@
         {
           "id": 50552,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/NFmwuNTwHg62N8NnmaNN8hLCiHhcFv1748383240970-no-bg-preview_carve.photos.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/NFmwuNTwHg62N8NnmaNN8hLCiHhcFv1748383240970-no-bg-preview_carve.photos.jpg"
         }
       ],
       "categories_tree": [
@@ -2147,8 +2119,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2188,7 +2160,7 @@
         {
           "id": 17151,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/26t1eusbh386y3xu3vxvux8pmfgpt119.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/26t1eusbh386y3xu3vxvux8pmfgpt119.jpg"
         }
       ],
       "categories_tree": [
@@ -2205,8 +2177,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2235,7 +2207,7 @@
       "title": "Шампиньоны Хороший сезон 400г",
       "sub_title": "",
       "description": "",
-      "rating": 3.8,
+      "rating": 0.0,
       "price": 89.0,
       "old_price": 109.0,
       "price_piece_unit": 222.5,
@@ -2246,7 +2218,7 @@
         {
           "id": 14723,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A8%D0%B0%D0%BC%D0%BF%D0%B8%D0%BD%D1%8C%D0%BE%D0%BD%D1%8B.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A8%D0%B0%D0%BC%D0%BF%D0%B8%D0%BD%D1%8C%D0%BE%D0%BD%D1%8B.jpg"
         }
       ],
       "categories_tree": [
@@ -2263,8 +2235,8 @@
             {
               "id": 60,
               "name": "Овощи и фрукты",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_9.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_9.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2293,7 +2265,7 @@
       "title": "Палочки Кузя Лакомкин кукурузные 140г",
       "sub_title": "",
       "description": "",
-      "rating": 4.9,
+      "rating": 0.0,
       "price": 49.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2304,7 +2276,7 @@
         {
           "id": 10237,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3370312.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3370312.jpg"
         }
       ],
       "categories_tree": [
@@ -2321,8 +2293,8 @@
             {
               "id": 22,
               "name": "Крупы и макароны",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_3_d4RRoyE.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_3_d4RRoyE.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%90%D0%9B__%D0%90%D0%93%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2344,8 +2316,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2374,7 +2346,7 @@
       "title": "Драже M&Ms с арахисом 45г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
+      "rating": 4.4,
       "price": 54.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2385,7 +2357,7 @@
         {
           "id": 9843,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3386335.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3386335.jpg"
         }
       ],
       "categories_tree": [
@@ -2402,8 +2374,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2432,7 +2404,7 @@
       "title": "Вода Боржоми минеральная 0,75л",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 4.1,
       "price": 129.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2443,7 +2415,7 @@
         {
           "id": 17860,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/075L_PET_last_ver_SEymIc6.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/075L_PET_last_ver_SEymIc6.jpg"
         }
       ],
       "categories_tree": [
@@ -2460,8 +2432,8 @@
             {
               "id": 54,
               "name": "Напитки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AD%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2501,7 +2473,7 @@
         {
           "id": 18915,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG"
         }
       ],
       "categories_tree": [
@@ -2518,8 +2490,8 @@
             {
               "id": 190,
               "name": "Стирка и уборка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2548,7 +2520,7 @@
       "title": "Водка ЗИМНЯЯ ДЕРЕВЕНЬКА 0.5л",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 3.8,
       "price": 359.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2559,7 +2531,7 @@
         {
           "id": 9238,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3443259.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3443259.jpg"
         }
       ],
       "categories_tree": [
@@ -2576,8 +2548,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -2606,7 +2578,7 @@
       "title": "Водка Архангельская Северная выдержка 40% 0.5л",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 0.0,
       "price": 349.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2617,7 +2589,7 @@
         {
           "id": 10461,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3451685.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3451685.jpg"
         }
       ],
       "categories_tree": [
@@ -2634,8 +2606,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -2664,7 +2636,7 @@
       "title": "Творог Растишка клубника/банан/пломбир 3.5% 6х45г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.7,
       "price": 79.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2675,7 +2647,7 @@
         {
           "id": 10392,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3452771.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3452771.jpg"
         }
       ],
       "categories_tree": [
@@ -2692,8 +2664,8 @@
             {
               "id": 9,
               "name": "Детские товары",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2714,13 +2686,13 @@
             },
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 43,
@@ -2738,8 +2710,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2763,71 +2735,13 @@
       ]
     },
     {
-      "id": 347,
-      "plu": "3453003",
-      "title": "Семечки Богучарские жареные 75г",
-      "sub_title": "",
-      "description": "",
-      "rating": 4.8,
-      "price": 29.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "semechki-bogucharskie-zharenye-75g-347",
-      "images": [
-        {
-          "id": 10474,
-          "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3453003.jpg"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 64,
-              "name": "Орехи, чипсы, снеки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_16.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "orekhi-chipsy-sneki",
-              "children": [
-                {
-                  "id": 66,
-                  "name": "Семечки",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "semechki",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 360,
       "plu": "3463552",
       "title": "Чипсы Delicados Начос кукурузные со вкусом сыра 150г",
       "sub_title": "",
       "description": "",
-      "rating": 3.9,
-      "price": 109.0,
+      "rating": 3.8,
+      "price": 99.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -2837,7 +2751,7 @@
         {
           "id": 9487,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3463552.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3463552.jpg"
         }
       ],
       "categories_tree": [
@@ -2854,8 +2768,8 @@
             {
               "id": 64,
               "name": "Орехи, чипсы, снеки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_16.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_16.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2884,8 +2798,8 @@
       "title": "Печенье Oreo с какао с ванильным вк. 228г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
-      "price": 149.0,
+      "rating": 4.8,
+      "price": 139.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -2895,7 +2809,7 @@
         {
           "id": 9479,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3474314_VbEmYXG.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3474314_VbEmYXG.jpg"
         }
       ],
       "categories_tree": [
@@ -2912,8 +2826,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2942,7 +2856,7 @@
       "title": "Дезодорант Рексона прозр. кристалл 150мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 0.0,
       "price": 179.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -2953,7 +2867,7 @@
         {
           "id": 9884,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/LFj6U0TmnQ2anR0T2uFhUuhHF00ARb1734395688333.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/LFj6U0TmnQ2anR0T2uFhUuhHF00ARb1734395688333.jpg"
         }
       ],
       "categories_tree": [
@@ -2970,8 +2884,8 @@
             {
               "id": 90,
               "name": "Средства гигиены",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_17.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_17.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%90%D0%91%D0%92_%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -2995,12 +2909,70 @@
       ]
     },
     {
+      "id": 392,
+      "plu": "3487481",
+      "title": "Напиток Lipton Ice Tea зеленый чай 1л",
+      "sub_title": "",
+      "description": "",
+      "rating": 0.0,
+      "price": 109.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": false,
+      "is_favorite": false,
+      "slug": "napitok-lipton-ice-tea-zelenyi-chai-1l-392",
+      "images": [
+        {
+          "id": 10544,
+          "title": "Лицевая",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3487481.jpg"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 54,
+              "name": "Напитки",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "napitki",
+              "children": [
+                {
+                  "id": 58,
+                  "name": "Холодный чай",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "kholodnyi-chai",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 395,
       "plu": "3490515",
       "title": "Шоколад Ritter Sport молочный цельный лесной орех 100г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 3.5,
       "price": 169.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3011,7 +2983,7 @@
         {
           "id": 9345,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3490515.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3490515.jpg"
         }
       ],
       "categories_tree": [
@@ -3028,8 +3000,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3058,7 +3030,7 @@
       "title": "Пюре Сады Придонья кабачок 120г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 4.1,
       "price": 34.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3069,7 +3041,7 @@
         {
           "id": 9536,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3497440_-_%D0%A1%D0%9F-BABY-%D0%BF%D1%8E%D1%80%D0%B5-120-%D0%BA%D0%B0%D0%B1%D0%B0%D1%87%D0%BE%D0%BA-%D0%9B.JPG"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3497440_-_%D0%A1%D0%9F-BABY-%D0%BF%D1%8E%D1%80%D0%B5-120-%D0%BA%D0%B0%D0%B1%D0%B0%D1%87%D0%BE%D0%BA-%D0%9B.JPG"
         }
       ],
       "categories_tree": [
@@ -3086,8 +3058,8 @@
             {
               "id": 9,
               "name": "Детские товары",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3117,7 +3089,7 @@
       "sub_title": "",
       "description": "",
       "rating": 4.9,
-      "price": 89.0,
+      "price": 99.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -3127,7 +3099,7 @@
         {
           "id": 18169,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3497593_%D0%A5%D0%BB%D0%B5%D0%B1%D1%86%D1%8B_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B5_%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5_%D1%80%D0%B6%D0%B0%D0%BD%D1%8B%D0%B5_170%D0%B3.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3497593_%D0%A5%D0%BB%D0%B5%D0%B1%D1%86%D1%8B_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B5_%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5_%D1%80%D0%B6%D0%B0%D0%BD%D1%8B%D0%B5_170%D0%B3.jpg"
         }
       ],
       "categories_tree": [
@@ -3144,8 +3116,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3174,7 +3146,7 @@
       "title": "Пиво Балтика №7 экспортное светлое 5.4% 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.2,
+      "rating": 3.0,
       "price": 71.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3185,7 +3157,7 @@
         {
           "id": 9241,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/f52239423c4ea32b3be0cd4b7c44b04b.webp"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/BALTIKA_CAN_B7_front_2.jpg"
         }
       ],
       "categories_tree": [
@@ -3202,8 +3174,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -3232,7 +3204,7 @@
       "title": "Конфеты Бабаевская белочка шоколадные 200г",
       "sub_title": "",
       "description": "",
-      "rating": 3.8,
+      "rating": 3.9,
       "price": 199.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3243,7 +3215,7 @@
         {
           "id": 9452,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3611868.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3611868.jpg"
         }
       ],
       "categories_tree": [
@@ -3260,8 +3232,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3290,7 +3262,7 @@
       "title": "Конфеты Мишка косолапый Красный октябрь 200г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.7,
       "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3301,7 +3273,7 @@
         {
           "id": 9561,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3611870.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3611870.jpg"
         }
       ],
       "categories_tree": [
@@ -3318,8 +3290,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3348,8 +3320,8 @@
       "title": "Пиво Золотая Бочка светлое классическое 5.2% 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
-      "price": 56.0,
+      "rating": 0.0,
+      "price": 62.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -3359,7 +3331,7 @@
         {
           "id": 9601,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3619526.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3619526.jpg"
         }
       ],
       "categories_tree": [
@@ -3376,8 +3348,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -3406,7 +3378,7 @@
       "title": "Кондиционер для белья Vernel свежесть летнего утра 910мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 3.7,
       "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3417,7 +3389,7 @@
         {
           "id": 9825,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3625262.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3625262.png"
         }
       ],
       "categories_tree": [
@@ -3434,8 +3406,8 @@
             {
               "id": 190,
               "name": "Стирка и уборка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3464,7 +3436,7 @@
       "title": "Йогурт Растишка яблоко/груша с печеньем 118г",
       "sub_title": "",
       "description": "",
-      "rating": 4.5,
+      "rating": 4.4,
       "price": 54.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3475,7 +3447,7 @@
         {
           "id": 41608,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/gRuhndUuUuuMz202UNUwaTq88ncwAF1723069877868.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/gRuhndUuUuuMz202UNUwaTq88ncwAF1723069877868.jpg"
         }
       ],
       "categories_tree": [
@@ -3492,8 +3464,8 @@
             {
               "id": 9,
               "name": "Детские товары",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3514,13 +3486,13 @@
             },
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 36,
@@ -3545,7 +3517,7 @@
       "title": "Джин Barrister 40% 0.5л",
       "sub_title": "",
       "description": "",
-      "rating": 4.8,
+      "rating": 0.0,
       "price": 349.0,
       "old_price": 429.0,
       "price_piece_unit": null,
@@ -3556,7 +3528,7 @@
         {
           "id": 10404,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3629205.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3629205.jpg"
         }
       ],
       "categories_tree": [
@@ -3573,8 +3545,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -3603,7 +3575,7 @@
       "title": "Тан Ростагроэкспорт 0.5% 1л",
       "sub_title": "",
       "description": "",
-      "rating": 4.8,
+      "rating": 4.3,
       "price": 74.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3614,7 +3586,7 @@
         {
           "id": 9934,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3634618.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3634618.jpg"
         }
       ],
       "categories_tree": [
@@ -3630,13 +3602,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 37,
@@ -3661,7 +3633,7 @@
       "title": "Йогурт Растишка клубника 70г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.8,
       "price": 44.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3672,7 +3644,7 @@
         {
           "id": 9936,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3637008.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3637008.jpg"
         }
       ],
       "categories_tree": [
@@ -3689,8 +3661,8 @@
             {
               "id": 9,
               "name": "Детские товары",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_12_WwGmlY6.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3711,13 +3683,13 @@
             },
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 36,
@@ -3737,70 +3709,12 @@
       ]
     },
     {
-      "id": 503,
-      "plu": "3639553",
-      "title": "Конфеты Славянка Левушка 199г",
-      "sub_title": "",
-      "description": "",
-      "rating": 4.7,
-      "price": 79.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "konfety-slavianka-levushka-199g-503",
-      "images": [
-        {
-          "id": 10273,
-          "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3639553.jpg"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 76,
-              "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "sladosti-deserty-morozhenoe",
-              "children": [
-                {
-                  "id": 82,
-                  "name": "Конфеты",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "konfety",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 525,
       "plu": "3652329",
       "title": "Сухой корм Kitekat курочка аппетитная для кошек 800г",
       "sub_title": "",
       "description": "",
-      "rating": 4.5,
+      "rating": 4.4,
       "price": 199.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3811,7 +3725,7 @@
         {
           "id": 17193,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/525.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/525.png"
         }
       ],
       "categories_tree": [
@@ -3828,8 +3742,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -3858,7 +3772,7 @@
       "title": "Пиво Bud светлое пастеризованное 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.2,
+      "rating": 2.9,
       "price": 79.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3869,7 +3783,7 @@
         {
           "id": 10076,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3655481.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3655481.jpg"
         }
       ],
       "categories_tree": [
@@ -3886,8 +3800,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -3917,7 +3831,7 @@
       "sub_title": "",
       "description": "",
       "rating": 4.3,
-      "price": 92.0,
+      "price": 109.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -3927,7 +3841,7 @@
         {
           "id": 9737,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3655555.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3655555.jpg"
         }
       ],
       "categories_tree": [
@@ -3944,8 +3858,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -3974,8 +3888,8 @@
       "title": "Пиво Zatecky Gus светлое 4.6% 1.35л",
       "sub_title": "",
       "description": "",
-      "rating": 4.0,
-      "price": 134.0,
+      "rating": 2.7,
+      "price": 129.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -3985,7 +3899,7 @@
         {
           "id": 9824,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3657810.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3657810.jpg"
         }
       ],
       "categories_tree": [
@@ -4002,8 +3916,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -4032,8 +3946,8 @@
       "title": "Кофе Nescafe Gold натур. раств. с жар. молот. 190г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
-      "price": 549.0,
+      "rating": 3.3,
+      "price": 569.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4043,17 +3957,17 @@
         {
           "id": 21081,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4600680000640_front_ru_208809822.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4600680000640_front_ru_208809822.jpg"
         },
         {
           "id": 21082,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4600680000640_right_ru_208809823.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4600680000640_right_ru_208809823.jpg"
         },
         {
           "id": 21083,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4600680000640_left_ru_208809825.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4600680000640_left_ru_208809825.jpg"
         }
       ],
       "categories_tree": [
@@ -4070,8 +3984,8 @@
             {
               "id": 127,
               "name": "Чай, кофе",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Mobile_categories-2.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Mobile_categories-2.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%92%D0%B5%D0%B1_%D0%A7%D0%B0%D0%B9_%D0%B8_%D0%BA%D0%BE%D1%84%D0%B5-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4100,8 +4014,8 @@
       "title": "Пиво Жигули Барное светлое 4.9% 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
-      "price": 59.0,
+      "rating": 3.8,
+      "price": 64.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4111,7 +4025,7 @@
         {
           "id": 9680,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3661343.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3661343.jpg"
         }
       ],
       "categories_tree": [
@@ -4128,8 +4042,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -4158,8 +4072,8 @@
       "title": "Напиток Добрый Pulpy ананас-манго сокосодержащий 450мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
-      "price": 59.0,
+      "rating": 0.0,
+      "price": 54.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4169,7 +4083,7 @@
         {
           "id": 17141,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/587.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/587.png"
         }
       ],
       "categories_tree": [
@@ -4186,8 +4100,8 @@
             {
               "id": 54,
               "name": "Напитки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AD%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4216,7 +4130,7 @@
       "title": "Корм Perfect Fit Sterile с говядиной для стерил. кошек 650г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
+      "rating": 4.1,
       "price": 289.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -4227,7 +4141,7 @@
         {
           "id": 17194,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/596.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/596.png"
         }
       ],
       "categories_tree": [
@@ -4244,8 +4158,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4274,8 +4188,8 @@
       "title": "Пиво Velkopopovicky Kozel светлое 4% 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.5,
-      "price": 74.0,
+      "rating": 0.0,
+      "price": 69.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4285,7 +4199,7 @@
         {
           "id": 9570,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3691179.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3691179.jpg"
         }
       ],
       "categories_tree": [
@@ -4302,8 +4216,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -4332,8 +4246,8 @@
       "title": "Пивной нап. Velkopopovicky Kozel темное 3.7% 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
-      "price": 74.0,
+      "rating": 0.0,
+      "price": 69.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4343,7 +4257,7 @@
         {
           "id": 9837,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3691730.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3691730.jpg"
         }
       ],
       "categories_tree": [
@@ -4360,8 +4274,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -4387,21 +4301,21 @@
     {
       "id": 618,
       "plu": "3692540",
-      "title": "Оливки Bonduelle Мансанилья с голубым сыром 300г",
+      "title": "Оливки Бондюэль Мансанилья с голубым сыром 300г",
       "sub_title": "",
       "description": "",
-      "rating": 3.5,
-      "price": 9.0,
-      "old_price": 159.0,
+      "rating": 2.4,
+      "price": 169.0,
+      "old_price": null,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
-      "slug": "olivki-bonduelle-mansanilia-s-golubym-syrom-30-618",
+      "slug": "olivki-bondiuel-mansanilia-s-golubym-syrom-300-618",
       "images": [
         {
           "id": 10426,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3692540.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3692540_InqO2Sy.png"
         }
       ],
       "categories_tree": [
@@ -4418,8 +4332,8 @@
             {
               "id": 17,
               "name": "Консервы",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4441,8 +4355,8 @@
             {
               "id": 60,
               "name": "Овощи и фрукты",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_9.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_9.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4464,8 +4378,8 @@
             {
               "id": 149,
               "name": "НАДО УСПЕТЬ",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Frame_2087325305_003.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/IMG_Categories_inout.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": true,
@@ -4489,73 +4403,15 @@
       ]
     },
     {
-      "id": 619,
-      "plu": "3692660",
-      "title": "Творог Домик в деревне мягкий 5.5% 170г",
-      "sub_title": "",
-      "description": "",
-      "rating": 4.7,
-      "price": 39.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "tvorog-domik-v-derevne-miagkii-55-170g-619",
-      "images": [
-        {
-          "id": 44686,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/9a1fa6427662d7b945d3406e0734.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
-              "children": [
-                {
-                  "id": 42,
-                  "name": "Творог",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "tvorog",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 630,
       "plu": "3792",
       "title": "Кукуруза Bonduelle Classique сладкая 340г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
-      "price": 89.0,
-      "old_price": 129.0,
-      "price_piece_unit": 261.76,
+      "rating": 0.0,
+      "price": 99.0,
+      "old_price": null,
+      "price_piece_unit": 291.18,
       "is_inout": false,
       "is_favorite": false,
       "slug": "kukuruza-bonduelle-classique-sladkaia-340g-630",
@@ -4563,7 +4419,7 @@
         {
           "id": 10099,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/3792.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/3792.jpg"
         }
       ],
       "categories_tree": [
@@ -4580,8 +4436,8 @@
             {
               "id": 17,
               "name": "Консервы",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4603,8 +4459,8 @@
             {
               "id": 60,
               "name": "Овощи и фрукты",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_9.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_9.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4633,7 +4489,7 @@
       "title": "Корм Pedigree с говядиной в соусе для собак 85г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
+      "rating": 4.8,
       "price": 19.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -4644,7 +4500,7 @@
         {
           "id": 17195,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4066615_002.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4066615_002.png"
         }
       ],
       "categories_tree": [
@@ -4661,8 +4517,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4691,7 +4547,7 @@
       "title": "Чипсы Lay's Stax нежная сметана и лук 140г",
       "sub_title": "",
       "description": "",
-      "rating": 4.2,
+      "rating": 4.3,
       "price": 209.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -4702,7 +4558,7 @@
         {
           "id": 10264,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4069903.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/Lays_STAX_SourCream.jpg"
         }
       ],
       "categories_tree": [
@@ -4719,8 +4575,8 @@
             {
               "id": 64,
               "name": "Орехи, чипсы, снеки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_16.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_16.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4749,7 +4605,7 @@
       "title": "Чипсы Lay's Stax ароматные ребрышки барбекю 140г",
       "sub_title": "",
       "description": "",
-      "rating": 4.1,
+      "rating": 3.7,
       "price": 209.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -4760,7 +4616,7 @@
         {
           "id": 10542,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4069904.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/Lays_STAX_BBQ.jpg"
         }
       ],
       "categories_tree": [
@@ -4777,8 +4633,8 @@
             {
               "id": 64,
               "name": "Орехи, чипсы, снеки",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_16.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_16.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%90%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4807,7 +4663,7 @@
       "title": "Корм Chappi с говяд. по-домашнему для собак 2.5кг",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.0,
       "price": 429.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -4818,7 +4674,7 @@
         {
           "id": 17192,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/738.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/738.png"
         }
       ],
       "categories_tree": [
@@ -4835,8 +4691,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4865,8 +4721,8 @@
       "title": "Вино Абрау-Дюрсо игристое белое полусладкое 0.75л",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
-      "price": 429.0,
+      "rating": 0.0,
+      "price": 448.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4876,7 +4732,7 @@
         {
           "id": 9918,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4095504.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4095504.jpg"
         }
       ],
       "categories_tree": [
@@ -4893,8 +4749,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -4934,7 +4790,7 @@
         {
           "id": 9233,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/PLU_4105769.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/PLU_4105769.png"
         }
       ],
       "categories_tree": [
@@ -4951,8 +4807,8 @@
             {
               "id": 28,
               "name": "Масло, соусы, специи",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9C%D0%B0%D1%81%D0%BB%D0%B0_%D1%81%D0%BE%D1%83%D1%81%D1%8B_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B8_UYVVuPZ.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%91__%D0%91%D0%93%D0%91%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9C%D0%B0%D1%81%D0%BB%D0%B0_%D1%81%D0%BE%D1%83%D1%81%D1%8B_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B8_UYVVuPZ.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%91__%D0%91%D0%93%D0%91%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -4981,7 +4837,7 @@
       "title": "Корм Whiskas сухой с говядиной для кошек 350г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.5,
       "price": 109.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -4992,7 +4848,7 @@
         {
           "id": 17196,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/747.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/747.png"
         }
       ],
       "categories_tree": [
@@ -5009,8 +4865,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5039,7 +4895,7 @@
       "title": "Напиток Джин-Тоник сл/алк. 9% 0.45л",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 0.0,
       "price": 69.0,
       "old_price": 79.0,
       "price_piece_unit": null,
@@ -5050,7 +4906,7 @@
         {
           "id": 11493,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/0_0_orig.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/0_0_orig.jpg"
         }
       ],
       "categories_tree": [
@@ -5067,8 +4923,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -5097,8 +4953,8 @@
       "title": "Настойка сладкая Зимняя Деревенька 19% 0.5л",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
-      "price": 299.0,
+      "rating": 0.0,
+      "price": 319.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -5108,7 +4964,7 @@
         {
           "id": 9945,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4116477.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4116477.jpg"
         }
       ],
       "categories_tree": [
@@ -5125,8 +4981,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -5155,7 +5011,7 @@
       "title": "Масло СВЕТАЕВО Традиционное 82.5% 180г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.3,
       "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5166,7 +5022,22 @@
         {
           "id": 42836,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/Svetaevo_Maslo_82-1-3-4_%D0%BB_0001_qfgLXtL.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4116700_221.jpg"
+        },
+        {
+          "id": 55008,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4116700_221_2.jpg"
+        },
+        {
+          "id": 55009,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4116700_66.jpg"
+        },
+        {
+          "id": 55010,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4116700_22.jpg"
         }
       ],
       "categories_tree": [
@@ -5182,13 +5053,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 38,
@@ -5206,8 +5077,8 @@
             {
               "id": 100,
               "name": "Сыры и масло",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_2.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%9C%D0%B0%D1%81%D0%BB%D0%BE_%D0%B8_%D1%81%D1%8B%D1%80%D1%8B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_2.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%B0%D1%81%D0%BB%D0%BE_%D0%B8_%D1%81%D1%8B%D1%80%D1%8B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5247,7 +5118,7 @@
         {
           "id": 8403,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/Svetaevo_Maslo_72-1-3-4_%D0%BB_0001_1.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/ON4UnMYHTiOOnUusubucqnvkynFhQ61734273910112.jpg"
         }
       ],
       "categories_tree": [
@@ -5263,13 +5134,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 38,
@@ -5287,8 +5158,8 @@
             {
               "id": 100,
               "name": "Сыры и масло",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_2.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%9C%D0%B0%D1%81%D0%BB%D0%BE_%D0%B8_%D1%81%D1%8B%D1%80%D1%8B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_2.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%B0%D1%81%D0%BB%D0%BE_%D0%B8_%D1%81%D1%8B%D1%80%D1%8B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5317,8 +5188,8 @@
       "title": "Пивной напиток Хугарден Белое нефильтр. 4.9% 0.44л",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
-      "price": 62.0,
+      "rating": 4.3,
+      "price": 64.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -5328,7 +5199,7 @@
         {
           "id": 10185,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4117995.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4117995.jpg"
         }
       ],
       "categories_tree": [
@@ -5345,8 +5216,8 @@
             {
               "id": 1,
               "name": "Алкоголь",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card-1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A0%D0%9C-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card-1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A0%D0%9C-min.png",
               "depth": 2,
               "is_adults": true,
               "is_inout": false,
@@ -5375,8 +5246,8 @@
       "title": "Корм Whiskas желе с говядиной и ягненком для кошек 75г",
       "sub_title": "",
       "description": "",
-      "rating": 4.7,
-      "price": 22.0,
+      "rating": 4.0,
+      "price": 21.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -5386,7 +5257,7 @@
         {
           "id": 17197,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/757.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/757.png"
         }
       ],
       "categories_tree": [
@@ -5403,8 +5274,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5433,8 +5304,8 @@
       "title": "Корм Whiskas желе с курицей для кошек 75г",
       "sub_title": "",
       "description": "",
-      "rating": 4.5,
-      "price": 22.0,
+      "rating": 0.0,
+      "price": 21.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -5444,7 +5315,7 @@
         {
           "id": 17198,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/758.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/758.png"
         }
       ],
       "categories_tree": [
@@ -5461,8 +5332,8 @@
             {
               "id": 115,
               "name": "Товары для животных",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_19.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_19.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B2%D0%90%D0%9B_%D0%9F_%D0%92%D0%9B%D0%95-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5491,7 +5362,7 @@
       "title": "Батон ЩЕДРЫЙ ГОД Нарезной 400г",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.2,
       "price": 39.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5502,7 +5373,7 @@
         {
           "id": 8439,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/Shedriy_god_Baton_nareznoy_04_0001_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/Shedriy_god_Baton_nareznoy_04_0001_0001.png"
         }
       ],
       "categories_tree": [
@@ -5519,8 +5390,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5546,21 +5417,31 @@
     {
       "id": 766,
       "plu": "4124858",
-      "title": "Хлеб ЩЕДРЫЙ ГОД Бородинский формовой нарезанный 400г",
+      "title": "Хлеб ЩЕДРЫЙ ГОД Бородинский 400г",
       "sub_title": "",
       "description": "",
-      "rating": 4.2,
+      "rating": 3.3,
       "price": 34.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
       "is_favorite": false,
-      "slug": "khleb-shchedryi-god-borodinskii-formovoi-narez-766",
+      "slug": "khleb-shchedryi-god-borodinskii-400g-766",
       "images": [
         {
           "id": 13794,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A5%D0%BB%D0%B5%D0%B1_%D0%B1%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_490.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4124858_212_%D1%82%D0%B5%D0%BD%D1%8C2.jpg"
+        },
+        {
+          "id": 54931,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4124858_66.jpg"
+        },
+        {
+          "id": 54932,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4124858_669-1.jpg"
         }
       ],
       "categories_tree": [
@@ -5577,8 +5458,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5607,7 +5488,7 @@
       "title": "Хлеб ЩЕДРЫЙ ГОД Дарницкий 320г",
       "sub_title": "",
       "description": "",
-      "rating": 4.1,
+      "rating": 3.5,
       "price": 29.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5618,7 +5499,7 @@
         {
           "id": 8443,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A5%D0%BB%D0%B5%D0%B1_%D0%B4%D0%B0%D1%80%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_0001_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A5%D0%BB%D0%B5%D0%B1_%D0%B4%D0%B0%D1%80%D0%BD%D0%B8%D1%86%D0%BA%D0%B8%D0%B9_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_0001_0001.png"
         }
       ],
       "categories_tree": [
@@ -5635,8 +5516,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5665,7 +5546,7 @@
       "title": "Батон ЩЕДРЫЙ ГОД Пшеничный с отрубями 300г",
       "sub_title": "",
       "description": "",
-      "rating": 4.3,
+      "rating": 3.3,
       "price": 34.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5676,7 +5557,7 @@
         {
           "id": 13796,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%91%D0%B0%D1%82%D0%BE%D0%BD_%D1%81_%D0%BE%D1%82%D1%80%D1%83%D0%B1%D1%8F%D0%BC%D0%B8_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_490x490.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%91%D0%B0%D1%82%D0%BE%D0%BD_%D1%81_%D0%BE%D1%82%D1%80%D1%83%D0%B1%D1%8F%D0%BC%D0%B8_%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_490x490.png"
         }
       ],
       "categories_tree": [
@@ -5693,8 +5574,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5723,7 +5604,7 @@
       "title": "Молоко СВЕТАЕВО цельное сгущённое с сахаром 8.5% 360мл",
       "sub_title": "",
       "description": "",
-      "rating": 4.6,
+      "rating": 4.0,
       "price": 109.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5734,12 +5615,12 @@
         {
           "id": 21598,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/4125566._%D0%A1%D0%92%D0%95%D0%A2%D0%90%D0%95%D0%92%D0%9E_%D0%9C%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE_%D1%86%D0%B5%D0%BB.%D1%81%D0%B3%D1%83%D1%89.%D1%81_%D1%81%D0%B0%D1%85.85_360%D0%B3_900%D1%85900.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125566._%D0%A1%D0%92%D0%95%D0%A2%D0%90%D0%95%D0%92%D0%9E_%D0%9C%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE_%D1%86%D0%B5%D0%BB.%D1%81%D0%B3%D1%83%D1%89.%D1%81_%D1%81%D0%B0%D1%85.85_360%D0%B3_900%D1%85900.png"
         },
         {
           "id": 43874,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A1%D0%B2%D0%B5%D1%82%D0%B0%D0%B5%D0%B2%D0%BE_%D0%BC%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE_%D1%86%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%81%D0%B3%D1%83%D1%89_%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC_1.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A1%D0%B2%D0%B5%D1%82%D0%B0%D0%B5%D0%B2%D0%BE_%D0%BC%D0%BE%D0%BB%D0%BE%D0%BA%D0%BE_%D1%86%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%81%D0%B3%D1%83%D1%89_%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC_1.jpg"
         }
       ],
       "categories_tree": [
@@ -5755,13 +5636,13 @@
           "children": [
             {
               "id": 35,
-              "name": "Молочные продукты, яйцо",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_1.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%97%D0%9B_%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "name": "Молочные продукты, яйца",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_1.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
-              "slug": "molochnye-produkty-iaitso",
+              "slug": "molochnye-produkty-iaitsa",
               "children": [
                 {
                   "id": 39,
@@ -5786,7 +5667,7 @@
       "title": "Печенье КАРУСЕЛИ сахарное с глазурью 300г",
       "sub_title": "",
       "description": "",
-      "rating": 4.4,
+      "rating": 4.2,
       "price": 79.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5797,7 +5678,27 @@
         {
           "id": 17145,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/Karuseli_Pechenie_Chocolate_300g_work_0001_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125748.jpg"
+        },
+        {
+          "id": 55169,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125748_0.jpg"
+        },
+        {
+          "id": 55170,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125748_mac.jpg"
+        },
+        {
+          "id": 55171,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125748_2.jpg"
+        },
+        {
+          "id": 55172,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125748_sos.jpg"
         }
       ],
       "categories_tree": [
@@ -5814,8 +5715,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5844,7 +5745,7 @@
       "title": "Печенье КАРУСЕЛИ сахарное молочное 300г",
       "sub_title": "",
       "description": "",
-      "rating": 4.1,
+      "rating": 3.7,
       "price": 59.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5855,7 +5756,27 @@
         {
           "id": 17146,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/Karuseli_Pechenie_Milk_300g_work2_0001_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125762_2.jpg"
+        },
+        {
+          "id": 55173,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125762_0.jpg"
+        },
+        {
+          "id": 55174,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125762_mac.jpg"
+        },
+        {
+          "id": 55175,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125762.jpg"
+        },
+        {
+          "id": 55176,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4125762_sos.jpg"
         }
       ],
       "categories_tree": [
@@ -5872,8 +5793,8 @@
             {
               "id": 76,
               "name": "Сладости, десерты, мороженое",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_15.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5902,7 +5823,7 @@
       "title": "Минтай ДИКОЕ МОРЕ обезглавленный замороженный 1кг",
       "sub_title": "",
       "description": "",
-      "rating": 3.5,
+      "rating": 2.4,
       "price": 229.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5913,7 +5834,7 @@
         {
           "id": 40468,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/NquMsgwyCiNnaqFqCNwmsFLUmNaTau1717018020978.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/NquMsgwyCiNnaqFqCNwmsFLUmNaTau1717018020978.jpg"
         }
       ],
       "categories_tree": [
@@ -5930,8 +5851,8 @@
             {
               "id": 69,
               "name": "Рыба и морепродукты",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_8.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B0%D0%9B__%D0%90-%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_8.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B0%D0%9B__%D0%90-%D0%90%D0%93%D0%92%D0%9B-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5953,8 +5874,8 @@
             {
               "id": 131,
               "name": "Замороженные продукты",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_10_Fvmf0NW.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%A7%D0%90-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_10_Fvmf0NW.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A7%D0%90-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -5983,7 +5904,7 @@
       "title": "Плюшка КАРУСЕЛИ Московская 150г",
       "sub_title": "",
       "description": "",
-      "rating": 4.3,
+      "rating": 3.9,
       "price": 34.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5994,7 +5915,7 @@
         {
           "id": 8381,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%9F%D0%BB%D1%8E%D1%88%D0%BA%D0%B0_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%9A%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D0%B8_0001_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%9F%D0%BB%D1%8E%D1%88%D0%BA%D0%B0_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%9A%D0%B0%D1%80%D1%83%D1%81%D0%B5%D0%BB%D0%B8_0001_0001.png"
         }
       ],
       "categories_tree": [
@@ -6011,8 +5932,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6041,10 +5962,10 @@
       "title": "Говядина ВЕРНЕР тушеная высший сорт 338г",
       "sub_title": "",
       "description": "",
-      "rating": 4.3,
+      "rating": 4.0,
       "price": 189.0,
       "old_price": null,
-      "price_piece_unit": null,
+      "price_piece_unit": 559.17,
       "is_inout": false,
       "is_favorite": false,
       "slug": "goviadina-verner-tushenaia-vysshii-sort-338g-779",
@@ -6052,7 +5973,22 @@
         {
           "id": 7425,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%93%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D0%B0_%D0%92%D0%B5%D1%80%D0%BD%D0%B5%D1%80_2_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4128817_11.jpg"
+        },
+        {
+          "id": 55177,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4128817_11_2.jpg"
+        },
+        {
+          "id": 55178,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4128817_mac.jpg"
+        },
+        {
+          "id": 55179,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4128817_sos.jpg"
         }
       ],
       "categories_tree": [
@@ -6069,8 +6005,8 @@
             {
               "id": 17,
               "name": "Консервы",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6092,8 +6028,8 @@
             {
               "id": 50,
               "name": "Мясо и птица",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_7.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_7.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6119,21 +6055,21 @@
     {
       "id": 780,
       "plu": "4128818",
-      "title": "Свинина ВЕРНЕР тушеная высший сорт 338г",
+      "title": "Свинина ВЕРНЕР тушёная высший сорт 338г",
       "sub_title": "",
-      "description": "",
-      "rating": 4.7,
+      "description": "Свинина тушёная Вернер высший сорт ГОСТ — Отборное мясо, приготовленное по строгим стандартам ГОСТ, сохраняет максимум натурального вкуса и питательных веществ. Сочная структура и аппетитный аромат делают эту тушёнку идеальной для быстрых обедов, походов и домашних блюд. Без лишних добавок — только качественный продукт, который поддержит ваш ритм жизни.",
+      "rating": 4.4,
       "price": 149.0,
       "old_price": null,
-      "price_piece_unit": null,
+      "price_piece_unit": 440.83,
       "is_inout": false,
       "is_favorite": false,
-      "slug": "svinina-verner-tushenaia-vysshii-sort-338g-780",
+      "slug": "svinina-verner-tushionaia-vysshii-sort-338g-780",
       "images": [
         {
           "id": 13793,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A1%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0_%D0%92%D0%B5%D1%80%D0%BD%D0%B5%D1%80_2_0001.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A1%D0%B2%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0_%D0%92%D0%B5%D1%80%D0%BD%D0%B5%D1%80_2_0001.png"
         }
       ],
       "categories_tree": [
@@ -6150,8 +6086,8 @@
             {
               "id": 17,
               "name": "Консервы",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6173,8 +6109,8 @@
             {
               "id": 50,
               "name": "Мясо и птица",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_7.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_7.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91__%D0%92%D0%96-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6203,7 +6139,7 @@
       "title": "Лаваш ЩЕДРЫЙ ГОД Армянский тонкий 360г",
       "sub_title": "",
       "description": "",
-      "rating": 3.4,
+      "rating": 3.2,
       "price": 49.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -6214,7 +6150,7 @@
         {
           "id": 8438,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_%D0%BB%D0%B0%D0%B2%D0%B0%D1%88_%D0%BC%D0%BE%D0%BA%D0%B0%D0%BF.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A9%D0%B5%D0%B4%D1%80%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B4_%D0%BB%D0%B0%D0%B2%D0%B0%D1%88_%D0%BC%D0%BE%D0%BA%D0%B0%D0%BF.png"
         }
       ],
       "categories_tree": [
@@ -6231,8 +6167,8 @@
             {
               "id": 119,
               "name": "Хлеб и выпечка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/Card_4.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6261,7 +6197,7 @@
       "title": "Пакеты DANKE для мусора с завязками 60л 20шт",
       "sub_title": "",
       "description": "",
-      "rating": 4.3,
+      "rating": 4.1,
       "price": 99.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -6272,7 +6208,7 @@
         {
           "id": 7340,
           "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/backendprod-dpro/product_images/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B5%D1%88%D0%BA%D0%B8_20%D1%88%D1%82_490%D1%85490.png"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%9C%D1%83%D1%81%D0%BE%D1%80%D0%BD%D1%8B%D0%B5_%D0%BC%D0%B5%D1%88%D0%BA%D0%B8_20%D1%88%D1%82_490%D1%85490.png"
         }
       ],
       "categories_tree": [
@@ -6289,8 +6225,8 @@
             {
               "id": 190,
               "name": "Стирка и уборка",
-              "image": "https://chizhik.x5static.net/media/backendprod-dpro/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
-              "icon": "https://chizhik.x5static.net/media/backendprod-dpro/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_app.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A1%D1%82%D0%B8%D1%80%D0%BA%D0%B0_%D0%B8_%D1%83%D0%B1%D0%BE%D1%80%D0%BA%D0%B0_web.png",
               "depth": 2,
               "is_adults": false,
               "is_inout": false,
@@ -6305,6 +6241,226 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "khoziaistvennye-tovary",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 785,
+      "plu": "4132825",
+      "title": "Шоколад Красный октябрь Алёнка молочный 90г",
+      "sub_title": "",
+      "description": "",
+      "rating": 3.0,
+      "price": 99.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": false,
+      "is_favorite": false,
+      "slug": "shokolad-krasnyi-oktiabr-alionka-molochnyi-90g-785",
+      "images": [
+        {
+          "id": 10522,
+          "title": "Лицевая",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4132825.jpg"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 76,
+              "name": "Сладости, десерты, мороженое",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "sladosti-deserty-morozhenoe",
+              "children": [
+                {
+                  "id": 88,
+                  "name": "Шоколад",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "shokolad",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 786,
+      "plu": "4133195",
+      "title": "Вишня GREENOLA без косточек быстрозамороженная 400г",
+      "sub_title": "",
+      "description": "",
+      "rating": 3.6,
+      "price": 299.0,
+      "old_price": null,
+      "price_piece_unit": 747.5,
+      "is_inout": false,
+      "is_favorite": false,
+      "slug": "vishnia-greenola-bez-kostochek-bystrozamorozhe-786",
+      "images": [
+        {
+          "id": 10621,
+          "title": "Лицевая",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0%D0%92%D0%B8%D1%88%D0%BD%D1%8F.png"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 60,
+              "name": "Овощи и фрукты",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_9.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "ovoshchi-i-frukty",
+              "children": [
+                {
+                  "id": 61,
+                  "name": "Замороженные овощи и ягоды",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "zamorozhennye-ovoshchi-i-iagody",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 131,
+              "name": "Замороженные продукты",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_10_Fvmf0NW.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A7%D0%90-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "zamorozhennye-produkty",
+              "children": [
+                {
+                  "id": 146,
+                  "name": "Замороженные овощи и ягоды",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "zamorozhennye-ovoshchi-i-iagody",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 787,
+      "plu": "4133244",
+      "title": "Клубника GREENOLA быстрозамороженная 400г",
+      "sub_title": "",
+      "description": "",
+      "rating": 3.9,
+      "price": 129.0,
+      "old_price": null,
+      "price_piece_unit": 322.5,
+      "is_inout": false,
+      "is_favorite": false,
+      "slug": "klubnika-greenola-bystrozamorozhennaia-400g-787",
+      "images": [
+        {
+          "id": 10622,
+          "title": "Лицевая",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B0%D0%B9%D1%82%D0%B0%D0%9A%D0%BB%D1%83%D0%B1%D0%BD%D0%B8%D0%BA%D0%B0.png"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 60,
+              "name": "Овощи и фрукты",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_9.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AE%D0%99__%D0%94%D0%90%D0%93%D0%92%D0%9B-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "ovoshchi-i-frukty",
+              "children": [
+                {
+                  "id": 61,
+                  "name": "Замороженные овощи и ягоды",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "zamorozhennye-ovoshchi-i-iagody",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 131,
+              "name": "Замороженные продукты",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_10_Fvmf0NW.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A7%D0%90-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "zamorozhennye-produkty",
+              "children": [
+                {
+                  "id": 146,
+                  "name": "Замороженные овощи и ягоды",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "zamorozhennye-ovoshchi-i-iagody",
                   "children": []
                 }
               ]
