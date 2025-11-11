@@ -115,7 +115,6 @@ default_role = "any"                             # упрощает кросс-�
 
 nitpicky = True  # если хотите строгий режим
 nitpick_ignore_regex = [
-    ("py:class", r"hrequests\..*"),
     ("py:class", r".*NoneType"),  # если всплывает для typing | None и т.п.
 ]
 

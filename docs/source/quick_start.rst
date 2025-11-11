@@ -4,7 +4,7 @@ Quick Start
 .. code-block:: console
 
     pip install chizhik_api
-    python -m hrequests install
+    python -m camoufox fetch
 
 .. code-block:: python
     

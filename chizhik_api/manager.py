@@ -33,7 +33,7 @@ class ChizhikAPI:
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
     Принимает как формат Playwright, так и строчный формат."""
     browser_opts: dict[str, Any] = field(default_factory=dict)
-    """Дополнительные опции для браузера (см. hrequests.BrowserSession)"""
+    """Дополнительные опции для браузера (см. https://camoufox.com/python/installation/)"""
     CATALOG_URL: str = "https://app.chizhik.club/api/v1"
     """URL для работы с каталогом."""
     MAIN_SITE_URL: str = "https://chizhik.club/catalog/"

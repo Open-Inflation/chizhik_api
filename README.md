@@ -30,7 +30,7 @@ Chizhik (Чижик) - https://chizhik.club/
 
 ```bash
 pip install chizhik_api
-python -m hrequests install
+python -m camoufox fetch
 ```
 
 ```py
