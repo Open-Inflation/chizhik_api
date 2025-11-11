@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-import json
 import os
 from dataclasses import dataclass, field
-from typing import Any, Literal
+from typing import Any
+import asyncio
 
-import hrequests
-import hrequests.cookies
-from requests import Request
+from human_requests import HumanBrowser, HumanContext, HumanPage
+from human_requests.abstraction import FetchResponse, HttpMethod
+from camoufox.async_api import AsyncCamoufox
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -26,11 +26,9 @@ class ChizhikAPI:
     Клиент Чижика.
     """
 
-    timeout: float = 15.0
-    """Время ожидания ответа от сервера."""
-    browser: Literal["firefox", "chrome"] = "firefox"
-    """Используемый браузер: firefox / chrome."""
-    headless: bool = True
+    timeout_ms: float = 10000.0
+    """Время ожидания ответа от сервера в миллисекундах."""
+    headless: bool = False
     """Запускать браузер в headless режиме?"""
     proxy: str | None = field(default_factory=_pick_https_proxy)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть)"""
@@ -40,10 +38,16 @@ class ChizhikAPI:
     """URL для работы с каталогом."""
     MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
     """URL главной страницы сайта."""
+    MAIN_SITE_ORIGIN: str = "https://chizhik.club/"
 
     # будет создана в __post_init__
-    session: hrequests.BrowserSession = field(init=False, repr=False)
-    """Внутренняя сессия для выполнения HTTP-запросов."""
+    session: HumanBrowser = field(init=False, repr=False)
+    """Внутренняя сессия браузера для выполнения HTTP-запросов."""
+    # будет создано в warmup
+    ctx: HumanContext = field(init=False, repr=False)
+    """Внутренний контекст сессии браузера"""
+    page: HumanPage = field(init=False, repr=False)
+    """Внутренний страница сессии браузера"""
 
     Geolocation: ClassGeolocation = field(init=False)
     """API для работы с геолокацией."""
@@ -56,48 +60,49 @@ class ChizhikAPI:
 
     # ───── lifecycle ─────
     def __post_init__(self) -> None:
-        self.session = hrequests.BrowserSession(
-            session=hrequests.Session(
-                browser=self.browser,
-                timeout=self.timeout,
-            ),
-            browser=self.browser,
-            headless=self.headless,
-            proxy=self.proxy,
-            **self.browser_opts,
-        )
-
         self.Geolocation = ClassGeolocation(self, self.CATALOG_URL)
         self.Catalog = ClassCatalog(self, self.CATALOG_URL)
         self.Advertising = ClassAdvertising(self, self.CATALOG_URL)
         self.General = ClassGeneral(self, self.CATALOG_URL)
 
-    def __enter__(self):
+    async def __aenter__(self):
         """Вход в контекстный менеджер с автоматическим прогревом сессии."""
-        # self._warmup()
+        await self._warmup()
         return self
 
     # Прогрев сессии (headless ➜ cookie `session` ➜ accessToken)
-    def _warmup(self) -> None:
+    async def _warmup(self) -> None:
         """Прогрев сессии через браузер для получения человекоподобности."""
-        self.session.goto(self.MAIN_SITE_URL)
-        self.session.awaitSelector("next-route-announcer", timeout=self.timeout)
+        br = await AsyncCamoufox(
+            headless=self.headless,
+            proxy=self.proxy,
+            **self.browser_opts,
+        ).start()
 
-    def __exit__(self, *exc):
+        self.session = HumanBrowser.replace(br)
+        self.ctx = await self.session.new_context()
+        self.page = await self.ctx.new_page()
+        await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
+        await self.page.wait_for_selector("pre", timeout=self.timeout_ms, state="attached")
+        #await self.page.wait_for_load_state("networkidle")
+        #await asyncio.sleep(3)
+
+
+    async def __aexit__(self, *exc):
         """Выход из контекстного менеджера с закрытием сессии."""
-        self.close()
+        await self.close()
 
-    def close(self):
+    async def close(self):
         """Закрыть HTTP-сессию и освободить ресурсы."""
-        self.session.close()
+        await self.session.close()
 
-    def _request(
+    async def _request(
         self,
-        method: str,
+        method: HttpMethod,
         url: str,
         *,
         json_body: Any | None = None,
-    ) -> hrequests.Response:
+    ) -> FetchResponse:
         """Выполнить HTTP-запрос через внутреннюю сессию.
 
         Единая точка входа для всех HTTP-запросов библиотеки.
@@ -109,39 +114,36 @@ class ChizhikAPI:
             json_body: Тело запроса в формате JSON (опционально)
         """
         # Единая точка входа в чужую библиотеку для удобства
-        resp: hrequests.Response = self.session.request(
-            method.upper(), url, data=json_body, timeout=self.timeout
-        )
-
-        if hasattr(resp, "request"):
-            raise RuntimeError(
-                "Response object does have `request` attribute. "
-                "This may indicate an update in `hrequests` library."
-            )
-
-        ctype = resp.headers.get("content-type", "")
-        if "text/html" in ctype:
-            # исполним скрипт в браузерном контексте; куки запишутся в сессию
-            with resp.render(headless=self.headless, browser=self.browser) as rend:
-                rend.awaitSelector(selector="pre", timeout=self.timeout)
-
-                jsn = json.loads(rend.find("pre").text)
-
-                fin_resp = hrequests.Response(
-                    url=resp.url,
-                    status_code=resp.status_code,
-                    headers=resp.headers,
-                    cookies=hrequests.cookies.cookiejar_from_dict(
-                        self.session.cookies.get_dict()
-                    ),
-                    raw=json.dumps(jsn, ensure_ascii=True).encode("utf-8"),
-                )
-        else:
-            fin_resp = resp
-
-        fin_resp.request = Request(
-            method=method.upper(),
+        print(url)
+        resp: FetchResponse = await self.page.fetch(
             url=url,
-            json=json_body,
+            method=method,
+            body=json_body,
+            credentials="same-origin",
+            mode="cors",
+            timeout_ms=self.timeout_ms,
+            referrer=self.MAIN_SITE_ORIGIN,
+            headers={"Accept": "application/json, text/plain, */*"}
         )
+
+        #ctype = resp.headers.get("content-type", "")
+        #if "text/html" in ctype:
+        #    # исполним скрипт в браузерном контексте; куки запишутся в сессию
+        #    with resp.render(headless=self.headless, browser=self.browser) as rend:
+        #        rend.awaitSelector(selector="pre", timeout=self.timeout)
+#
+        #        jsn = json.loads(rend.find("pre").text)
+#
+        #        fin_resp = hrequests.Response(
+        #            url=resp.url,
+        #            status_code=resp.status_code,
+        #            headers=resp.headers,
+        #            cookies=hrequests.cookies.cookiejar_from_dict(
+        #                self.session.cookies.get_dict()
+        #            ),
+        #            raw=json.dumps(jsn, ensure_ascii=True).encode("utf-8"),
+        #        )
+        #else:
+        fin_resp = resp
+
         return fin_resp

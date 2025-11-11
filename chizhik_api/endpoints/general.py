@@ -1,6 +1,8 @@
 """Общий (не класифицируемый) функционал"""
 
-import hrequests
+from human_requests.abstraction import FetchResponse, HttpMethod
+import aiohttp
+from io import FileIO
 
 from typing import TYPE_CHECKING
 
@@ -19,6 +21,6 @@ class ClassGeneral:
         self._parent: ChizhikAPI = parent
         self.CATALOG_URL: str = CATALOG_URL
 
-    def download_image(self, url: str) -> hrequests.Response:
+    async def download_image(self, url: str) -> FileIO:
         """Скачать изображение по URL."""
-        return self._parent._request("GET", url=url)
+        result = await aiohttp.request

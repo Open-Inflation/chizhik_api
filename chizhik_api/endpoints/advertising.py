@@ -1,6 +1,6 @@
 """Реклама"""
 
-import hrequests
+from human_requests.abstraction import FetchResponse, HttpMethod
 
 from typing import TYPE_CHECKING
 
@@ -18,8 +18,8 @@ class ClassAdvertising:
         self._parent: "ChizhikAPI" = parent
         self.CATALOG_URL: str = CATALOG_URL
 
-    def active_inout(self) -> hrequests.Response:
+    async def active_inout(self) -> FetchResponse:
         """Получить активные рекламные баннеры."""
-        return self._parent._request(
-            "GET", f"{self.CATALOG_URL}/catalog/unauthorized/active_inout/"
+        return await self._parent._request(
+            HttpMethod.GET, f"{self.CATALOG_URL}/catalog/unauthorized/active_inout/"
         )

@@ -2,7 +2,7 @@
 
 from typing import Optional
 
-import hrequests
+from human_requests.abstraction import FetchResponse, HttpMethod
 
 from typing import TYPE_CHECKING
 
@@ -25,21 +25,21 @@ class ClassCatalog:
         )
         """Сервис для работы с товарами в каталоге."""
 
-    def tree(self, city_id: Optional[str] = None) -> hrequests.Response:
+    async def tree(self, city_id: Optional[str] = None) -> FetchResponse:
         """Получить дерево категорий."""
         url = f"{self.CATALOG_URL}/catalog/unauthorized/categories/"
         if city_id:
             url += f"?city_id={city_id}"
-        return self._parent._request("GET", url)
+        return await self._parent._request(HttpMethod.GET, url)
 
-    def products_list(
+    async def products_list(
         self, category_id: int, page: int = 1, city_id: Optional[str] = None
-    ) -> hrequests.Response:
+    ) -> FetchResponse:
         """Получить список продуктов в категории."""
         url = f"{self.CATALOG_URL}/catalog/unauthorized/products/?page={page}&category_id={category_id}"
         if city_id:
             url += f"&city_id={city_id}"
-        return self._parent._request("GET", url)
+        return await self._parent._request(HttpMethod.GET, url)
 
 
 class ProductService:
@@ -49,9 +49,9 @@ class ProductService:
         self._parent: "ChizhikAPI" = parent
         self.CATALOG_URL: str = CATALOG_URL
 
-    def info(
+    async def info(
         self, product_id: int, city_id: Optional[str] = None
-    ) -> hrequests.Response:
+    ) -> FetchResponse:
         """Получить информацию о товаре по его ID.
 
         Args:
@@ -65,4 +65,4 @@ class ProductService:
         url = f"{self.CATALOG_URL}/catalog/unauthorized/products/{product_id}/"
         if city_id:
             url += f"?city_id={city_id}"
-        return self._parent._request("GET", url)
+        return await self._parent._request(HttpMethod.GET, url)

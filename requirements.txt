@@ -2,4 +2,6 @@ hrequests[all]
 requests
 
 pytest
+pytest-asyncio
 pytest-jsonschema-snapshot
+pillow
