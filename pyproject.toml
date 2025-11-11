@@ -29,7 +29,7 @@ classifiers = [
 ]
 dependencies = [
     "human_requests",
-    "aiohttps",
+    "aiohttp",
 ]
 
 [project.optional-dependencies]
