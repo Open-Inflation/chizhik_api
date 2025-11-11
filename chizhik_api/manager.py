@@ -6,7 +6,7 @@ from typing import Any
 
 from camoufox.async_api import AsyncCamoufox
 from human_requests import HumanBrowser, HumanContext, HumanPage
-from human_requests.abstraction import FetchResponse, HttpMethod
+from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -29,8 +29,9 @@ class ChizhikAPI:
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = False
     """Запускать браузер в headless режиме?"""
-    proxy: str | None = field(default_factory=_pick_https_proxy)
-    """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть)"""
+    proxy: str | dict | None = field(default_factory=_pick_https_proxy)
+    """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
+    Принимает как формат Playwright, так и строчный формат."""
     browser_opts: dict[str, Any] = field(default_factory=dict)
     """Дополнительные опции для браузера (см. hrequests.BrowserSession)"""
     CATALOG_URL: str = "https://app.chizhik.club/api/v1"
@@ -74,7 +75,7 @@ class ChizhikAPI:
         """Прогрев сессии через браузер для получения человекоподобности."""
         br = await AsyncCamoufox(
             headless=self.headless,
-            proxy=self.proxy,
+            proxy=Proxy(self.proxy).as_dict() if self.proxy else None,
             **self.browser_opts,
         ).start()
 

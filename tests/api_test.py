@@ -1,4 +1,3 @@
-# test_api.py
 import os
 
 import pytest
