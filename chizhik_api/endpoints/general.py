@@ -31,4 +31,4 @@ class ClassGeneral:
                 body = await resp.read()
                 file = BytesIO(body)
                 file.name = url.split("/")[-1]
-                return file
+        return file

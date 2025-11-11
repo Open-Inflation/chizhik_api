@@ -54,5 +54,9 @@ version = { attr = "chizhik_api.__version__" }
 pythonpath = ["."]
 testpaths = ["tests"]
 python_files = ["*_test.py", "*_tests.py"]
+filterwarnings = [
+    "ignore::pytest.PytestUnraisableExceptionWarning",
+    "ignore:Event loop is closed:RuntimeWarning",
+]
 anyio_mode = "auto"
 addopts = "-v --tb=short --disable-warnings"
