@@ -3,6 +3,6 @@ human_requests
 aiohttp
 
 pytest
-pytest-asyncio
+pytest-anyio
 pytest-jsonschema-snapshot
 pillow
