@@ -28,9 +28,7 @@ class ClassGeneral:
         retry_options = ExponentialRetry(attempts=retry_attempts, start_timeout=3.0, max_timeout=timeout)
     
         async with RetryClient(retry_options=retry_options) as retry_client:
-            async with retry_client.get(url) as resp:
-                resp.raise_for_status() 
-                
+            async with retry_client.get(url, raise_for_status=True) as resp:
                 body = await resp.read()
                 file = BytesIO(body)
                 file.name = url.split("/")[-1]

@@ -74,7 +74,7 @@ async def test_product_info(api, product_data, schemashot):
 
 
 async def test_download_image(api):
-    url = "https://chizhik.x5static.net/media/chizhik-assets/product_images/3060608.jpg"
+    url = "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png"
     resp = await api.General.download_image(url)
     
     with Image.open(resp) as img:
