@@ -1,4 +1,4 @@
-chizhik\_api.endpoints.general
+﻿chizhik\_api.endpoints.general
 ==============================
 
 .. automodule:: chizhik_api.endpoints.general
@@ -8,5 +8,8 @@ chizhik\_api.endpoints.general
 
    .. autosummary::
    
+      BytesIO
       ClassGeneral
+      ExponentialRetry
+      RetryClient
    

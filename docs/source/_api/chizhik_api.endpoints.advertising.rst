@@ -1,4 +1,4 @@
-chizhik\_api.endpoints.advertising
+﻿chizhik\_api.endpoints.advertising
 ==================================
 
 .. automodule:: chizhik_api.endpoints.advertising
@@ -9,4 +9,5 @@ chizhik\_api.endpoints.advertising
    .. autosummary::
    
       ClassAdvertising
+      FetchResponse
    

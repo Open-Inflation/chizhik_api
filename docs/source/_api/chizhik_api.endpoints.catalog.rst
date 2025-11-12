@@ -1,4 +1,4 @@
-chizhik\_api.endpoints.catalog
+﻿chizhik\_api.endpoints.catalog
 ==============================
 
 .. automodule:: chizhik_api.endpoints.catalog
@@ -9,5 +9,6 @@ chizhik\_api.endpoints.catalog
    .. autosummary::
    
       ClassCatalog
+      FetchResponse
       ProductService
    

@@ -16,10 +16,21 @@
    .. autosummary::
    
       Any
+      AsyncCamoufox
       ChizhikAPI
       ClassAdvertising
       ClassCatalog
       ClassGeneral
       ClassGeolocation
-      Request
+      FetchResponse
+      HumanBrowser
+      HumanContext
+      HumanPage
+      Proxy
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+   
+      TimeoutError
    
