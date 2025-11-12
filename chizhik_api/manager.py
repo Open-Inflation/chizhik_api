@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from camoufox.async_api import AsyncCamoufox
+from playwright.async_api import TimeoutError
 from human_requests import HumanBrowser, HumanContext, HumanPage
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
 
@@ -25,7 +26,7 @@ class ChizhikAPI:
     Клиент Чижика.
     """
 
-    timeout_ms: float = 10000.0
+    timeout_ms: float = 5000.0
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = False
     """Запускать браузер в headless режиме?"""
@@ -83,9 +84,21 @@ class ChizhikAPI:
         self.ctx = await self.session.new_context()
         self.page = await self.ctx.new_page()
         await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
-        await self.page.wait_for_selector(
-            "pre", timeout=self.timeout_ms, state="attached"
-        )
+        
+        ok = False
+        try_count = 3
+        while not ok or try_count <= 0:
+            try_count -= 1
+            try:
+                await self.page.wait_for_selector(
+                    "pre", timeout=self.timeout_ms, state="attached"
+                )
+                ok = True
+            except TimeoutError:
+                await self.page.reload()
+        if not ok:
+            raise RuntimeError(self.page.content)
+        
         # await self.page.wait_for_load_state("networkidle")
         # await asyncio.sleep(3)
 
