@@ -1,15 +1,16 @@
 import pytest
 from PIL import Image
+
 from chizhik_api import ChizhikAPI
 
 
 @pytest.fixture(scope="session")
 def anyio_backend():
     """
-    Переопределяет фикстуру anyio_backend, чтобы использовать asyncio 
+    Переопределяет фикстуру anyio_backend, чтобы использовать asyncio
     для всей сессии, устраняя ScopeMismatch с фикстурой 'api'.
     """
-    return 'asyncio' 
+    return "asyncio"
 
 
 @pytest.fixture(scope="session")
@@ -60,7 +61,7 @@ async def test_tree(api, schemashot):
 
 
 async def test_products_list(api, category_data, schemashot):
-    resp = await api.Catalog.products_list(category_id=category_data)
+    resp = await api.Catalog.products_list(category_id=category_data, search="кола")
     data = resp.json()
     items = data.get("items") or []
     if not items:
@@ -76,7 +77,7 @@ async def test_product_info(api, product_data, schemashot):
 async def test_download_image(api):
     url = "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B.png"
     resp = await api.General.download_image(url)
-    
+
     with Image.open(resp) as img:
         fmt = img.format.lower()
     assert fmt in ("png", "jpeg", "webp")

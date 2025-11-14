@@ -5,9 +5,9 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from camoufox.async_api import AsyncCamoufox
-from playwright.async_api import TimeoutError
 from human_requests import HumanBrowser, HumanContext, HumanPage
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
+from playwright.async_api import TimeoutError
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -84,7 +84,7 @@ class ChizhikAPI:
         self.ctx = await self.session.new_context()
         self.page = await self.ctx.new_page()
         await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
-        
+
         ok = False
         try_count = 3
         while not ok or try_count <= 0:
@@ -98,7 +98,7 @@ class ChizhikAPI:
                 await self.page.reload()
         if not ok:
             raise RuntimeError(self.page.content)
-        
+
         # await self.page.wait_for_load_state("networkidle")
         # await asyncio.sleep(3)
 

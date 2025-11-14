@@ -1,5 +1,6 @@
 """Работа с каталогом"""
 
+import urllib.parse
 from typing import TYPE_CHECKING, Optional
 
 from human_requests.abstraction import FetchResponse, HttpMethod
@@ -31,12 +32,20 @@ class ClassCatalog:
         return await self._parent._request(HttpMethod.GET, url)
 
     async def products_list(
-        self, category_id: int, page: int = 1, city_id: Optional[str] = None
+        self,
+        page: int = 1,
+        category_id: Optional[int] = None,
+        city_id: Optional[str] = None,
+        search: Optional[str] = None,
     ) -> FetchResponse:
         """Получить список продуктов в категории."""
-        url = f"{self.CATALOG_URL}/catalog/unauthorized/products/?page={page}&category_id={category_id}"
+        url = f"{self.CATALOG_URL}/catalog/unauthorized/products/?page={page}"
+        if category_id:
+            url += f"&category_id={category_id}"
         if city_id:
             url += f"&city_id={city_id}"
+        if search:
+            url += f"&term={urllib.parse.quote(search)}"
         return await self._parent._request(HttpMethod.GET, url)
 
 
