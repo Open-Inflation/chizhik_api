@@ -7,7 +7,7 @@ from typing import Any
 from camoufox.async_api import AsyncCamoufox
 from human_requests import HumanBrowser, HumanContext, HumanPage
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
-from playwright.async_api import TimeoutError
+from playwright.async_api import TimeoutError as PWTimeoutError
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -94,7 +94,7 @@ class ChizhikAPI:
                     "pre", timeout=self.timeout_ms, state="attached"
                 )
                 ok = True
-            except TimeoutError:
+            except PWTimeoutError:
                 await self.page.reload()
         if not ok:
             raise RuntimeError(self.page.content)
