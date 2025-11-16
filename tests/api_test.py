@@ -1,6 +1,8 @@
 import pytest
 from PIL import Image
 
+import aiohttp
+from human_requests.abstraction import Proxy
 from chizhik_api import ChizhikAPI
 
 
@@ -11,6 +13,22 @@ def anyio_backend():
     для всей сессии, устраняя ScopeMismatch с фикстурой 'api'.
     """
     return "asyncio"
+
+
+async def test_proxy_ip():
+    from pyaterochka_api.manager import _pick_https_proxy
+    proxy = _pick_https_proxy()
+
+    if not proxy:
+        pytest.skip("Proxy not configured")
+
+    prx = Proxy(proxy)
+
+    async with aiohttp.ClientSession() as session:
+        async with session.get("http://httpbin.org/ip", proxy=prx.as_str()) as resp:
+            ip = (await resp.json())["origin"]
+
+    assert ip == prx._server.removeprefix("http://").removeprefix("https://").split(":")[0]
 
 
 @pytest.fixture(scope="session")
