@@ -10,7 +10,7 @@ test:
 	pytest --cov=chizhik_api --cov-report=xml --cov-report=html --cov-report=term-missing
 
 test-quick:
-	pytest --tb=short
+	pytest --tb=short --color=yes
 
 format:
 	black chizhik_api/ tests/

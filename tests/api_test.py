@@ -16,7 +16,7 @@ def anyio_backend():
 
 
 async def test_proxy_ip():
-    from pyaterochka_api.manager import _pick_https_proxy
+    from chizhik_api.manager import _pick_https_proxy
     proxy = _pick_https_proxy()
 
     if not proxy:
