@@ -76,7 +76,7 @@ class ChizhikAPI:
         """Прогрев сессии через браузер для получения человекоподобности."""
         br = await AsyncCamoufox(
             headless=self.headless,
-            proxy=Proxy(self.proxy).as_dict() if self.proxy else None,
+            proxy=Proxy(self.proxy).as_dict(),
             **self.browser_opts,
         ).start()
 
