@@ -22,12 +22,18 @@ concurrency:
 jobs:
   tests:
     runs-on: [self-hosted]  # или просто "scrapper" если это label
+    
+    # Добавляем контейнер с Docker
+    container:
+      image: mcr.microsoft.com/playwright/python:v1.48.0-jammy
+      options: --user 1001:1001  # важно для правильных разрешений
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python (внутри контейнера)
+        # setup-python не нужен внутри контейнера Playwright, но можно оставить
         uses: actions/setup-python@v5
         with:
           python-version: ${{ inputs.python-version || '3.13' }}
