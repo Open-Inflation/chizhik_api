@@ -233,7 +233,10 @@
       }
     },
     "required_ratings": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
     }
   },
   "required": [
