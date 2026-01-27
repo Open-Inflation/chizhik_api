@@ -26,7 +26,7 @@ class ChizhikAPI:
     Клиент Чижика.
     """
 
-    timeout_ms: float = 5000.0
+    timeout_ms: float = 10000.0
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = True
     """Запускать браузер в headless режиме?"""
