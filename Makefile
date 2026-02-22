@@ -1,5 +1,7 @@
 .PHONY: help install install-dev test test-quick lint format type-check clean build docs example-docs build-all-docs serve-docs serve-examples ci-test prepare-release generate-badges
 
+PYTHON ?= python3
+
 install:
 	pip install .
 
@@ -12,9 +14,17 @@ test:
 test-quick:
 	pytest --tb=short --color=yes
 
+lint:
+	$(PYTHON) -m flake8 --max-line-length=100 chizhik_api/ tests/
+	$(PYTHON) -m black --check chizhik_api/ tests/
+	$(PYTHON) -m isort --profile black --line-length 100 --check-only chizhik_api/ tests/
+
+type-check:
+	$(PYTHON) -m mypy chizhik_api/
+
 format:
 	black chizhik_api/ tests/
-	isort chizhik_api/ tests/
+	isort --profile black --line-length 100 chizhik_api/ tests/
 
 clean:
 	rm -rf build/ dist/ *.egg-info/

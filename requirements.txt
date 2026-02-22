@@ -1,10 +1,11 @@
 numpy<2.0
 camoufox
-human_requests
+human_requests>=0.1.6
 aiohttp
 aiohttp-retry
 
 pytest
 pytest-anyio
 pytest-jsonschema-snapshot
+pytest-subtests
 pillow

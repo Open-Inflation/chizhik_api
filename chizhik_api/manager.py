@@ -5,7 +5,13 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from camoufox.async_api import AsyncCamoufox
-from human_requests import HumanBrowser, HumanContext, HumanPage
+from human_requests import (
+    ApiParent,
+    HumanBrowser,
+    HumanContext,
+    HumanPage,
+    api_child_field,
+)
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
 from playwright.async_api import TimeoutError as PWTimeoutError
 
@@ -21,7 +27,7 @@ def _pick_https_proxy() -> str | None:
 
 
 @dataclass
-class ChizhikAPI:
+class ChizhikAPI(ApiParent):
     """
     Клиент Чижика.
     """
@@ -50,21 +56,14 @@ class ChizhikAPI:
     page: HumanPage = field(init=False, repr=False)
     """Внутренний страница сессии браузера"""
 
-    Geolocation: ClassGeolocation = field(init=False)
+    Geolocation: ClassGeolocation = api_child_field(ClassGeolocation)
     """API для работы с геолокацией."""
-    Catalog: ClassCatalog = field(init=False)
+    Catalog: ClassCatalog = api_child_field(ClassCatalog)
     """API для работы с каталогом товаров."""
-    Advertising: ClassAdvertising = field(init=False)
+    Advertising: ClassAdvertising = api_child_field(ClassAdvertising)
     """API для работы с рекламой."""
-    General: ClassGeneral = field(init=False)
+    General: ClassGeneral = api_child_field(ClassGeneral)
     """API для работы с общими функциями."""
-
-    # ───── lifecycle ─────
-    def __post_init__(self) -> None:
-        self.Geolocation = ClassGeolocation(self, self.CATALOG_URL)
-        self.Catalog = ClassCatalog(self, self.CATALOG_URL)
-        self.Advertising = ClassAdvertising(self, self.CATALOG_URL)
-        self.General = ClassGeneral(self, self.CATALOG_URL)
 
     async def __aenter__(self):
         """Вход в контекстный менеджер с автоматическим прогревом сессии."""
@@ -87,7 +86,7 @@ class ChizhikAPI:
 
         ok = False
         try_count = 3
-        while not ok or try_count <= 0:
+        while not ok and try_count > 0:
             try_count -= 1
             try:
                 await self.page.wait_for_selector(
@@ -97,7 +96,7 @@ class ChizhikAPI:
             except PWTimeoutError:
                 await self.page.reload()
         if not ok:
-            raise RuntimeError(self.page.content)
+            raise RuntimeError(await self.page.content())
 
         # await self.page.wait_for_load_state("networkidle")
         # await asyncio.sleep(3)
@@ -127,8 +126,6 @@ class ChizhikAPI:
             url: URL для запроса
             json_body: Тело запроса в формате JSON (опционально)
         """
-        # Единая точка входа в чужую библиотеку для удобства
-        print(url)
         resp: FetchResponse = await self.page.fetch(
             url=url,
             method=method,

@@ -29,7 +29,7 @@ classifiers = [
 ]
 dependencies = [
     "camoufox[geoip]",
-    "human_requests",
+    "human_requests>=0.1.6",
     "aiohttp",
     "aiohttp-retry"
 ]
@@ -39,6 +39,7 @@ tests = [
     "pytest",
     "pytest-anyio",
     "pytest-jsonschema-snapshot",
+    "pytest-subtests",
     "jsoncrack-for-sphinx",
 ]
 
@@ -59,4 +60,9 @@ filterwarnings = [
     "ignore:Event loop is closed:RuntimeWarning",
 ]
 anyio_mode = "auto"
+autotest_start_class = "chizhik_api.ChizhikAPI"
+autotest_typecheck = "strict"
 addopts = "-v --tb=short --disable-warnings"
+
+[tool.mypy]
+ignore_missing_imports = true
