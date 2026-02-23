@@ -31,7 +31,7 @@ class ChizhikAPI(ApiParent):
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = True
     """Запускать браузер в headless режиме?"""
-    proxy: str | dict | None = field(default_factory=Proxy.from_env)
+    proxy: str | dict | Proxy | None = field(default_factory=Proxy.from_env)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
     Принимает как формат Playwright, так и строчный формат."""
     browser_opts: dict[str, Any] = field(default_factory=dict)
@@ -68,10 +68,12 @@ class ChizhikAPI(ApiParent):
     # Прогрев сессии (headless ➜ cookie `session` ➜ accessToken)
     async def _warmup(self) -> None:
         """Прогрев сессии через браузер для получения человекоподобности."""
+        px = self.proxy if isinstance(self.proxy, Proxy) else Proxy(self.proxy)
         br = await AsyncCamoufox(
             headless=self.headless,
-            proxy=Proxy(self.proxy).as_dict(),
+            proxy=px.as_dict(),
             **self.browser_opts,
+            block_images=True,
         ).start()
 
         self.session = HumanBrowser.replace(br)
