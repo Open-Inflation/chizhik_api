@@ -79,6 +79,7 @@ class ChizhikAPI(ApiParent):
         self.session = HumanBrowser.replace(br)
         self.ctx = await self.session.new_context()
         self.page = await self.ctx.new_page()
+        self.page.on_error_screenshot_path = "screenshot.png"
         await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
 
         ok = False
