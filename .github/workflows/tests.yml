@@ -55,4 +55,4 @@ jobs:
       - name: auto PR schema
       # отмена джобы исключается (поэтому и не always)
         if: success() || failure()
-        uses: Miskler/pytest-jsonschema-snapshot-bot@v1
+        uses: Miskler/pytest-jsonschema-snapshot-bot@v2
