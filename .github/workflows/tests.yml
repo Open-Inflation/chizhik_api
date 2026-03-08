@@ -13,8 +13,9 @@ on:
         default: "3.12"
 
 permissions:
-  contents: read
+  contents: write
   issues: write
+  pull-requests: write
 
 concurrency:
   group: tests-${{ github.ref }}
@@ -55,4 +56,6 @@ jobs:
       - name: auto PR schema
       # отмена джобы исключается (поэтому и не always)
         if: success() || failure()
-        uses: Miskler/pytest-jsonschema-snapshot-bot@v2
+        uses: Miskler/pytest-jsonschema-snapshot-bot@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
