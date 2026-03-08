@@ -42,7 +42,7 @@ jobs:
       - name: Run tests (venv)
         run: |
           set -o pipefail
-          venv/bin/python -m pytest --tb=short 2>&1 | tee error.log
+          venv/bin/python -m pytest --jsss-ci-cd --save-original --tb=short 2>&1 | tee error.log
         
       - name: report playwright failure
         if: failure()
@@ -53,6 +53,8 @@ jobs:
           screenshot_path: screenshot.png
 
       - name: auto PR schema
+      # отмена джобы исключается (поэтому и не always)
+        if: success() || failure()
         uses: Miskler/pytest-jsonschema-snapshot-bot@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
