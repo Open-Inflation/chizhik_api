@@ -56,6 +56,6 @@ jobs:
       - name: auto PR schema
       # отмена джобы исключается (поэтому и не always)
         if: success() || failure()
-        uses: Miskler/pytest-jsonschema-snapshot-bot@v6
+        uses: Miskler/pytest-jsonschema-snapshot-bot@v7
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
