@@ -1,227 +1,22 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
+  "required": [
+    "count",
+    "items",
+    "next",
+    "page_size",
+    "previous",
+    "total_pages"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "properties": {
     "count": {
-      "type": "integer"
-    },
-    "next": {
-      "type": "integer"
-    },
-    "previous": {
-      "type": "null"
-    },
-    "page_size": {
-      "type": "integer"
-    },
-    "total_pages": {
       "type": "integer"
     },
     "items": {
       "type": "array",
       "items": {
         "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer"
-          },
-          "plu": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "sub_title": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "rating": {
-            "type": "number"
-          },
-          "price": {
-            "type": "number"
-          },
-          "old_price": {
-            "type": [
-              "null",
-              "number"
-            ]
-          },
-          "price_piece_unit": {
-            "type": [
-              "null",
-              "number"
-            ]
-          },
-          "is_inout": {
-            "type": "boolean"
-          },
-          "is_favorite": {
-            "type": "boolean"
-          },
-          "slug": {
-            "type": "string"
-          },
-          "images": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "image": {
-                  "format": "uri",
-                  "type": "string"
-                }
-              },
-              "required": [
-                "id",
-                "image",
-                "title"
-              ]
-            }
-          },
-          "categories_tree": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "null"
-                },
-                "icon": {
-                  "type": "null"
-                },
-                "depth": {
-                  "type": "integer"
-                },
-                "is_adults": {
-                  "type": "boolean"
-                },
-                "is_inout": {
-                  "type": "boolean"
-                },
-                "slug": {
-                  "type": "string"
-                },
-                "children": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "integer"
-                      },
-                      "name": {
-                        "type": "string"
-                      },
-                      "image": {
-                        "format": "uri",
-                        "type": "string"
-                      },
-                      "icon": {
-                        "format": "uri",
-                        "type": "string"
-                      },
-                      "depth": {
-                        "type": "integer"
-                      },
-                      "is_adults": {
-                        "type": "boolean"
-                      },
-                      "is_inout": {
-                        "type": "boolean"
-                      },
-                      "slug": {
-                        "type": "string"
-                      },
-                      "children": {
-                        "type": "array",
-                        "items": {
-                          "type": "object",
-                          "properties": {
-                            "id": {
-                              "type": "integer"
-                            },
-                            "name": {
-                              "type": "string"
-                            },
-                            "image": {
-                              "type": "null"
-                            },
-                            "icon": {
-                              "type": "null"
-                            },
-                            "depth": {
-                              "type": "integer"
-                            },
-                            "is_adults": {
-                              "type": "boolean"
-                            },
-                            "is_inout": {
-                              "type": "boolean"
-                            },
-                            "slug": {
-                              "type": "string"
-                            },
-                            "children": {
-                              "type": "array"
-                            }
-                          },
-                          "required": [
-                            "children",
-                            "depth",
-                            "icon",
-                            "id",
-                            "image",
-                            "is_adults",
-                            "is_inout",
-                            "name",
-                            "slug"
-                          ]
-                        }
-                      }
-                    },
-                    "required": [
-                      "children",
-                      "depth",
-                      "icon",
-                      "id",
-                      "image",
-                      "is_adults",
-                      "is_inout",
-                      "name",
-                      "slug"
-                    ]
-                  }
-                }
-              },
-              "required": [
-                "children",
-                "depth",
-                "icon",
-                "id",
-                "image",
-                "is_adults",
-                "is_inout",
-                "name",
-                "slug"
-              ]
-            }
-          }
-        },
         "required": [
           "categories_tree",
           "description",
@@ -237,16 +32,230 @@
           "slug",
           "sub_title",
           "title"
-        ]
+        ],
+        "properties": {
+          "categories_tree": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "children",
+                "depth",
+                "icon",
+                "id",
+                "image",
+                "is_adults",
+                "is_inout",
+                "name",
+                "slug"
+              ],
+              "properties": {
+                "children": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "children",
+                      "depth",
+                      "icon",
+                      "id",
+                      "image",
+                      "is_adults",
+                      "is_inout",
+                      "name",
+                      "slug"
+                    ],
+                    "properties": {
+                      "children": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": [
+                            "children",
+                            "depth",
+                            "icon",
+                            "id",
+                            "image",
+                            "is_adults",
+                            "is_inout",
+                            "name",
+                            "slug"
+                          ],
+                          "properties": {
+                            "children": {
+                              "type": "array",
+                              "items": {}
+                            },
+                            "depth": {
+                              "type": "integer"
+                            },
+                            "icon": {
+                              "type": "null"
+                            },
+                            "id": {
+                              "type": "integer"
+                            },
+                            "image": {
+                              "type": "null"
+                            },
+                            "is_adults": {
+                              "type": "boolean"
+                            },
+                            "is_inout": {
+                              "type": "boolean"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      },
+                      "depth": {
+                        "type": "integer"
+                      },
+                      "icon": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "image": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "is_adults": {
+                        "type": "boolean"
+                      },
+                      "is_inout": {
+                        "type": "boolean"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "slug": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "depth": {
+                  "type": "integer"
+                },
+                "icon": {
+                  "type": "null"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "image": {
+                  "type": "null"
+                },
+                "is_adults": {
+                  "type": "boolean"
+                },
+                "is_inout": {
+                  "type": "boolean"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": {
+            "type": "string"
+          },
+          "id": {
+            "type": "integer"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "image",
+                "title"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "image": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "title": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "is_favorite": {
+            "type": "boolean"
+          },
+          "is_inout": {
+            "type": "boolean"
+          },
+          "old_price": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "plu": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          },
+          "price_piece_unit": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "number"
+              }
+            ]
+          },
+          "rating": {
+            "type": "number"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "sub_title": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          }
+        }
       }
+    },
+    "next": {
+      "type": "integer"
+    },
+    "page_size": {
+      "type": "integer"
+    },
+    "previous": {
+      "type": "null"
+    },
+    "total_pages": {
+      "type": "integer"
     }
-  },
-  "required": [
-    "count",
-    "items",
-    "next",
-    "page_size",
-    "previous",
-    "total_pages"
-  ]
+  }
 }

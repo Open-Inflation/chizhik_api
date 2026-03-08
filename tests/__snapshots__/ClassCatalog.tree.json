@@ -20,17 +20,6 @@
         "slug": "nado-uspet",
         "children": [
           {
-            "id": 165,
-            "name": "Товары текущей недели",
-            "image": null,
-            "icon": null,
-            "depth": 3,
-            "is_adults": false,
-            "is_inout": false,
-            "slug": "tovary-tekushchei-nedeli",
-            "children": []
-          },
-          {
             "id": 164,
             "name": "Товары предыдущих недель",
             "image": null,
@@ -47,7 +36,7 @@
         "id": 177,
         "name": "Готовая еда",
         "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%93%D0%BE%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B5%D0%B4%D0%B0_app_2.png",
-        "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%B3%D0%BE%D1%82_%D0%B5%D0%B4%D0%B01_Gk5AFzi.png",
+        "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%93%D0%BE%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B5%D0%B4%D0%B0_web_old.png",
         "depth": 2,
         "is_adults": false,
         "is_inout": false,
@@ -826,13 +815,13 @@
       },
       {
         "id": 17,
-        "name": "Консервы",
+        "name": "Консервация",
         "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9A%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D1%8B.png",
         "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AA%D0%91%D0%90%D0%96%D0%9F-min.png",
         "depth": 2,
         "is_adults": false,
         "is_inout": false,
-        "slug": "konservy",
+        "slug": "konservatsiia",
         "children": [
           {
             "id": 20,
