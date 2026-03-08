@@ -51,3 +51,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           log_path: error.log
           screenshot_path: screenshot.png
+
+      - name: auto PR schema
+        uses: Miskler/pytest-jsonschema-snapshot-bot@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
