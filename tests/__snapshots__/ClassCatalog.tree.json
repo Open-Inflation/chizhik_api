@@ -85,6 +85,17 @@
             "is_inout": false,
             "slug": "perekusy",
             "children": []
+          },
+          {
+            "id": 182,
+            "name": "Напитки",
+            "image": null,
+            "icon": null,
+            "depth": 3,
+            "is_adults": false,
+            "is_inout": false,
+            "slug": "napitki",
+            "children": []
           }
         ]
       },
