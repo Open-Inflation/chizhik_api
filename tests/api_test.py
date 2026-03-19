@@ -2,9 +2,10 @@ from typing import Any
 
 import aiohttp
 import pytest
-from human_requests import autotest_depends_on, autotest_hook, autotest_params
+from human_requests import autotest_depends_on, autotest_hook, autotest_params, autotest_data
 from human_requests.abstraction import Proxy
-from human_requests.autotest import AutotestCallContext, AutotestContext
+from human_requests.autotest import AutotestCallContext, AutotestContext,AutotestDataContext
+
 from PIL import Image
 
 from chizhik_api import ChizhikAPI
@@ -24,7 +25,7 @@ def anyio_backend():
 @pytest.fixture(scope="session")
 async def api():
     """Фикстура для инициализации API в рамках сессии."""
-    async with ChizhikAPI() as api_instance:
+    async with ChizhikAPI(headless=False, test_mode=True) as api_instance:
         yield api_instance
 
 
@@ -85,6 +86,16 @@ def _product_info_params(ctx: AutotestCallContext) -> dict[str, int]:
     if isinstance(product_id, int):
         return {"product_id": product_id}
     pytest.fail("ProductService.info depends on Catalog.products_list.")
+
+
+
+@autotest_data(name="unstandard_headers")
+def _unstandard_headers_data(ctx: AutotestDataContext) -> dict[str, Any]:
+    return ctx.api.unstandard_headers
+
+@autotest_data(name="unstandard_urls")
+def _unstandard_urls_data(ctx: AutotestDataContext) -> dict[str, Any]:
+    return ctx.api.unstandard_urls
 
 
 async def test_download_image(api):

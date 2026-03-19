@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import os
+from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -11,6 +11,11 @@ from human_requests import (
     HumanContext,
     HumanPage,
     api_child_field,
+)
+from human_requests.network_analyzer.anomaly_sniffer import (
+    HeaderAnomalySniffer,
+    WaitHeader,
+    WaitSource,
 )
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
 from playwright.async_api import TimeoutError as PWTimeoutError
@@ -31,6 +36,8 @@ class ChizhikAPI(ApiParent):
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = True
     """Запускать браузер в headless режиме?"""
+    test_mode: bool = False
+    """Режим тестирования предполагает более глубокий _warmup который не требуется для обычного использования"""
     proxy: str | dict | Proxy | None = field(default_factory=Proxy.from_env)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
     Принимает как формат Playwright, так и строчный формат."""
@@ -50,6 +57,11 @@ class ChizhikAPI(ApiParent):
     """Внутренний контекст сессии браузера"""
     page: HumanPage = field(init=False, repr=False)
     """Внутренний страница сессии браузера"""
+
+    unstandard_headers: dict[str, str] = field(init=False, repr=False)
+    """Список нестандартных заголовков пойманных при инициализации"""
+    unstandard_urls: dict[str, list[str]] = field(init=False, repr=False)
+    """Список нестандартных заголовков пойманных при инициализации"""
 
     Geolocation: ClassGeolocation = api_child_field(ClassGeolocation)
     """API для работы с геолокацией."""
@@ -74,30 +86,43 @@ class ChizhikAPI(ApiParent):
             proxy=px.as_dict(),
             **self.browser_opts,
             block_images=True,
+            i_know_what_im_doing=True,
         ).start()
 
         self.session = HumanBrowser.replace(br)
         self.ctx = await self.session.new_context()
         self.page = await self.ctx.new_page()
         self.page.on_error_screenshot_path = "screenshot.png"
+
+        if self.test_mode:
+            sniffer = HeaderAnomalySniffer(
+                include_subresources=True,  # или False, если интересны только документы
+                url_filter=lambda u: u.startswith(self.CATALOG_URL),
+            )
+            await sniffer.start(self.ctx)
+
+            await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
+            await self.page.wait_for_selector("next-route-announcer", state="attached")
+            
+            result_sniffer = await sniffer.complete()
+
+            # Результат: {заголовок: [уникальные значения]}
+            result = defaultdict(set)
+
+            # Проходим по всем URL в 'request'
+            for _url, headers in result_sniffer["request"].items():
+                for header, values in headers.items():
+                    result[header].update(values)  # добавляем значения, set уберёт дубли
+
+            # Преобразуем set обратно в list
+            self.unstandard_headers = {k: list(v)[0] for k, v in result.items()}
+            self.unstandard_urls = result_sniffer["request"]
+
         await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
 
-        ok = False
-        try_count = 3
-        while not ok and try_count > 0:
-            try_count -= 1
-            try:
-                await self.page.wait_for_selector(
-                    "pre", timeout=self.timeout_ms, state="attached"
-                )
-                ok = True
-            except PWTimeoutError:
-                await self.page.reload()
-        if not ok:
-            raise RuntimeError(await self.page.content())
-
-        # await self.page.wait_for_load_state("networkidle")
-        # await asyncio.sleep(3)
+        await self.page.wait_for_selector(
+            "pre", timeout=self.timeout_ms, state="attached"
+        )
 
     async def __aexit__(self, *exc):
         """Выход из контекстного менеджера с закрытием сессии."""
