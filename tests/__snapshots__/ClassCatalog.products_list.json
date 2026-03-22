@@ -1,5 +1,5 @@
 {
-  "count": 335,
+  "count": 336,
   "next": 2,
   "previous": null,
   "page_size": 100,
@@ -128,8 +128,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 99.0,
-      "old_price": 124.0,
+      "price": 109.0,
+      "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
       "is_favorite": false,
@@ -1718,6 +1718,81 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "igryigrushkiknigi",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12756,
+      "plu": "4427176",
+      "title": "Колонка",
+      "sub_title": "bluetooth светодиодная ET-F36",
+      "description": "",
+      "rating": 0.0,
+      "price": 999.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "kolonka-12756",
+      "images": [],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 109,
+              "name": "Товары для дома",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_APP.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_WEB.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "tovary-dlia-doma",
+              "children": [
+                {
+                  "id": 160,
+                  "name": "Бытовая техника",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "bytovaia-tekhnika",
                   "children": []
                 }
               ]
@@ -4827,87 +4902,6 @@
           "id": 60553,
           "title": "",
           "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4323780.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 54,
-              "name": "Напитки",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "napitki",
-              "children": [
-                {
-                  "id": 56,
-                  "name": "Газированные напитки",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "gazirovannye-napitki",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": 149,
-              "name": "НАДО УСПЕТЬ",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": true,
-              "slug": "nado-uspet",
-              "children": [
-                {
-                  "id": 164,
-                  "name": "Товары предыдущих недель",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "tovary-predydushchikh-nedel",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8758,
-      "plu": "4283429",
-      "title": "Напиток Добрый Cola ваниль газир. 1.5л",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 9.0,
-      "old_price": 119.0,
-      "price_piece_unit": null,
-      "is_inout": true,
-      "is_favorite": false,
-      "slug": "napitok-dobryi-cola-vanil-gazir-15l-8758",
-      "images": [
-        {
-          "id": 44424,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4283429.png"
         }
       ],
       "categories_tree": [
