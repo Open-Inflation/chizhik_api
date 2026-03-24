@@ -31,7 +31,7 @@ def anyio_backend():
 @pytest.fixture(scope="session")
 async def api():
     """Фикстура для инициализации API в рамках сессии."""
-    async with ChizhikAPI(headless=False, test_mode=True) as api_instance:
+    async with ChizhikAPI(headless=True, test_mode=True) as api_instance:
         yield api_instance
 
 
