@@ -16,6 +16,7 @@
     "price",
     "price_piece_unit",
     "rating",
+    "required_ratings",
     "reviews_count",
     "slug",
     "sub_title",
@@ -221,10 +222,10 @@
           "value": {
             "anyOf": [
               {
-                "type": "number"
+                "type": "string"
               },
               {
-                "type": "string"
+                "type": "number"
               }
             ]
           }

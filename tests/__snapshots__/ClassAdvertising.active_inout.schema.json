@@ -6,16 +6,6 @@
   ],
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "properties": {
-    "background": {
-      "type": "string",
-      "format": "uri"
-    },
-    "banner": {
-      "type": "null"
-    },
-    "description": {
-      "type": "string"
-    },
     "detail": {
       "type": "array",
       "items": {
@@ -38,74 +28,8 @@
         }
       }
     },
-    "end_timestamp": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "image": {
-      "type": "string",
-      "format": "uri"
-    },
-    "is_thematic": {
-      "type": "boolean"
-    },
-    "logo": {
-      "type": "string",
-      "format": "uri"
-    },
-    "pdf": {
-      "type": "string",
-      "format": "uri"
-    },
-    "pdf_data": {
-      "type": "object",
-      "required": [
-        "background_color",
-        "banner",
-        "file",
-        "image",
-        "subtitle",
-        "text_color",
-        "title"
-      ],
-      "properties": {
-        "background_color": {
-          "type": "string"
-        },
-        "banner": {
-          "type": "null"
-        },
-        "file": {
-          "type": "string",
-          "format": "uri"
-        },
-        "image": {
-          "type": "string",
-          "format": "uri"
-        },
-        "subtitle": {
-          "type": "string"
-        },
-        "text_color": {
-          "type": "string"
-        },
-        "title": {
-          "type": "string"
-        }
-      }
-    },
     "show": {
       "type": "boolean"
-    },
-    "start_timestamp": {
-      "type": "string",
-      "format": "date-time"
-    },
-    "title": {
-      "type": "string"
-    },
-    "title_color": {
-      "type": "string"
     }
   }
 }

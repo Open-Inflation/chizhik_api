@@ -1,0 +1,68 @@
+{
+  "type": "object",
+  "required": [
+    "additional_icons",
+    "advert",
+    "categories_tags",
+    "description",
+    "description_html",
+    "gradient_end",
+    "gradient_start",
+    "id",
+    "image_link",
+    "name",
+    "title_color"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "additional_icons": {
+      "type": "array",
+      "items": {}
+    },
+    "advert": {
+      "type": "null"
+    },
+    "categories_tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "description": {
+      "type": "null"
+    },
+    "description_html": {
+      "type": "null"
+    },
+    "gradient_end": {
+      "type": "string"
+    },
+    "gradient_start": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "image_link": {
+      "type": "null"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    }
+  }
+}

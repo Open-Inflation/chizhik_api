@@ -1,125 +1,8 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "array",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "items": {
     "type": "object",
-    "properties": {
-      "id": {
-        "type": "integer"
-      },
-      "name": {
-        "type": "string"
-      },
-      "image": {
-        "type": "null"
-      },
-      "icon": {
-        "type": "null"
-      },
-      "depth": {
-        "type": "integer"
-      },
-      "is_adults": {
-        "type": "boolean"
-      },
-      "is_inout": {
-        "type": "boolean"
-      },
-      "slug": {
-        "type": "string"
-      },
-      "children": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "integer"
-            },
-            "name": {
-              "type": "string"
-            },
-            "image": {
-              "format": "uri",
-              "type": "string"
-            },
-            "icon": {
-              "format": "uri",
-              "type": "string"
-            },
-            "depth": {
-              "type": "integer"
-            },
-            "is_adults": {
-              "type": "boolean"
-            },
-            "is_inout": {
-              "type": "boolean"
-            },
-            "slug": {
-              "type": "string"
-            },
-            "children": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "integer"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "image": {
-                    "type": "null"
-                  },
-                  "icon": {
-                    "type": "null"
-                  },
-                  "depth": {
-                    "type": "integer"
-                  },
-                  "is_adults": {
-                    "type": "boolean"
-                  },
-                  "is_inout": {
-                    "type": "boolean"
-                  },
-                  "slug": {
-                    "type": "string"
-                  },
-                  "children": {
-                    "type": "array"
-                  }
-                },
-                "required": [
-                  "children",
-                  "depth",
-                  "icon",
-                  "id",
-                  "image",
-                  "is_adults",
-                  "is_inout",
-                  "name",
-                  "slug"
-                ]
-              }
-            }
-          },
-          "required": [
-            "children",
-            "depth",
-            "icon",
-            "id",
-            "image",
-            "is_adults",
-            "is_inout",
-            "name",
-            "slug"
-          ]
-        }
-      }
-    },
     "required": [
       "children",
       "depth",
@@ -130,6 +13,124 @@
       "is_inout",
       "name",
       "slug"
-    ]
+    ],
+    "properties": {
+      "children": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "children",
+            "depth",
+            "icon",
+            "id",
+            "image",
+            "is_adults",
+            "is_inout",
+            "name",
+            "slug"
+          ],
+          "properties": {
+            "children": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "children",
+                  "depth",
+                  "icon",
+                  "id",
+                  "image",
+                  "is_adults",
+                  "is_inout",
+                  "name",
+                  "slug"
+                ],
+                "properties": {
+                  "children": {
+                    "type": "array",
+                    "items": {}
+                  },
+                  "depth": {
+                    "type": "integer"
+                  },
+                  "icon": {
+                    "type": "null"
+                  },
+                  "id": {
+                    "type": "integer"
+                  },
+                  "image": {
+                    "type": "null"
+                  },
+                  "is_adults": {
+                    "type": "boolean"
+                  },
+                  "is_inout": {
+                    "type": "boolean"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "depth": {
+              "type": "integer"
+            },
+            "icon": {
+              "type": "string",
+              "format": "uri"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "image": {
+              "type": "string",
+              "format": "uri"
+            },
+            "is_adults": {
+              "type": "boolean"
+            },
+            "is_inout": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "depth": {
+        "type": "integer"
+      },
+      "icon": {
+        "type": "null"
+      },
+      "id": {
+        "type": "integer"
+      },
+      "image": {
+        "type": "null"
+      },
+      "is_adults": {
+        "type": "boolean"
+      },
+      "is_inout": {
+        "type": "boolean"
+      },
+      "name": {
+        "type": "string"
+      },
+      "slug": {
+        "type": "string"
+      }
+    }
   }
 }

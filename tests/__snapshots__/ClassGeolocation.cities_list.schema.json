@@ -1,59 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "properties": {
-    "count": {
-      "type": "integer"
-    },
-    "next": {
-      "type": "null"
-    },
-    "previous": {
-      "type": "null"
-    },
-    "page_size": {
-      "type": "integer"
-    },
-    "total_pages": {
-      "type": "integer"
-    },
-    "items": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "distance": {
-            "type": "number"
-          },
-          "has_shop": {
-            "type": "boolean"
-          },
-          "fias_id": {
-            "format": "uuid",
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          },
-          "lon": {
-            "type": "number"
-          },
-          "lat": {
-            "type": "number"
-          },
-          "slug": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "distance",
-          "fias_id",
-          "has_shop",
-          "name"
-        ]
-      }
-    }
-  },
   "required": [
     "count",
     "items",
@@ -61,5 +7,62 @@
     "page_size",
     "previous",
     "total_pages"
-  ]
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "count": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "distance",
+          "fias_id",
+          "has_shop",
+          "lat",
+          "lon",
+          "name",
+          "slug"
+        ],
+        "properties": {
+          "distance": {
+            "type": "number"
+          },
+          "fias_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "has_shop": {
+            "type": "boolean"
+          },
+          "lat": {
+            "type": "number"
+          },
+          "lon": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "next": {
+      "type": "null"
+    },
+    "page_size": {
+      "type": "integer"
+    },
+    "previous": {
+      "type": "null"
+    },
+    "total_pages": {
+      "type": "integer"
+    }
+  }
 }
