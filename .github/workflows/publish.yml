@@ -11,7 +11,9 @@ on:
         options: [docs, package, all]
 
 permissions:
-  contents: read
+  contents: write
+  issues: write
+  pull-requests: write
   pages: write
   id-token: write   # нужно для PyPI Trusted Publishing (OIDC)
 
