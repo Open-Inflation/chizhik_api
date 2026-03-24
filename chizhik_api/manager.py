@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+import asyncio
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
-import asyncio
 
 from camoufox.async_api import AsyncCamoufox
 from human_requests import (
@@ -13,13 +13,8 @@ from human_requests import (
     HumanPage,
     api_child_field,
 )
-from human_requests.network_analyzer.anomaly_sniffer import (
-    HeaderAnomalySniffer,
-    WaitHeader,
-    WaitSource,
-)
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
-from playwright.async_api import TimeoutError as PWTimeoutError
+from human_requests.network_analyzer.anomaly_sniffer import HeaderAnomalySniffer
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -104,6 +99,7 @@ class ChizhikAPI(ApiParent):
             await sniffer.start(self.ctx)
 
             collected = {}
+
             def on_request(request):
                 if request.url.startswith(self.API_URL):
                     collected[request.url] = request.headers
@@ -113,11 +109,15 @@ class ChizhikAPI(ApiParent):
             await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
             await self.page.wait_for_selector("next-route-announcer", state="attached")
             await asyncio.sleep(1)
-            await self.page.locator('main a[data-qa^="sidebar-sub-category-"][data-qa$="-link"]').first.click()
-            await self.page.locator('main div[itemtype="https://schema.org/Product"]').first.click()
+            await self.page.locator(
+                'main a[data-qa^="sidebar-sub-category-"][data-qa$="-link"]'
+            ).first.click()
+            await self.page.locator(
+                'main div[itemtype="https://schema.org/Product"]'
+            ).first.click()
             await asyncio.sleep(1)
             await self.page.wait_for_load_state("load")
-            
+
             await self.ctx.unroute("**/api/**", on_request)
             result_sniffer = await sniffer.complete()
 
@@ -127,7 +127,9 @@ class ChizhikAPI(ApiParent):
             # Проходим по всем URL в 'request'
             for _url, headers in result_sniffer["request"].items():
                 for header, values in headers.items():
-                    result[header].update(values)  # добавляем значения, set уберёт дубли
+                    result[header].update(
+                        values
+                    )  # добавляем значения, set уберёт дубли
 
             # Преобразуем set обратно в list
             self.unstandard_headers = {k: list(v)[0] for k, v in result.items()}

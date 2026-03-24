@@ -39,30 +39,36 @@ class ClassCatalog(ApiChild["ChizhikAPI"], ApiParent):
         if city_id:
             url += f"?city_id={city_id}"
         return await self._parent._request(HttpMethod.GET, url)
-    
+
     @autotest
-    async def delivery_tree(self,
-                            store_id: str,
-                            mode: DeliveryMode = DeliveryMode.STORE,
-                            include_restrict: bool = True):
+    async def delivery_tree(
+        self,
+        store_id: str,
+        mode: DeliveryMode = DeliveryMode.STORE,
+        include_restrict: bool = True,
+    ):
         url = f"{self._parent.DELIVERY_API_URL}/catalog/v3/stores/{store_id}/categories?mode={mode}&include_subcategories=1&include_restrict={str(include_restrict).lower()}"
         return await self._parent._request(HttpMethod.GET, url)
 
     @autotest
-    async def delivery_tree_extended(self,
-                                     store_id: str,
-                                     category_alias: str,
-                                     mode: DeliveryMode = DeliveryMode.STORE,
-                                     include_restrict: bool = True):
+    async def delivery_tree_extended(
+        self,
+        store_id: str,
+        category_alias: str,
+        mode: DeliveryMode = DeliveryMode.STORE,
+        include_restrict: bool = True,
+    ):
         url = f"{self._parent.DELIVERY_API_URL}/catalog/v2/stores/{store_id}/categories/{category_alias}/extended?mode={mode}&include_restrict={str(include_restrict).lower()}"
         return await self._parent._request(HttpMethod.GET, url)
 
     @autotest
-    async def delivery_tree_ancestors(self,
-                                      store_id: str,
-                                      category_alias: str,
-                                      mode: DeliveryMode = DeliveryMode.STORE,
-                                      include_restrict: bool = True):
+    async def delivery_tree_ancestors(
+        self,
+        store_id: str,
+        category_alias: str,
+        mode: DeliveryMode = DeliveryMode.STORE,
+        include_restrict: bool = True,
+    ):
         url = f"{self._parent.DELIVERY_API_URL}/catalog/v3/stores/{store_id}/categories/{category_alias}/ancestors?mode={mode}&include_restrict={str(include_restrict).lower()}"
         return await self._parent._request(HttpMethod.GET, url)
 
@@ -85,25 +91,30 @@ class ClassCatalog(ApiChild["ChizhikAPI"], ApiParent):
         return await self._parent._request(HttpMethod.GET, url)
 
     @autotest
-    async def delivery_products_list(self,
-                                     store_id: str,
-                                     category_alias: str,
-                                     offset: int = 0,
-                                     limit: int = 499,
-                                     mode: DeliveryMode = DeliveryMode.STORE,
-                                     include_restrict: bool = True):
+    async def delivery_products_list(
+        self,
+        store_id: str,
+        category_alias: str,
+        offset: int = 0,
+        limit: int = 499,
+        mode: DeliveryMode = DeliveryMode.STORE,
+        include_restrict: bool = True,
+    ):
         url = f"{self._parent.DELIVERY_API_URL}/catalog/v2/stores/{store_id}/categories/{category_alias}/products?mode={mode}&include_restrict={str(include_restrict).lower()}&limit={limit}&offset={offset}"
         return await self._parent._request(HttpMethod.GET, url)
 
     @autotest
-    async def delivery_search(self,
-                              store_id: str,
-                              query: str,
-                              limit: int = 12,
-                              mode: DeliveryMode = DeliveryMode.STORE,
-                              include_restrict: bool = True):
+    async def delivery_search(
+        self,
+        store_id: str,
+        query: str,
+        limit: int = 12,
+        mode: DeliveryMode = DeliveryMode.STORE,
+        include_restrict: bool = True,
+    ):
         url = f"{self._parent.DELIVERY_API_URL}/catalog/v3/stores/{store_id}/search?mode={mode}&include_restrict={str(include_restrict).lower()}&q={query}&limit={limit}"
         return await self._parent._request(HttpMethod.GET, url)
+
 
 class ProductService(ApiChild["ChizhikAPI"]):
     """Сервис для работы с товарами в каталоге."""
@@ -126,13 +137,15 @@ class ProductService(ApiChild["ChizhikAPI"]):
         if city_id:
             url += f"?city_id={city_id}"
         return await self._parent._request(HttpMethod.GET, url)
-    
+
     @autotest
-    async def delivery_info(self,
-                            store_id: str,
-                            product_id: int,
-                            mode: DeliveryMode = DeliveryMode.STORE,
-                            include_restrict: bool = True):
+    async def delivery_info(
+        self,
+        store_id: str,
+        product_id: int,
+        mode: DeliveryMode = DeliveryMode.STORE,
+        include_restrict: bool = True,
+    ):
         # TODO
         url = f"{self._parent.DELIVERY_API_URL}/catalog/v2/stores/{store_id}/products/{product_id}?mode={mode}&include_restrict={str(include_restrict).lower()}"
         return await self._parent._request(HttpMethod.GET, url)

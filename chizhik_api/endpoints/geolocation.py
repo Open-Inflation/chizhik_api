@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from typing import TYPE_CHECKING
 from dataclasses import dataclass
+from typing import TYPE_CHECKING
 
 from human_requests import ApiChild, ApiParent, api_child_field, autotest
 from human_requests.abstraction import FetchResponse, HttpMethod
@@ -23,7 +23,6 @@ class ClassGeolocation(ApiChild["ChizhikAPI"]):
     Shop: ShopService = api_child_field(lambda parent: ShopService(parent.parent))
     """Сервис для работы с информацией о магазинах."""
 
-
     def __init__(self, parent: "ChizhikAPI"):
         super().__init__(parent)
         ApiParent.__post_init__(self)
@@ -36,6 +35,7 @@ class ClassGeolocation(ApiChild["ChizhikAPI"]):
             f"{self._parent.API_URL}/v1/geo/cities/?name={search_name}&page={page}",
         )
 
+
 class ShopService(ApiChild["ChizhikAPI"]):
     """Сервис для работы с информацией о магазинах."""
 
@@ -44,7 +44,7 @@ class ShopService(ApiChild["ChizhikAPI"]):
         """Получить список всех точек магазинов."""
         url = f"{self._parent.API_URL}/v1/shops"
         return await self._parent._request(HttpMethod.GET, url)
-    
+
     @autotest
     async def search(self, query: str) -> FetchResponse:
         """Получить список всех точек магазинов."""

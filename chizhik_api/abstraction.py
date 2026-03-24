@@ -1,4 +1,3 @@
-
 class DeliveryMode:
     """Я хз что это такое"""
 

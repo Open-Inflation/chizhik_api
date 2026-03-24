@@ -1,9 +1,17 @@
 from typing import Any
 
 import pytest
-from human_requests import autotest_depends_on, autotest_hook, autotest_params, autotest_data
-from human_requests.autotest import AutotestCallContext, AutotestContext,AutotestDataContext
-
+from human_requests import (
+    autotest_data,
+    autotest_depends_on,
+    autotest_hook,
+    autotest_params,
+)
+from human_requests.autotest import (
+    AutotestCallContext,
+    AutotestContext,
+    AutotestDataContext,
+)
 from PIL import Image
 
 from chizhik_api import ChizhikAPI
@@ -69,25 +77,32 @@ def _capture_first_store_id(
 def _delivery_tree(ctx: AutotestContext):
     return {"store_id": ctx.state["autotest_store_id"]}
 
+
 @autotest_depends_on(ShopService.search)
 @autotest_depends_on(ClassCatalog.delivery_tree)
 @autotest_params(target=ClassCatalog.delivery_tree_extended)
 def _delivery_tree_extended(ctx: AutotestContext):
-    return {"store_id": ctx.state["autotest_store_id"],
-            "category_alias": ctx.state.get("autotest_category_alias")}
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "category_alias": ctx.state.get("autotest_category_alias"),
+    }
+
 
 @autotest_depends_on(ShopService.search)
 @autotest_depends_on(ClassCatalog.delivery_tree)
 @autotest_params(target=ClassCatalog.delivery_products_list)
 def _delivery_products_list(ctx: AutotestContext):
-    return {"store_id": ctx.state["autotest_store_id"],
-            "category_alias": ctx.state.get("autotest_category_alias")}
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "category_alias": ctx.state.get("autotest_category_alias"),
+    }
+
 
 @autotest_depends_on(ShopService.search)
 @autotest_params(target=ClassCatalog.delivery_search)
 def _delivery_search(ctx: AutotestContext):
-    return {"store_id": ctx.state["autotest_store_id"],
-            "query": "кола"}
+    return {"store_id": ctx.state["autotest_store_id"], "query": "кола"}
+
 
 @autotest_hook(target=ClassCatalog.delivery_products_list)
 def _capture_first_plu(
@@ -100,15 +115,21 @@ def _capture_first_plu(
 
     store_id = data.get("products")
     if not isinstance(store_id, list):
-        pytest.fail("ClassCatalog.delivery_products_list did not return a valid category id.")
+        pytest.fail(
+            "ClassCatalog.delivery_products_list did not return a valid category id."
+        )
 
     ctx.state["autotest_plu"] = store_id[0]["plu"]
+
 
 @autotest_depends_on(ClassCatalog.delivery_tree)
 @autotest_params(target=ProductService.delivery_info)
 def _delivery_info(ctx: AutotestContext):
-    return {"store_id": ctx.state["autotest_store_id"],
-            "product_id": ctx.state.get("autotest_plu")}
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "product_id": ctx.state.get("autotest_plu"),
+    }
+
 
 @autotest_hook(target=ClassCatalog.delivery_tree_extended)
 def _capture_first_subcategory_alias(
@@ -125,12 +146,16 @@ def _capture_first_subcategory_alias(
 
     ctx.state["autotest_subcategory_alias"] = store_id[0]["id"]
 
+
 @autotest_depends_on(ShopService.search)
 @autotest_depends_on(ClassCatalog.delivery_tree_extended)
 @autotest_params(target=ClassCatalog.delivery_tree_ancestors)
 def _delivery_tree_ancestors(ctx: AutotestContext):
-    return {"store_id": ctx.state["autotest_store_id"],
-            "category_alias": ctx.state.get("autotest_subcategory_alias")}
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "category_alias": ctx.state.get("autotest_subcategory_alias"),
+    }
+
 
 @autotest_depends_on(ClassCatalog.tree)
 @autotest_params(target=ClassCatalog.products_list)
@@ -189,10 +214,10 @@ def _product_info_params(ctx: AutotestCallContext) -> dict[str, int]:
     pytest.fail("ProductService.info depends on Catalog.products_list.")
 
 
-
 @autotest_data(name="unstandard_headers")
 def _unstandard_headers_data(ctx: AutotestDataContext) -> dict[str, Any]:
     return ctx.api.unstandard_headers
+
 
 @autotest_data(name="unstandard_urls")
 def _unstandard_urls_data(ctx: AutotestDataContext) -> dict[str, Any]:
