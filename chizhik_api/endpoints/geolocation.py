@@ -33,7 +33,7 @@ class ClassGeolocation(ApiChild["ChizhikAPI"]):
         """Получить список городов по частичному совпадению имени."""
         return await self._parent._request(
             HttpMethod.GET,
-            f"{self._parent.CATALOG_URL}/geo/cities/?name={search_name}&page={page}",
+            f"{self._parent.API_URL}/v1/geo/cities/?name={search_name}&page={page}",
         )
 
 class ShopService(ApiChild["ChizhikAPI"]):
@@ -42,11 +42,11 @@ class ShopService(ApiChild["ChizhikAPI"]):
     @autotest
     async def all(self) -> FetchResponse:
         """Получить список всех точек магазинов."""
-        url = f"{self._parent.CATALOG_URL}/shops"
+        url = f"{self._parent.API_URL}/v1/shops"
         return await self._parent._request(HttpMethod.GET, url)
     
     @autotest
     async def search(self, query: str) -> FetchResponse:
         """Получить список всех точек магазинов."""
-        url = f"{self._parent.CATALOG_URL}/shops?term={query}"
+        url = f"{self._parent.API_URL}/v1/shops?term={query}"
         return await self._parent._request(HttpMethod.GET, url)

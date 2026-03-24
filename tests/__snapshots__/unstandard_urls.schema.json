@@ -585,6 +585,100 @@
         }
       }
     },
+    "https://app.chizhik.club/api/v1/shops/?term=%D0%9C%D0%B0%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%BE": {
+      "type": "object",
+      "required": [
+        "accept",
+        "accept-encoding",
+        "accept-language",
+        "connection",
+        "host",
+        "origin",
+        "referer",
+        "sec-fetch-dest",
+        "sec-fetch-mode",
+        "sec-fetch-site",
+        "user-agent"
+      ],
+      "properties": {
+        "accept": {
+          "type": "string"
+        },
+        "accept-encoding": {
+          "type": "string"
+        },
+        "accept-language": {
+          "type": "string"
+        },
+        "connection": {
+          "type": "string"
+        },
+        "host": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string",
+          "format": "uri"
+        },
+        "referer": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sec-fetch-dest": {
+          "type": "string"
+        },
+        "sec-fetch-mode": {
+          "type": "string"
+        },
+        "sec-fetch-site": {
+          "type": "string"
+        },
+        "user-agent": {
+          "type": "string"
+        }
+      }
+    },
+    "https://app.chizhik.club/api/v1/shops/?term=%D0%9C%D0%B0%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%BE&utm_referrer=https%3a%2f%2fchizhik.club%2f": {
+      "type": "object",
+      "required": [
+        "accept",
+        "accept-encoding",
+        "accept-language",
+        "connection",
+        "host",
+        "origin",
+        "referer",
+        "user-agent"
+      ],
+      "properties": {
+        "accept": {
+          "type": "string"
+        },
+        "accept-encoding": {
+          "type": "string"
+        },
+        "accept-language": {
+          "type": "string"
+        },
+        "connection": {
+          "type": "string"
+        },
+        "host": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string",
+          "format": "uri"
+        },
+        "referer": {
+          "type": "string",
+          "format": "uri"
+        },
+        "user-agent": {
+          "type": "string"
+        }
+      }
+    },
     "https://app.chizhik.club/api/v1/shops/?term=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0": {
       "type": "object",
       "required": [

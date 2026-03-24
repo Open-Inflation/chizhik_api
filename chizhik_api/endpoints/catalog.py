@@ -33,7 +33,7 @@ class ClassCatalog(ApiChild["ChizhikAPI"], ApiParent):
     @autotest
     async def tree(self, city_id: Optional[str] = None) -> FetchResponse:
         """Получить дерево категорий."""
-        url = f"{self._parent.CATALOG_URL}/catalog/unauthorized/categories/"
+        url = f"{self._parent.API_URL}/v1/catalog/unauthorized/categories/"
         if city_id:
             url += f"?city_id={city_id}"
         return await self._parent._request(HttpMethod.GET, url)
@@ -47,7 +47,7 @@ class ClassCatalog(ApiChild["ChizhikAPI"], ApiParent):
         search: Optional[str] = None,
     ) -> FetchResponse:
         """Получить список продуктов в категории."""
-        url = f"{self._parent.CATALOG_URL}/catalog/unauthorized/products/?page={page}"
+        url = f"{self._parent.API_URL}/v1/catalog/unauthorized/products/?page={page}"
         if category_id:
             url += f"&category_id={category_id}"
         if city_id:
@@ -74,7 +74,7 @@ class ProductService(ApiChild["ChizhikAPI"]):
             Response: Ответ от сервера с информацией о товаре.
         """
 
-        url = f"{self._parent.CATALOG_URL}/catalog/unauthorized/products/{product_id}/"
+        url = f"{self._parent.API_URL}/v1/catalog/unauthorized/products/{product_id}/"
         if city_id:
             url += f"?city_id={city_id}"
         return await self._parent._request(HttpMethod.GET, url)

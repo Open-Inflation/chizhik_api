@@ -22,5 +22,5 @@ class ClassAdvertising(ApiChild["ChizhikAPI"]):
         """Получить активные рекламные баннеры."""
         return await self._parent._request(
             HttpMethod.GET,
-            f"{self._parent.CATALOG_URL}/catalog/unauthorized/active_inout/",
+            f"{self._parent.API_URL}/v1/catalog/unauthorized/active_inout/",
         )

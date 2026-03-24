@@ -44,7 +44,6 @@ class ChizhikAPI(ApiParent):
     Принимает как формат Playwright, так и строчный формат."""
     browser_opts: dict[str, Any] = field(default_factory=dict)
     """Дополнительные опции для браузера (см. https://camoufox.com/python/installation/)"""
-    CATALOG_URL: str = "https://app.chizhik.club/api/v1"
     API_URL: str = "https://app.chizhik.club/api"
     """URL для работы с каталогом."""
     MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
@@ -99,7 +98,7 @@ class ChizhikAPI(ApiParent):
         if self.test_mode:
             sniffer = HeaderAnomalySniffer(
                 include_subresources=True,  # или False, если интересны только документы
-                url_filter=lambda u: u.startswith(self.CATALOG_URL),
+                url_filter=lambda u: u.startswith(self.API_URL),
             )
             await sniffer.start(self.ctx)
 
@@ -133,7 +132,7 @@ class ChizhikAPI(ApiParent):
             self.unstandard_headers = {k: list(v)[0] for k, v in result.items()}
             self.unstandard_urls = collected
 
-        await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
+        await self.page.goto(f"{self.API_URL}/v1", wait_until="networkidle")
 
         await self.page.wait_for_selector(
             "pre", timeout=self.timeout_ms, state="attached"
