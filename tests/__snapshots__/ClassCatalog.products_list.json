@@ -1,5 +1,5 @@
 {
-  "count": 327,
+  "count": 339,
   "next": 2,
   "previous": null,
   "page_size": 100,
@@ -533,7 +533,7 @@
       "title": "Напиток FUN UP Кола без сахара газ. 1,5л",
       "sub_title": "",
       "description": "Кола Fun up без сахара — классический вкус, без калорий! В составе нет сахара, что отлично подойдёт для тех, кто занимается спортом, следит за фигурой или же просто правильно питается. Кола Fun up без сахара - прекрасный выбор для любителей насладиться знакомым вкусом в любое время дня!",
-      "rating": 2.3,
+      "rating": 2.4,
       "price": 89.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -693,6 +693,92 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "gazirovannye-napitki",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11216,
+      "plu": "4423573",
+      "title": "Мармелад Fruittella со вкусом колы 300г",
+      "sub_title": "",
+      "description": "",
+      "rating": 0.0,
+      "price": 129.0,
+      "old_price": 149.0,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "marmelad-fruittella-so-vkusom-koly-300g-11216",
+      "images": [
+        {
+          "id": 54107,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4423573.png"
+        },
+        {
+          "id": 54108,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4423573-1.png"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 76,
+              "name": "Сладости, десерты, мороженое",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "sladosti-deserty-morozhenoe",
+              "children": [
+                {
+                  "id": 80,
+                  "name": "Зефир/Мармелад/Пастила",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "zefirmarmeladpastila",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
                   "children": []
                 }
               ]
@@ -1063,8 +1149,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 149.0,
-      "old_price": null,
+      "price": 74.0,
+      "old_price": 149.0,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -1632,6 +1718,81 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "igryigrushkiknigi",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12756,
+      "plu": "4427176",
+      "title": "Колонка",
+      "sub_title": "bluetooth светодиодная ET-F36",
+      "description": "",
+      "rating": 0.0,
+      "price": 999.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "kolonka-12756",
+      "images": [],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 109,
+              "name": "Товары для дома",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_APP.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_WEB.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "tovary-dlia-doma",
+              "children": [
+                {
+                  "id": 160,
+                  "name": "Бытовая техника",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "bytovaia-tekhnika",
                   "children": []
                 }
               ]
@@ -3108,7 +3269,7 @@
       "title": "Колбаса ВЕРНЕР Свиная сырокопченая 250г",
       "sub_title": "",
       "description": "Сырокопченая свиная колбаса Вернер - настоящий деликатес! Изготовленная по ГОСТу, эта колбаса порадует вас своим насыщенным вкусом и ароматом. Легкие нотки коньяка и специй придают ей уникальность, а натуральный процесс копчения на щепе обеспечивает яркий и глубокий вкус. Идеально подходит как для повседневных блюд, так и для праздничного стола. Наслаждайтесь качеством и вкусом, который не оставляет равнодушным!",
-      "rating": 4.1,
+      "rating": 4.2,
       "price": 209.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -3397,6 +3558,81 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "ukhod-za-litsomtelom",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12678,
+      "plu": "4422655",
+      "title": "Колготки FAMILY COLL. р86-116",
+      "sub_title": "детские",
+      "description": "",
+      "rating": 0.0,
+      "price": 149.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "kolgotki-family-coll-r86-116-12678",
+      "images": [],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 9,
+              "name": "Детские товары",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_12_WwGmlY6.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%A4%D0%92%D0%91_%D0%92%D0%90%D0%9B-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "detskie-tovary",
+              "children": [
+                {
+                  "id": 154,
+                  "name": "Детская одежда",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "detskaia-odezhda",
                   "children": []
                 }
               ]
@@ -4400,6 +4636,81 @@
       ]
     },
     {
+      "id": 12686,
+      "plu": "4442187",
+      "title": "Конфеты ЖУЙ ЖУЙСЫ 125г",
+      "sub_title": "МИКС с нач.вк.колы/клуб/ап.жев.",
+      "description": "",
+      "rating": 0.0,
+      "price": 59.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "konfety-zhui-zhuisy-125g-12686",
+      "images": [],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 76,
+              "name": "Сладости, десерты, мороженое",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_15.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B1%D0%91%D0%92-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "sladosti-deserty-morozhenoe",
+              "children": [
+                {
+                  "id": 82,
+                  "name": "Конфеты",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "konfety",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 4792,
       "plu": "4274000",
       "title": "Колбаса ВЕРНЕР Сервелат варено-копченая кат.А 300г",
@@ -4655,6 +4966,87 @@
       ]
     },
     {
+      "id": 8758,
+      "plu": "4283429",
+      "title": "Напиток Добрый Cola ваниль газир. 1.5л",
+      "sub_title": "",
+      "description": "",
+      "rating": 0.0,
+      "price": 9.0,
+      "old_price": 119.0,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "napitok-dobryi-cola-vanil-gazir-15l-8758",
+      "images": [
+        {
+          "id": 44424,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4283429.png"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 54,
+              "name": "Напитки",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "napitki",
+              "children": [
+                {
+                  "id": 56,
+                  "name": "Газированные напитки",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "gazirovannye-napitki",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": 1007,
       "plu": "4191352",
       "title": "Колбаса ВЕРНЕР Брауншвейгская сырокопчёная 150г",
@@ -4719,7 +5111,7 @@
       "sub_title": "",
       "description": "Колбаса Вернер полукопчёная Краковская - классика вкуса и традиций! Изготовленная по ГОСТу из отборного мяса и натуральных специй, эта колбаса отличается насыщенным ароматом и гармоничным вкусом с лёгкими дымными нотками. Это достигается за счёт традиционной технологии производства по ГОСТ, которая включает в себя натуральное копчение на щепе. В составе отсутствуют соя и мясо механической обвалки, что подтверждает высокое качество. Колбаса Карковская Вернер - идеальный выбор для любителей настоящих мясных деликатесов!",
       "rating": 0.0,
-      "price": 189.0,
+      "price": 179.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -4777,8 +5169,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 29.0,
-      "old_price": null,
+      "price": 14.0,
+      "old_price": 29.0,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -4989,7 +5381,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 179.0,
+      "price": 159.0,
       "old_price": 229.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -5142,7 +5534,7 @@
       "title": "Колбаски ВЕРНЕР Охотничьи полукопченые 300г",
       "sub_title": "",
       "description": "Колбаски Вернер полукопчёные охотничьи - насыщенный аромат и яркий вкус! Традиционная технология производства из отборного мяса с добавлением ароматных специй и натуральным копчением на щепе придаёт этим колбаскам уникальный и такой знакомый вкус. В составе нет сои и мяса механической обвалки - чистый и качественный продукт для настоящих гурманов. Отличный выбор для пикников, перекусов и семейных ужинов!",
-      "rating": 3.9,
+      "rating": 3.8,
       "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5375,8 +5767,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 249.0,
-      "old_price": null,
+      "price": 199.0,
+      "old_price": 249.0,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -5460,7 +5852,7 @@
       "title": "Колбаса ВЕРНЕР Докторская вареная 500г",
       "sub_title": "",
       "description": "Колбаса Вернер Докторская — качество без компромиссов! Отборное мясо и традиционный рецепт создают мягкий, сочный и насыщенный вкус, который понравится всей семье. Отборное мясо и проверенная рецептура создают насыщенный вкус и текстуру, которые оценит каждый. Наслаждайтесь вкусом и качеством, подтверждённым временем!",
-      "rating": 2.9,
+      "rating": 3.0,
       "price": 199.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -7045,288 +7437,23 @@
       ]
     },
     {
-      "id": 10114,
-      "plu": "4404170",
-      "title": "Колбаски Futo Buta со вкусом Кимчи 50г",
+      "id": 6754,
+      "plu": "4054779",
+      "title": "Хлеб Золотой Колобок Австрийский 255г",
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 9.0,
-      "old_price": 69.0,
-      "price_piece_unit": null,
-      "is_inout": true,
-      "is_favorite": false,
-      "slug": "kolbaski-futo-buta-so-vkusom-kimchi-50g-10114",
-      "images": [
-        {
-          "id": 49469,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4404170.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 45,
-              "name": "Мясная гастрономия",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91%D0%9F_%D0%91%D0%92%D0%90%D0%9F-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "miasnaia-gastronomiia",
-              "children": [
-                {
-                  "id": 47,
-                  "name": "Колбасы",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "kolbasy",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": 149,
-              "name": "НАДО УСПЕТЬ",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": true,
-              "slug": "nado-uspet",
-              "children": [
-                {
-                  "id": 164,
-                  "name": "Товары предыдущих недель",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "tovary-predydushchikh-nedel",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3830,
-      "plu": "4252485",
-      "title": "Колбаса Папа может Фирменная вареная 500г",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 139.0,
+      "price": 39.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
       "is_favorite": false,
-      "slug": "kolbasa-papa-mozhet-firmennaia-varenaia-500g-3830",
+      "slug": "khleb-zolotoi-kolobok-avstriiskii-255g-6754",
       "images": [
         {
-          "id": 14312,
-          "title": "Лицевая",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A4%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D0%BA_-Photoroom_1.png"
-        },
-        {
-          "id": 48788,
+          "id": 36783,
           "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D0%A4%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_1_-Photoroom_1.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 45,
-              "name": "Мясная гастрономия",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91%D0%9F_%D0%91%D0%92%D0%90%D0%9F-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "miasnaia-gastronomiia",
-              "children": [
-                {
-                  "id": 47,
-                  "name": "Колбасы",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "kolbasy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3838,
-      "plu": "4257893",
-      "title": "Колбаса Папа может Ароматная с чесноком полукоп. 420г",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 149.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "kolbasa-papa-mozhet-aromatnaia-s-chesnokom-po-3838",
-      "images": [
-        {
-          "id": 18322,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4257893_PM_Arom_s_chesn_vu_420g_002_VYp7BzO.jpg"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 45,
-              "name": "Мясная гастрономия",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91%D0%9F_%D0%91%D0%92%D0%90%D0%9F-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "miasnaia-gastronomiia",
-              "children": [
-                {
-                  "id": 47,
-                  "name": "Колбасы",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "kolbasy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3900,
-      "plu": "4263542",
-      "title": "Колбаса Папа может Сервелат копченый с дымком 350г",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 149.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "kolbasa-papa-mozhet-servelat-kopchenyi-s-dymk-3900",
-      "images": [
-        {
-          "id": 14582,
-          "title": "Сверху",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/12648130.jpg"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 45,
-              "name": "Мясная гастрономия",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9C%D1%8F%D1%81%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%8F.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AC%D0%9F%D0%91%D0%9F_%D0%91%D0%92%D0%90%D0%9F-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "miasnaia-gastronomiia",
-              "children": [
-                {
-                  "id": 47,
-                  "name": "Колбасы",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "kolbasy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 10273,
-      "plu": "4283677",
-      "title": "Пирожное Покровский Хлеб Кольцо Ореховое 80г",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 34.0,
-      "old_price": null,
-      "price_piece_unit": null,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "pirozhnoe-pokrovskii-khleb-koltso-orekhovoe--10273",
-      "images": [
-        {
-          "id": 50104,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/NAzHNR4Nu2N0Qifk0bk4RHCHdvggYj1749108574606-Photoroom.jpg"
-        },
-        {
-          "id": 50105,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/HUFF0dvHLguDNUkUq6u6iNO2i8UvuO1749108574651-Photoroom.jpg"
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/293464.jfif"
         }
       ],
       "categories_tree": [
@@ -7351,92 +7478,14 @@
               "slug": "khleb-i-vypechka",
               "children": [
                 {
-                  "id": 120,
-                  "name": "Сдобные изделия",
+                  "id": 123,
+                  "name": "Хлеб",
                   "image": null,
                   "icon": null,
                   "depth": 3,
                   "is_adults": false,
                   "is_inout": false,
-                  "slug": "sdobnye-izdeliia",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5588,
-      "plu": "4298477",
-      "title": "Сыр СВЕТАЕВО Колбасный копч. плавл. 40% 400г",
-      "sub_title": "",
-      "description": "",
-      "rating": 3.5,
-      "price": 169.0,
-      "old_price": null,
-      "price_piece_unit": 422.5,
-      "is_inout": false,
-      "is_favorite": false,
-      "slug": "syr-svetaevo-kolbasnyi-kopch-plavl-40-400g-5588",
-      "images": [
-        {
-          "id": 18565,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4392299_4298477_i3DFZVX.jpg"
-        },
-        {
-          "id": 47870,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4392299_4298477_34_FlTwKgV.jpg"
-        },
-        {
-          "id": 55104,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4392299_4298477_mac_ma2gqB9.jpg"
-        },
-        {
-          "id": 55105,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4392299_4298477_sos_g3nOPjI.jpg"
-        },
-        {
-          "id": 56359,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/%D1%81%D1%8B%D1%80_%D0%BA%D0%BE%D0%BF.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 100,
-              "name": "Сыры и масло",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_2.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%9C%D0%B0%D1%81%D0%BB%D0%BE_%D0%B8_%D1%81%D1%8B%D1%80%D1%8B-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "syry-i-maslo",
-              "children": [
-                {
-                  "id": 101,
-                  "name": "Сыры плавленые",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "syry-plavlenye",
+                  "slug": "khleb",
                   "children": []
                 }
               ]

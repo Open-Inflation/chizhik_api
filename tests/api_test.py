@@ -10,7 +10,7 @@ from PIL import Image
 
 from chizhik_api import ChizhikAPI
 from chizhik_api.endpoints.catalog import ClassCatalog, ProductService
-from chizhik_api.endpoints.geolocation import ClassGeolocation
+from chizhik_api.endpoints.geolocation import ClassGeolocation, ShopService
 
 
 @pytest.fixture(scope="session")
@@ -43,6 +43,11 @@ def _capture_first_category(
         pytest.fail("Catalog.tree did not return a valid category id.")
 
     ctx.state["autotest_category_id"] = category_id
+
+
+@autotest_params(target=ShopService.search)
+def _capture_shop(ctx: AutotestContext) -> None:
+    return {"query": "Москва"}
 
 
 @autotest_depends_on(ClassCatalog.tree)

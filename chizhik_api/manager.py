@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
+import asyncio
 
 from camoufox.async_api import AsyncCamoufox
 from human_requests import (
@@ -44,6 +45,7 @@ class ChizhikAPI(ApiParent):
     browser_opts: dict[str, Any] = field(default_factory=dict)
     """Дополнительные опции для браузера (см. https://camoufox.com/python/installation/)"""
     CATALOG_URL: str = "https://app.chizhik.club/api/v1"
+    API_URL: str = "https://app.chizhik.club/api"
     """URL для работы с каталогом."""
     MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
     """URL главной страницы сайта."""
@@ -101,9 +103,22 @@ class ChizhikAPI(ApiParent):
             )
             await sniffer.start(self.ctx)
 
+            collected = {}
+            def on_request(request):
+                if request.url.startswith(self.API_URL):
+                    collected[request.url] = request.headers
+
+            self.ctx.on("request", on_request)
+
             await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
             await self.page.wait_for_selector("next-route-announcer", state="attached")
+            await asyncio.sleep(1)
+            await self.page.locator('main a[data-qa^="sidebar-sub-category-"][data-qa$="-link"]').first.click()
+            await self.page.locator('main div[itemtype="https://schema.org/Product"]').first.click()
+            await asyncio.sleep(1)
+            await self.page.wait_for_load_state("load")
             
+            await self.ctx.unroute("**/api/**", on_request)
             result_sniffer = await sniffer.complete()
 
             # Результат: {заголовок: [уникальные значения]}
@@ -116,7 +131,7 @@ class ChizhikAPI(ApiParent):
 
             # Преобразуем set обратно в list
             self.unstandard_headers = {k: list(v)[0] for k, v in result.items()}
-            self.unstandard_urls = result_sniffer["request"]
+            self.unstandard_urls = collected
 
         await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
 
