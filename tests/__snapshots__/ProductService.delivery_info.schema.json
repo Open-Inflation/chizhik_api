@@ -1,0 +1,265 @@
+{
+  "type": "object",
+  "required": [
+    "attributes",
+    "badges",
+    "can_view_reviews",
+    "cpd_labels",
+    "description",
+    "description_html",
+    "description_md",
+    "features",
+    "has_age_restriction",
+    "image_links",
+    "ingredients",
+    "ingredients_html",
+    "initial_weight_step",
+    "is_available",
+    "is_marketplace",
+    "is_various_manufacturers",
+    "labels",
+    "marketplace_informer",
+    "max_qty_per_order",
+    "median_price",
+    "min_weight",
+    "name",
+    "navigation_section",
+    "nutrients",
+    "orange_loyalty_points",
+    "package_quantity",
+    "pharmacy",
+    "plu",
+    "price_piece_unit",
+    "price_unit_label",
+    "prices",
+    "prices_cpd",
+    "promo",
+    "property_clarification",
+    "rating",
+    "social_proof",
+    "step",
+    "stickers",
+    "stock_limit",
+    "uom"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "uom",
+          "value"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "uom": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "badges": {
+      "type": "array",
+      "items": {}
+    },
+    "can_view_reviews": {
+      "type": "boolean"
+    },
+    "cpd_labels": {
+      "type": "null"
+    },
+    "description": {
+      "type": "string"
+    },
+    "description_html": {
+      "type": "null"
+    },
+    "description_md": {
+      "type": "string"
+    },
+    "features": {
+      "type": "null"
+    },
+    "has_age_restriction": {
+      "type": "boolean"
+    },
+    "image_links": {
+      "type": "object",
+      "required": [
+        "normal",
+        "small"
+      ],
+      "properties": {
+        "normal": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "small": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "ingredients": {
+      "type": "string"
+    },
+    "ingredients_html": {
+      "type": "null"
+    },
+    "initial_weight_step": {
+      "type": "string"
+    },
+    "is_available": {
+      "type": "boolean"
+    },
+    "is_marketplace": {
+      "type": "boolean"
+    },
+    "is_various_manufacturers": {
+      "type": "boolean"
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "bg_color",
+          "label",
+          "text_color"
+        ],
+        "properties": {
+          "bg_color": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "text_color": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "marketplace_informer": {
+      "type": "null"
+    },
+    "max_qty_per_order": {
+      "type": "null"
+    },
+    "median_price": {
+      "type": "null"
+    },
+    "min_weight": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "navigation_section": {
+      "type": "null"
+    },
+    "nutrients": {
+      "type": "null"
+    },
+    "orange_loyalty_points": {
+      "type": "null"
+    },
+    "package_quantity": {
+      "type": "null"
+    },
+    "pharmacy": {
+      "type": "null"
+    },
+    "plu": {
+      "type": "integer"
+    },
+    "price_piece_unit": {
+      "type": "null"
+    },
+    "price_unit_label": {
+      "type": "null"
+    },
+    "prices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "placement_type",
+          "value"
+        ],
+        "properties": {
+          "placement_type": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "prices_cpd": {
+      "type": "null"
+    },
+    "promo": {
+      "type": "null"
+    },
+    "property_clarification": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "object",
+      "required": [
+        "rates_count",
+        "rating_average",
+        "reviews_count"
+      ],
+      "properties": {
+        "rates_count": {
+          "type": "integer"
+        },
+        "rating_average": {
+          "type": "number"
+        },
+        "reviews_count": {
+          "type": "integer"
+        }
+      }
+    },
+    "social_proof": {
+      "type": "null"
+    },
+    "step": {
+      "type": "string"
+    },
+    "stickers": {
+      "type": "null"
+    },
+    "stock_limit": {
+      "type": "string"
+    },
+    "uom": {
+      "type": "string"
+    }
+  }
+}

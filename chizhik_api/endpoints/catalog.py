@@ -84,8 +84,26 @@ class ClassCatalog(ApiChild["ChizhikAPI"], ApiParent):
             url += f"&term={urllib.parse.quote(search)}"
         return await self._parent._request(HttpMethod.GET, url)
 
-    async def products_list_v2():
-        url = "https://app.chizhik.club/delivery/api/catalog/v2/stores/HB55/categories/264C39153/products?mode=store&include_restrict=true&limit=499&offset=0"
+    @autotest
+    async def delivery_products_list(self,
+                                     store_id: str,
+                                     category_alias: str,
+                                     offset: int = 0,
+                                     limit: int = 499,
+                                     mode: DeliveryMode = DeliveryMode.STORE,
+                                     include_restrict: bool = True):
+        url = f"{self._parent.DELIVERY_API_URL}/catalog/v2/stores/{store_id}/categories/{category_alias}/products?mode={mode}&include_restrict={str(include_restrict).lower()}&limit={limit}&offset={offset}"
+        return await self._parent._request(HttpMethod.GET, url)
+
+    @autotest
+    async def delivery_search(self,
+                              store_id: str,
+                              query: str,
+                              limit: int = 12,
+                              mode: DeliveryMode = DeliveryMode.STORE,
+                              include_restrict: bool = True):
+        url = f"{self._parent.DELIVERY_API_URL}/catalog/v3/stores/{store_id}/search?mode={mode}&include_restrict={str(include_restrict).lower()}&q={query}&limit={limit}"
+        return await self._parent._request(HttpMethod.GET, url)
 
 class ProductService(ApiChild["ChizhikAPI"]):
     """Сервис для работы с товарами в каталоге."""

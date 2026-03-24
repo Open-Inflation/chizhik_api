@@ -1,9 +1,7 @@
 from typing import Any
 
-import aiohttp
 import pytest
 from human_requests import autotest_depends_on, autotest_hook, autotest_params, autotest_data
-from human_requests.abstraction import Proxy
 from human_requests.autotest import AutotestCallContext, AutotestContext,AutotestDataContext
 
 from PIL import Image
@@ -72,11 +70,45 @@ def _delivery_tree(ctx: AutotestContext):
     return {"store_id": ctx.state["autotest_store_id"]}
 
 @autotest_depends_on(ShopService.search)
-@autotest_depends_on(ClassCatalog.tree)
+@autotest_depends_on(ClassCatalog.delivery_tree)
 @autotest_params(target=ClassCatalog.delivery_tree_extended)
 def _delivery_tree_extended(ctx: AutotestContext):
     return {"store_id": ctx.state["autotest_store_id"],
             "category_alias": ctx.state.get("autotest_category_alias")}
+
+@autotest_depends_on(ShopService.search)
+@autotest_depends_on(ClassCatalog.delivery_tree)
+@autotest_params(target=ClassCatalog.delivery_products_list)
+def _delivery_products_list(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"],
+            "category_alias": ctx.state.get("autotest_category_alias")}
+
+@autotest_depends_on(ShopService.search)
+@autotest_params(target=ClassCatalog.delivery_search)
+def _delivery_search(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"],
+            "query": "кола"}
+
+@autotest_hook(target=ClassCatalog.delivery_products_list)
+def _capture_first_plu(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, dict) or not data:
+        pytest.fail("ClassCatalog.delivery_products_list returned empty data.")
+
+    store_id = data.get("products")
+    if not isinstance(store_id, list):
+        pytest.fail("ClassCatalog.delivery_products_list did not return a valid category id.")
+
+    ctx.state["autotest_plu"] = store_id[0]["plu"]
+
+@autotest_depends_on(ClassCatalog.delivery_tree)
+@autotest_params(target=ProductService.delivery_info)
+def _delivery_info(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"],
+            "product_id": ctx.state.get("autotest_plu")}
 
 @autotest_hook(target=ClassCatalog.delivery_tree_extended)
 def _capture_first_subcategory_alias(
