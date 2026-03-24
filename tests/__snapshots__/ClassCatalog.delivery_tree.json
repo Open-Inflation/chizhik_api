@@ -1,0 +1,496 @@
+[
+  {
+    "id": "264C39133",
+    "name": "Основной каталог",
+    "advert": null,
+    "type": "category_list",
+    "additional_icons": [],
+    "categories": [
+      {
+        "id": "264C39140",
+        "name": "Молочные продукты, яйцо",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39140-icon-chizhik_23cb722548929e3c7817d64bf41a9aa6/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39140-additional-extended-chizhik_98f75071cee7f15a7aec4ea9b878f550/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39140-icon-chizhik_23cb722548929e3c7817d64bf41a9aa6/492x336.png"
+      },
+      {
+        "id": "264C39153",
+        "name": "Сыры и масло",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39153-icon-chizhik_4b6b1324ac66c4f81c1218e017317186/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39153-additional-extended-chizhik_8a2c430d22c0c64b451df41d7672b084/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39153-icon-chizhik_4b6b1324ac66c4f81c1218e017317186/492x336.png"
+      },
+      {
+        "id": "264C39160",
+        "name": "Крупы и макароны",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39160-icon-chizhik_7487f76684212ae49582de151d7f3195/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39160-additional-extended-chizhik_2fe5e663bfa6ccff8c3a24c57a2cc2e2/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39160-icon-chizhik_7487f76684212ae49582de151d7f3195/492x336.png"
+      },
+      {
+        "id": "264C39166",
+        "name": "Хлеб и выпечка",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39166-icon-chizhik_b9f8b48f000fac565022b5b993be2947/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39166-additional-extended-chizhik_6fb9f2401f433265bd1e88901dd686ab/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39166-icon-chizhik_b9f8b48f000fac565022b5b993be2947/492x336.png"
+      },
+      {
+        "id": "264C39172",
+        "name": "Масло, соусы, специи",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39172-icon-chizhik_b0996f3d8f6af928b18c607feae1fd68/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39172-additional-extended-chizhik_6fc50c6cd1f2178f027f8e512b6c7f86/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39172-icon-chizhik_b0996f3d8f6af928b18c607feae1fd68/492x336.png"
+      },
+      {
+        "id": "264C39207",
+        "name": "Консервация",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39207-icon-chizhik_35f45a116769de25ba4a3fb9d848127b/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39207-additional-extended-chizhik_acae5eee407a7180fd4c6e57634246eb/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39207-icon-chizhik_35f45a116769de25ba4a3fb9d848127b/492x336.png"
+      },
+      {
+        "id": "264C39184",
+        "name": "Мясо и птица",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39184-icon-chizhik_4695d4a1e97e349a6130dfcb58c218b2/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39184-additional-extended-chizhik_4a631c5420aae504a3d44be158bc4ce4/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39184-icon-chizhik_4695d4a1e97e349a6130dfcb58c218b2/492x336.png"
+      },
+      {
+        "id": "264C39179",
+        "name": "Мясная гастрономия",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39179-icon-chizhik_da3738229b8d459a550c8cc838f5571a/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39179-additional-extended-chizhik_332c7bd08d4262a7c3c94ba95646db3e/312x348.png"
+          },
+          {
+            "type": "search_tree",
+            "url": "https://catalog-images.x5static.net/category/264C39179-additional-search-tree-chizhik_a98d81548a56f7c20d49cd2aa29bd602/144x144.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39179-icon-chizhik_da3738229b8d459a550c8cc838f5571a/492x336.png"
+      },
+      {
+        "id": "264C39189",
+        "name": "Рыба и морепродукты",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39189-icon-chizhik_12b7b915ac2f3cf272cda0ded256843a/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39189-additional-extended-chizhik_12d8ff2cf1ec00b693e77f78517100c9/312x348.png"
+          },
+          {
+            "type": "search_tree",
+            "url": "https://catalog-images.x5static.net/category/264C39189-additional-search-tree-chizhik_d01d970a4e8b7fde131f0dced0ab6ed6/144x144.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39189-icon-chizhik_12b7b915ac2f3cf272cda0ded256843a/492x336.png"
+      },
+      {
+        "id": "264C39201",
+        "name": "Замороженные продукты",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39201-icon-chizhik_5958ded4ddb53da052d6dabf3304e301/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39201-additional-extended-chizhik_c73e8f444cce581de4dfc7256ee04c03/312x348.png"
+          },
+          {
+            "type": "search_tree",
+            "url": "https://catalog-images.x5static.net/category/264C39201-additional-search-tree-chizhik_13745c12a8c5adb74baa8a95f2c4ebaa/144x144.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39201-icon-chizhik_5958ded4ddb53da052d6dabf3304e301/492x336.png"
+      },
+      {
+        "id": "264C39196",
+        "name": "Овощи и фрукты",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39196-icon-chizhik_7d33329b1207d7a35593afde1e3eb7d6/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39196-additional-extended-chizhik_e66c58e2a349048e5950f5365faf593b/312x348.png"
+          },
+          {
+            "type": "search_tree",
+            "url": "https://catalog-images.x5static.net/category/264C39196-additional-search-tree-chizhik_f4fbb721cdeb10fae7a7adac99afb17c/144x144.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39196-icon-chizhik_7d33329b1207d7a35593afde1e3eb7d6/492x336.png"
+      },
+      {
+        "id": "264C39253",
+        "name": "Орехи, чипсы, снеки",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39253-icon-chizhik_40425a361c969c2a1e4c4460cb1ebb01/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39253-additional-extended-chizhik_73aaa3fde7c1bd3909a2dc7e5eae0f1d/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39253-icon-chizhik_40425a361c969c2a1e4c4460cb1ebb01/492x336.png"
+      },
+      {
+        "id": "264C39235",
+        "name": "Сладости, десерты, мороженое",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39235-icon-chizhik_8059299fdfcea2aa2dd22ad383404452/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39235-additional-extended-chizhik_c284f56d8856daebffa95713c6196b5e/312x348.png"
+          },
+          {
+            "type": "search_tree",
+            "url": "https://catalog-images.x5static.net/category/264C39235-additional-search-tree-chizhik_3773043de795dd92fcc345f88eb9d67e/144x144.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39235-icon-chizhik_8059299fdfcea2aa2dd22ad383404452/492x336.png"
+      },
+      {
+        "id": "264C39224",
+        "name": "Чай, кофе",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39224-icon-chizhik_ffc81271a9257cdeffdb7e002be5ae7d/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39224-additional-extended-chizhik_2759daa6bca90c77613c2848031e4e41/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39224-icon-chizhik_ffc81271a9257cdeffdb7e002be5ae7d/492x336.png"
+      },
+      {
+        "id": "264C39228",
+        "name": "Напитки",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39228-icon-chizhik_82a01baaa730966c2bd84a17823475d4/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39228-additional-extended-chizhik_f2d02d95949f676c0003d0e56a785423/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39228-icon-chizhik_82a01baaa730966c2bd84a17823475d4/492x336.png"
+      },
+      {
+        "id": "264C39214",
+        "name": "Детские товары",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39214-icon-chizhik_f71d5a2e60a2fe90974e888292c637aa/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39214-additional-extended-chizhik_823461baeb25d1c1b76dd4a3df923b06/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39214-icon-chizhik_f71d5a2e60a2fe90974e888292c637aa/492x336.png"
+      },
+      {
+        "id": "264C39270",
+        "name": "Товары для дома",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39270-icon-chizhik_7194606f8f977509e923392936137559/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39270-additional-extended-chizhik_fae0d2df0b9d1aa71e4ba88dd5569ce9/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39270-icon-chizhik_7194606f8f977509e923392936137559/492x336.png"
+      },
+      {
+        "id": "264C39258",
+        "name": "Средства гигиены",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39258-icon-chizhik_d0cfc8efce6121fd2231c75f68f1bc59/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39258-additional-extended-chizhik_60b5883612ba18862334aac853f23c4c/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39258-icon-chizhik_d0cfc8efce6121fd2231c75f68f1bc59/492x336.png"
+      },
+      {
+        "id": "264C39277",
+        "name": "Стирка и уборка",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39277-icon-chizhik_a4308ee840001466c8b503e5949e5f02/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39277-additional-extended-chizhik_2f2ee95aed940c609ea1ce381dc1d1be/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39277-icon-chizhik_a4308ee840001466c8b503e5949e5f02/492x336.png"
+      },
+      {
+        "id": "264C39282",
+        "name": "Товары для животных",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39282-icon-chizhik_96e8b1a1b1e921209b80647c16074e91/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39282-additional-extended-chizhik_b98ba50648658fe614e6cba735310e2d/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39282-icon-chizhik_96e8b1a1b1e921209b80647c16074e91/492x336.png"
+      },
+      {
+        "id": "264C39286",
+        "name": "Одежда, обувь, текстиль",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39286-icon-chizhik_81466c6d7ac9546c0fa51456e573d1ad/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39286-additional-extended-chizhik_231c20280c6f245f1811a21d8088fca8/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39286-icon-chizhik_81466c6d7ac9546c0fa51456e573d1ad/492x336.png"
+      },
+      {
+        "id": "264C39307",
+        "name": "Энергетики",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39307-icon-chizhik_753855db37743b631c636f11c7a6b884/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39307-additional-extended-chizhik_aec629e33a2864d500c1d6f9cb5016fa/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39307-icon-chizhik_753855db37743b631c636f11c7a6b884/492x336.png"
+      },
+      {
+        "id": "264C39295",
+        "name": "Алкоголь",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C39295-icon-chizhik_b3b045f746be4a5fbb98114f0a98066c/345x345.png",
+        "gradient_start": "#f7f8fa",
+        "gradient_end": "#f7f8fa",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C39295-additional-extended-chizhik_c84670bb0d9012faecfc8d72c34c9a37/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C39295-icon-chizhik_b3b045f746be4a5fbb98114f0a98066c/492x336.png"
+      }
+    ],
+    "products": [],
+    "image_link": null,
+    "title_color": null,
+    "gradient_start": null,
+    "gradient_end": null
+  }
+]

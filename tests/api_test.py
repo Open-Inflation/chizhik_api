@@ -50,13 +50,77 @@ def _capture_shop(ctx: AutotestContext) -> None:
     return {"query": "Москва"}
 
 
+@autotest_hook(target=ShopService.search)
+def _capture_first_store_id(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, list) or not data:
+        pytest.fail("ShopService.search returned empty data.")
+
+    store_id = data[0].get("sap_id")
+    if not isinstance(store_id, str):
+        pytest.fail("ShopService.search did not return a valid category id.")
+
+    ctx.state["autotest_store_id"] = store_id
+
+
+@autotest_depends_on(ShopService.search)
+@autotest_params(target=ClassCatalog.delivery_tree)
+def _delivery_tree(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"]}
+
+@autotest_depends_on(ShopService.search)
+@autotest_depends_on(ClassCatalog.tree)
+@autotest_params(target=ClassCatalog.delivery_tree_extended)
+def _delivery_tree_extended(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"],
+            "category_alias": ctx.state.get("autotest_category_alias")}
+
+@autotest_hook(target=ClassCatalog.delivery_tree_extended)
+def _capture_first_subcategory_alias(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, dict) or not data:
+        pytest.fail("ShopService.search returned empty data.")
+
+    store_id = data.get("categories_tags")
+    if not isinstance(store_id, list) or not store_id:
+        pytest.fail("ShopService.search did not return a valid category id.")
+
+    ctx.state["autotest_subcategory_alias"] = store_id[0]["id"]
+
+@autotest_depends_on(ShopService.search)
+@autotest_depends_on(ClassCatalog.delivery_tree_extended)
+@autotest_params(target=ClassCatalog.delivery_tree_ancestors)
+def _delivery_tree_ancestors(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"],
+            "category_alias": ctx.state.get("autotest_subcategory_alias")}
+
 @autotest_depends_on(ClassCatalog.tree)
 @autotest_params(target=ClassCatalog.products_list)
 def _products_list_params(ctx: AutotestCallContext) -> dict[str, Any]:
     category_id = ctx.state.get("autotest_category_id")
-    if isinstance(category_id, int):
-        return {"category_id": category_id, "search": "кола"}
-    pytest.fail("Catalog.products_list depends on Catalog.tree.")
+    return {"category_id": category_id, "search": "кола"}
+
+
+@autotest_hook(target=ClassCatalog.delivery_tree)
+def _capture_first_category_alias(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, list) or not data:
+        pytest.fail("Catalog.delivery_tree returned empty data.")
+
+    category_id = data[0].get("id")
+    if not isinstance(category_id, str):
+        pytest.fail("Catalog.delivery_tree did not return a valid category id.")
+
+    ctx.state["autotest_category_alias"] = category_id
 
 
 @autotest_params(target=ClassGeolocation.cities_list)

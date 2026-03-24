@@ -45,6 +45,7 @@ class ChizhikAPI(ApiParent):
     browser_opts: dict[str, Any] = field(default_factory=dict)
     """Дополнительные опции для браузера (см. https://camoufox.com/python/installation/)"""
     API_URL: str = "https://app.chizhik.club/api"
+    DELIVERY_API_URL: str = "https://app.chizhik.club/delivery/api"
     """URL для работы с каталогом."""
     MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
     """URL главной страницы сайта."""
