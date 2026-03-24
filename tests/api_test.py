@@ -1,15 +1,22 @@
 from typing import Any
 
-import aiohttp
 import pytest
-from human_requests import autotest_depends_on, autotest_hook, autotest_params
-from human_requests.abstraction import Proxy
-from human_requests.autotest import AutotestCallContext, AutotestContext
+from human_requests import (
+    autotest_data,
+    autotest_depends_on,
+    autotest_hook,
+    autotest_params,
+)
+from human_requests.autotest import (
+    AutotestCallContext,
+    AutotestContext,
+    AutotestDataContext,
+)
 from PIL import Image
 
 from chizhik_api import ChizhikAPI
 from chizhik_api.endpoints.catalog import ClassCatalog, ProductService
-from chizhik_api.endpoints.geolocation import ClassGeolocation
+from chizhik_api.endpoints.geolocation import ClassGeolocation, ShopService
 
 
 @pytest.fixture(scope="session")
@@ -24,7 +31,7 @@ def anyio_backend():
 @pytest.fixture(scope="session")
 async def api():
     """Фикстура для инициализации API в рамках сессии."""
-    async with ChizhikAPI() as api_instance:
+    async with ChizhikAPI(headless=False, test_mode=True) as api_instance:
         yield api_instance
 
 
@@ -44,13 +51,133 @@ def _capture_first_category(
     ctx.state["autotest_category_id"] = category_id
 
 
+@autotest_params(target=ShopService.search)
+def _capture_shop(ctx: AutotestContext) -> None:
+    return {"query": "Москва"}
+
+
+@autotest_hook(target=ShopService.search)
+def _capture_first_store_id(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, list) or not data:
+        pytest.fail("ShopService.search returned empty data.")
+
+    store_id = data[0].get("sap_id")
+    if not isinstance(store_id, str):
+        pytest.fail("ShopService.search did not return a valid category id.")
+
+    ctx.state["autotest_store_id"] = store_id
+
+
+@autotest_depends_on(ShopService.search)
+@autotest_params(target=ClassCatalog.delivery_tree)
+def _delivery_tree(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"]}
+
+
+@autotest_depends_on(ShopService.search)
+@autotest_depends_on(ClassCatalog.delivery_tree)
+@autotest_params(target=ClassCatalog.delivery_tree_extended)
+def _delivery_tree_extended(ctx: AutotestContext):
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "category_alias": ctx.state.get("autotest_category_alias"),
+    }
+
+
+@autotest_depends_on(ShopService.search)
+@autotest_depends_on(ClassCatalog.delivery_tree)
+@autotest_params(target=ClassCatalog.delivery_products_list)
+def _delivery_products_list(ctx: AutotestContext):
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "category_alias": ctx.state.get("autotest_category_alias"),
+    }
+
+
+@autotest_depends_on(ShopService.search)
+@autotest_params(target=ClassCatalog.delivery_search)
+def _delivery_search(ctx: AutotestContext):
+    return {"store_id": ctx.state["autotest_store_id"], "query": "кола"}
+
+
+@autotest_hook(target=ClassCatalog.delivery_products_list)
+def _capture_first_plu(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, dict) or not data:
+        pytest.fail("ClassCatalog.delivery_products_list returned empty data.")
+
+    store_id = data.get("products")
+    if not isinstance(store_id, list):
+        pytest.fail(
+            "ClassCatalog.delivery_products_list did not return a valid category id."
+        )
+
+    ctx.state["autotest_plu"] = store_id[0]["plu"]
+
+
+@autotest_depends_on(ClassCatalog.delivery_tree)
+@autotest_params(target=ProductService.delivery_info)
+def _delivery_info(ctx: AutotestContext):
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "product_id": ctx.state.get("autotest_plu"),
+    }
+
+
+@autotest_hook(target=ClassCatalog.delivery_tree_extended)
+def _capture_first_subcategory_alias(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, dict) or not data:
+        pytest.fail("ShopService.search returned empty data.")
+
+    store_id = data.get("categories_tags")
+    if not isinstance(store_id, list) or not store_id:
+        pytest.fail("ShopService.search did not return a valid category id.")
+
+    ctx.state["autotest_subcategory_alias"] = store_id[0]["id"]
+
+
+@autotest_depends_on(ShopService.search)
+@autotest_depends_on(ClassCatalog.delivery_tree_extended)
+@autotest_params(target=ClassCatalog.delivery_tree_ancestors)
+def _delivery_tree_ancestors(ctx: AutotestContext):
+    return {
+        "store_id": ctx.state["autotest_store_id"],
+        "category_alias": ctx.state.get("autotest_subcategory_alias"),
+    }
+
+
 @autotest_depends_on(ClassCatalog.tree)
 @autotest_params(target=ClassCatalog.products_list)
 def _products_list_params(ctx: AutotestCallContext) -> dict[str, Any]:
     category_id = ctx.state.get("autotest_category_id")
-    if isinstance(category_id, int):
-        return {"category_id": category_id, "search": "кола"}
-    pytest.fail("Catalog.products_list depends on Catalog.tree.")
+    return {"category_id": category_id, "search": "кола"}
+
+
+@autotest_hook(target=ClassCatalog.delivery_tree)
+def _capture_first_category_alias(
+    _resp: Any,
+    data: list[dict[str, Any]],
+    ctx: AutotestContext,
+) -> None:
+    if not isinstance(data, list) or not data:
+        pytest.fail("Catalog.delivery_tree returned empty data.")
+
+    category_id = data[0].get("id")
+    if not isinstance(category_id, str):
+        pytest.fail("Catalog.delivery_tree did not return a valid category id.")
+
+    ctx.state["autotest_category_alias"] = category_id
 
 
 @autotest_params(target=ClassGeolocation.cities_list)
@@ -85,6 +212,16 @@ def _product_info_params(ctx: AutotestCallContext) -> dict[str, int]:
     if isinstance(product_id, int):
         return {"product_id": product_id}
     pytest.fail("ProductService.info depends on Catalog.products_list.")
+
+
+@autotest_data(name="unstandard_headers")
+def _unstandard_headers_data(ctx: AutotestDataContext) -> dict[str, Any]:
+    return ctx.api.unstandard_headers
+
+
+@autotest_data(name="unstandard_urls")
+def _unstandard_urls_data(ctx: AutotestDataContext) -> dict[str, Any]:
+    return ctx.api.unstandard_urls
 
 
 async def test_download_image(api):

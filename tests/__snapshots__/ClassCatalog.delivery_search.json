@@ -1,0 +1,60 @@
+{
+  "search_query_id": "a64b6301-1fd4-421a-8ffc-89b1fb30387d",
+  "query_type": "strict",
+  "products": [
+    {
+      "plu": 4413972,
+      "name": "Напиток Добрый Кола пониженной калорийности газированный 1.5л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2035800-main/320x320.jpeg"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2035800-main/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/0ec4178ea335c8dfe6f1d80a495e0911-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/666077bdd534eed859b82895324ee017-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/9fb91f819d3de5af2d338178c031ed2c-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 87
+      },
+      "promo": null,
+      "prices": {
+        "regular": "129.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "1.5 л",
+      "has_age_restriction": false,
+      "stock_limit": "33.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "264C39231",
+      "type": "subcategory",
+      "name": "Газированные напитки",
+      "parent_name": "Напитки"
+    }
+  ]
+}

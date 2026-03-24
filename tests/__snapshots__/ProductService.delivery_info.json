@@ -1,0 +1,107 @@
+{
+  "plu": 4399809,
+  "name": "Швабра JB паровая 1300Вт",
+  "image_links": {
+    "small": [
+      "https://catalog-images.x5static.net/product/2113579-main/320x320.jpeg?updated_at=2026-02-02T11:49:29.135Z"
+    ],
+    "normal": [
+      "https://catalog-images.x5static.net/product/2113579-main/800x800.jpeg?updated_at=2026-02-02T11:49:29.135Z",
+      "https://catalog-images.x5static.net/product/f99a2b44152a0755babea827a94de240-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/ee87f96f6224148805387bae45d73bfc-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/d058aaf96aef0995b8ca4fe9f94adf45-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/f5315e10778842786958eacf1a1bb5b6-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/4edd1bc5de4266d68a98d73df3039259-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/51cced42758ca782614d795316a260fa-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/88f3893b7981827ddd4181dafcb90ec0-additional/800x800.jpeg",
+      "https://catalog-images.x5static.net/product/d8b41c8d54400b0f0b40ecfd7b92e3a8-additional/800x800.jpeg"
+    ]
+  },
+  "uom": "шт",
+  "step": "1.0",
+  "rating": {
+    "rating_average": 0.0,
+    "rates_count": 44,
+    "reviews_count": 19
+  },
+  "promo": null,
+  "prices": [
+    {
+      "value": "2099.0",
+      "placement_type": "promotional_primary"
+    },
+    {
+      "value": "2999.0",
+      "placement_type": "regular_secondary"
+    }
+  ],
+  "labels": [
+    {
+      "label": "-30%",
+      "bg_color": "#FFD700",
+      "text_color": "#302E33"
+    }
+  ],
+  "cpd_labels": null,
+  "property_clarification": "350 мл",
+  "has_age_restriction": true,
+  "stock_limit": "19.00",
+  "median_price": null,
+  "initial_weight_step": "1.0",
+  "min_weight": "1.0",
+  "max_qty_per_order": null,
+  "prices_cpd": null,
+  "price_piece_unit": null,
+  "description": "Мощность: 1300Вт, объём ёмкости: 350мл, время нагревания: 25сек. Время непрерывной работы: 15 мин. Длина шнура: 4м.",
+  "description_md": "Мощность: 1300Вт, объём ёмкости: 350мл, время нагревания: 25сек. Время непрерывной работы: 15 мин. Длина шнура: 4м.",
+  "description_html": null,
+  "nutrients": null,
+  "attributes": [
+    {
+      "name": "Вес",
+      "value": "1.8",
+      "uom": "кг"
+    },
+    {
+      "name": "Срок хранения",
+      "value": "не ограничен",
+      "uom": null
+    },
+    {
+      "name": "Условия хранения",
+      "value": "в сухом месте",
+      "uom": null
+    },
+    {
+      "name": "Производитель",
+      "value": "АО \"Арвиай (Рашен Венчур Инвестментс)\"",
+      "uom": null
+    },
+    {
+      "name": "Бренд",
+      "value": "JB",
+      "uom": null
+    },
+    {
+      "name": "Страна производства",
+      "value": "Китай",
+      "uom": null
+    }
+  ],
+  "ingredients": "АБС-пластик.",
+  "ingredients_html": null,
+  "is_available": true,
+  "is_various_manufacturers": true,
+  "is_marketplace": false,
+  "marketplace_informer": null,
+  "badges": [],
+  "orange_loyalty_points": null,
+  "can_view_reviews": false,
+  "features": null,
+  "pharmacy": null,
+  "stickers": null,
+  "navigation_section": null,
+  "price_unit_label": null,
+  "package_quantity": null,
+  "social_proof": null
+}

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-import os
+import asyncio
+from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -13,7 +14,7 @@ from human_requests import (
     api_child_field,
 )
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
-from playwright.async_api import TimeoutError as PWTimeoutError
+from human_requests.network_analyzer.anomaly_sniffer import HeaderAnomalySniffer
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -31,12 +32,15 @@ class ChizhikAPI(ApiParent):
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = True
     """Запускать браузер в headless режиме?"""
+    test_mode: bool = False
+    """Режим тестирования предполагает более глубокий _warmup который не требуется для обычного использования"""
     proxy: str | dict | Proxy | None = field(default_factory=Proxy.from_env)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
     Принимает как формат Playwright, так и строчный формат."""
     browser_opts: dict[str, Any] = field(default_factory=dict)
     """Дополнительные опции для браузера (см. https://camoufox.com/python/installation/)"""
-    CATALOG_URL: str = "https://app.chizhik.club/api/v1"
+    API_URL: str = "https://app.chizhik.club/api"
+    DELIVERY_API_URL: str = "https://app.chizhik.club/delivery/api"
     """URL для работы с каталогом."""
     MAIN_SITE_URL: str = "https://chizhik.club/catalog/"
     """URL главной страницы сайта."""
@@ -50,6 +54,11 @@ class ChizhikAPI(ApiParent):
     """Внутренний контекст сессии браузера"""
     page: HumanPage = field(init=False, repr=False)
     """Внутренний страница сессии браузера"""
+
+    unstandard_headers: dict[str, str] = field(init=False, repr=False)
+    """Список нестандартных заголовков пойманных при инициализации"""
+    unstandard_urls: dict[str, list[str]] = field(init=False, repr=False)
+    """Список нестандартных заголовков пойманных при инициализации"""
 
     Geolocation: ClassGeolocation = api_child_field(ClassGeolocation)
     """API для работы с геолокацией."""
@@ -74,30 +83,63 @@ class ChizhikAPI(ApiParent):
             proxy=px.as_dict(),
             **self.browser_opts,
             block_images=True,
+            i_know_what_im_doing=True,
         ).start()
 
         self.session = HumanBrowser.replace(br)
         self.ctx = await self.session.new_context()
         self.page = await self.ctx.new_page()
         self.page.on_error_screenshot_path = "screenshot.png"
-        await self.page.goto(self.CATALOG_URL, wait_until="networkidle")
 
-        ok = False
-        try_count = 3
-        while not ok and try_count > 0:
-            try_count -= 1
-            try:
-                await self.page.wait_for_selector(
-                    "pre", timeout=self.timeout_ms, state="attached"
-                )
-                ok = True
-            except PWTimeoutError:
-                await self.page.reload()
-        if not ok:
-            raise RuntimeError(await self.page.content())
+        if self.test_mode:
+            sniffer = HeaderAnomalySniffer(
+                include_subresources=True,  # или False, если интересны только документы
+                url_filter=lambda u: u.startswith(self.API_URL),
+            )
+            await sniffer.start(self.ctx)
 
-        # await self.page.wait_for_load_state("networkidle")
-        # await asyncio.sleep(3)
+            collected = {}
+
+            def on_request(request):
+                if request.url.startswith(self.API_URL):
+                    collected[request.url] = request.headers
+
+            self.ctx.on("request", on_request)
+
+            await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
+            await self.page.wait_for_selector("next-route-announcer", state="attached")
+            await asyncio.sleep(1)
+            await self.page.locator(
+                'main a[data-qa^="sidebar-sub-category-"][data-qa$="-link"]'
+            ).first.click()
+            await self.page.locator(
+                'main div[itemtype="https://schema.org/Product"]'
+            ).first.click()
+            await asyncio.sleep(1)
+            await self.page.wait_for_load_state("load")
+
+            await self.ctx.unroute("**/api/**", on_request)
+            result_sniffer = await sniffer.complete()
+
+            # Результат: {заголовок: [уникальные значения]}
+            result = defaultdict(set)
+
+            # Проходим по всем URL в 'request'
+            for _url, headers in result_sniffer["request"].items():
+                for header, values in headers.items():
+                    result[header].update(
+                        values
+                    )  # добавляем значения, set уберёт дубли
+
+            # Преобразуем set обратно в list
+            self.unstandard_headers = {k: list(v)[0] for k, v in result.items()}
+            self.unstandard_urls = collected
+
+        await self.page.goto(f"{self.API_URL}/v1", wait_until="networkidle")
+
+        await self.page.wait_for_selector(
+            "pre", timeout=self.timeout_ms, state="attached"
+        )
 
     async def __aexit__(self, *exc):
         """Выход из контекстного менеджера с закрытием сессии."""

@@ -1,0 +1,258 @@
+{
+  "type": "object",
+  "required": [
+    "categories",
+    "products",
+    "query_type",
+    "search_query_id"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "parent_name",
+          "type"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "parent_name": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "detail": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ctx",
+          "input",
+          "loc",
+          "msg",
+          "type",
+          "url"
+        ],
+        "properties": {
+          "ctx": {
+            "type": "object",
+            "required": [
+              "min_length"
+            ],
+            "properties": {
+              "min_length": {
+                "type": "integer"
+              }
+            }
+          },
+          "input": {
+            "type": "string"
+          },
+          "loc": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "msg": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "badges",
+          "boost_type",
+          "cpd_labels",
+          "features",
+          "has_age_restriction",
+          "image_links",
+          "initial_weight_step",
+          "is_available",
+          "is_large_card",
+          "labels",
+          "max_qty_per_order",
+          "median_price",
+          "min_weight",
+          "name",
+          "orange_loyalty_points",
+          "plu",
+          "price_piece_unit",
+          "prices",
+          "product_advert",
+          "promo",
+          "property_clarification",
+          "rating",
+          "step",
+          "stickers",
+          "stock_limit",
+          "uom"
+        ],
+        "properties": {
+          "badges": {
+            "type": "array",
+            "items": {}
+          },
+          "boost_type": {
+            "type": "null"
+          },
+          "cpd_labels": {
+            "type": "null"
+          },
+          "features": {
+            "type": "null"
+          },
+          "has_age_restriction": {
+            "type": "boolean"
+          },
+          "image_links": {
+            "type": "object",
+            "required": [
+              "normal",
+              "small"
+            ],
+            "properties": {
+              "normal": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "small": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          },
+          "initial_weight_step": {
+            "type": "string"
+          },
+          "is_available": {
+            "type": "boolean"
+          },
+          "is_large_card": {
+            "type": "null"
+          },
+          "labels": {
+            "type": "null"
+          },
+          "max_qty_per_order": {
+            "type": "null"
+          },
+          "median_price": {
+            "type": "null"
+          },
+          "min_weight": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "orange_loyalty_points": {
+            "type": "integer"
+          },
+          "plu": {
+            "type": "integer"
+          },
+          "price_piece_unit": {
+            "type": "null"
+          },
+          "prices": {
+            "type": "object",
+            "required": [
+              "cpd_promo_price",
+              "cpd_promo_price_from_sum_cart",
+              "discount",
+              "regular"
+            ],
+            "properties": {
+              "cpd_promo_price": {
+                "type": "null"
+              },
+              "cpd_promo_price_from_sum_cart": {
+                "type": "null"
+              },
+              "discount": {
+                "type": "null"
+              },
+              "regular": {
+                "type": "string"
+              }
+            }
+          },
+          "product_advert": {
+            "type": "null"
+          },
+          "promo": {
+            "type": "null"
+          },
+          "property_clarification": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "object",
+            "required": [
+              "rates_count",
+              "rating_average"
+            ],
+            "properties": {
+              "rates_count": {
+                "type": "integer"
+              },
+              "rating_average": {
+                "type": "number"
+              }
+            }
+          },
+          "step": {
+            "type": "string"
+          },
+          "stickers": {
+            "type": "null"
+          },
+          "stock_limit": {
+            "type": "string"
+          },
+          "uom": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "query_type": {
+      "type": "string"
+    },
+    "search_query_id": {
+      "type": "string",
+      "format": "uuid"
+    }
+  }
+}

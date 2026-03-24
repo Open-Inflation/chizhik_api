@@ -1,0 +1,68 @@
+{
+  "type": "array",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "items": {
+    "type": "object",
+    "required": [
+      "average_rating",
+      "id",
+      "is_nearest",
+      "lat",
+      "locality",
+      "lon",
+      "name",
+      "open_date",
+      "sap_id",
+      "slug",
+      "status",
+      "working_hours"
+    ],
+    "properties": {
+      "average_rating": {
+        "type": "number"
+      },
+      "id": {
+        "type": "integer"
+      },
+      "is_nearest": {
+        "type": "boolean"
+      },
+      "lat": {
+        "type": "number"
+      },
+      "locality": {
+        "type": "string"
+      },
+      "lon": {
+        "type": "number"
+      },
+      "name": {
+        "type": "string"
+      },
+      "open_date": {
+        "type": "string",
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "string",
+            "format": "date"
+          }
+        ]
+      },
+      "sap_id": {
+        "type": "string"
+      },
+      "slug": {
+        "type": "string"
+      },
+      "status": {
+        "type": "integer"
+      },
+      "working_hours": {
+        "type": "string"
+      }
+    }
+  }
+}
