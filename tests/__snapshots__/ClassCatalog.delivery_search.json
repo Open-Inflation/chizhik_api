@@ -1,5 +1,5 @@
 {
-  "search_query_id": "a009d5b6-4fd0-4b94-8b71-ef1fdc2bcc04",
+  "search_query_id": "1be9b63b-a8af-4ebf-b54a-ee11ab63503d",
   "query_type": "strict",
   "products": [
     {
@@ -33,7 +33,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "product_advert": null,
       "is_large_card": null,

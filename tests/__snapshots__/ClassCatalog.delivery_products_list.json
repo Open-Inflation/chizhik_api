@@ -79,7 +79,6 @@
           "Labinel",
           "Milka",
           "Polaris",
-          "Алтайская Сказка",
           "Вiтэкс",
           "Дядя Ваня",
           "Ижица",
@@ -91,6 +90,8 @@
           "Gillette",
           "Santa Olivella",
           "lavesko",
+          "Акконд",
+          "Алтайская Сказка",
           "Маковские",
           "Сады Кубани",
           "Сады Придонья",
@@ -114,8 +115,7 @@
           "Pasabahce",
           "Suzhou Hiteria",
           "Verde",
-          "Авторская Подпись",
-          "Акконд"
+          "Авторская Подпись"
         ],
         "actual": null
       },
@@ -220,7 +220,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "35.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -300,7 +300,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "128.00",
+      "stock_limit": "80.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -340,7 +340,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -383,7 +383,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -427,7 +427,7 @@
       "cpd_labels": null,
       "property_clarification": "565 г",
       "has_age_restriction": false,
-      "stock_limit": "108.00",
+      "stock_limit": "103.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -469,7 +469,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "69.00",
+      "stock_limit": "66.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -509,7 +509,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "94.00",
+      "stock_limit": "66.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -549,7 +549,7 @@
       "cpd_labels": null,
       "property_clarification": "45 г",
       "has_age_restriction": false,
-      "stock_limit": "192.00",
+      "stock_limit": "154.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -589,13 +589,53 @@
       "cpd_labels": null,
       "property_clarification": "203 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 41,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4359397,
+      "name": "Вино CASA LORETTI Пино Гриджио сухое белое 12% 0.75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1615148-main/320x320.jpeg?updated_at=2025-12-17T18:31:34.995Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1615148-main/800x800.jpeg?updated_at=2025-12-17T18:31:34.995Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 45
+      },
+      "promo": null,
+      "prices": {
+        "regular": "599.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "6.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -631,7 +671,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "66.00",
+      "stock_limit": "50.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -671,13 +711,53 @@
       "cpd_labels": null,
       "property_clarification": "440 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4359392,
+      "name": "Вино CASA LORETTI Пино Гриджио сухое розовое 12% 0,75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1615149-main/320x320.jpeg?updated_at=2025-12-17T18:31:34.988Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1615149-main/800x800.jpeg?updated_at=2025-12-17T18:31:34.988Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 57
+      },
+      "promo": null,
+      "prices": {
+        "regular": "599.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "10.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -711,7 +791,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "6.00",
+      "stock_limit": "2.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -755,7 +835,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -783,7 +863,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.1,
-        "rates_count": 357
+        "rates_count": 359
       },
       "promo": null,
       "prices": {
@@ -796,7 +876,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -836,7 +916,7 @@
       "cpd_labels": null,
       "property_clarification": "50 мл",
       "has_age_restriction": false,
-      "stock_limit": "102.00",
+      "stock_limit": "101.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -873,7 +953,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "29.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -954,7 +1034,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "62.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1000,6 +1080,50 @@
       "property_clarification": "860 г",
       "has_age_restriction": false,
       "stock_limit": "7.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4412551,
+      "name": "Корзина плетеная 21х22см",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2128627-main/320x320.jpeg?updated_at=2026-01-26T16:17:11.568Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2128627-main/800x800.jpeg?updated_at=2026-01-26T16:17:11.568Z",
+          "https://catalog-images.x5static.net/product/36c2c169d22f61fed41547c077b15d08-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": null,
+      "promo": null,
+      "prices": {
+        "regular": "349.0",
+        "discount": "169.0",
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": [
+        {
+          "label": "-52%",
+          "bg_color": "#FFD700",
+          "text_color": "#302E33"
+        }
+      ],
+      "cpd_labels": null,
+      "property_clarification": "400 г",
+      "has_age_restriction": false,
+      "stock_limit": "1.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1228,7 +1352,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 30
+        "rates_count": 31
       },
       "promo": null,
       "prices": {
@@ -1241,7 +1365,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1278,7 +1402,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1318,7 +1442,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1355,7 +1479,7 @@
       "cpd_labels": null,
       "property_clarification": "5 г",
       "has_age_restriction": false,
-      "stock_limit": "80.00",
+      "stock_limit": "58.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1392,7 +1516,7 @@
       "cpd_labels": null,
       "property_clarification": "5 г",
       "has_age_restriction": false,
-      "stock_limit": "78.00",
+      "stock_limit": "74.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1469,7 +1593,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "60.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1509,7 +1633,7 @@
       "cpd_labels": null,
       "property_clarification": "308 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1549,7 +1673,7 @@
       "cpd_labels": null,
       "property_clarification": "308 г",
       "has_age_restriction": false,
-      "stock_limit": "13.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1589,7 +1713,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "65.00",
+      "stock_limit": "64.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1682,6 +1806,46 @@
       "features": null
     },
     {
+      "plu": 4441884,
+      "name": "Спагетти БОН МЕНЮ Болоньезе 270г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2125483-main/320x320.jpeg?updated_at=2026-01-14T07:53:56.025Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2125483-main/800x800.jpeg?updated_at=2026-01-14T07:53:56.025Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 24
+      },
+      "promo": null,
+      "prices": {
+        "regular": "199.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "270 г",
+      "has_age_restriction": false,
+      "stock_limit": "11.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4441876,
       "name": "Мармелад DELIBON Фруктовый микс кислый 150г",
       "image_links": {
@@ -1709,7 +1873,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1749,7 +1913,7 @@
       "cpd_labels": null,
       "property_clarification": "290 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1789,7 +1953,7 @@
       "cpd_labels": null,
       "property_clarification": "930 мл",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1826,7 +1990,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "8.88",
+      "stock_limit": "6.16",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1866,13 +2030,53 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "34.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4441529,
+      "name": "Лапша БОН МЕНЮ Удон с морепродуктами 295г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2125463-main/320x320.jpeg?updated_at=2026-01-14T16:03:01.267Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2125463-main/800x800.jpeg?updated_at=2026-01-14T16:03:01.267Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 53
+      },
+      "promo": null,
+      "prices": {
+        "regular": "199.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "295 г",
+      "has_age_restriction": false,
+      "stock_limit": "10.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -1946,7 +2150,7 @@
       "cpd_labels": null,
       "property_clarification": "305 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2093,7 +2297,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 15
+        "rates_count": 16
       },
       "promo": null,
       "prices": {
@@ -2106,7 +2310,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "108.00",
+      "stock_limit": "104.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2146,7 +2350,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2186,7 +2390,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2343,7 +2547,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2383,7 +2587,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2423,7 +2627,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "3.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2463,7 +2667,7 @@
       "cpd_labels": null,
       "property_clarification": "170 мл",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2504,7 +2708,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": false,
-      "stock_limit": "36.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2544,7 +2748,7 @@
       "cpd_labels": null,
       "property_clarification": "36 г",
       "has_age_restriction": false,
-      "stock_limit": "47.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2624,7 +2828,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "67.00",
+      "stock_limit": "65.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2664,7 +2868,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2704,7 +2908,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "68.00",
+      "stock_limit": "65.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2744,13 +2948,93 @@
       "cpd_labels": null,
       "property_clarification": "950 мл",
       "has_age_restriction": false,
-      "stock_limit": "60.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 62,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4439684,
+      "name": "Фондю БОН МЕНЮ Паста с Эмменталь и курицей 600г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2125466-main/320x320.jpeg?updated_at=2026-01-14T15:57:44.475Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2125466-main/800x800.jpeg?updated_at=2026-01-14T15:57:44.475Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 17
+      },
+      "promo": null,
+      "prices": {
+        "regular": "379.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "600 г",
+      "has_age_restriction": false,
+      "stock_limit": "7.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 210,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4439528,
+      "name": "Пеленки АМА МАМА детские одноразовые 30шт",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2122233-main/320x320.jpeg?updated_at=2025-12-23T08:07:33.868Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2122233-main/800x800.jpeg?updated_at=2025-12-23T08:07:33.868Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 13
+      },
+      "promo": null,
+      "prices": {
+        "regular": "349.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "860 г",
+      "has_age_restriction": false,
+      "stock_limit": "7.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 210,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -2824,7 +3108,7 @@
       "cpd_labels": null,
       "property_clarification": "50 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2864,7 +3148,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2957,46 +3241,6 @@
       "features": null
     },
     {
-      "plu": 4439140,
-      "name": "Творог DELIGRANDE Пломбир 6% 130г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2125453-main/320x320.jpeg?updated_at=2026-01-14T16:10:42.400Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2125453-main/800x800.jpeg?updated_at=2026-01-14T16:10:42.400Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 26
-      },
-      "promo": null,
-      "prices": {
-        "regular": "49.0",
-        "discount": null,
-        "cpd_promo_price": null,
-        "cpd_promo_price_from_sum_cart": null
-      },
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "130 мл",
-      "has_age_restriction": false,
-      "stock_limit": "14.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 34,
-      "is_available": true,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4438981,
       "name": "Йогурт АМА МАМА Клубника и банан детский 2,5% 200г",
       "image_links": {
@@ -3024,7 +3268,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3064,7 +3308,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3104,7 +3348,7 @@
       "cpd_labels": null,
       "property_clarification": "350 г",
       "has_age_restriction": false,
-      "stock_limit": "46.00",
+      "stock_limit": "44.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3144,7 +3388,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "23.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3181,7 +3425,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3261,7 +3505,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "53.00",
+      "stock_limit": "51.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3301,7 +3545,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3328,7 +3572,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 37
+        "rates_count": 38
       },
       "promo": null,
       "prices": {
@@ -3381,7 +3625,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3421,7 +3665,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "44.00",
+      "stock_limit": "42.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3461,7 +3705,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "56.00",
+      "stock_limit": "54.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3498,7 +3742,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "147.00",
+      "stock_limit": "139.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3538,7 +3782,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "107.00",
+      "stock_limit": "98.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3575,7 +3819,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "43.00",
+      "stock_limit": "41.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3612,7 +3856,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "88.00",
+      "stock_limit": "86.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3692,7 +3936,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "6.17",
+      "stock_limit": "5.74",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.4",
@@ -3732,7 +3976,7 @@
       "cpd_labels": null,
       "property_clarification": "700 мл",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3773,7 +4017,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3813,7 +4057,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "174.00",
+      "stock_limit": "121.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3853,7 +4097,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "48.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3974,7 +4218,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4014,7 +4258,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4105,7 +4349,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "136.00",
+      "stock_limit": "103.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4145,7 +4389,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "178.00",
+      "stock_limit": "141.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4172,7 +4416,7 @@
       "step": "0.33",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 175
+        "rates_count": 176
       },
       "promo": null,
       "prices": {
@@ -4185,7 +4429,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "14.91",
+      "stock_limit": "11.26",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.33",
@@ -4225,7 +4469,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "22.40",
+      "stock_limit": "15.92",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.33",
@@ -4265,13 +4509,65 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "23.95",
+      "stock_limit": "22.06",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.33",
       "min_weight": "0.33",
       "max_qty_per_order": null,
       "orange_loyalty_points": 490,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4425817,
+      "name": "Набор прихваток KOOKABARA силиконовых 2шт",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2127623-main/320x320.jpeg?updated_at=2026-01-23T14:46:17.688Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2127623-main/800x800.jpeg?updated_at=2026-01-23T14:46:17.688Z",
+          "https://catalog-images.x5static.net/product/37190f51cd5fe4d636f779128bbb5994-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/53f6616ccd48d0022ea776664d4c27cb-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/598bd3b62cc5998b78cb9a8dd981b6dc-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/721a0ad5ababf97ce41f0bbb2ace8015-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/90bc6df62291ebfcdee255015839546b-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/243df45fa4408afa3190a6e06d7254e7-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/3325cda512cf21cf6178650c87ddadf4-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/d0b35d947427575ab7b9c77c2898a9aa-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/e120e0393b5a02ce0dcfa140726e911b-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": null,
+      "promo": null,
+      "prices": {
+        "regular": "299.0",
+        "discount": "209.0",
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": [
+        {
+          "label": "-30%",
+          "bg_color": "#FFD700",
+          "text_color": "#302E33"
+        }
+      ],
+      "cpd_labels": null,
+      "property_clarification": "110 г",
+      "has_age_restriction": false,
+      "stock_limit": "18.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -4305,7 +4601,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "56.00",
+      "stock_limit": "51.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4345,7 +4641,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "68.00",
+      "stock_limit": "67.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4385,7 +4681,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "50.00",
+      "stock_limit": "48.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4425,7 +4721,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4452,7 +4748,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.4,
-        "rates_count": 243
+        "rates_count": 244
       },
       "promo": null,
       "prices": {
@@ -4465,7 +4761,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4505,13 +4801,98 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4423880,
+      "name": "Вино BAOBAY Chardonnay Viognier белое сухое 12% 0.75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2109406-main/320x320.jpeg?updated_at=2025-11-17T08:21:47.957Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2109406-main/800x800.jpeg?updated_at=2025-11-17T08:21:47.957Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 26
+      },
+      "promo": null,
+      "prices": {
+        "regular": "499.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "29.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4423208,
+      "name": "Кроссовки SVASSO мужские р41-45",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2142560-main/320x320.jpeg?updated_at=2026-03-11T14:35:28.044Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2142560-main/800x800.jpeg?updated_at=2026-03-11T14:35:28.044Z",
+          "https://catalog-images.x5static.net/product/0a5c9b60fccde78f9e37046b9d6f6121-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/21c6e8b11ca5c3890a1fdf77a47a904f-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/fcc2ab755857805b904f31168b4fe882-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/64b494f9e33d243e9c48c57ea34f87aa-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/5836c43e19ba51157ea4efef7e54151b-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/dd88e9a5fb9b65a3d3bd37b173be5dc0-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/2a2481930ca9c467da961b073e77a07e-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/acfbc65ef11fef38f18b20cc71cddb9f-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": null,
+      "promo": null,
+      "prices": {
+        "regular": "1299.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "378 г",
+      "has_age_restriction": false,
+      "stock_limit": "2.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 840,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -4545,7 +4926,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4585,7 +4966,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "72.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4763,7 +5144,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4803,7 +5184,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "117.00",
+      "stock_limit": "108.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4846,7 +5227,7 @@
       "cpd_labels": null,
       "property_clarification": "75 г",
       "has_age_restriction": false,
-      "stock_limit": "99.00",
+      "stock_limit": "88.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4905,6 +5286,50 @@
       "features": null
     },
     {
+      "plu": 4421209,
+      "name": "Жилет SVASSO детский утепленный р116-140см",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2144030-main/320x320.jpeg?updated_at=2026-03-17T12:08:03.086Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2144030-main/800x800.jpeg?updated_at=2026-03-17T12:08:03.086Z",
+          "https://catalog-images.x5static.net/product/bf4f78d20a52c4e7fa963665454b48a2-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/1c11218d035c66c1b92923929944dc6c-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/3cefd365b77b68bf25e6ca42073ff4ae-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/ef709694b9a7238866ee278eec8303bf-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/958f631a70c6793b2102fba60cabdd8e-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/5f57b4f709d518431a63cebbe3e7c461-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/8679df6b600189ba7aeb7b498053b474-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": null,
+      "promo": null,
+      "prices": {
+        "regular": "799.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "150 г",
+      "has_age_restriction": false,
+      "stock_limit": "2.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 490,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4421182,
       "name": "Пижама SVASSO женская р46-56",
       "image_links": {
@@ -4928,7 +5353,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 39
+        "rates_count": 40
       },
       "promo": null,
       "prices": {
@@ -4983,7 +5408,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 32
+        "rates_count": 33
       },
       "promo": null,
       "prices": {
@@ -5038,7 +5463,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 37
+        "rates_count": 38
       },
       "promo": null,
       "prices": {
@@ -5217,7 +5642,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5257,7 +5682,7 @@
       "cpd_labels": null,
       "property_clarification": "1 кг",
       "has_age_restriction": false,
-      "stock_limit": "4.00",
+      "stock_limit": "3.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5297,7 +5722,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "28.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5437,6 +5862,134 @@
       "property_clarification": "250 г",
       "has_age_restriction": false,
       "stock_limit": "2.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4415345,
+      "name": "Вино LEDARIA игристое полусладкое белое 10-12% 0,75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2038760-main/320x320.jpeg?updated_at=2025-09-24T18:00:20.562Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2038760-main/800x800.jpeg?updated_at=2025-09-24T18:00:20.562Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 64
+      },
+      "promo": null,
+      "prices": {
+        "regular": "389.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "15.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4415335,
+      "name": "Чайник JB 1,7л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2142578-main/320x320.jpeg?updated_at=2026-03-11T14:19:14.023Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2142578-main/800x800.jpeg?updated_at=2026-03-11T14:19:14.023Z",
+          "https://catalog-images.x5static.net/product/a9e5badb73ab1f779156cfe49cc98253-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/984f33fe638d12b2987b13ff1a3a674c-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/8dadc2bd00d3d3a66f76ef9af7521696-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/9997687c156b989fe8b68edbfdba794f-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": null,
+      "promo": null,
+      "prices": {
+        "regular": "999.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "1.7 л",
+      "has_age_restriction": false,
+      "stock_limit": "1.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 630,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4415325,
+      "name": "Кабель JB с разъемами USB C и USB C",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2127632-main/320x320.jpeg?updated_at=2026-01-20T13:36:20.754Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2127632-main/800x800.jpeg?updated_at=2026-01-20T13:36:20.754Z",
+          "https://catalog-images.x5static.net/product/8192c711d0a0e6bd97c55e385ba21261-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 1
+      },
+      "promo": null,
+      "prices": {
+        "regular": "499.0",
+        "discount": "349.0",
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": [
+        {
+          "label": "-30%",
+          "bg_color": "#FFD700",
+          "text_color": "#302E33"
+        }
+      ],
+      "cpd_labels": null,
+      "property_clarification": "58 г",
+      "has_age_restriction": false,
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5730,7 +6283,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5802,7 +6355,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 45
+        "rates_count": 46
       },
       "promo": null,
       "prices": {
@@ -5862,7 +6415,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5889,7 +6442,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 22
+        "rates_count": 23
       },
       "promo": null,
       "prices": {
@@ -5948,7 +6501,7 @@
       "cpd_labels": null,
       "property_clarification": "172 г",
       "has_age_restriction": false,
-      "stock_limit": "3.00",
+      "stock_limit": "2.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6145,7 +6698,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "26.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6218,7 +6771,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 68
+        "rates_count": 69
       },
       "promo": null,
       "prices": {
@@ -6268,7 +6821,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 70
+        "rates_count": 71
       },
       "promo": null,
       "prices": {
@@ -6315,7 +6868,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 225
+        "rates_count": 226
       },
       "promo": null,
       "prices": {
@@ -6328,7 +6881,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6371,7 +6924,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6456,7 +7009,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 59
+        "rates_count": 60
       },
       "promo": null,
       "prices": {
@@ -6509,7 +7062,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 35
+        "rates_count": 36
       },
       "promo": null,
       "prices": {
@@ -6621,6 +7174,46 @@
       "features": null
     },
     {
+      "plu": 4404082,
+      "name": "Вино ALPRESCO Prosecco игристое белое брют 11% 0,75мл",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2024281-main/320x320.jpeg?updated_at=2025-11-10T14:25:03.139Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2024281-main/800x800.jpeg?updated_at=2025-11-10T14:25:03.139Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 86
+      },
+      "promo": null,
+      "prices": {
+        "regular": "799.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "34.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4403443,
       "name": "Полусапожки SVASSO женские р37-41",
       "image_links": {
@@ -6638,7 +7231,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 62
+        "rates_count": 63
       },
       "promo": null,
       "prices": {
@@ -6743,7 +7336,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 63
+        "rates_count": 64
       },
       "promo": null,
       "prices": {
@@ -6802,7 +7395,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6846,7 +7439,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6940,7 +7533,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6974,7 +7567,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 53
+        "rates_count": 54
       },
       "promo": null,
       "prices": {
@@ -7029,7 +7622,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 21
+        "rates_count": 22
       },
       "promo": null,
       "prices": {
@@ -7072,7 +7665,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 71
+        "rates_count": 72
       },
       "promo": null,
       "prices": {
@@ -7124,7 +7717,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 38
+        "rates_count": 39
       },
       "promo": null,
       "prices": {
@@ -7205,6 +7798,52 @@
       "features": null
     },
     {
+      "plu": 4399866,
+      "name": "Худи SVASSO детское р98-140",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2039211-main/320x320.jpeg?updated_at=2026-03-17T15:39:48.512Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2039211-main/800x800.jpeg?updated_at=2026-03-17T15:39:48.512Z",
+          "https://catalog-images.x5static.net/product/fb394c7aa1bf2493ad7f6f620a3e8ec4-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/0a783ec738bcd3be9a23065c083fbb45-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/dae8010d1662a3a53b8bf8753e8e5d7c-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/9ba34f0e5f82a7580d479e4fa0d9c51b-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/c7cb777e88a1798be9c47238eec6919d-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/3658ba2ba88a87b70ee949393c685601-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 31
+      },
+      "promo": null,
+      "prices": {
+        "regular": "599.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "320 г",
+      "has_age_restriction": false,
+      "stock_limit": "7.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 350,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4399827,
       "name": "Кроссовки SVASSO детские р31-35",
       "image_links": {
@@ -7223,7 +7862,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 67
+        "rates_count": 68
       },
       "promo": null,
       "prices": {
@@ -7274,7 +7913,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 51
+        "rates_count": 52
       },
       "promo": null,
       "prices": {
@@ -7324,7 +7963,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 63
+        "rates_count": 64
       },
       "promo": null,
       "prices": {
@@ -7797,7 +8436,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "144.00",
+      "stock_limit": "67.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7881,7 +8520,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 55
+        "rates_count": 56
       },
       "promo": null,
       "prices": {
@@ -7986,7 +8625,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 55
+        "rates_count": 56
       },
       "promo": null,
       "prices": {
@@ -8109,7 +8748,59 @@
       "cpd_labels": null,
       "property_clarification": "3 л",
       "has_age_restriction": false,
-      "stock_limit": "2.00",
+      "stock_limit": "1.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4394775,
+      "name": "Набор сковородок KOOKABARA 2шт со съемной ручкой",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2048690-main/320x320.jpeg?updated_at=2026-02-02T14:36:07.002Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2048690-main/800x800.jpeg?updated_at=2026-02-02T14:36:07.002Z",
+          "https://catalog-images.x5static.net/product/872630b44fd686b5291c290555bb4a35-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/6f10b72be861b062b26c4ab7a75524ea-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/023e26db7bec7fe212840f89acc514ac-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/dcf6081c87b5daa121409f0a2c9ff70f-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/3b8cf66a1ee7cec2e3e97a0bfa85ed69-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/5d2f8f9e785866d077aa477d42d01e7d-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 124
+      },
+      "promo": null,
+      "prices": {
+        "regular": "1999.0",
+        "discount": "1399.0",
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": [
+        {
+          "label": "-30%",
+          "bg_color": "#FFD700",
+          "text_color": "#302E33"
+        }
+      ],
+      "cpd_labels": null,
+      "property_clarification": "1.23 кг",
+      "has_age_restriction": false,
+      "stock_limit": "1.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8200,6 +8891,46 @@
       "property_clarification": "200 мл",
       "has_age_restriction": false,
       "stock_limit": "43.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4393759,
+      "name": "Антиперспирант DELIVEA Men Total аэрозоль 200мл",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2046969-main/320x320.jpeg?updated_at=2025-10-02T15:05:49.585Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2046969-main/800x800.jpeg?updated_at=2025-10-02T15:05:49.585Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 50
+      },
+      "promo": null,
+      "prices": {
+        "regular": "139.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "200 мл",
+      "has_age_restriction": false,
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8360,7 +9091,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 206
+        "rates_count": 207
       },
       "promo": null,
       "prices": {
@@ -8373,7 +9104,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "57.00",
+      "stock_limit": "52.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8413,7 +9144,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8453,7 +9184,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8493,7 +9224,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8537,7 +9268,7 @@
       "cpd_labels": null,
       "property_clarification": "320 мл",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8546,6 +9277,46 @@
       "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": "160.29",
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4388199,
+      "name": "Вино CASA LORETTI Chianti сортовое красное сухое 12.5% 0,75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2034102-main/320x320.jpeg?updated_at=2025-09-24T17:50:50.357Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2034102-main/800x800.jpeg?updated_at=2025-09-24T17:50:50.357Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 19
+      },
+      "promo": null,
+      "prices": {
+        "regular": "699.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "27.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
       "stickers": null,
       "features": null
     },
@@ -8567,7 +9338,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.6,
-        "rates_count": 466
+        "rates_count": 467
       },
       "promo": null,
       "prices": {
@@ -8580,7 +9351,7 @@
       "cpd_labels": null,
       "property_clarification": "190 г",
       "has_age_restriction": false,
-      "stock_limit": "74.00",
+      "stock_limit": "73.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8664,7 +9435,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8690,8 +9461,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 4.1,
-        "rates_count": 448
+        "rating_average": 4.2,
+        "rates_count": 451
       },
       "promo": null,
       "prices": {
@@ -8704,7 +9475,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "10.00",
+      "stock_limit": "6.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8744,7 +9515,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "63.00",
+      "stock_limit": "61.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8784,7 +9555,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8824,7 +9595,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "73.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8856,7 +9627,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 60
+        "rates_count": 61
       },
       "promo": null,
       "prices": {
@@ -8916,7 +9687,7 @@
       "cpd_labels": null,
       "property_clarification": "370 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8943,7 +9714,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 74
+        "rates_count": 75
       },
       "promo": null,
       "prices": {
@@ -8956,7 +9727,7 @@
       "cpd_labels": null,
       "property_clarification": "520 мл",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8996,7 +9767,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "172.00",
+      "stock_limit": "159.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9036,7 +9807,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "84.00",
+      "stock_limit": "83.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9078,7 +9849,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "95.00",
+      "stock_limit": "94.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9118,7 +9889,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9208,7 +9979,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "16.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9248,7 +10019,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9288,7 +10059,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9330,7 +10101,7 @@
       "cpd_labels": null,
       "property_clarification": "100 мл",
       "has_age_restriction": false,
-      "stock_limit": "44.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9370,55 +10141,13 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 34,
-      "is_available": true,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4364717,
-      "name": "Блинчики БОН МЕНЮ с творогом замороженные 420г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1801114-main/320x320.jpeg?updated_at=2025-10-15T14:39:56.718Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1801114-main/800x800.jpeg?updated_at=2025-10-15T14:39:56.718Z",
-          "https://catalog-images.x5static.net/product/7f54017f3b3183dce3821db265b78827-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/44f664d44a4608e04d2361411e5d4cc6-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 4.2,
-        "rates_count": 518
-      },
-      "promo": null,
-      "prices": {
-        "regular": "109.0",
-        "discount": null,
-        "cpd_promo_price": null,
-        "cpd_promo_price_from_sum_cart": null
-      },
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "420 г",
-      "has_age_restriction": false,
-      "stock_limit": "9.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -9492,7 +10221,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "14.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9521,7 +10250,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 2.9,
-        "rates_count": 870
+        "rates_count": 872
       },
       "promo": null,
       "prices": {
@@ -9534,7 +10263,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "1.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9574,13 +10303,53 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "145.00",
+      "stock_limit": "120.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 30,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4359389,
+      "name": "Вино CASA LORETTI Sangiovese Rubicone полусухое красное 12,5% 0,75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1615250-main/320x320.jpeg?updated_at=2025-02-13T16:30:14.976Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1615250-main/800x800.jpeg?updated_at=2025-02-13T16:30:14.976Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 38
+      },
+      "promo": null,
+      "prices": {
+        "regular": "599.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "10.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -9670,6 +10439,46 @@
       "features": null
     },
     {
+      "plu": 4357867,
+      "name": "Вино MDIDARI Киндзмараули полусладкое красное 11,5% 0.75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2120229-main/320x320.jpeg?updated_at=2025-12-11T12:34:34.383Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2120229-main/800x800.jpeg?updated_at=2025-12-11T12:34:34.383Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 40
+      },
+      "promo": null,
+      "prices": {
+        "regular": "549.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": "26.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4356489,
       "name": "Вино MDIDARI Саперави сухое красное 12,5% 0.75л",
       "image_links": {
@@ -9697,7 +10506,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "12.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9737,7 +10546,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9821,7 +10630,7 @@
       "cpd_labels": null,
       "property_clarification": "425 мл",
       "has_age_restriction": false,
-      "stock_limit": "173.00",
+      "stock_limit": "163.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9848,7 +10657,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 225
+        "rates_count": 226
       },
       "promo": null,
       "prices": {
@@ -9861,7 +10670,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9901,7 +10710,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9941,7 +10750,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9994,6 +10803,46 @@
       "features": null
     },
     {
+      "plu": 4345034,
+      "name": "Корм WATSON Мясное ассорти сухой для собак 1.5кг",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1606953-main/320x320.jpeg?updated_at=2024-12-13T05:44:56.815Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1606953-main/800x800.jpeg?updated_at=2024-12-13T05:44:56.815Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 202
+      },
+      "promo": null,
+      "prices": {
+        "regular": "169.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "1.5 кг",
+      "has_age_restriction": false,
+      "stock_limit": "8.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4345030,
       "name": "Корм WATSON с курицей и овощами сухой для кошек 600г",
       "image_links": {
@@ -10034,6 +10883,46 @@
       "features": null
     },
     {
+      "plu": 4342809,
+      "name": "Бринкс спиртной Джин-Тоник 0,45",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1600659-main/320x320.jpeg?updated_at=2025-12-17T18:31:03.989Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1600659-main/800x800.jpeg?updated_at=2025-12-17T18:31:03.989Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 50
+      },
+      "promo": null,
+      "prices": {
+        "regular": "169.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "450 мл",
+      "has_age_restriction": true,
+      "stock_limit": "29.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4342805,
       "name": "Мармелад DELIBON жевательный 140г",
       "image_links": {
@@ -10062,13 +10951,53 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "51.00",
+      "stock_limit": "43.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 34,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4342280,
+      "name": "Бринкс спиртной с соками апельсина и грейпфрута 0,45",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1602728-main/320x320.jpeg?updated_at=2025-12-17T18:31:03.994Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1602728-main/800x800.jpeg?updated_at=2025-12-17T18:31:03.994Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 104
+      },
+      "promo": null,
+      "prices": {
+        "regular": "169.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "450 мл",
+      "has_age_restriction": true,
+      "stock_limit": "25.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -10156,6 +11085,46 @@
       "features": null
     },
     {
+      "plu": 4341924,
+      "name": "Подгузники-трусики АМА МАМА детские одноразовые 12-20кг XL 46шт",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1830514-main/320x320.jpeg?updated_at=2024-11-26T05:17:17.496Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1830514-main/800x800.jpeg?updated_at=2024-11-26T05:17:17.496Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 236
+      },
+      "promo": null,
+      "prices": {
+        "regular": "799.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "1.52 кг",
+      "has_age_restriction": false,
+      "stock_limit": "4.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 490,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4341918,
       "name": "Подгузники-трусики АМА МАМА детские одноразовые 9-14кг L 50шт",
       "image_links": {
@@ -10223,7 +11192,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "18.01",
+      "stock_limit": "11.99",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.5",
@@ -10263,7 +11232,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10346,7 +11315,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10386,7 +11355,7 @@
       "cpd_labels": null,
       "property_clarification": "50 г",
       "has_age_restriction": false,
-      "stock_limit": "115.00",
+      "stock_limit": "114.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10413,7 +11382,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 48
+        "rates_count": 50
       },
       "promo": null,
       "prices": {
@@ -10426,7 +11395,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "46.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10471,7 +11440,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10514,7 +11483,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "90.00",
+      "stock_limit": "86.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10557,7 +11526,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "40.00",
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10597,7 +11566,7 @@
       "cpd_labels": null,
       "property_clarification": "225 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10641,7 +11610,7 @@
       "cpd_labels": null,
       "property_clarification": "1 кг",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10685,7 +11654,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10727,7 +11696,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": false,
-      "stock_limit": "19.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10767,13 +11736,53 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 62,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4328674,
+      "name": "Настойка АВТОРСКАЯ ПОДПИСЬ клюква на коньяке сладкая 21% 0,5л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1585299-main/320x320.jpeg?updated_at=2025-12-17T18:31:01.196Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1585299-main/800x800.jpeg?updated_at=2025-12-17T18:31:01.196Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 112
+      },
+      "promo": null,
+      "prices": {
+        "regular": "299.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "500 мл",
+      "has_age_restriction": true,
+      "stock_limit": "35.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -10807,7 +11816,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "4.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10848,7 +11857,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10888,7 +11897,7 @@
       "cpd_labels": null,
       "property_clarification": "325 г",
       "has_age_restriction": false,
-      "stock_limit": "40.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10930,7 +11939,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10970,7 +11979,7 @@
       "cpd_labels": null,
       "property_clarification": "360 мл",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11057,7 +12066,7 @@
       "cpd_labels": null,
       "property_clarification": "185 г",
       "has_age_restriction": false,
-      "stock_limit": "58.00",
+      "stock_limit": "56.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11097,7 +12106,7 @@
       "cpd_labels": null,
       "property_clarification": "550 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11137,7 +12146,7 @@
       "cpd_labels": null,
       "property_clarification": "320 г",
       "has_age_restriction": false,
-      "stock_limit": "52.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11177,7 +12186,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "159.00",
+      "stock_limit": "130.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11220,7 +12229,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "124.00",
+      "stock_limit": "114.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11263,7 +12272,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "66.00",
+      "stock_limit": "51.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11305,7 +12314,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "36.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11345,7 +12354,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "35.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11385,7 +12394,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "57.00",
+      "stock_limit": "56.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11469,7 +12478,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11512,7 +12521,7 @@
       "cpd_labels": null,
       "property_clarification": "100 мл",
       "has_age_restriction": false,
-      "stock_limit": "69.00",
+      "stock_limit": "68.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11683,7 +12692,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11723,7 +12732,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "48.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11766,7 +12775,47 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "33.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4325050,
+      "name": "Шампунь-бальзам-ополаскиватель DELIVEA против перхоти 500мл",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1585310-main/320x320.jpeg?updated_at=2024-08-19T10:47:42.876Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1585310-main/800x800.jpeg?updated_at=2024-08-19T10:47:42.876Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 250
+      },
+      "promo": null,
+      "prices": {
+        "regular": "149.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "500 мл",
+      "has_age_restriction": false,
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11809,7 +12858,7 @@
       "cpd_labels": null,
       "property_clarification": "380 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "44.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11853,7 +12902,7 @@
       "cpd_labels": null,
       "property_clarification": "95 г",
       "has_age_restriction": false,
-      "stock_limit": "29.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11939,7 +12988,7 @@
       "cpd_labels": null,
       "property_clarification": "125 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11982,7 +13031,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "108.00",
+      "stock_limit": "106.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12023,7 +13072,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12063,7 +13112,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "156.00",
+      "stock_limit": "153.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12116,6 +13165,46 @@
       "features": null
     },
     {
+      "plu": 4320791,
+      "name": "Бальзам-ополаскиватель DELIVEA восстанавливающий для поврежденных волос 750мл",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1589718-main/320x320.jpeg?updated_at=2025-03-06T15:53:13.197Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1589718-main/800x800.jpeg?updated_at=2025-03-06T15:53:13.197Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 161
+      },
+      "promo": null,
+      "prices": {
+        "regular": "159.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": false,
+      "stock_limit": "12.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4320711,
       "name": "Напиток FUN UP Lemon Lime газированный 0.5л",
       "image_links": {
@@ -12130,7 +13219,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 155
+        "rates_count": 156
       },
       "promo": null,
       "prices": {
@@ -12143,7 +13232,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "101.00",
+      "stock_limit": "88.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12183,7 +13272,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "167.00",
+      "stock_limit": "166.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12225,7 +13314,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12306,7 +13395,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12346,7 +13435,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12389,7 +13478,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12432,7 +13521,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "46.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12475,7 +13564,7 @@
       "cpd_labels": null,
       "property_clarification": "280 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12518,7 +13607,7 @@
       "cpd_labels": null,
       "property_clarification": "280 г",
       "has_age_restriction": false,
-      "stock_limit": "48.00",
+      "stock_limit": "40.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12561,7 +13650,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "29.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12601,7 +13690,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12642,7 +13731,7 @@
       "cpd_labels": null,
       "property_clarification": "30 г",
       "has_age_restriction": false,
-      "stock_limit": "96.00",
+      "stock_limit": "75.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12683,7 +13772,7 @@
       "cpd_labels": null,
       "property_clarification": "28 г",
       "has_age_restriction": false,
-      "stock_limit": "89.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12723,7 +13812,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "84.00",
+      "stock_limit": "65.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12763,7 +13852,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "94.00",
+      "stock_limit": "76.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12791,7 +13880,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 718
+        "rates_count": 719
       },
       "promo": null,
       "prices": {
@@ -12804,7 +13893,7 @@
       "cpd_labels": null,
       "property_clarification": "50 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12844,7 +13933,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12884,7 +13973,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12927,7 +14016,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12967,7 +14056,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13049,7 +14138,7 @@
       "cpd_labels": null,
       "property_clarification": "130 г",
       "has_age_restriction": false,
-      "stock_limit": "56.00",
+      "stock_limit": "52.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13089,7 +14178,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "35.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13133,7 +14222,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "40.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13173,7 +14262,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "67.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13213,7 +14302,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "148.00",
+      "stock_limit": "141.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13256,7 +14345,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "54.00",
+      "stock_limit": "52.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13299,7 +14388,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "52.00",
+      "stock_limit": "50.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13342,7 +14431,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13384,7 +14473,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "2.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13468,7 +14557,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "56.00",
+      "stock_limit": "51.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13497,7 +14586,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.0,
-        "rates_count": 1517
+        "rates_count": 1518
       },
       "promo": null,
       "prices": {
@@ -13510,7 +14599,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "64.00",
+      "stock_limit": "53.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13541,7 +14630,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.3,
-        "rates_count": 1492
+        "rates_count": 1493
       },
       "promo": null,
       "prices": {
@@ -13554,7 +14643,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "38.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13598,7 +14687,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13641,7 +14730,7 @@
       "cpd_labels": null,
       "property_clarification": "260 мл",
       "has_age_restriction": false,
-      "stock_limit": "98.00",
+      "stock_limit": "91.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13682,7 +14771,7 @@
       "cpd_labels": null,
       "property_clarification": "260 мл",
       "has_age_restriction": false,
-      "stock_limit": "102.00",
+      "stock_limit": "100.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13722,7 +14811,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "13.11",
+      "stock_limit": "6.39",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.3",
@@ -13758,7 +14847,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 126
+        "rates_count": 127
       },
       "promo": null,
       "prices": {
@@ -13777,7 +14866,7 @@
       "cpd_labels": null,
       "property_clarification": "30 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13819,7 +14908,7 @@
       "cpd_labels": null,
       "property_clarification": "330 мл",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13944,7 +15033,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13984,7 +15073,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": false,
-      "stock_limit": "83.00",
+      "stock_limit": "80.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14028,7 +15117,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "4.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14068,7 +15157,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "54.93",
+      "stock_limit": "44.95",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.7",
@@ -14108,7 +15197,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "110.73",
+      "stock_limit": "94.05",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "2.2",
@@ -14148,7 +15237,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "48.52",
+      "stock_limit": "13.29",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.1",
@@ -14192,7 +15281,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14232,7 +15321,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "142.00",
+      "stock_limit": "137.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14260,7 +15349,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 1563
+        "rates_count": 1564
       },
       "promo": null,
       "prices": {
@@ -14273,7 +15362,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "51.00",
+      "stock_limit": "42.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14315,7 +15404,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14359,7 +15448,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "101.00",
+      "stock_limit": "94.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14403,7 +15492,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "111.00",
+      "stock_limit": "108.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14443,7 +15532,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "97.00",
+      "stock_limit": "93.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14483,7 +15572,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14510,7 +15599,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.5,
-        "rates_count": 2816
+        "rates_count": 2817
       },
       "promo": null,
       "prices": {
@@ -14523,7 +15612,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "149.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14563,7 +15652,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "89.00",
+      "stock_limit": "82.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14603,13 +15692,53 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 30,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4290901,
+      "name": "Пиво BML светлое нефильтрованное 4,7% 1,2л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1561110-main/320x320.jpeg?updated_at=2025-12-17T18:28:59.945Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1561110-main/800x800.jpeg?updated_at=2025-12-17T18:28:59.945Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 122
+      },
+      "promo": null,
+      "prices": {
+        "regular": "129.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "1.2 л",
+      "has_age_restriction": true,
+      "stock_limit": "35.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -14643,7 +15772,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "45.00",
+      "stock_limit": "40.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14683,7 +15812,7 @@
       "cpd_labels": null,
       "property_clarification": "1.2 л",
       "has_age_restriction": true,
-      "stock_limit": "31.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14723,7 +15852,7 @@
       "cpd_labels": null,
       "property_clarification": "1.2 л",
       "has_age_restriction": true,
-      "stock_limit": "72.00",
+      "stock_limit": "70.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14763,7 +15892,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "93.00",
+      "stock_limit": "83.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14803,7 +15932,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "75.00",
+      "stock_limit": "73.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14843,7 +15972,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "81.00",
+      "stock_limit": "79.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14883,7 +16012,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "80.00",
+      "stock_limit": "79.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14923,7 +16052,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "43.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14954,7 +16083,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.1,
-        "rates_count": 4412
+        "rates_count": 4413
       },
       "promo": null,
       "prices": {
@@ -14967,7 +16096,7 @@
       "cpd_labels": null,
       "property_clarification": "550 г",
       "has_age_restriction": false,
-      "stock_limit": "743.00",
+      "stock_limit": "642.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15007,7 +16136,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "40.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15047,7 +16176,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "49.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15087,7 +16216,7 @@
       "cpd_labels": null,
       "property_clarification": "360 мл",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15127,7 +16256,7 @@
       "cpd_labels": null,
       "property_clarification": "380 мл",
       "has_age_restriction": false,
-      "stock_limit": "65.00",
+      "stock_limit": "60.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15171,7 +16300,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "40.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15213,7 +16342,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "57.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15257,7 +16386,7 @@
       "cpd_labels": null,
       "property_clarification": "275 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15297,7 +16426,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "36.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15337,7 +16466,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "80.00",
+      "stock_limit": "74.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15422,7 +16551,7 @@
       "cpd_labels": null,
       "property_clarification": "200 шт",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15464,7 +16593,7 @@
       "cpd_labels": null,
       "property_clarification": "180 мл",
       "has_age_restriction": false,
-      "stock_limit": "7.00",
+      "stock_limit": "4.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15505,7 +16634,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "76.00",
+      "stock_limit": "73.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15590,7 +16719,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15633,7 +16762,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "50.00",
+      "stock_limit": "49.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15673,7 +16802,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "20.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15713,7 +16842,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15794,7 +16923,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15912,115 +17041,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 70,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4359397,
-      "name": "Вино CASA LORETTI Пино Гриджио сухое белое 12% 0.75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1615148-main/320x320.jpeg?updated_at=2025-12-17T18:31:34.995Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1615148-main/800x800.jpeg?updated_at=2025-12-17T18:31:34.995Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 45
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "6.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4359392,
-      "name": "Вино CASA LORETTI Пино Гриджио сухое розовое 12% 0,75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1615149-main/320x320.jpeg?updated_at=2025-12-17T18:31:34.988Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1615149-main/800x800.jpeg?updated_at=2025-12-17T18:31:34.988Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 57
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "10.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4412551,
-      "name": "Корзина плетеная 21х22см",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2128627-main/320x320.jpeg?updated_at=2026-01-26T16:17:11.568Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2128627-main/800x800.jpeg?updated_at=2026-01-26T16:17:11.568Z",
-          "https://catalog-images.x5static.net/product/36c2c169d22f61fed41547c077b15d08-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": null,
-      "promo": null,
-      "prices": null,
-      "labels": [
-        {
-          "label": "-52%",
-          "bg_color": "#FFD700",
-          "text_color": "#302E33"
-        }
-      ],
-      "cpd_labels": null,
-      "property_clarification": "400 г",
-      "has_age_restriction": false,
-      "stock_limit": "1.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -16170,76 +17190,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 140,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4441884,
-      "name": "Спагетти БОН МЕНЮ Болоньезе 270г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2125483-main/320x320.jpeg?updated_at=2026-01-14T07:53:56.025Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2125483-main/800x800.jpeg?updated_at=2026-01-14T07:53:56.025Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 24
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "270 г",
-      "has_age_restriction": false,
-      "stock_limit": "12.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4441529,
-      "name": "Лапша БОН МЕНЮ Удон с морепродуктами 295г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2125463-main/320x320.jpeg?updated_at=2026-01-14T16:03:01.267Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2125463-main/800x800.jpeg?updated_at=2026-01-14T16:03:01.267Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 53
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "295 г",
-      "has_age_restriction": false,
-      "stock_limit": "11.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -16424,70 +17374,35 @@
       "features": null
     },
     {
-      "plu": 4439684,
-      "name": "Фондю БОН МЕНЮ Паста с Эмменталь и курицей 600г",
+      "plu": 4439140,
+      "name": "Творог DELIGRANDE Пломбир 6% 130г",
       "image_links": {
         "small": [
-          "https://catalog-images.x5static.net/product/2125466-main/320x320.jpeg?updated_at=2026-01-14T15:57:44.475Z"
+          "https://catalog-images.x5static.net/product/2125453-main/320x320.jpeg?updated_at=2026-01-14T16:10:42.400Z"
         ],
         "normal": [
-          "https://catalog-images.x5static.net/product/2125466-main/800x800.jpeg?updated_at=2026-01-14T15:57:44.475Z"
+          "https://catalog-images.x5static.net/product/2125453-main/800x800.jpeg?updated_at=2026-01-14T16:10:42.400Z"
         ]
       },
       "uom": "шт",
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 17
+        "rates_count": 27
       },
       "promo": null,
       "prices": null,
       "labels": null,
       "cpd_labels": null,
-      "property_clarification": "600 г",
+      "property_clarification": "130 мл",
       "has_age_restriction": false,
-      "stock_limit": "7.00",
+      "stock_limit": "-1.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
-      "orange_loyalty_points": 210,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4439528,
-      "name": "Пеленки АМА МАМА детские одноразовые 30шт",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2122233-main/320x320.jpeg?updated_at=2025-12-23T08:07:33.868Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2122233-main/800x800.jpeg?updated_at=2025-12-23T08:07:33.868Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 13
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "860 г",
-      "has_age_restriction": false,
-      "stock_limit": "8.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 210,
+      "orange_loyalty_points": 34,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -16562,53 +17477,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 140,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4425817,
-      "name": "Набор прихваток KOOKABARA силиконовых 2шт",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2127623-main/320x320.jpeg?updated_at=2026-01-23T14:46:17.688Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2127623-main/800x800.jpeg?updated_at=2026-01-23T14:46:17.688Z",
-          "https://catalog-images.x5static.net/product/37190f51cd5fe4d636f779128bbb5994-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/53f6616ccd48d0022ea776664d4c27cb-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/598bd3b62cc5998b78cb9a8dd981b6dc-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/721a0ad5ababf97ce41f0bbb2ace8015-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/90bc6df62291ebfcdee255015839546b-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/243df45fa4408afa3190a6e06d7254e7-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/3325cda512cf21cf6178650c87ddadf4-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/d0b35d947427575ab7b9c77c2898a9aa-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/e120e0393b5a02ce0dcfa140726e911b-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": null,
-      "promo": null,
-      "prices": null,
-      "labels": [
-        {
-          "label": "-30%",
-          "bg_color": "#FFD700",
-          "text_color": "#302E33"
-        }
-      ],
-      "cpd_labels": null,
-      "property_clarification": "110 г",
-      "has_age_restriction": false,
-      "stock_limit": "18.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -16770,81 +17638,6 @@
       "features": null
     },
     {
-      "plu": 4423880,
-      "name": "Вино BAOBAY Chardonnay Viognier белое сухое 12% 0.75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2109406-main/320x320.jpeg?updated_at=2025-11-17T08:21:47.957Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2109406-main/800x800.jpeg?updated_at=2025-11-17T08:21:47.957Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 26
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "29.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4423208,
-      "name": "Кроссовки SVASSO мужские р41-45",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2142560-main/320x320.jpeg?updated_at=2026-03-11T14:35:28.044Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2142560-main/800x800.jpeg?updated_at=2026-03-11T14:35:28.044Z",
-          "https://catalog-images.x5static.net/product/0a5c9b60fccde78f9e37046b9d6f6121-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/21c6e8b11ca5c3890a1fdf77a47a904f-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/fcc2ab755857805b904f31168b4fe882-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/64b494f9e33d243e9c48c57ea34f87aa-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/5836c43e19ba51157ea4efef7e54151b-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/dd88e9a5fb9b65a3d3bd37b173be5dc0-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/2a2481930ca9c467da961b073e77a07e-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/acfbc65ef11fef38f18b20cc71cddb9f-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": null,
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "378 г",
-      "has_age_restriction": false,
-      "stock_limit": "2.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 840,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4422838,
       "name": "Носки SVASSO мужские 6 пар р41-45",
       "image_links": {
@@ -16920,45 +17713,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 840,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4421209,
-      "name": "Жилет SVASSO детский утепленный р116-140см",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2144030-main/320x320.jpeg?updated_at=2026-03-17T12:08:03.086Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2144030-main/800x800.jpeg?updated_at=2026-03-17T12:08:03.086Z",
-          "https://catalog-images.x5static.net/product/bf4f78d20a52c4e7fa963665454b48a2-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/1c11218d035c66c1b92923929944dc6c-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/3cefd365b77b68bf25e6ca42073ff4ae-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/ef709694b9a7238866ee278eec8303bf-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/958f631a70c6793b2102fba60cabdd8e-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/5f57b4f709d518431a63cebbe3e7c461-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/8679df6b600189ba7aeb7b498053b474-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": null,
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "150 г",
-      "has_age_restriction": false,
-      "stock_limit": "3.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 490,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -17173,119 +17927,6 @@
       "features": null
     },
     {
-      "plu": 4415345,
-      "name": "Вино LEDARIA игристое полусладкое белое 10-12% 0,75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2038760-main/320x320.jpeg?updated_at=2025-09-24T18:00:20.562Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2038760-main/800x800.jpeg?updated_at=2025-09-24T18:00:20.562Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 64
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "15.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4415335,
-      "name": "Чайник JB 1,7л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2142578-main/320x320.jpeg?updated_at=2026-03-11T14:19:14.023Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2142578-main/800x800.jpeg?updated_at=2026-03-11T14:19:14.023Z",
-          "https://catalog-images.x5static.net/product/a9e5badb73ab1f779156cfe49cc98253-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/984f33fe638d12b2987b13ff1a3a674c-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/8dadc2bd00d3d3a66f76ef9af7521696-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/9997687c156b989fe8b68edbfdba794f-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": null,
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "1.7 л",
-      "has_age_restriction": false,
-      "stock_limit": "1.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 630,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4415325,
-      "name": "Кабель JB с разъемами USB C и USB C",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2127632-main/320x320.jpeg?updated_at=2026-01-20T13:36:20.754Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2127632-main/800x800.jpeg?updated_at=2026-01-20T13:36:20.754Z",
-          "https://catalog-images.x5static.net/product/8192c711d0a0e6bd97c55e385ba21261-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 1
-      },
-      "promo": null,
-      "prices": null,
-      "labels": [
-        {
-          "label": "-30%",
-          "bg_color": "#FFD700",
-          "text_color": "#302E33"
-        }
-      ],
-      "cpd_labels": null,
-      "property_clarification": "58 г",
-      "has_age_restriction": false,
-      "stock_limit": "9.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4415323,
       "name": "Кабель JB с разъемами USB A и Type C",
       "image_links": {
@@ -17426,7 +18067,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 48
+        "rates_count": 49
       },
       "promo": null,
       "prices": null,
@@ -17559,7 +18200,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 52
+        "rates_count": 53
       },
       "promo": null,
       "prices": null,
@@ -17816,41 +18457,6 @@
       "features": null
     },
     {
-      "plu": 4404082,
-      "name": "Вино ALPRESCO Prosecco игристое белое брют 11% 0,75мл",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2024281-main/320x320.jpeg?updated_at=2025-11-10T14:25:03.139Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2024281-main/800x800.jpeg?updated_at=2025-11-10T14:25:03.139Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 86
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "34.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4403447,
       "name": "Сабо SVASSO мужские утепленные р41-46",
       "image_links": {
@@ -17916,7 +18522,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 44
+        "rates_count": 45
       },
       "promo": null,
       "prices": null,
@@ -18009,7 +18615,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 62
+        "rates_count": 63
       },
       "promo": null,
       "prices": null,
@@ -18168,47 +18774,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4399866,
-      "name": "Худи SVASSO детское р98-140",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2039211-main/320x320.jpeg?updated_at=2026-03-17T15:39:48.512Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2039211-main/800x800.jpeg?updated_at=2026-03-17T15:39:48.512Z",
-          "https://catalog-images.x5static.net/product/fb394c7aa1bf2493ad7f6f620a3e8ec4-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/0a783ec738bcd3be9a23065c083fbb45-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/dae8010d1662a3a53b8bf8753e8e5d7c-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/9ba34f0e5f82a7580d479e4fa0d9c51b-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/c7cb777e88a1798be9c47238eec6919d-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/3658ba2ba88a87b70ee949393c685601-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 31
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "320 г",
-      "has_age_restriction": false,
-      "stock_limit": "8.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 350,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -18829,53 +19394,6 @@
       "features": null
     },
     {
-      "plu": 4394775,
-      "name": "Набор сковородок KOOKABARA 2шт со съемной ручкой",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2048690-main/320x320.jpeg?updated_at=2026-02-02T14:36:07.002Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2048690-main/800x800.jpeg?updated_at=2026-02-02T14:36:07.002Z",
-          "https://catalog-images.x5static.net/product/872630b44fd686b5291c290555bb4a35-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/6f10b72be861b062b26c4ab7a75524ea-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/023e26db7bec7fe212840f89acc514ac-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/dcf6081c87b5daa121409f0a2c9ff70f-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/3b8cf66a1ee7cec2e3e97a0bfa85ed69-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/5d2f8f9e785866d077aa477d42d01e7d-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 124
-      },
-      "promo": null,
-      "prices": null,
-      "labels": [
-        {
-          "label": "-30%",
-          "bg_color": "#FFD700",
-          "text_color": "#302E33"
-        }
-      ],
-      "cpd_labels": null,
-      "property_clarification": "1.23 кг",
-      "has_age_restriction": false,
-      "stock_limit": "1.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4394240,
       "name": "Полуботинки SVASSO резиновые женские р37-41",
       "image_links": {
@@ -18895,7 +19413,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 76
+        "rates_count": 77
       },
       "promo": null,
       "prices": null,
@@ -19004,41 +19522,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 280,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4393759,
-      "name": "Антиперспирант DELIVEA Men Total аэрозоль 200мл",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2046969-main/320x320.jpeg?updated_at=2025-10-02T15:05:49.585Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2046969-main/800x800.jpeg?updated_at=2025-10-02T15:05:49.585Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 50
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "200 мл",
-      "has_age_restriction": false,
-      "stock_limit": "35.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -19157,41 +19640,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 910,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4388199,
-      "name": "Вино CASA LORETTI Chianti сортовое красное сухое 12.5% 0,75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2034102-main/320x320.jpeg?updated_at=2025-09-24T17:50:50.357Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2034102-main/800x800.jpeg?updated_at=2025-09-24T17:50:50.357Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 19
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "27.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -19490,7 +19938,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 34
+        "rates_count": 35
       },
       "promo": null,
       "prices": null,
@@ -19942,6 +20390,43 @@
       "features": null
     },
     {
+      "plu": 4364717,
+      "name": "Блинчики БОН МЕНЮ с творогом замороженные 420г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1801114-main/320x320.jpeg?updated_at=2025-10-15T14:39:56.718Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1801114-main/800x800.jpeg?updated_at=2025-10-15T14:39:56.718Z",
+          "https://catalog-images.x5static.net/product/7f54017f3b3183dce3821db265b78827-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/44f664d44a4608e04d2361411e5d4cc6-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 4.2,
+        "rates_count": 519
+      },
+      "promo": null,
+      "prices": null,
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "420 г",
+      "has_age_restriction": false,
+      "stock_limit": null,
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": false,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4361295,
       "name": "Шпроты ДИКОЕ МОРЕ в масле из балтийской кильки 160г",
       "image_links": {
@@ -19972,76 +20457,6 @@
       "property_clarification": "160 г",
       "has_age_restriction": false,
       "stock_limit": null,
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4359389,
-      "name": "Вино CASA LORETTI Sangiovese Rubicone полусухое красное 12,5% 0,75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1615250-main/320x320.jpeg?updated_at=2025-02-13T16:30:14.976Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1615250-main/800x800.jpeg?updated_at=2025-02-13T16:30:14.976Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 38
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "10.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4357867,
-      "name": "Вино MDIDARI Киндзмараули полусладкое красное 11,5% 0.75л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2120229-main/320x320.jpeg?updated_at=2025-12-11T12:34:34.383Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2120229-main/800x800.jpeg?updated_at=2025-12-11T12:34:34.383Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 40
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": true,
-      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -20104,146 +20519,6 @@
       "features": null
     },
     {
-      "plu": 4345034,
-      "name": "Корм WATSON Мясное ассорти сухой для собак 1.5кг",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1606953-main/320x320.jpeg?updated_at=2024-12-13T05:44:56.815Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1606953-main/800x800.jpeg?updated_at=2024-12-13T05:44:56.815Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 202
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "1.5 кг",
-      "has_age_restriction": false,
-      "stock_limit": "8.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4342809,
-      "name": "Бринкс спиртной Джин-Тоник 0,45",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1600659-main/320x320.jpeg?updated_at=2025-12-17T18:31:03.989Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1600659-main/800x800.jpeg?updated_at=2025-12-17T18:31:03.989Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 50
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "450 мл",
-      "has_age_restriction": true,
-      "stock_limit": "29.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4342280,
-      "name": "Бринкс спиртной с соками апельсина и грейпфрута 0,45",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1602728-main/320x320.jpeg?updated_at=2025-12-17T18:31:03.994Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1602728-main/800x800.jpeg?updated_at=2025-12-17T18:31:03.994Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 104
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "450 мл",
-      "has_age_restriction": true,
-      "stock_limit": "25.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4341924,
-      "name": "Подгузники-трусики АМА МАМА детские одноразовые 12-20кг XL 46шт",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1830514-main/320x320.jpeg?updated_at=2024-11-26T05:17:17.496Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1830514-main/800x800.jpeg?updated_at=2024-11-26T05:17:17.496Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 236
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "1.52 кг",
-      "has_age_restriction": false,
-      "stock_limit": "4.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 490,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4336227,
       "name": "Фарш ВЕРНЕР из филе грудки охлажденный 400г",
       "image_links": {
@@ -20275,41 +20550,6 @@
       "orange_loyalty_points": 70,
       "is_available": false,
       "price_piece_unit": "372.50",
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4328674,
-      "name": "Настойка АВТОРСКАЯ ПОДПИСЬ клюква на коньяке сладкая 21% 0,5л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1585299-main/320x320.jpeg?updated_at=2025-12-17T18:31:01.196Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1585299-main/800x800.jpeg?updated_at=2025-12-17T18:31:01.196Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 112
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "500 мл",
-      "has_age_restriction": true,
-      "stock_limit": "35.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
-      "is_available": false,
-      "price_piece_unit": null,
       "stickers": null,
       "features": null
     },
@@ -20384,41 +20624,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 140,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4325050,
-      "name": "Шампунь-бальзам-ополаскиватель DELIVEA против перхоти 500мл",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1585310-main/320x320.jpeg?updated_at=2024-08-19T10:47:42.876Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1585310-main/800x800.jpeg?updated_at=2024-08-19T10:47:42.876Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 250
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "500 мл",
-      "has_age_restriction": false,
-      "stock_limit": "26.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -20529,41 +20734,6 @@
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 55,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4320791,
-      "name": "Бальзам-ополаскиватель DELIVEA восстанавливающий для поврежденных волос 750мл",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1589718-main/320x320.jpeg?updated_at=2025-03-06T15:53:13.197Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1589718-main/800x800.jpeg?updated_at=2025-03-06T15:53:13.197Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 161
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "750 мл",
-      "has_age_restriction": false,
-      "stock_limit": "12.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -20822,41 +20992,6 @@
       "min_weight": "0.3",
       "max_qty_per_order": null,
       "orange_loyalty_points": 490,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4290901,
-      "name": "Пиво BML светлое нефильтрованное 4,7% 1,2л",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1561110-main/320x320.jpeg?updated_at=2025-12-17T18:28:59.945Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1561110-main/800x800.jpeg?updated_at=2025-12-17T18:28:59.945Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 122
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "1.2 л",
-      "has_age_restriction": true,
-      "stock_limit": "36.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": null,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
