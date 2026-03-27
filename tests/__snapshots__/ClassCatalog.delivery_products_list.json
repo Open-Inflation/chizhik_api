@@ -20,8 +20,8 @@
           "Family Collection",
           "Svasso",
           "Светаево",
-          "Вернер",
           "Greenola",
+          "Вернер",
           "Foodfest",
           "Delibon",
           "Бон Меню",
@@ -35,15 +35,15 @@
           "Миоре",
           "ГрандСон",
           "JB",
+          "Wineacademy",
           "Brunchers",
           "Kitchen Collection",
           "Greetings",
-          "Kookabara",
           "Гранд Меню",
           "Карусели",
           "Deligrande",
           "Hotpoint Industrial",
-          "Wineacademy",
+          "Kookabara",
           "Алдая",
           "Danke",
           "Агуша",
@@ -160,7 +160,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 44
+        "rates_count": 45
       },
       "promo": null,
       "prices": {
@@ -179,7 +179,7 @@
       "cpd_labels": null,
       "property_clarification": "350 мл",
       "has_age_restriction": true,
-      "stock_limit": "19.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -207,7 +207,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.0,
-        "rates_count": 1083
+        "rates_count": 1087
       },
       "promo": null,
       "prices": {
@@ -220,7 +220,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -247,7 +247,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 382
+        "rates_count": 383
       },
       "promo": null,
       "prices": {
@@ -260,7 +260,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "40.00",
+      "stock_limit": "117.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -287,7 +287,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 2307
+        "rates_count": 2310
       },
       "promo": null,
       "prices": {
@@ -300,7 +300,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "90.00",
+      "stock_limit": "81.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -340,7 +340,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "52.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -370,7 +370,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 760
+        "rates_count": 763
       },
       "promo": null,
       "prices": {
@@ -427,7 +427,7 @@
       "cpd_labels": null,
       "property_clarification": "565 г",
       "has_age_restriction": false,
-      "stock_limit": "98.00",
+      "stock_limit": "88.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -456,7 +456,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 746
+        "rates_count": 747
       },
       "promo": null,
       "prices": {
@@ -469,7 +469,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -496,7 +496,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 2029
+        "rates_count": 2031
       },
       "promo": null,
       "prices": {
@@ -509,7 +509,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -536,7 +536,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 722
+        "rates_count": 723
       },
       "promo": null,
       "prices": {
@@ -549,7 +549,7 @@
       "cpd_labels": null,
       "property_clarification": "45 г",
       "has_age_restriction": false,
-      "stock_limit": "136.00",
+      "stock_limit": "74.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -589,7 +589,7 @@
       "cpd_labels": null,
       "property_clarification": "203 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -616,7 +616,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 45
+        "rates_count": 46
       },
       "promo": null,
       "prices": {
@@ -629,7 +629,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "30.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -656,7 +656,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.1,
-        "rates_count": 2113
+        "rates_count": 2119
       },
       "promo": null,
       "prices": {
@@ -669,7 +669,7 @@
       "cpd_labels": null,
       "property_clarification": "440 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -711,7 +711,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "64.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -751,7 +751,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "10.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -791,7 +791,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "2.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -822,7 +822,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 202
+        "rates_count": 203
       },
       "promo": null,
       "prices": {
@@ -835,7 +835,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "5.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -872,7 +872,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -899,7 +899,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 47
+        "rates_count": 49
       },
       "promo": null,
       "prices": {
@@ -912,7 +912,7 @@
       "cpd_labels": null,
       "property_clarification": "50 мл",
       "has_age_restriction": false,
-      "stock_limit": "94.00",
+      "stock_limit": "90.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -940,7 +940,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.1,
-        "rates_count": 360
+        "rates_count": 382
       },
       "promo": null,
       "prices": {
@@ -953,7 +953,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -981,7 +981,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 18
+        "rates_count": 20
       },
       "promo": null,
       "prices": {
@@ -994,7 +994,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1021,7 +1021,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1996
+        "rates_count": 1997
       },
       "promo": null,
       "prices": {
@@ -1034,7 +1034,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "5.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1290,7 +1290,7 @@
       "cpd_labels": null,
       "property_clarification": "1.05 кг",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1367,7 +1367,7 @@
       "cpd_labels": null,
       "property_clarification": "1 кг",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1394,7 +1394,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 32
+        "rates_count": 46
       },
       "promo": null,
       "prices": {
@@ -1407,7 +1407,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "5.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1444,7 +1444,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1481,7 +1481,7 @@
       "cpd_labels": null,
       "property_clarification": "5 г",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1518,7 +1518,7 @@
       "cpd_labels": null,
       "property_clarification": "5 г",
       "has_age_restriction": false,
-      "stock_limit": "69.00",
+      "stock_limit": "61.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1595,7 +1595,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "36.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1635,7 +1635,7 @@
       "cpd_labels": null,
       "property_clarification": "308 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1662,7 +1662,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 11
+        "rates_count": 13
       },
       "promo": null,
       "prices": {
@@ -1675,7 +1675,7 @@
       "cpd_labels": null,
       "property_clarification": "308 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "2.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1715,7 +1715,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "64.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1742,7 +1742,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 17
+        "rates_count": 18
       },
       "promo": null,
       "prices": {
@@ -1755,7 +1755,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1782,7 +1782,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 20
+        "rates_count": 22
       },
       "promo": null,
       "prices": {
@@ -1822,7 +1822,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 24
+        "rates_count": 25
       },
       "promo": null,
       "prices": {
@@ -1875,7 +1875,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "59.00",
+      "stock_limit": "53.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1915,7 +1915,7 @@
       "cpd_labels": null,
       "property_clarification": "290 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1942,7 +1942,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 89
+        "rates_count": 90
       },
       "promo": null,
       "prices": {
@@ -1955,7 +1955,7 @@
       "cpd_labels": null,
       "property_clarification": "930 мл",
       "has_age_restriction": false,
-      "stock_limit": "10.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -1992,7 +1992,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "4.97",
+      "stock_limit": "3.58",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2019,7 +2019,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 93
+        "rates_count": 94
       },
       "promo": null,
       "prices": {
@@ -2032,7 +2032,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "26.00",
+      "stock_limit": "48.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2059,7 +2059,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 53
+        "rates_count": 59
       },
       "promo": null,
       "prices": {
@@ -2072,7 +2072,7 @@
       "cpd_labels": null,
       "property_clarification": "295 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2099,7 +2099,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 18
+        "rates_count": 20
       },
       "promo": null,
       "prices": {
@@ -2179,7 +2179,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 21
+        "rates_count": 22
       },
       "promo": null,
       "prices": {
@@ -2192,7 +2192,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2219,7 +2219,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 7
+        "rates_count": 8
       },
       "promo": null,
       "prices": {
@@ -2232,7 +2232,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2259,7 +2259,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 14
+        "rates_count": 15
       },
       "promo": null,
       "prices": {
@@ -2272,7 +2272,7 @@
       "cpd_labels": null,
       "property_clarification": "305 г",
       "has_age_restriction": false,
-      "stock_limit": "66.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2299,7 +2299,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 16
+        "rates_count": 17
       },
       "promo": null,
       "prices": {
@@ -2312,7 +2312,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "96.00",
+      "stock_limit": "91.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2352,7 +2352,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2432,7 +2432,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "56.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2469,7 +2469,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2509,7 +2509,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2536,7 +2536,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 6
+        "rates_count": 7
       },
       "promo": null,
       "prices": {
@@ -2549,7 +2549,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2576,7 +2576,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 10
+        "rates_count": 11
       },
       "promo": null,
       "prices": {
@@ -2589,7 +2589,47 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "95.00",
+      "stock_limit": "92.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 48,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4440626,
+      "name": "Вафли DELIBON с орешками глазированные 140г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2125485-main/320x320.jpeg?updated_at=2026-01-13T16:19:33.491Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2125485-main/800x800.jpeg?updated_at=2026-01-13T16:19:33.491Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 36
+      },
+      "promo": null,
+      "prices": {
+        "regular": "69.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "140 г",
+      "has_age_restriction": false,
+      "stock_limit": "34.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2616,7 +2656,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 76
+        "rates_count": 81
       },
       "promo": null,
       "prices": {
@@ -2629,7 +2669,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2669,7 +2709,7 @@
       "cpd_labels": null,
       "property_clarification": "170 мл",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2696,7 +2736,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 20
+        "rates_count": 24
       },
       "promo": null,
       "prices": {
@@ -2709,7 +2749,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2750,7 +2790,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": false,
-      "stock_limit": "29.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2777,7 +2817,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 11
+        "rates_count": 12
       },
       "promo": null,
       "prices": {
@@ -2790,7 +2830,7 @@
       "cpd_labels": null,
       "property_clarification": "36 г",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2817,7 +2857,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 28
+        "rates_count": 32
       },
       "promo": null,
       "prices": {
@@ -2830,7 +2870,7 @@
       "cpd_labels": null,
       "property_clarification": "36 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2870,7 +2910,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "53.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2897,7 +2937,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 70
+        "rates_count": 73
       },
       "promo": null,
       "prices": {
@@ -2910,7 +2950,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2950,7 +2990,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "60.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -2977,7 +3017,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 38
+        "rates_count": 39
       },
       "promo": null,
       "prices": {
@@ -2990,13 +3030,53 @@
       "cpd_labels": null,
       "property_clarification": "950 мл",
       "has_age_restriction": false,
-      "stock_limit": "51.00",
+      "stock_limit": "49.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 62,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4439723,
+      "name": "Джем GREENOLA клубничный 300г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2123760-main/320x320.jpeg?updated_at=2026-02-04T10:19:10.325Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2123760-main/800x800.jpeg?updated_at=2026-02-04T10:19:10.325Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 73
+      },
+      "promo": null,
+      "prices": {
+        "regular": "69.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "300 мл",
+      "has_age_restriction": false,
+      "stock_limit": "48.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 48,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -3017,7 +3097,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 17
+        "rates_count": 21
       },
       "promo": null,
       "prices": {
@@ -3070,7 +3150,7 @@
       "cpd_labels": null,
       "property_clarification": "860 г",
       "has_age_restriction": false,
-      "stock_limit": "7.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3097,7 +3177,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 5
+        "rates_count": 7
       },
       "promo": null,
       "prices": {
@@ -3110,7 +3190,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "47.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3150,7 +3230,7 @@
       "cpd_labels": null,
       "property_clarification": "50 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3177,7 +3257,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.4,
-        "rates_count": 214
+        "rates_count": 220
       },
       "promo": null,
       "prices": {
@@ -3190,7 +3270,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3217,7 +3297,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 62
+        "rates_count": 65
       },
       "promo": null,
       "prices": {
@@ -3230,7 +3310,7 @@
       "cpd_labels": null,
       "property_clarification": "650 мл",
       "has_age_restriction": false,
-      "stock_limit": "43.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3270,53 +3350,13 @@
       "cpd_labels": null,
       "property_clarification": "2.4 кг",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
       "orange_loyalty_points": 140,
-      "is_available": true,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4439140,
-      "name": "Творог DELIGRANDE Пломбир 6% 130г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2125453-main/320x320.jpeg?updated_at=2026-01-14T16:10:42.400Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2125453-main/800x800.jpeg?updated_at=2026-01-14T16:10:42.400Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 27
-      },
-      "promo": null,
-      "prices": {
-        "regular": "49.0",
-        "discount": null,
-        "cpd_promo_price": null,
-        "cpd_promo_price_from_sum_cart": null
-      },
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "130 мл",
-      "has_age_restriction": false,
-      "stock_limit": "14.00",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 34,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -3350,7 +3390,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3377,7 +3417,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 105
+        "rates_count": 110
       },
       "promo": null,
       "prices": {
@@ -3390,7 +3430,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "4.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3417,7 +3457,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 88
+        "rates_count": 89
       },
       "promo": null,
       "prices": {
@@ -3507,7 +3547,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3547,7 +3587,7 @@
       "cpd_labels": null,
       "property_clarification": "930 мл",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3574,7 +3614,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 38
+        "rates_count": 41
       },
       "promo": null,
       "prices": {
@@ -3587,7 +3627,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "46.00",
+      "stock_limit": "41.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3614,7 +3654,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 2.5,
-        "rates_count": 509
+        "rates_count": 515
       },
       "promo": null,
       "prices": {
@@ -3627,7 +3667,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3667,7 +3707,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3694,7 +3734,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 28
+        "rates_count": 29
       },
       "promo": null,
       "prices": {
@@ -3707,7 +3747,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3747,7 +3787,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "36.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3774,7 +3814,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 25
+        "rates_count": 26
       },
       "promo": null,
       "prices": {
@@ -3824,7 +3864,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "129.00",
+      "stock_limit": "109.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3850,8 +3890,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 2.4,
-        "rates_count": 255
+        "rating_average": 2.5,
+        "rates_count": 256
       },
       "promo": null,
       "prices": {
@@ -3864,7 +3904,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "131.00",
+      "stock_limit": "112.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3901,7 +3941,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "118.00",
+      "stock_limit": "115.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3938,7 +3978,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "71.00",
+      "stock_limit": "61.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -3965,7 +4005,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 90
+        "rates_count": 95
       },
       "promo": null,
       "prices": {
@@ -3978,7 +4018,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4005,7 +4045,7 @@
       "step": "0.4",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 168
+        "rates_count": 172
       },
       "promo": null,
       "prices": {
@@ -4018,7 +4058,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "2.91",
+      "stock_limit": "6.40",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.4",
@@ -4058,7 +4098,7 @@
       "cpd_labels": null,
       "property_clarification": "700 мл",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4086,7 +4126,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.1,
-        "rates_count": 248
+        "rates_count": 252
       },
       "promo": null,
       "prices": {
@@ -4099,7 +4139,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4139,7 +4179,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "132.00",
+      "stock_limit": "136.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4179,7 +4219,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "43.00",
+      "stock_limit": "42.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4207,7 +4247,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.2,
-        "rates_count": 484
+        "rates_count": 496
       },
       "promo": null,
       "prices": {
@@ -4220,7 +4260,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4247,7 +4287,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 125
+        "rates_count": 130
       },
       "promo": null,
       "prices": {
@@ -4260,7 +4300,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4287,7 +4327,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 42
+        "rates_count": 44
       },
       "promo": null,
       "prices": {
@@ -4300,7 +4340,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4327,7 +4367,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 20
+        "rates_count": 21
       },
       "promo": null,
       "prices": {
@@ -4340,7 +4380,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4418,7 +4458,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 49
+        "rates_count": 50
       },
       "promo": null,
       "prices": {
@@ -4431,7 +4471,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "49.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4471,7 +4511,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "120.00",
+      "stock_limit": "110.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4498,7 +4538,7 @@
       "step": "0.33",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 176
+        "rates_count": 186
       },
       "promo": null,
       "prices": {
@@ -4511,7 +4551,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "15.66",
+      "stock_limit": "19.62",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.33",
@@ -4538,7 +4578,7 @@
       "step": "0.33",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 138
+        "rates_count": 147
       },
       "promo": null,
       "prices": {
@@ -4551,7 +4591,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "17.36",
+      "stock_limit": "18.86",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.33",
@@ -4578,7 +4618,7 @@
       "step": "0.33",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 133
+        "rates_count": 144
       },
       "promo": null,
       "prices": {
@@ -4591,7 +4631,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "23.33",
+      "stock_limit": "18.68",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.33",
@@ -4643,7 +4683,7 @@
       "cpd_labels": null,
       "property_clarification": "110 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4683,7 +4723,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4723,7 +4763,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "58.00",
+      "stock_limit": "50.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4763,7 +4803,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "78.00",
+      "stock_limit": "70.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4790,7 +4830,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 198
+        "rates_count": 203
       },
       "promo": null,
       "prices": {
@@ -4803,7 +4843,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "13.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4830,7 +4870,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.4,
-        "rates_count": 244
+        "rates_count": 246
       },
       "promo": null,
       "prices": {
@@ -4843,7 +4883,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "10.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4870,7 +4910,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 126
+        "rates_count": 127
       },
       "promo": null,
       "prices": {
@@ -4883,7 +4923,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "13.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -4923,7 +4963,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "29.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5008,7 +5048,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5048,7 +5088,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "46.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5213,7 +5253,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 173
+        "rates_count": 177
       },
       "promo": null,
       "prices": {
@@ -5226,7 +5266,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5266,7 +5306,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "95.00",
+      "stock_limit": "73.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5309,7 +5349,7 @@
       "cpd_labels": null,
       "property_clarification": "75 г",
       "has_age_restriction": false,
-      "stock_limit": "59.00",
+      "stock_limit": "134.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5435,7 +5475,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 41
+        "rates_count": 42
       },
       "promo": null,
       "prices": {
@@ -5490,7 +5530,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 34
+        "rates_count": 35
       },
       "promo": null,
       "prices": {
@@ -5545,7 +5585,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 39
+        "rates_count": 40
       },
       "promo": null,
       "prices": {
@@ -5604,7 +5644,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5644,7 +5684,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "38.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5711,7 +5751,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 19
+        "rates_count": 22
       },
       "promo": null,
       "prices": {
@@ -5724,7 +5764,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "29.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5751,7 +5791,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 101
+        "rates_count": 105
       },
       "promo": null,
       "prices": {
@@ -5764,7 +5804,7 @@
       "cpd_labels": null,
       "property_clarification": "1 кг",
       "has_age_restriction": false,
-      "stock_limit": "6.00",
+      "stock_limit": "5.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -5804,7 +5844,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "26.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6071,7 +6111,7 @@
       "cpd_labels": null,
       "property_clarification": "58 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6155,7 +6195,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 54
+        "rates_count": 55
       },
       "promo": null,
       "prices": {
@@ -6308,7 +6348,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 55
+        "rates_count": 57
       },
       "promo": null,
       "prices": {
@@ -6354,7 +6394,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 61
+        "rates_count": 62
       },
       "promo": null,
       "prices": {
@@ -6367,7 +6407,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6396,7 +6436,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 123
+        "rates_count": 124
       },
       "promo": null,
       "prices": {
@@ -6409,7 +6449,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6439,7 +6479,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 105
+        "rates_count": 108
       },
       "promo": null,
       "prices": {
@@ -6452,7 +6492,7 @@
       "cpd_labels": null,
       "property_clarification": "50 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6481,7 +6521,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 47
+        "rates_count": 48
       },
       "promo": null,
       "prices": {
@@ -6528,7 +6568,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 148
+        "rates_count": 149
       },
       "promo": null,
       "prices": {
@@ -6541,7 +6581,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6568,7 +6608,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 24
+        "rates_count": 25
       },
       "promo": null,
       "prices": {
@@ -6660,7 +6700,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 57
+        "rates_count": 58
       },
       "promo": null,
       "prices": {
@@ -6765,7 +6805,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 54
+        "rates_count": 55
       },
       "promo": null,
       "prices": {
@@ -6864,7 +6904,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "22.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -6897,7 +6937,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 70
+        "rates_count": 71
       },
       "promo": null,
       "prices": {
@@ -6947,7 +6987,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 72
+        "rates_count": 73
       },
       "promo": null,
       "prices": {
@@ -7007,7 +7047,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7037,7 +7077,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 156
+        "rates_count": 157
       },
       "promo": null,
       "prices": {
@@ -7050,7 +7090,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "47.00",
+      "stock_limit": "35.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7080,7 +7120,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 47
+        "rates_count": 49
       },
       "promo": null,
       "prices": {
@@ -7135,7 +7175,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 60
+        "rates_count": 61
       },
       "promo": null,
       "prices": {
@@ -7247,7 +7287,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "11.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7274,7 +7314,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 514
+        "rates_count": 516
       },
       "promo": null,
       "prices": {
@@ -7287,7 +7327,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": true,
-      "stock_limit": "25.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7327,7 +7367,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "34.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7357,7 +7397,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 63
+        "rates_count": 64
       },
       "promo": null,
       "prices": {
@@ -7412,7 +7452,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 67
+        "rates_count": 68
       },
       "promo": null,
       "prices": {
@@ -7462,7 +7502,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 64
+        "rates_count": 65
       },
       "promo": null,
       "prices": {
@@ -7521,7 +7561,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7551,8 +7591,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 4.0,
-        "rates_count": 441
+        "rating_average": 3.9,
+        "rates_count": 445
       },
       "promo": null,
       "prices": {
@@ -7565,7 +7605,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7646,7 +7686,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 294
+        "rates_count": 296
       },
       "promo": null,
       "prices": {
@@ -7659,7 +7699,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7748,7 +7788,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 23
+        "rates_count": 24
       },
       "promo": null,
       "prices": {
@@ -7791,7 +7831,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 72
+        "rates_count": 73
       },
       "promo": null,
       "prices": {
@@ -7944,7 +7984,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 31
+        "rates_count": 32
       },
       "promo": null,
       "prices": {
@@ -7957,7 +7997,7 @@
       "cpd_labels": null,
       "property_clarification": "320 г",
       "has_age_restriction": false,
-      "stock_limit": "6.00",
+      "stock_limit": "5.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -7988,7 +8028,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 68
+        "rates_count": 69
       },
       "promo": null,
       "prices": {
@@ -8039,7 +8079,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 52
+        "rates_count": 53
       },
       "promo": null,
       "prices": {
@@ -8089,7 +8129,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 64
+        "rates_count": 65
       },
       "promo": null,
       "prices": {
@@ -8549,7 +8589,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 445
+        "rates_count": 448
       },
       "promo": null,
       "prices": {
@@ -8562,7 +8602,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "47.00",
+      "stock_limit": "91.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -8646,7 +8686,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 57
+        "rates_count": 58
       },
       "promo": null,
       "prices": {
@@ -8751,7 +8791,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 56
+        "rates_count": 57
       },
       "promo": null,
       "prices": {
@@ -8854,7 +8894,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 124
+        "rates_count": 125
       },
       "promo": null,
       "prices": {
@@ -8909,7 +8949,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 63
+        "rates_count": 64
       },
       "promo": null,
       "prices": {
@@ -8922,7 +8962,7 @@
       "cpd_labels": null,
       "property_clarification": "389 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9012,7 +9052,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9052,7 +9092,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9148,7 +9188,7 @@
       "cpd_labels": null,
       "property_clarification": "700 г",
       "has_age_restriction": false,
-      "stock_limit": "3.00",
+      "stock_limit": "2.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9219,7 +9259,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 207
+        "rates_count": 209
       },
       "promo": null,
       "prices": {
@@ -9232,7 +9272,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "49.00",
+      "stock_limit": "47.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9259,7 +9299,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 211
+        "rates_count": 213
       },
       "promo": null,
       "prices": {
@@ -9272,7 +9312,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "36.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9299,7 +9339,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 324
+        "rates_count": 325
       },
       "promo": null,
       "prices": {
@@ -9312,7 +9352,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "35.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9339,7 +9379,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.5,
-        "rates_count": 573
+        "rates_count": 578
       },
       "promo": null,
       "prices": {
@@ -9352,7 +9392,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "48.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9383,7 +9423,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 202
+        "rates_count": 218
       },
       "promo": null,
       "prices": {
@@ -9396,7 +9436,7 @@
       "cpd_labels": null,
       "property_clarification": "320 мл",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9423,7 +9463,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 19
+        "rates_count": 20
       },
       "promo": null,
       "prices": {
@@ -9466,7 +9506,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.6,
-        "rates_count": 467
+        "rates_count": 473
       },
       "promo": null,
       "prices": {
@@ -9479,7 +9519,7 @@
       "cpd_labels": null,
       "property_clarification": "190 г",
       "has_age_restriction": false,
-      "stock_limit": "63.00",
+      "stock_limit": "53.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9508,8 +9548,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 3.5,
-        "rates_count": 483
+        "rating_average": 3.6,
+        "rates_count": 487
       },
       "promo": null,
       "prices": {
@@ -9522,7 +9562,7 @@
       "cpd_labels": null,
       "property_clarification": "190 г",
       "has_age_restriction": false,
-      "stock_limit": "72.00",
+      "stock_limit": "70.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9563,7 +9603,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9590,7 +9630,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 452
+        "rates_count": 456
       },
       "promo": null,
       "prices": {
@@ -9603,7 +9643,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9630,7 +9670,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 161
+        "rates_count": 162
       },
       "promo": null,
       "prices": {
@@ -9643,7 +9683,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "59.00",
+      "stock_limit": "52.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9670,7 +9710,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 503
+        "rates_count": 504
       },
       "promo": null,
       "prices": {
@@ -9683,7 +9723,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9710,7 +9750,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 144
+        "rates_count": 146
       },
       "promo": null,
       "prices": {
@@ -9723,7 +9763,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "43.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9755,7 +9795,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 62
+        "rates_count": 63
       },
       "promo": null,
       "prices": {
@@ -9802,7 +9842,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 484
+        "rates_count": 488
       },
       "promo": null,
       "prices": {
@@ -9815,7 +9855,7 @@
       "cpd_labels": null,
       "property_clarification": "370 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9842,7 +9882,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 75
+        "rates_count": 76
       },
       "promo": null,
       "prices": {
@@ -9855,7 +9895,7 @@
       "cpd_labels": null,
       "property_clarification": "520 мл",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9895,7 +9935,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "124.00",
+      "stock_limit": "109.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9935,7 +9975,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "80.00",
+      "stock_limit": "79.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -9977,7 +10017,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "93.00",
+      "stock_limit": "92.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10004,7 +10044,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.6,
-        "rates_count": 595
+        "rates_count": 598
       },
       "promo": null,
       "prices": {
@@ -10017,7 +10057,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10094,7 +10134,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 198
+        "rates_count": 199
       },
       "promo": null,
       "prices": {
@@ -10107,7 +10147,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "14.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10147,7 +10187,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10187,7 +10227,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10229,7 +10269,7 @@
       "cpd_labels": null,
       "property_clarification": "100 мл",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "84.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10269,7 +10309,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "19.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10298,7 +10338,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 519
+        "rates_count": 523
       },
       "promo": null,
       "prices": {
@@ -10311,7 +10351,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "6.00",
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10351,7 +10391,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "17.00",
+      "stock_limit": "13.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10391,7 +10431,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "13.00",
+      "stock_limit": "36.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10420,7 +10460,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 2.9,
-        "rates_count": 872
+        "rates_count": 877
       },
       "promo": null,
       "prices": {
@@ -10433,7 +10473,7 @@
       "cpd_labels": null,
       "property_clarification": "420 г",
       "has_age_restriction": false,
-      "stock_limit": "6.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10460,7 +10500,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.3,
-        "rates_count": 1750
+        "rates_count": 1754
       },
       "promo": null,
       "prices": {
@@ -10473,7 +10513,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "140.00",
+      "stock_limit": "106.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10583,7 +10623,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 239
+        "rates_count": 240
       },
       "promo": null,
       "prices": {
@@ -10596,7 +10636,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10623,7 +10663,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 40
+        "rates_count": 42
       },
       "promo": null,
       "prices": {
@@ -10663,7 +10703,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 45
+        "rates_count": 46
       },
       "promo": null,
       "prices": {
@@ -10716,7 +10756,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "35.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10747,7 +10787,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 1010
+        "rates_count": 1012
       },
       "promo": null,
       "prices": {
@@ -10787,7 +10827,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.8,
-        "rates_count": 1097
+        "rates_count": 1098
       },
       "promo": null,
       "prices": {
@@ -10800,7 +10840,7 @@
       "cpd_labels": null,
       "property_clarification": "425 мл",
       "has_age_restriction": false,
-      "stock_limit": "139.00",
+      "stock_limit": "101.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10827,7 +10867,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 226
+        "rates_count": 229
       },
       "promo": null,
       "prices": {
@@ -10840,7 +10880,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "29.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10867,7 +10907,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 314
+        "rates_count": 317
       },
       "promo": null,
       "prices": {
@@ -10880,7 +10920,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "3.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10907,7 +10947,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.3,
-        "rates_count": 471
+        "rates_count": 475
       },
       "promo": null,
       "prices": {
@@ -10920,7 +10960,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "8.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10960,7 +11000,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -10987,7 +11027,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 203
+        "rates_count": 204
       },
       "promo": null,
       "prices": {
@@ -11121,7 +11161,7 @@
       "cpd_labels": null,
       "property_clarification": "140 г",
       "has_age_restriction": false,
-      "stock_limit": "62.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11202,7 +11242,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "78.00",
+      "stock_limit": "72.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11269,7 +11309,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 236
+        "rates_count": 238
       },
       "promo": null,
       "prices": {
@@ -11309,7 +11349,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 293
+        "rates_count": 294
       },
       "promo": null,
       "prices": {
@@ -11348,8 +11388,8 @@
       "uom": "кг",
       "step": "1.5",
       "rating": {
-        "rating_average": 3.3,
-        "rates_count": 1035
+        "rating_average": 3.4,
+        "rates_count": 1040
       },
       "promo": null,
       "prices": {
@@ -11362,7 +11402,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "8.95",
+      "stock_limit": "4.49",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.5",
@@ -11402,7 +11442,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11445,7 +11485,7 @@
       "cpd_labels": null,
       "property_clarification": "800 мл",
       "has_age_restriction": false,
-      "stock_limit": "13.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11485,7 +11525,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "83.00",
+      "stock_limit": "81.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11512,7 +11552,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.5,
-        "rates_count": 398
+        "rates_count": 399
       },
       "promo": null,
       "prices": {
@@ -11552,7 +11592,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 50
+        "rates_count": 55
       },
       "promo": null,
       "prices": {
@@ -11565,7 +11605,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11597,7 +11637,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.5,
-        "rates_count": 4312
+        "rates_count": 4313
       },
       "promo": null,
       "prices": {
@@ -11610,7 +11650,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11640,7 +11680,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 364
+        "rates_count": 365
       },
       "promo": null,
       "prices": {
@@ -11653,7 +11693,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "84.00",
+      "stock_limit": "80.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11696,7 +11736,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11723,7 +11763,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 369
+        "rates_count": 371
       },
       "promo": null,
       "prices": {
@@ -11736,7 +11776,7 @@
       "cpd_labels": null,
       "property_clarification": "225 г",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11767,7 +11807,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1608
+        "rates_count": 1609
       },
       "promo": null,
       "prices": {
@@ -11811,7 +11851,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.9,
-        "rates_count": 1959
+        "rates_count": 1966
       },
       "promo": null,
       "prices": {
@@ -11824,7 +11864,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11853,7 +11893,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.4,
-        "rates_count": 439
+        "rates_count": 440
       },
       "promo": null,
       "prices": {
@@ -11906,7 +11946,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11933,7 +11973,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 112
+        "rates_count": 114
       },
       "promo": null,
       "prices": {
@@ -11946,7 +11986,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": true,
-      "stock_limit": "34.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -11973,7 +12013,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.0,
-        "rates_count": 621
+        "rates_count": 623
       },
       "promo": null,
       "prices": {
@@ -11986,7 +12026,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "7.00",
+      "stock_limit": "5.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12018,7 +12058,7 @@
       },
       "promo": null,
       "prices": {
-        "regular": "229.0",
+        "regular": "199.0",
         "discount": null,
         "cpd_promo_price": null,
         "cpd_promo_price_from_sum_cart": null
@@ -12027,13 +12067,13 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
-      "orange_loyalty_points": 140,
+      "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -12054,7 +12094,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.3,
-        "rates_count": 1009
+        "rates_count": 1019
       },
       "promo": null,
       "prices": {
@@ -12067,7 +12107,7 @@
       "cpd_labels": null,
       "property_clarification": "325 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12076,6 +12116,48 @@
       "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": "489.23",
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4328193,
+      "name": "Снежок СВЕТАЕВО 2.5% БЗМЖ 500г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1585428-main/320x320.jpeg?updated_at=2025-10-15T14:45:21.154Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1585428-main/800x800.jpeg?updated_at=2025-10-15T14:45:21.154Z",
+          "https://catalog-images.x5static.net/product/3cbec60bfe36bd952de158fd2a5433f0-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/5da3396ead87aa738ceacc0c07c775e3-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 290
+      },
+      "promo": null,
+      "prices": {
+        "regular": "59.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "500 мл",
+      "has_age_restriction": false,
+      "stock_limit": "18.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 41,
+      "is_available": true,
+      "price_piece_unit": null,
       "stickers": null,
       "features": null
     },
@@ -12094,7 +12176,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 532
+        "rates_count": 535
       },
       "promo": null,
       "prices": {
@@ -12107,7 +12189,7 @@
       "cpd_labels": null,
       "property_clarification": "360 мл",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12137,7 +12219,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 237
+        "rates_count": 238
       },
       "promo": null,
       "prices": {
@@ -12150,7 +12232,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "93.00",
+      "stock_limit": "87.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12193,7 +12275,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "2.44",
+      "stock_limit": "3.43",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.3",
@@ -12237,7 +12319,7 @@
       "cpd_labels": null,
       "property_clarification": "185 г",
       "has_age_restriction": false,
-      "stock_limit": "51.00",
+      "stock_limit": "40.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12277,7 +12359,7 @@
       "cpd_labels": null,
       "property_clarification": "550 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12304,7 +12386,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 457
+        "rates_count": 459
       },
       "promo": null,
       "prices": {
@@ -12317,7 +12399,7 @@
       "cpd_labels": null,
       "property_clarification": "320 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12344,7 +12426,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 318
+        "rates_count": 320
       },
       "promo": null,
       "prices": {
@@ -12357,7 +12439,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "103.00",
+      "stock_limit": "79.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12387,7 +12469,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 451
+        "rates_count": 453
       },
       "promo": null,
       "prices": {
@@ -12400,7 +12482,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "96.00",
+      "stock_limit": "80.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12430,7 +12512,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 481
+        "rates_count": 484
       },
       "promo": null,
       "prices": {
@@ -12443,7 +12525,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "103.00",
+      "stock_limit": "91.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12472,7 +12554,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 440
+        "rates_count": 441
       },
       "promo": null,
       "prices": {
@@ -12485,7 +12567,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "33.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12525,7 +12607,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12552,7 +12634,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 299
+        "rates_count": 301
       },
       "promo": null,
       "prices": {
@@ -12565,7 +12647,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "75.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12636,7 +12718,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 331
+        "rates_count": 333
       },
       "promo": null,
       "prices": {
@@ -12649,7 +12731,7 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "7.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12722,7 +12804,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 181
+        "rates_count": 182
       },
       "promo": null,
       "prices": {
@@ -12762,7 +12844,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 163
+        "rates_count": 164
       },
       "promo": null,
       "prices": {
@@ -12775,7 +12857,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12806,7 +12888,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 217
+        "rates_count": 219
       },
       "promo": null,
       "prices": {
@@ -12819,7 +12901,7 @@
       "cpd_labels": null,
       "property_clarification": "240 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12850,7 +12932,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 646
+        "rates_count": 657
       },
       "promo": null,
       "prices": {
@@ -12863,7 +12945,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12903,7 +12985,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12946,7 +13028,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "31.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -12973,7 +13055,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 250
+        "rates_count": 251
       },
       "promo": null,
       "prices": {
@@ -12986,7 +13068,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13016,7 +13098,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 259
+        "rates_count": 260
       },
       "promo": null,
       "prices": {
@@ -13029,7 +13111,7 @@
       "cpd_labels": null,
       "property_clarification": "380 г",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13073,7 +13155,7 @@
       "cpd_labels": null,
       "property_clarification": "95 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "24.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13103,7 +13185,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 241
+        "rates_count": 242
       },
       "promo": null,
       "prices": {
@@ -13202,7 +13284,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "104.00",
+      "stock_limit": "97.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13230,7 +13312,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.9,
-        "rates_count": 751
+        "rates_count": 754
       },
       "promo": null,
       "prices": {
@@ -13243,7 +13325,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "25.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13283,7 +13365,7 @@
       "cpd_labels": null,
       "property_clarification": "70 г",
       "has_age_restriction": false,
-      "stock_limit": "148.00",
+      "stock_limit": "147.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13310,7 +13392,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 269
+        "rates_count": 270
       },
       "promo": null,
       "prices": {
@@ -13323,7 +13405,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13350,7 +13432,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 161
+        "rates_count": 162
       },
       "promo": null,
       "prices": {
@@ -13403,7 +13485,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "79.00",
+      "stock_limit": "72.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13430,7 +13512,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 298
+        "rates_count": 299
       },
       "promo": null,
       "prices": {
@@ -13443,7 +13525,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "162.00",
+      "stock_limit": "146.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13472,7 +13554,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 296
+        "rates_count": 298
       },
       "promo": null,
       "prices": {
@@ -13485,7 +13567,7 @@
       "cpd_labels": null,
       "property_clarification": "500 мл",
       "has_age_restriction": false,
-      "stock_limit": "115.00",
+      "stock_limit": "226.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13514,7 +13596,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.7,
-        "rates_count": 1061
+        "rates_count": 1075
       },
       "promo": null,
       "prices": {
@@ -13527,7 +13609,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "48.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13555,7 +13637,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 351
+        "rates_count": 352
       },
       "promo": null,
       "prices": {
@@ -13568,7 +13650,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "38.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13595,7 +13677,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 163
+        "rates_count": 164
       },
       "promo": null,
       "prices": {
@@ -13608,7 +13690,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13648,7 +13730,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "10.00",
+      "stock_limit": "4.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13678,7 +13760,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 458
+        "rates_count": 461
       },
       "promo": null,
       "prices": {
@@ -13691,7 +13773,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "35.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13721,7 +13803,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 717
+        "rates_count": 720
       },
       "promo": null,
       "prices": {
@@ -13734,7 +13816,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13777,7 +13859,7 @@
       "cpd_labels": null,
       "property_clarification": "280 г",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "22.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13820,7 +13902,7 @@
       "cpd_labels": null,
       "property_clarification": "280 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13850,7 +13932,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 195
+        "rates_count": 196
       },
       "promo": null,
       "prices": {
@@ -13863,7 +13945,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13890,7 +13972,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 314
+        "rates_count": 315
       },
       "promo": null,
       "prices": {
@@ -13903,7 +13985,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13931,7 +14013,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 432
+        "rates_count": 433
       },
       "promo": null,
       "prices": {
@@ -13944,7 +14026,7 @@
       "cpd_labels": null,
       "property_clarification": "30 г",
       "has_age_restriction": false,
-      "stock_limit": "105.00",
+      "stock_limit": "120.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -13985,7 +14067,7 @@
       "cpd_labels": null,
       "property_clarification": "28 г",
       "has_age_restriction": false,
-      "stock_limit": "53.00",
+      "stock_limit": "143.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14025,7 +14107,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "66.00",
+      "stock_limit": "61.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14065,7 +14147,7 @@
       "cpd_labels": null,
       "property_clarification": "180 г",
       "has_age_restriction": false,
-      "stock_limit": "67.00",
+      "stock_limit": "58.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14093,7 +14175,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 719
+        "rates_count": 721
       },
       "promo": null,
       "prices": {
@@ -14106,7 +14188,7 @@
       "cpd_labels": null,
       "property_clarification": "50 г",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14133,7 +14215,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 104
+        "rates_count": 105
       },
       "promo": null,
       "prices": {
@@ -14146,7 +14228,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14186,7 +14268,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14229,7 +14311,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14256,7 +14338,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 482
+        "rates_count": 484
       },
       "promo": null,
       "prices": {
@@ -14269,7 +14351,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14298,7 +14380,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 150
+        "rates_count": 151
       },
       "promo": null,
       "prices": {
@@ -14338,7 +14420,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 498
+        "rates_count": 510
       },
       "promo": null,
       "prices": {
@@ -14351,7 +14433,7 @@
       "cpd_labels": null,
       "property_clarification": "130 г",
       "has_age_restriction": false,
-      "stock_limit": "91.00",
+      "stock_limit": "79.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14378,7 +14460,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 721
+        "rates_count": 734
       },
       "promo": null,
       "prices": {
@@ -14391,7 +14473,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14462,7 +14544,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 502
+        "rates_count": 516
       },
       "promo": null,
       "prices": {
@@ -14475,7 +14557,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "54.00",
+      "stock_limit": "53.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14502,7 +14584,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 718
+        "rates_count": 730
       },
       "promo": null,
       "prices": {
@@ -14515,7 +14597,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "106.00",
+      "stock_limit": "84.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14545,7 +14627,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 412
+        "rates_count": 413
       },
       "promo": null,
       "prices": {
@@ -14558,7 +14640,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "50.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14588,7 +14670,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 285
+        "rates_count": 286
       },
       "promo": null,
       "prices": {
@@ -14601,7 +14683,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "46.00",
+      "stock_limit": "36.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14631,7 +14713,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 722
+        "rates_count": 727
       },
       "promo": null,
       "prices": {
@@ -14644,7 +14726,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14673,7 +14755,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 475
+        "rates_count": 476
       },
       "promo": null,
       "prices": {
@@ -14686,7 +14768,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14730,7 +14812,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14757,7 +14839,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.6,
-        "rates_count": 1215
+        "rates_count": 1228
       },
       "promo": null,
       "prices": {
@@ -14770,7 +14852,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "35.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14799,7 +14881,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.0,
-        "rates_count": 1518
+        "rates_count": 1523
       },
       "promo": null,
       "prices": {
@@ -14812,7 +14894,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "55.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14843,7 +14925,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.3,
-        "rates_count": 1493
+        "rates_count": 1499
       },
       "promo": null,
       "prices": {
@@ -14856,7 +14938,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "35.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14886,8 +14968,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 3.9,
-        "rates_count": 1293
+        "rating_average": 4.0,
+        "rates_count": 1298
       },
       "promo": null,
       "prices": {
@@ -14900,7 +14982,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14930,7 +15012,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 405
+        "rates_count": 406
       },
       "promo": null,
       "prices": {
@@ -14943,7 +15025,7 @@
       "cpd_labels": null,
       "property_clarification": "260 мл",
       "has_age_restriction": false,
-      "stock_limit": "111.00",
+      "stock_limit": "102.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -14971,7 +15053,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 347
+        "rates_count": 348
       },
       "promo": null,
       "prices": {
@@ -14984,7 +15066,7 @@
       "cpd_labels": null,
       "property_clarification": "260 мл",
       "has_age_restriction": false,
-      "stock_limit": "94.00",
+      "stock_limit": "91.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15011,7 +15093,7 @@
       "step": "1.3",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 930
+        "rates_count": 931
       },
       "promo": null,
       "prices": {
@@ -15024,7 +15106,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "12.79",
+      "stock_limit": "20.14",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.3",
@@ -15060,7 +15142,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 128
+        "rates_count": 129
       },
       "promo": null,
       "prices": {
@@ -15121,7 +15203,7 @@
       "cpd_labels": null,
       "property_clarification": "330 мл",
       "has_age_restriction": false,
-      "stock_limit": "23.00",
+      "stock_limit": "100.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15166,7 +15248,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "35.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15206,7 +15288,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "39.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15233,7 +15315,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 625
+        "rates_count": 628
       },
       "promo": null,
       "prices": {
@@ -15246,7 +15328,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15286,7 +15368,7 @@
       "cpd_labels": null,
       "property_clarification": "250 мл",
       "has_age_restriction": false,
-      "stock_limit": "67.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15330,7 +15412,7 @@
       "cpd_labels": null,
       "property_clarification": "800 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15339,46 +15421,6 @@
       "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": "236.25",
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4298491,
-      "name": "Голень ВЕРНЕР цыпленка охлажденная",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1518843-main/320x320.jpeg?updated_at=2025-10-10T13:29:19.215Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1518843-main/800x800.jpeg?updated_at=2025-10-10T13:29:19.215Z"
-        ]
-      },
-      "uom": "кг",
-      "step": "0.7",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 868
-      },
-      "promo": null,
-      "prices": {
-        "regular": "199.0",
-        "discount": null,
-        "cpd_promo_price": null,
-        "cpd_promo_price_from_sum_cart": null
-      },
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "Цена за 1 кг",
-      "has_age_restriction": false,
-      "stock_limit": "26.45",
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "0.7",
-      "min_weight": "0.7",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
-      "is_available": true,
-      "price_piece_unit": null,
       "stickers": null,
       "features": null
     },
@@ -15397,7 +15439,7 @@
       "step": "2.2",
       "rating": {
         "rating_average": 3.4,
-        "rates_count": 603
+        "rates_count": 612
       },
       "promo": null,
       "prices": {
@@ -15410,7 +15452,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "87.45",
+      "stock_limit": "62.75",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "2.2",
@@ -15437,7 +15479,7 @@
       "step": "1.1",
       "rating": {
         "rating_average": 3.9,
-        "rates_count": 1246
+        "rates_count": 1251
       },
       "promo": null,
       "prices": {
@@ -15450,7 +15492,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "19.37",
+      "stock_limit": "11.77",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.1",
@@ -15481,7 +15523,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.5,
-        "rates_count": 834
+        "rates_count": 838
       },
       "promo": null,
       "prices": {
@@ -15494,7 +15536,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "19.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15534,7 +15576,7 @@
       "cpd_labels": null,
       "property_clarification": "100 г",
       "has_age_restriction": false,
-      "stock_limit": "126.00",
+      "stock_limit": "157.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15562,7 +15604,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 1564
+        "rates_count": 1570
       },
       "promo": null,
       "prices": {
@@ -15575,7 +15617,7 @@
       "cpd_labels": null,
       "property_clarification": "250 г",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15603,8 +15645,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 4.3,
-        "rates_count": 937
+        "rating_average": 0.0,
+        "rates_count": 938
       },
       "promo": null,
       "prices": {
@@ -15617,7 +15659,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15648,7 +15690,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 358
+        "rates_count": 361
       },
       "promo": null,
       "prices": {
@@ -15661,7 +15703,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "153.00",
+      "stock_limit": "146.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15692,7 +15734,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 404
+        "rates_count": 406
       },
       "promo": null,
       "prices": {
@@ -15705,7 +15747,7 @@
       "cpd_labels": null,
       "property_clarification": "400 мл",
       "has_age_restriction": false,
-      "stock_limit": "97.00",
+      "stock_limit": "90.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15732,7 +15774,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 919
+        "rates_count": 920
       },
       "promo": null,
       "prices": {
@@ -15745,7 +15787,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "83.00",
+      "stock_limit": "75.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15772,7 +15814,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 315
+        "rates_count": 317
       },
       "promo": null,
       "prices": {
@@ -15785,7 +15827,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "12.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15812,7 +15854,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.5,
-        "rates_count": 2817
+        "rates_count": 2819
       },
       "promo": null,
       "prices": {
@@ -15825,7 +15867,7 @@
       "cpd_labels": null,
       "property_clarification": "80 г",
       "has_age_restriction": false,
-      "stock_limit": "49.00",
+      "stock_limit": "135.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15865,7 +15907,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "81.00",
+      "stock_limit": "71.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15892,7 +15934,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 367
+        "rates_count": 369
       },
       "promo": null,
       "prices": {
@@ -15905,7 +15947,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -15985,7 +16027,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "30.00",
+      "stock_limit": "29.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16025,7 +16067,7 @@
       "cpd_labels": null,
       "property_clarification": "1.2 л",
       "has_age_restriction": true,
-      "stock_limit": "27.00",
+      "stock_limit": "25.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16065,7 +16107,7 @@
       "cpd_labels": null,
       "property_clarification": "1.2 л",
       "has_age_restriction": true,
-      "stock_limit": "65.00",
+      "stock_limit": "58.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16092,7 +16134,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 195
+        "rates_count": 196
       },
       "promo": null,
       "prices": {
@@ -16105,7 +16147,7 @@
       "cpd_labels": null,
       "property_clarification": "450 мл",
       "has_age_restriction": true,
-      "stock_limit": "49.00",
+      "stock_limit": "27.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16145,7 +16187,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "69.00",
+      "stock_limit": "63.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16172,7 +16214,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 578
+        "rates_count": 581
       },
       "promo": null,
       "prices": {
@@ -16185,7 +16227,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "70.00",
+      "stock_limit": "58.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16212,7 +16254,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 344
+        "rates_count": 346
       },
       "promo": null,
       "prices": {
@@ -16225,7 +16267,7 @@
       "cpd_labels": null,
       "property_clarification": "300 мл",
       "has_age_restriction": false,
-      "stock_limit": "79.00",
+      "stock_limit": "75.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16265,7 +16307,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "55.00",
+      "stock_limit": "62.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16296,7 +16338,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.1,
-        "rates_count": 4415
+        "rates_count": 4434
       },
       "promo": null,
       "prices": {
@@ -16309,7 +16351,7 @@
       "cpd_labels": null,
       "property_clarification": "550 г",
       "has_age_restriction": false,
-      "stock_limit": "389.00",
+      "stock_limit": "122.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16349,7 +16391,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "36.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16376,7 +16418,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 199
+        "rates_count": 200
       },
       "promo": null,
       "prices": {
@@ -16389,7 +16431,7 @@
       "cpd_labels": null,
       "property_clarification": "125 мл",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "80.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16416,7 +16458,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 161
+        "rates_count": 162
       },
       "promo": null,
       "prices": {
@@ -16429,7 +16471,7 @@
       "cpd_labels": null,
       "property_clarification": "360 мл",
       "has_age_restriction": false,
-      "stock_limit": "16.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16456,11 +16498,11 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 375
+        "rates_count": 380
       },
       "promo": null,
       "prices": {
-        "regular": "139.0",
+        "regular": "149.0",
         "discount": null,
         "cpd_promo_price": null,
         "cpd_promo_price_from_sum_cart": null
@@ -16469,7 +16511,7 @@
       "cpd_labels": null,
       "property_clarification": "380 мл",
       "has_age_restriction": false,
-      "stock_limit": "40.00",
+      "stock_limit": "28.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16477,7 +16519,7 @@
       "max_qty_per_order": null,
       "orange_loyalty_points": 70,
       "is_available": true,
-      "price_piece_unit": "204.41",
+      "price_piece_unit": "219.11",
       "stickers": null,
       "features": null
     },
@@ -16500,7 +16542,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.9,
-        "rates_count": 1338
+        "rates_count": 1349
       },
       "promo": null,
       "prices": {
@@ -16513,7 +16555,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16542,7 +16584,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1150
+        "rates_count": 1157
       },
       "promo": null,
       "prices": {
@@ -16555,7 +16597,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "51.00",
+      "stock_limit": "42.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16599,7 +16641,7 @@
       "cpd_labels": null,
       "property_clarification": "275 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16639,7 +16681,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16679,7 +16721,7 @@
       "cpd_labels": null,
       "property_clarification": "200 г",
       "has_age_restriction": false,
-      "stock_limit": "57.00",
+      "stock_limit": "53.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16706,7 +16748,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 256
+        "rates_count": 257
       },
       "promo": null,
       "prices": {
@@ -16719,7 +16761,7 @@
       "cpd_labels": null,
       "property_clarification": "700 мл",
       "has_age_restriction": true,
-      "stock_limit": "19.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16751,7 +16793,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 439
+        "rates_count": 441
       },
       "promo": null,
       "prices": {
@@ -16764,7 +16806,7 @@
       "cpd_labels": null,
       "property_clarification": "200 шт",
       "has_age_restriction": false,
-      "stock_limit": "41.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16793,7 +16835,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.5,
-        "rates_count": 972
+        "rates_count": 974
       },
       "promo": null,
       "prices": {
@@ -16806,7 +16848,7 @@
       "cpd_labels": null,
       "property_clarification": "180 мл",
       "has_age_restriction": false,
-      "stock_limit": "5.00",
+      "stock_limit": "10.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16889,7 +16931,7 @@
       "cpd_labels": null,
       "property_clarification": "200 мл",
       "has_age_restriction": false,
-      "stock_limit": "77.00",
+      "stock_limit": "76.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16932,7 +16974,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -16962,7 +17004,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 490
+        "rates_count": 491
       },
       "promo": null,
       "prices": {
@@ -16975,7 +17017,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "45.00",
+      "stock_limit": "39.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17055,7 +17097,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "9.00",
+      "stock_limit": "14.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17082,7 +17124,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 339
+        "rates_count": 340
       },
       "promo": null,
       "prices": {
@@ -17123,7 +17165,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 977
+        "rates_count": 978
       },
       "promo": null,
       "prices": {
@@ -17136,7 +17178,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17163,8 +17205,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 3.5,
-        "rates_count": 2311
+        "rating_average": 3.4,
+        "rates_count": 2319
       },
       "promo": null,
       "prices": {
@@ -17177,7 +17219,7 @@
       "cpd_labels": null,
       "property_clarification": "390 г",
       "has_age_restriction": false,
-      "stock_limit": "18.00",
+      "stock_limit": "6.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17207,7 +17249,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 610
+        "rates_count": 613
       },
       "promo": null,
       "prices": {
@@ -17250,7 +17292,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 567
+        "rates_count": 570
       },
       "promo": null,
       "prices": {
@@ -17263,7 +17305,7 @@
       "cpd_labels": null,
       "property_clarification": "150 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17304,7 +17346,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "13.00",
+      "stock_limit": "23.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17331,7 +17373,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 428
+        "rates_count": 429
       },
       "promo": null,
       "prices": {
@@ -17344,7 +17386,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17371,7 +17413,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1338
+        "rates_count": 1339
       },
       "promo": null,
       "prices": {
@@ -17384,7 +17426,7 @@
       "cpd_labels": null,
       "property_clarification": "522 г",
       "has_age_restriction": false,
-      "stock_limit": "62.00",
+      "stock_limit": "42.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17412,7 +17454,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 650
+        "rates_count": 653
       },
       "promo": null,
       "prices": {
@@ -17425,7 +17467,7 @@
       "cpd_labels": null,
       "property_clarification": "522 г",
       "has_age_restriction": false,
-      "stock_limit": "19.00",
+      "stock_limit": "18.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17465,7 +17507,7 @@
       "cpd_labels": null,
       "property_clarification": "45 г",
       "has_age_restriction": false,
-      "stock_limit": "91.00",
+      "stock_limit": "89.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17505,7 +17547,7 @@
       "cpd_labels": null,
       "property_clarification": "45 г",
       "has_age_restriction": false,
-      "stock_limit": "171.00",
+      "stock_limit": "114.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17534,11 +17576,11 @@
       "step": "0.7",
       "rating": {
         "rating_average": 2.1,
-        "rates_count": 953
+        "rates_count": 959
       },
       "promo": null,
       "prices": {
-        "regular": "369.0",
+        "regular": "299.0",
         "discount": null,
         "cpd_promo_price": null,
         "cpd_promo_price_from_sum_cart": null
@@ -17547,13 +17589,13 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "7.61",
+      "stock_limit": "6.46",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.7",
       "min_weight": "0.7",
       "max_qty_per_order": null,
-      "orange_loyalty_points": 210,
+      "orange_loyalty_points": 140,
       "is_available": true,
       "price_piece_unit": null,
       "stickers": null,
@@ -17574,7 +17616,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 581
+        "rates_count": 584
       },
       "promo": null,
       "prices": {
@@ -17587,7 +17629,7 @@
       "cpd_labels": null,
       "property_clarification": "520 г",
       "has_age_restriction": false,
-      "stock_limit": "15.00",
+      "stock_limit": "32.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17627,7 +17669,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "10.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17654,7 +17696,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 554
+        "rates_count": 559
       },
       "promo": null,
       "prices": {
@@ -17667,7 +17709,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "24.00",
+      "stock_limit": "11.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17707,7 +17749,7 @@
       "cpd_labels": null,
       "property_clarification": "40 г",
       "has_age_restriction": false,
-      "stock_limit": "64.00",
+      "stock_limit": "62.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17747,7 +17789,7 @@
       "cpd_labels": null,
       "property_clarification": "84 г",
       "has_age_restriction": false,
-      "stock_limit": "27.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17827,7 +17869,7 @@
       "cpd_labels": null,
       "property_clarification": "3 кг",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17854,7 +17896,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 649
+        "rates_count": 652
       },
       "promo": null,
       "prices": {
@@ -17867,7 +17909,7 @@
       "cpd_labels": null,
       "property_clarification": "500 г",
       "has_age_restriction": false,
-      "stock_limit": "34.00",
+      "stock_limit": "37.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17894,7 +17936,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 180
+        "rates_count": 182
       },
       "promo": null,
       "prices": {
@@ -17907,7 +17949,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "38.00",
+      "stock_limit": "35.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17933,8 +17975,8 @@
       "uom": "шт",
       "step": "1.0",
       "rating": {
-        "rating_average": 3.6,
-        "rates_count": 1146
+        "rating_average": 3.5,
+        "rates_count": 1148
       },
       "promo": null,
       "prices": {
@@ -17947,7 +17989,7 @@
       "cpd_labels": null,
       "property_clarification": "450 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -17974,7 +18016,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 365
+        "rates_count": 366
       },
       "promo": null,
       "prices": {
@@ -17987,7 +18029,7 @@
       "cpd_labels": null,
       "property_clarification": "340 г",
       "has_age_restriction": false,
-      "stock_limit": "36.00",
+      "stock_limit": "30.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18027,7 +18069,7 @@
       "cpd_labels": null,
       "property_clarification": "320 г",
       "has_age_restriction": false,
-      "stock_limit": "21.00",
+      "stock_limit": "20.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18067,7 +18109,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": false,
-      "stock_limit": "17.00",
+      "stock_limit": "15.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18107,7 +18149,7 @@
       "cpd_labels": null,
       "property_clarification": "1 л",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "19.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18134,7 +18176,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.2,
-        "rates_count": 756
+        "rates_count": 760
       },
       "promo": null,
       "prices": {
@@ -18147,7 +18189,7 @@
       "cpd_labels": null,
       "property_clarification": "340 мл",
       "has_age_restriction": false,
-      "stock_limit": "84.00",
+      "stock_limit": "64.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18174,7 +18216,7 @@
       "step": "0.3",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 964
+        "rates_count": 965
       },
       "promo": null,
       "prices": {
@@ -18187,7 +18229,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "3.83",
+      "stock_limit": "3.40",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.3",
@@ -18217,7 +18259,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 316
+        "rates_count": 317
       },
       "promo": null,
       "prices": {
@@ -18230,7 +18272,7 @@
       "cpd_labels": null,
       "property_clarification": "900 г",
       "has_age_restriction": false,
-      "stock_limit": "32.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18261,7 +18303,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.4,
-        "rates_count": 1378
+        "rates_count": 1379
       },
       "promo": null,
       "prices": {
@@ -18315,7 +18357,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "20.00",
+      "stock_limit": "21.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18355,7 +18397,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "8.00",
+      "stock_limit": "9.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18382,7 +18424,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 224
+        "rates_count": 225
       },
       "promo": null,
       "prices": {
@@ -18395,7 +18437,7 @@
       "cpd_labels": null,
       "property_clarification": "300 г",
       "has_age_restriction": false,
-      "stock_limit": "28.00",
+      "stock_limit": "12.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18435,7 +18477,7 @@
       "cpd_labels": null,
       "property_clarification": "750 мл",
       "has_age_restriction": true,
-      "stock_limit": "29.00",
+      "stock_limit": "26.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18465,7 +18507,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 841
+        "rates_count": 842
       },
       "promo": null,
       "prices": {
@@ -18478,7 +18520,7 @@
       "cpd_labels": null,
       "property_clarification": "370 г",
       "has_age_restriction": false,
-      "stock_limit": "26.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18518,7 +18560,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "14.00",
+      "stock_limit": "16.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18545,7 +18587,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.1,
-        "rates_count": 1405
+        "rates_count": 1412
       },
       "promo": null,
       "prices": {
@@ -18598,7 +18640,7 @@
       "cpd_labels": null,
       "property_clarification": "Цена за 1 кг",
       "has_age_restriction": false,
-      "stock_limit": "3.88",
+      "stock_limit": "2.40",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "0.2",
@@ -18638,7 +18680,7 @@
       "cpd_labels": null,
       "property_clarification": "670 г",
       "has_age_restriction": false,
-      "stock_limit": "42.00",
+      "stock_limit": "31.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18667,7 +18709,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 4.2,
-        "rates_count": 1384
+        "rates_count": 1388
       },
       "promo": null,
       "prices": {
@@ -18680,7 +18722,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "22.00",
+      "stock_limit": "17.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18707,7 +18749,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 432
+        "rates_count": 435
       },
       "promo": null,
       "prices": {
@@ -18720,7 +18762,7 @@
       "cpd_labels": null,
       "property_clarification": "670 г",
       "has_age_restriction": false,
-      "stock_limit": "78.00",
+      "stock_limit": "71.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18760,7 +18802,7 @@
       "cpd_labels": null,
       "property_clarification": "60 г",
       "has_age_restriction": false,
-      "stock_limit": "144.00",
+      "stock_limit": "110.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18800,7 +18842,7 @@
       "cpd_labels": null,
       "property_clarification": "60 г",
       "has_age_restriction": false,
-      "stock_limit": "151.00",
+      "stock_limit": "137.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18840,7 +18882,7 @@
       "cpd_labels": null,
       "property_clarification": "925 мл",
       "has_age_restriction": false,
-      "stock_limit": "64.00",
+      "stock_limit": "68.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18880,7 +18922,7 @@
       "cpd_labels": null,
       "property_clarification": "930 мл",
       "has_age_restriction": false,
-      "stock_limit": "65.00",
+      "stock_limit": "45.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18920,7 +18962,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "67.00",
+      "stock_limit": "52.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -18963,7 +19005,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "37.00",
+      "stock_limit": "58.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -19003,7 +19045,7 @@
       "cpd_labels": null,
       "property_clarification": "90 г",
       "has_age_restriction": false,
-      "stock_limit": "30.00",
+      "stock_limit": "55.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -19032,7 +19074,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 374
+        "rates_count": 375
       },
       "promo": null,
       "prices": {
@@ -19045,7 +19087,7 @@
       "cpd_labels": null,
       "property_clarification": "400 г",
       "has_age_restriction": false,
-      "stock_limit": "11.00",
+      "stock_limit": "4.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
@@ -19054,6 +19096,46 @@
       "orange_loyalty_points": 70,
       "is_available": true,
       "price_piece_unit": "372.50",
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4253942,
+      "name": "Скумбрия ДИКОЕ МОРЕ атлантическая кусочки холодного копчения 300г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1485856-main/320x320.jpeg?updated_at=2025-02-06T08:41:01.818Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1485856-main/800x800.jpeg?updated_at=2025-02-06T08:41:01.818Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 3.1,
+        "rates_count": 1070
+      },
+      "promo": null,
+      "prices": {
+        "regular": "269.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "300 г",
+      "has_age_restriction": false,
+      "stock_limit": "26.00",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 140,
+      "is_available": true,
+      "price_piece_unit": null,
       "stickers": null,
       "features": null
     },
@@ -19108,7 +19190,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 387
+        "rates_count": 393
       },
       "promo": null,
       "prices": null,
@@ -19259,7 +19341,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 119
+        "rates_count": 127
       },
       "promo": null,
       "prices": null,
@@ -19316,70 +19398,35 @@
       "features": null
     },
     {
-      "plu": 4440626,
-      "name": "Вафли DELIBON с орешками глазированные 140г",
+      "plu": 4439140,
+      "name": "Творог DELIGRANDE Пломбир 6% 130г",
       "image_links": {
         "small": [
-          "https://catalog-images.x5static.net/product/2125485-main/320x320.jpeg?updated_at=2026-01-13T16:19:33.491Z"
+          "https://catalog-images.x5static.net/product/2125453-main/320x320.jpeg?updated_at=2026-01-14T16:10:42.400Z"
         ],
         "normal": [
-          "https://catalog-images.x5static.net/product/2125485-main/800x800.jpeg?updated_at=2026-01-13T16:19:33.491Z"
+          "https://catalog-images.x5static.net/product/2125453-main/800x800.jpeg?updated_at=2026-01-14T16:10:42.400Z"
         ]
       },
       "uom": "шт",
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 34
+        "rates_count": 38
       },
       "promo": null,
       "prices": null,
       "labels": null,
       "cpd_labels": null,
-      "property_clarification": "140 г",
+      "property_clarification": "130 мл",
       "has_age_restriction": false,
-      "stock_limit": null,
+      "stock_limit": "-1.00",
       "median_price": null,
       "badges": [],
       "initial_weight_step": "1.0",
       "min_weight": "1.0",
       "max_qty_per_order": null,
-      "orange_loyalty_points": 48,
-      "is_available": false,
-      "price_piece_unit": null,
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4439723,
-      "name": "Джем GREENOLA клубничный 300г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/2123760-main/320x320.jpeg?updated_at=2026-02-04T10:19:10.325Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/2123760-main/800x800.jpeg?updated_at=2026-02-04T10:19:10.325Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 73
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "300 мл",
-      "has_age_restriction": false,
-      "stock_limit": null,
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 48,
+      "orange_loyalty_points": 34,
       "is_available": false,
       "price_piece_unit": null,
       "stickers": null,
@@ -19609,7 +19656,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 33
+        "rates_count": 34
       },
       "promo": null,
       "prices": null,
@@ -19761,7 +19808,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.1,
-        "rates_count": 922
+        "rates_count": 936
       },
       "promo": null,
       "prices": null,
@@ -19802,7 +19849,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 50
+        "rates_count": 51
       },
       "promo": null,
       "prices": null,
@@ -20040,7 +20087,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 427
+        "rates_count": 428
       },
       "promo": null,
       "prices": null,
@@ -20148,7 +20195,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 179
+        "rates_count": 184
       },
       "promo": null,
       "prices": null,
@@ -20359,6 +20406,41 @@
       "features": null
     },
     {
+      "plu": 4342008,
+      "name": "Вино Кагор крепленое десертное красное 16% 0.75л",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1601531-main/320x320.jpeg?updated_at=2025-04-09T10:37:21.072Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1601531-main/800x800.jpeg?updated_at=2025-04-09T10:37:21.072Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 35
+      },
+      "promo": null,
+      "prices": null,
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "750 мл",
+      "has_age_restriction": true,
+      "stock_limit": null,
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": null,
+      "is_available": false,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4336227,
       "name": "Фарш ВЕРНЕР из филе грудки охлажденный 400г",
       "image_links": {
@@ -20373,7 +20455,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 3.5,
-        "rates_count": 2099
+        "rates_count": 2104
       },
       "promo": null,
       "prices": null,
@@ -20390,43 +20472,6 @@
       "orange_loyalty_points": 70,
       "is_available": false,
       "price_piece_unit": "372.50",
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4328193,
-      "name": "Снежок СВЕТАЕВО 2.5% БЗМЖ 500г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1585428-main/320x320.jpeg?updated_at=2025-10-15T14:45:21.154Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1585428-main/800x800.jpeg?updated_at=2025-10-15T14:45:21.154Z",
-          "https://catalog-images.x5static.net/product/3cbec60bfe36bd952de158fd2a5433f0-additional/800x800.jpeg",
-          "https://catalog-images.x5static.net/product/5da3396ead87aa738ceacc0c07c775e3-additional/800x800.jpeg"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 290
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "500 мл",
-      "has_age_restriction": false,
-      "stock_limit": null,
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 41,
-      "is_available": false,
-      "price_piece_unit": null,
       "stickers": null,
       "features": null
     },
@@ -20448,7 +20493,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 81
+        "rates_count": 83
       },
       "promo": null,
       "prices": null,
@@ -20666,7 +20711,7 @@
       "step": "0.33",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1437
+        "rates_count": 1440
       },
       "promo": null,
       "prices": null,
@@ -20704,7 +20749,7 @@
       "step": "0.33",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1381
+        "rates_count": 1383
       },
       "promo": null,
       "prices": null,
@@ -20742,7 +20787,7 @@
       "step": "0.3",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 1823
+        "rates_count": 1825
       },
       "promo": null,
       "prices": null,
@@ -20763,6 +20808,41 @@
       "features": null
     },
     {
+      "plu": 4298491,
+      "name": "Голень ВЕРНЕР цыпленка охлажденная",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1518843-main/320x320.jpeg?updated_at=2025-10-10T13:29:19.215Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1518843-main/800x800.jpeg?updated_at=2025-10-10T13:29:19.215Z"
+        ]
+      },
+      "uom": "кг",
+      "step": "0.7",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 870
+      },
+      "promo": null,
+      "prices": null,
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "Цена за 1 кг",
+      "has_age_restriction": false,
+      "stock_limit": "-0.31",
+      "median_price": null,
+      "badges": [],
+      "initial_weight_step": "0.7",
+      "min_weight": "0.7",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": false,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
       "plu": 4277637,
       "name": "Напиток FUN UP Lemon Lime газированный 2л",
       "image_links": {
@@ -20777,7 +20857,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 486
+        "rates_count": 487
       },
       "promo": null,
       "prices": null,
@@ -20812,7 +20892,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 0.0,
-        "rates_count": 480
+        "rates_count": 481
       },
       "promo": null,
       "prices": null,
@@ -20833,76 +20913,6 @@
       "features": null
     },
     {
-      "plu": 4272323,
-      "name": "Фарш ВЕРНЕР говяжий охлажденный 400г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1491172-main/320x320.jpeg?updated_at=2025-02-06T08:41:34.677Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1491172-main/800x800.jpeg?updated_at=2025-02-06T08:41:34.677Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 892
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "400 г",
-      "has_age_restriction": false,
-      "stock_limit": null,
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 140,
-      "is_available": false,
-      "price_piece_unit": "672.50",
-      "stickers": null,
-      "features": null
-    },
-    {
-      "plu": 4272223,
-      "name": "Чевапчичи ВЕРНЕР из говядины охлажденный 300г",
-      "image_links": {
-        "small": [
-          "https://catalog-images.x5static.net/product/1491171-main/320x320.jpeg?updated_at=2025-02-06T08:41:47.324Z"
-        ],
-        "normal": [
-          "https://catalog-images.x5static.net/product/1491171-main/800x800.jpeg?updated_at=2025-02-06T08:41:47.324Z"
-        ]
-      },
-      "uom": "шт",
-      "step": "1.0",
-      "rating": {
-        "rating_average": 0.0,
-        "rates_count": 460
-      },
-      "promo": null,
-      "prices": null,
-      "labels": null,
-      "cpd_labels": null,
-      "property_clarification": "300 г",
-      "has_age_restriction": false,
-      "stock_limit": null,
-      "median_price": null,
-      "badges": [],
-      "initial_weight_step": "1.0",
-      "min_weight": "1.0",
-      "max_qty_per_order": null,
-      "orange_loyalty_points": 70,
-      "is_available": false,
-      "price_piece_unit": "663.33",
-      "stickers": null,
-      "features": null
-    },
-    {
       "plu": 4260191,
       "name": "Сельдь ДИКОЕ МОРЕ атлантическая слабосоленая филе в масле 250г",
       "image_links": {
@@ -20919,7 +20929,7 @@
       "step": "1.0",
       "rating": {
         "rating_average": 2.9,
-        "rates_count": 1749
+        "rates_count": 1750
       },
       "promo": null,
       "prices": null,

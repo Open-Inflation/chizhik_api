@@ -21,7 +21,7 @@
   "step": "1.0",
   "rating": {
     "rating_average": 0.0,
-    "rates_count": 44,
+    "rates_count": 45,
     "reviews_count": 19
   },
   "promo": null,
@@ -45,7 +45,7 @@
   "cpd_labels": null,
   "property_clarification": "350 мл",
   "has_age_restriction": true,
-  "stock_limit": "19.00",
+  "stock_limit": "18.00",
   "median_price": null,
   "initial_weight_step": "1.0",
   "min_weight": "1.0",
