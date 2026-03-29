@@ -533,7 +533,7 @@
       "title": "Напиток FUN UP Кола без сахара газ. 1,5л",
       "sub_title": "",
       "description": "Кола Fun up без сахара — классический вкус, без калорий! В составе нет сахара, что отлично подойдёт для тех, кто занимается спортом, следит за фигурой или же просто правильно питается. Кола Fun up без сахара - прекрасный выбор для любителей насладиться знакомым вкусом в любое время дня!",
-      "rating": 2.4,
+      "rating": 2.5,
       "price": 89.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -794,8 +794,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 9.0,
-      "old_price": 149.0,
+      "price": 149.0,
+      "old_price": null,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -920,7 +920,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 59.0,
+      "price": 99.0,
       "old_price": 199.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -1134,6 +1134,92 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "gazirovannye-napitki",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6731,
+      "plu": "4319251",
+      "title": "Опора садовая для растений кольцевая 75см",
+      "sub_title": "",
+      "description": "",
+      "rating": 0.0,
+      "price": 179.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": true,
+      "is_favorite": false,
+      "slug": "opora-sadovaia-dlia-rastenii-koltsevaia-75sm-6731",
+      "images": [
+        {
+          "id": 36793,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4319251-1.png"
+        },
+        {
+          "id": 36792,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4319251.png"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 109,
+              "name": "Товары для дома",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_APP.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/%D0%A2%D0%BE%D0%B2%D0%B0%D1%80%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%B4%D0%BE%D0%BC%D0%B0_WEB.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "tovary-dlia-doma",
+              "children": [
+                {
+                  "id": 163,
+                  "name": "Сад/Огород/Кемпинг",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "sadogorodkemping",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": 149,
+              "name": "НАДО УСПЕТЬ",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": true,
+              "slug": "nado-uspet",
+              "children": [
+                {
+                  "id": 164,
+                  "name": "Товары предыдущих недель",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "tovary-predydushchikh-nedel",
                   "children": []
                 }
               ]
@@ -1569,7 +1655,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 269.0,
+      "price": 449.0,
       "old_price": 899.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -1904,8 +1990,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 9.0,
-      "old_price": 159.0,
+      "price": 159.0,
+      "old_price": null,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -2025,8 +2111,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 1129.0,
-      "old_price": 1599.0,
+      "price": 1599.0,
+      "old_price": null,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -2732,8 +2818,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 9.0,
-      "old_price": 59.0,
+      "price": 59.0,
+      "old_price": null,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -2818,7 +2904,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 219.0,
+      "price": 349.0,
       "old_price": 449.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -3048,7 +3134,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 349.99,
+      "price": 415.99,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -3810,7 +3896,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 59.0,
+      "price": 99.0,
       "old_price": 199.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -4009,7 +4095,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 59.0,
+      "price": 99.0,
       "old_price": 199.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -4966,87 +5052,6 @@
       ]
     },
     {
-      "id": 8758,
-      "plu": "4283429",
-      "title": "Напиток Добрый Cola ваниль газир. 1.5л",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 9.0,
-      "old_price": 119.0,
-      "price_piece_unit": null,
-      "is_inout": true,
-      "is_favorite": false,
-      "slug": "napitok-dobryi-cola-vanil-gazir-15l-8758",
-      "images": [
-        {
-          "id": 44424,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4283429.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 54,
-              "name": "Напитки",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "napitki",
-              "children": [
-                {
-                  "id": 56,
-                  "name": "Газированные напитки",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "gazirovannye-napitki",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": 149,
-              "name": "НАДО УСПЕТЬ",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": true,
-              "slug": "nado-uspet",
-              "children": [
-                {
-                  "id": 164,
-                  "name": "Товары предыдущих недель",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "tovary-predydushchikh-nedel",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 1007,
       "plu": "4191352",
       "title": "Колбаса ВЕРНЕР Брауншвейгская сырокопчёная 150г",
@@ -5111,7 +5116,7 @@
       "sub_title": "",
       "description": "Колбаса Вернер полукопчёная Краковская - классика вкуса и традиций! Изготовленная по ГОСТу из отборного мяса и натуральных специй, эта колбаса отличается насыщенным ароматом и гармоничным вкусом с лёгкими дымными нотками. Это достигается за счёт традиционной технологии производства по ГОСТ, которая включает в себя натуральное копчение на щепе. В составе отсутствуют соя и мясо механической обвалки, что подтверждает высокое качество. Колбаса Карковская Вернер - идеальный выбор для любителей настоящих мясных деликатесов!",
       "rating": 0.0,
-      "price": 179.0,
+      "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -5169,7 +5174,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 14.0,
+      "price": 24.0,
       "old_price": 29.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -5381,7 +5386,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 159.0,
+      "price": 109.0,
       "old_price": 229.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -5534,7 +5539,7 @@
       "title": "Колбаски ВЕРНЕР Охотничьи полукопченые 300г",
       "sub_title": "",
       "description": "Колбаски Вернер полукопчёные охотничьи - насыщенный аромат и яркий вкус! Традиционная технология производства из отборного мяса с добавлением ароматных специй и натуральным копчением на щепе придаёт этим колбаскам уникальный и такой знакомый вкус. В составе нет сои и мяса механической обвалки - чистый и качественный продукт для настоящих гурманов. Отличный выбор для пикников, перекусов и семейных ужинов!",
-      "rating": 3.8,
+      "rating": 3.9,
       "price": 189.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -5852,7 +5857,7 @@
       "title": "Колбаса ВЕРНЕР Докторская вареная 500г",
       "sub_title": "",
       "description": "Колбаса Вернер Докторская — качество без компромиссов! Отборное мясо и традиционный рецепт создают мягкий, сочный и насыщенный вкус, который понравится всей семье. Отборное мясо и проверенная рецептура создают насыщенный вкус и текстуру, которые оценит каждый. Наслаждайтесь вкусом и качеством, подтверждённым временем!",
-      "rating": 3.0,
+      "rating": 3.1,
       "price": 199.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -6031,7 +6036,7 @@
       "title": "Колбаса ВЕРНЕР Московская варено-копченая кат. А 500г",
       "sub_title": "",
       "description": "Колбаса Вернер Московская ГОСТ категории А — классика вкуса и традиций! Отборное мясо, тщательно сбалансированные специи и строгое соблюдение ГОСТа делают эту колбасу настоящим эталоном качества. Сочная, ароматная и с насыщенным мясным вкусом, она идеально подходит для праздничных застолий, домашних буфетов и вкусных перекусов. Насладитесь проверенной временем классикой, которую любят все поколения.",
-      "rating": 4.3,
+      "rating": 0.0,
       "price": 369.0,
       "old_price": null,
       "price_piece_unit": null,
@@ -6094,7 +6099,7 @@
       "title": "Колбаса ВЕРНЕР Молочная вареная 500г",
       "sub_title": "",
       "description": "Колбаса Вернер варёная Молочная - классика семейного завтрака! Изготовленная по ГОСТу из отборного мяса, эта колбаса обладает нежной текстурой и лёгкой сливочностью во вкусе. Состав - натуральные ингредиенты без сои и мяса механической обвалки. Именно это гарантирует высокое качество и безопасность продукта. Идеальный выбор для бутербродов и сэндвичей!",
-      "rating": 3.0,
+      "rating": 3.1,
       "price": 219.0,
       "old_price": null,
       "price_piece_unit": null,

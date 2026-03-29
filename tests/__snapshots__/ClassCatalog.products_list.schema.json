@@ -105,10 +105,12 @@
                               "type": "boolean"
                             },
                             "name": {
-                              "type": "string"
+                              "type": "string",
+                              "j2sEnumRejected": true
                             },
                             "slug": {
-                              "type": "string"
+                              "type": "string",
+                              "j2sEnumRejected": true
                             }
                           }
                         }
@@ -134,10 +136,12 @@
                         "type": "boolean"
                       },
                       "name": {
-                        "type": "string"
+                        "type": "string",
+                        "j2sEnumRejected": true
                       },
                       "slug": {
-                        "type": "string"
+                        "type": "string",
+                        "j2sEnumRejected": true
                       }
                     }
                   }
@@ -161,16 +165,21 @@
                   "type": "boolean"
                 },
                 "name": {
-                  "type": "string"
+                  "type": "string",
+                  "j2sEnumRejected": true
                 },
                 "slug": {
-                  "type": "string"
+                  "type": "string",
+                  "enum": [
+                    "osnovnoi-katalog"
+                  ]
                 }
               }
             }
           },
           "description": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "id": {
             "type": "integer"
@@ -193,7 +202,8 @@
                   "format": "uri"
                 },
                 "title": {
-                  "type": "string"
+                  "type": "string",
+                  "j2sEnumRejected": true
                 }
               }
             }
@@ -215,7 +225,8 @@
             ]
           },
           "plu": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "price": {
             "type": "number"
@@ -234,13 +245,16 @@
             "type": "number"
           },
           "slug": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "sub_title": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "title": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           }
         }
       }

@@ -54,7 +54,11 @@
                 ],
                 "properties": {
                   "type": {
-                    "type": "string"
+                    "type": "string",
+                    "enum": [
+                      "extended",
+                      "search_tree"
+                    ]
                   },
                   "url": {
                     "type": "string",
@@ -67,7 +71,10 @@
               "type": "null"
             },
             "category_type": {
-              "type": "string"
+              "type": "string",
+              "enum": [
+                "default"
+              ]
             },
             "deeplink": {
               "type": "null"
@@ -76,13 +83,20 @@
               "type": "null"
             },
             "gradient_end": {
-              "type": "string"
+              "type": "string",
+              "enum": [
+                "#f7f8fa"
+              ]
             },
             "gradient_start": {
-              "type": "string"
+              "type": "string",
+              "enum": [
+                "#f7f8fa"
+              ]
             },
             "id": {
-              "type": "string"
+              "type": "string",
+              "j2sEnumRejected": true
             },
             "image_link": {
               "type": "string",
@@ -93,13 +107,17 @@
               "format": "uri"
             },
             "name": {
-              "type": "string"
+              "type": "string",
+              "j2sEnumRejected": true
             },
             "parent_id": {
               "type": "null"
             },
             "title_color": {
-              "type": "string"
+              "type": "string",
+              "enum": [
+                "#302E33"
+              ]
             }
           }
         }
@@ -111,13 +129,17 @@
         "type": "null"
       },
       "id": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "264C39133"
+        ]
       },
       "image_link": {
         "type": "null"
       },
       "name": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       },
       "products": {
         "type": "array",
@@ -127,7 +149,10 @@
         "type": "null"
       },
       "type": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "category_list"
+        ]
       }
     }
   }

@@ -70,10 +70,12 @@
                     "type": "boolean"
                   },
                   "name": {
-                    "type": "string"
+                    "type": "string",
+                    "j2sEnumRejected": true
                   },
                   "slug": {
-                    "type": "string"
+                    "type": "string",
+                    "j2sEnumRejected": true
                   }
                 }
               }
@@ -99,10 +101,12 @@
               "type": "boolean"
             },
             "name": {
-              "type": "string"
+              "type": "string",
+              "j2sEnumRejected": true
             },
             "slug": {
-              "type": "string"
+              "type": "string",
+              "j2sEnumRejected": true
             }
           }
         }
@@ -126,10 +130,14 @@
         "type": "boolean"
       },
       "name": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       },
       "slug": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "osnovnoi-katalog"
+        ]
       }
     }
   }

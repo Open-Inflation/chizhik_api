@@ -1,5 +1,5 @@
 {
-  "search_query_id": "a64b6301-1fd4-421a-8ffc-89b1fb30387d",
+  "search_query_id": "2cbc0ad4-b836-456f-9200-90c24a45fca8",
   "query_type": "strict",
   "products": [
     {
@@ -33,7 +33,314 @@
       "cpd_labels": null,
       "property_clarification": "1.5 л",
       "has_age_restriction": false,
-      "stock_limit": "33.00",
+      "stock_limit": "44.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4252485,
+      "name": "Колбаса Папа может фирменная вареная категории в 500г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1477032-main/320x320.jpeg?updated_at=2025-05-06T11:42:14.008Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1477032-main/800x800.jpeg?updated_at=2025-05-06T11:42:14.008Z",
+          "https://catalog-images.x5static.net/product/408572cd87cbb93cfda02dc97d8a6fee-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 713
+      },
+      "promo": null,
+      "prices": {
+        "regular": "139.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "500 г",
+      "has_age_restriction": false,
+      "stock_limit": "46.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4263544,
+      "name": "Колбаса Останкино престиж сырокопченая полусухая 250г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1482092-main/320x320.jpeg?updated_at=2025-02-05T07:06:23.712Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1482092-main/800x800.jpeg?updated_at=2025-02-05T07:06:23.712Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 780
+      },
+      "promo": null,
+      "prices": {
+        "regular": "169.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "250 г",
+      "has_age_restriction": false,
+      "stock_limit": "28.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 3660906,
+      "name": "Колбаса Сосновоборская Мусульманская варено-копченая халяль с говядиной 330г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1495414-main/320x320.jpeg"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1495414-main/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 4.1,
+        "rates_count": 1363
+      },
+      "promo": null,
+      "prices": {
+        "regular": "149.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "330 г",
+      "has_age_restriction": false,
+      "stock_limit": "11.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 70,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4035891,
+      "name": "Колбаски Дымов Пиколини со вкусом Бекона сырокопченые 50г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1449928-main/320x320.jpeg?updated_at=2025-10-13T10:58:46.774Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1449928-main/800x800.jpeg?updated_at=2025-10-13T10:58:46.774Z",
+          "https://catalog-images.x5static.net/product/0337fd993aa9a352b945baeab9bf7f98-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 66
+      },
+      "promo": null,
+      "prices": {
+        "regular": "49.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "50 г",
+      "has_age_restriction": false,
+      "stock_limit": "48.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 34,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4102232,
+      "name": "Лакомство TitBit колбаса пармская для собак 80г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1610653-main/320x320.jpeg"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1610653-main/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/611ee7e1f49ae6d7882e04d2f2f346b5-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/fb059e57817a3f2407a8e8d4eef7b020-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/9794067e0c7188c439eded210a873aa8-additional/800x800.jpeg",
+          "https://catalog-images.x5static.net/product/b71ee7288959b4914d840be968b28e0b-additional/800x800.jpeg"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 140
+      },
+      "promo": null,
+      "prices": {
+        "regular": "69.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "80 г",
+      "has_age_restriction": false,
+      "stock_limit": "47.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 48,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4364079,
+      "name": "Колбаски Дымов Пиколини Слим со вкусом Хамона сырокопченые полусухие 70г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/2063679-main/320x320.jpeg?updated_at=2025-09-29T09:13:06.009Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/2063679-main/800x800.jpeg?updated_at=2025-09-29T09:13:06.009Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 48
+      },
+      "promo": null,
+      "prices": {
+        "regular": "79.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "70 г",
+      "has_age_restriction": false,
+      "stock_limit": "22.00",
+      "median_price": null,
+      "product_advert": null,
+      "is_large_card": null,
+      "boost_type": null,
+      "badges": [],
+      "initial_weight_step": "1.0",
+      "min_weight": "1.0",
+      "max_qty_per_order": null,
+      "orange_loyalty_points": 55,
+      "is_available": true,
+      "price_piece_unit": null,
+      "stickers": null,
+      "features": null
+    },
+    {
+      "plu": 4301953,
+      "name": "Колбаса Папа Может фирменная копченая на буке сырокопченая полусухая 150г",
+      "image_links": {
+        "small": [
+          "https://catalog-images.x5static.net/product/1515164-main/320x320.jpeg?updated_at=2024-10-18T11:20:39.874Z"
+        ],
+        "normal": [
+          "https://catalog-images.x5static.net/product/1515164-main/800x800.jpeg?updated_at=2024-10-18T11:20:39.874Z"
+        ]
+      },
+      "uom": "шт",
+      "step": "1.0",
+      "rating": {
+        "rating_average": 0.0,
+        "rates_count": 374
+      },
+      "promo": null,
+      "prices": {
+        "regular": "139.0",
+        "discount": null,
+        "cpd_promo_price": null,
+        "cpd_promo_price_from_sum_cart": null
+      },
+      "labels": null,
+      "cpd_labels": null,
+      "property_clarification": "150 г",
+      "has_age_restriction": false,
+      "stock_limit": "29.00",
       "median_price": null,
       "product_advert": null,
       "is_large_card": null,
@@ -55,6 +362,12 @@
       "type": "subcategory",
       "name": "Газированные напитки",
       "parent_name": "Напитки"
+    },
+    {
+      "id": "264C39180",
+      "type": "subcategory",
+      "name": "Колбасы",
+      "parent_name": "Мясная гастрономия"
     }
   ]
 }

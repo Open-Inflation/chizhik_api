@@ -55,12 +55,16 @@
         ],
         "properties": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "uom": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "enum": [
+                  "кг"
+                ]
               },
               {
                 "type": "null"
@@ -68,7 +72,8 @@
             ]
           },
           "value": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           }
         }
       }
@@ -84,13 +89,15 @@
       "type": "null"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "description_html": {
       "type": "null"
     },
     "description_md": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "features": {
       "type": "null"
@@ -122,13 +129,17 @@
       }
     },
     "ingredients": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "АБС-пластик."
+      ]
     },
     "ingredients_html": {
       "type": "null"
     },
     "initial_weight_step": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "is_available": {
       "type": "boolean"
@@ -150,13 +161,22 @@
         ],
         "properties": {
           "bg_color": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "#FFD700"
+            ]
           },
           "label": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "-30%"
+            ]
           },
           "text_color": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "#302E33"
+            ]
           }
         }
       }
@@ -171,10 +191,12 @@
       "type": "null"
     },
     "min_weight": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "navigation_section": {
       "type": "null"
@@ -210,10 +232,15 @@
         ],
         "properties": {
           "placement_type": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "promotional_primary",
+              "regular_secondary"
+            ]
           },
           "value": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           }
         }
       }
@@ -225,7 +252,10 @@
       "type": "null"
     },
     "property_clarification": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "350 мл"
+      ]
     },
     "rating": {
       "type": "object",
@@ -250,16 +280,21 @@
       "type": "null"
     },
     "step": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "stickers": {
       "type": "null"
     },
     "stock_limit": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "uom": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "шт"
+      ]
     }
   }
 }

@@ -17,13 +17,16 @@
         ],
         "properties": {
           "msg": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "title": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "type": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           }
         }
       }

@@ -9,10 +9,15 @@
     ],
     "properties": {
       "id": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "264C39140",
+          "264C39133"
+        ]
       },
       "name": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       }
     }
   }

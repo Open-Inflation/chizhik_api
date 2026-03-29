@@ -31,19 +31,22 @@
         "type": "number"
       },
       "locality": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       },
       "lon": {
         "type": "number"
       },
       "name": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       },
       "open_date": {
         "type": "string",
         "anyOf": [
           {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           {
             "type": "string",
@@ -52,16 +55,27 @@
         ]
       },
       "sap_id": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       },
       "slug": {
-        "type": "string"
+        "type": "string",
+        "j2sEnumRejected": true
       },
       "status": {
         "type": "integer"
       },
       "working_hours": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "с 09:00 до 21:00",
+          "с 08:00 до 20:00",
+          "с 10:00 до 22:00",
+          "с 09:30 до 21:30",
+          "с 10:00 до 21:00",
+          "с 08:00 до 18:00",
+          "с 08:30 до 20:30"
+        ]
       }
     }
   }
