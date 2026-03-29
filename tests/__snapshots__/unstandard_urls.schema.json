@@ -19,444 +19,137 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "properties": {
     "https://app.chizhik.club/api/v1": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "sec-fetch-user",
-        "upgrade-insecure-requests",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "sec-fetch-user": {
-          "type": "string"
-        },
-        "upgrade-insecure-requests": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object1"
     },
     "https://app.chizhik.club/api/v1/catalog/unauthorized/active_inout/": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object1"
     },
     "https://app.chizhik.club/api/v1/catalog/unauthorized/categories/": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object1"
     },
     "https://app.chizhik.club/api/v1/catalog/unauthorized/products/1055/": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object1"
     },
     "https://app.chizhik.club/api/v1/catalog/unauthorized/products/?page=1&category_id=133&term=%D0%BA%D0%BE%D0%BB%D0%B0": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object1"
     },
     "https://app.chizhik.club/api/v1/geo/cities/": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "host",
-        "origin",
-        "referer",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "origin": {
-          "type": "string",
-          "format": "uri"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object2"
     },
     "https://app.chizhik.club/api/v1/geo/cities/?name=%D0%B0%D1%80&page=1": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object1"
     },
     "https://app.chizhik.club/api/v1/geo/cities/?utm_referrer=https%3a%2f%2fchizhik.club%2f": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "host",
-        "origin",
-        "referer",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "origin": {
-          "type": "string",
-          "format": "uri"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object2"
     },
     "https://app.chizhik.club/api/v1/services/ping/": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "host",
-        "origin",
-        "referer",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "origin": {
-          "type": "string",
-          "format": "uri"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
+      "$ref": "#/$defs/Object2"
     },
     "https://app.chizhik.club/api/v1/services/ping/?utm_referrer=https%3a%2f%2fchizhik.club%2f": {
+      "$ref": "#/$defs/Object2"
+    },
+    "https://app.chizhik.club/api/v1/shops": {
+      "$ref": "#/$defs/Object1"
+    },
+    "https://app.chizhik.club/api/v1/shops/": {
+      "$ref": "#/$defs/Object2"
+    },
+    "https://app.chizhik.club/api/v1/shops/?term=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0": {
+      "$ref": "#/$defs/Object2"
+    },
+    "https://app.chizhik.club/api/v1/shops?term=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0": {
+      "$ref": "#/$defs/Object1"
+    }
+  },
+  "$defs": {
+    "Object1": {
+      "type": "object",
+      "required": [
+        "accept",
+        "accept-encoding",
+        "accept-language",
+        "connection",
+        "cookie",
+        "host",
+        "sec-fetch-dest",
+        "sec-fetch-mode",
+        "sec-fetch-site",
+        "user-agent"
+      ],
+      "minProperties": 1,
+      "properties": {
+        "accept": {
+          "type": "string",
+          "j2sEnumRejected": true
+        },
+        "accept-encoding": {
+          "type": "string",
+          "j2sEnumRejected": true
+        },
+        "accept-language": {
+          "type": "string",
+          "enum": [
+            "en-US,en;q=0.5"
+          ]
+        },
+        "connection": {
+          "type": "string",
+          "enum": [
+            "keep-alive"
+          ]
+        },
+        "cookie": {
+          "type": "string",
+          "j2sEnumRejected": true
+        },
+        "host": {
+          "type": "string",
+          "enum": [
+            "app.chizhik.club"
+          ]
+        },
+        "referer": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sec-fetch-dest": {
+          "type": "string",
+          "enum": [
+            "document",
+            "empty"
+          ]
+        },
+        "sec-fetch-mode": {
+          "type": "string",
+          "enum": [
+            "navigate",
+            "cors"
+          ]
+        },
+        "sec-fetch-site": {
+          "type": "string",
+          "enum": [
+            "none",
+            "same-origin"
+          ]
+        },
+        "sec-fetch-user": {
+          "type": "string",
+          "enum": [
+            "?1"
+          ]
+        },
+        "upgrade-insecure-requests": {
+          "type": "string",
+          "j2sEnumRejected": true
+        },
+        "user-agent": {
+          "type": "string",
+          "j2sEnumRejected": true
+        }
+      }
+    },
+    "Object2": {
       "type": "object",
       "required": [
         "accept",
@@ -464,25 +157,40 @@
         "accept-language",
         "connection",
         "host",
-        "origin",
         "referer",
         "user-agent"
       ],
+      "minProperties": 1,
       "properties": {
         "accept": {
-          "type": "string"
+          "type": "string",
+          "j2sEnumRejected": true
         },
         "accept-encoding": {
-          "type": "string"
+          "type": "string",
+          "j2sEnumRejected": true
         },
         "accept-language": {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "en-US,en;q=0.5"
+          ]
         },
         "connection": {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "keep-alive"
+          ]
+        },
+        "cookie": {
+          "type": "string",
+          "j2sEnumRejected": true
         },
         "host": {
-          "type": "string"
+          "type": "string",
+          "enum": [
+            "app.chizhik.club"
+          ]
         },
         "origin": {
           "type": "string",
@@ -493,191 +201,8 @@
           "format": "uri"
         },
         "user-agent": {
-          "type": "string"
-        }
-      }
-    },
-    "https://app.chizhik.club/api/v1/shops": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
           "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
-    },
-    "https://app.chizhik.club/api/v1/shops/": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
-    },
-    "https://app.chizhik.club/api/v1/shops/?term=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "user-agent": {
-          "type": "string"
-        }
-      }
-    },
-    "https://app.chizhik.club/api/v1/shops?term=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0": {
-      "type": "object",
-      "required": [
-        "accept",
-        "accept-encoding",
-        "accept-language",
-        "connection",
-        "cookie",
-        "host",
-        "referer",
-        "sec-fetch-dest",
-        "sec-fetch-mode",
-        "sec-fetch-site",
-        "user-agent"
-      ],
-      "properties": {
-        "accept": {
-          "type": "string"
-        },
-        "accept-encoding": {
-          "type": "string"
-        },
-        "accept-language": {
-          "type": "string"
-        },
-        "connection": {
-          "type": "string"
-        },
-        "cookie": {
-          "type": "string"
-        },
-        "host": {
-          "type": "string"
-        },
-        "referer": {
-          "type": "string",
-          "format": "uri"
-        },
-        "sec-fetch-dest": {
-          "type": "string"
-        },
-        "sec-fetch-mode": {
-          "type": "string"
-        },
-        "sec-fetch-site": {
-          "type": "string"
-        },
-        "user-agent": {
-          "type": "string"
+          "j2sEnumRejected": true
         }
       }
     }

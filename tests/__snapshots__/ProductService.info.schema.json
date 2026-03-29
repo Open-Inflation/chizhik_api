@@ -25,7 +25,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "properties": {
     "base_unit": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "шт"
+      ]
     },
     "categories_tree": {
       "type": "array",
@@ -98,10 +101,14 @@
                         "type": "boolean"
                       },
                       "name": {
-                        "type": "string"
+                        "type": "string",
+                        "j2sEnumRejected": true
                       },
                       "slug": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "gazirovannye-napitki"
+                        ]
                       }
                     }
                   }
@@ -127,10 +134,14 @@
                   "type": "boolean"
                 },
                 "name": {
-                  "type": "string"
+                  "type": "string",
+                  "j2sEnumRejected": true
                 },
                 "slug": {
-                  "type": "string"
+                  "type": "string",
+                  "enum": [
+                    "napitki"
+                  ]
                 }
               }
             }
@@ -154,16 +165,21 @@
             "type": "boolean"
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "slug": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "osnovnoi-katalog"
+            ]
           }
         }
       }
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "feedbacks_count": {
       "type": "integer"
@@ -189,7 +205,8 @@
             "format": "uri"
           },
           "title": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           }
         }
       }
@@ -214,15 +231,35 @@
         ],
         "properties": {
           "code": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "proteins",
+              "product_brut_weight",
+              "product_net_weight",
+              "fats",
+              "energy_value",
+              "producer_name",
+              "brand_name",
+              "volume",
+              "about_product",
+              "composition",
+              "exp_date_days",
+              "country",
+              "temp_storage1",
+              "type_package",
+              "carboh",
+              "plu"
+            ]
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "value": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "j2sEnumRejected": true
               },
               {
                 "type": "number"
@@ -236,7 +273,8 @@
       "type": "null"
     },
     "plu": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "price": {
       "type": "number"
@@ -257,13 +295,16 @@
       "type": "integer"
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "sub_title": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     }
   }
 }

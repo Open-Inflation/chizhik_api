@@ -32,10 +32,12 @@
         ],
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           }
         }
       }
@@ -47,22 +49,35 @@
       "type": "null"
     },
     "gradient_end": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "#C64E46"
+      ]
     },
     "gradient_start": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "#F6726A"
+      ]
     },
     "id": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "264C39133"
+      ]
     },
     "image_link": {
       "type": "null"
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "title_color": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "#000000"
+      ]
     }
   }
 }

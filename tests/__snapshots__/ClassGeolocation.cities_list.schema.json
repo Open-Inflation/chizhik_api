@@ -44,10 +44,27 @@
             "type": "number"
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "slug": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "arkhangelsk",
+              "arzamas",
+              "ardatov",
+              "arkadak",
+              "arsk",
+              "armiansk",
+              "armavir",
+              "aramil",
+              "artemovskii",
+              "ardon",
+              "argun",
+              "artemovsk",
+              "arsenev",
+              "artem"
+            ]
           }
         }
       }

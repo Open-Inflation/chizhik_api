@@ -23,10 +23,20 @@
         ],
         "properties": {
           "field_name": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "price",
+              "brand",
+              "special_offers"
+            ]
           },
           "filter_type": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "range",
+              "list",
+              "toggle"
+            ]
           },
           "list_values": {
             "anyOf": [
@@ -46,7 +56,8 @@
                   "all": {
                     "type": "array",
                     "items": {
-                      "type": "string"
+                      "type": "string",
+                      "j2sEnumRejected": true
                     }
                   }
                 }
@@ -54,12 +65,14 @@
             ]
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "range_max_val": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "j2sEnumRejected": true
               },
               {
                 "type": "null"
@@ -69,7 +82,8 @@
           "range_min_val": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "j2sEnumRejected": true
               },
               {
                 "type": "null"
@@ -80,10 +94,12 @@
       }
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "parent_id": {
-      "type": "string"
+      "type": "string",
+      "j2sEnumRejected": true
     },
     "products": {
       "type": "array",
@@ -152,7 +168,8 @@
             }
           },
           "initial_weight_step": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "is_available": {
             "type": "boolean"
@@ -170,13 +187,20 @@
                   ],
                   "properties": {
                     "bg_color": {
-                      "type": "string"
+                      "type": "string",
+                      "enum": [
+                        "#FFD700"
+                      ]
                     },
                     "label": {
-                      "type": "string"
+                      "type": "string",
+                      "j2sEnumRejected": true
                     },
                     "text_color": {
-                      "type": "string"
+                      "type": "string",
+                      "enum": [
+                        "#302E33"
+                      ]
                     }
                   }
                 }
@@ -193,10 +217,12 @@
             "type": "null"
           },
           "min_weight": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "orange_loyalty_points": {
             "anyOf": [
@@ -217,7 +243,8 @@
                 "type": "null"
               },
               {
-                "type": "string"
+                "type": "string",
+                "j2sEnumRejected": true
               }
             ]
           },
@@ -241,7 +268,8 @@
                   "discount": {
                     "anyOf": [
                       {
-                        "type": "string"
+                        "type": "string",
+                        "j2sEnumRejected": true
                       },
                       {
                         "type": "null"
@@ -249,7 +277,8 @@
                     ]
                   },
                   "regular": {
-                    "type": "string"
+                    "type": "string",
+                    "j2sEnumRejected": true
                   }
                 }
               },
@@ -262,7 +291,8 @@
             "type": "null"
           },
           "property_clarification": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "rating": {
             "anyOf": [
@@ -287,7 +317,8 @@
             ]
           },
           "step": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "stickers": {
             "type": "null"
@@ -295,7 +326,8 @@
           "stock_limit": {
             "anyOf": [
               {
-                "type": "string"
+                "type": "string",
+                "j2sEnumRejected": true
               },
               {
                 "type": "null"
@@ -303,7 +335,11 @@
             ]
           },
           "uom": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "шт",
+              "кг"
+            ]
           }
         }
       }

@@ -1149,7 +1149,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 149.0,
+      "price": 179.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": true,
@@ -1366,8 +1366,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 149.0,
-      "old_price": null,
+      "price": 9.0,
+      "old_price": 149.0,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -2818,8 +2818,8 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 59.0,
-      "old_price": null,
+      "price": 9.0,
+      "old_price": 59.0,
       "price_piece_unit": null,
       "is_inout": true,
       "is_favorite": false,
@@ -2904,7 +2904,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 219.0,
+      "price": 349.0,
       "old_price": 449.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -3896,7 +3896,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 59.0,
+      "price": 99.0,
       "old_price": 199.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -4095,7 +4095,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 59.0,
+      "price": 99.0,
       "old_price": 199.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -5052,87 +5052,6 @@
       ]
     },
     {
-      "id": 8758,
-      "plu": "4283429",
-      "title": "Напиток Добрый Cola ваниль газир. 1.5л",
-      "sub_title": "",
-      "description": "",
-      "rating": 0.0,
-      "price": 9.0,
-      "old_price": 119.0,
-      "price_piece_unit": null,
-      "is_inout": true,
-      "is_favorite": false,
-      "slug": "napitok-dobryi-cola-vanil-gazir-15l-8758",
-      "images": [
-        {
-          "id": 44424,
-          "title": "",
-          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/4283429.png"
-        }
-      ],
-      "categories_tree": [
-        {
-          "id": 133,
-          "name": "Основной каталог",
-          "image": null,
-          "icon": null,
-          "depth": 1,
-          "is_adults": false,
-          "is_inout": false,
-          "slug": "osnovnoi-katalog",
-          "children": [
-            {
-              "id": 54,
-              "name": "Напитки",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/%D0%9D%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%AD%D0%92-min.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": false,
-              "slug": "napitki",
-              "children": [
-                {
-                  "id": 56,
-                  "name": "Газированные напитки",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "gazirovannye-napitki",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "id": 149,
-              "name": "НАДО УСПЕТЬ",
-              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Frame_2087325305_003.png",
-              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/IMG_Categories_inout.png",
-              "depth": 2,
-              "is_adults": false,
-              "is_inout": true,
-              "slug": "nado-uspet",
-              "children": [
-                {
-                  "id": 164,
-                  "name": "Товары предыдущих недель",
-                  "image": null,
-                  "icon": null,
-                  "depth": 3,
-                  "is_adults": false,
-                  "is_inout": false,
-                  "slug": "tovary-predydushchikh-nedel",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": 1007,
       "plu": "4191352",
       "title": "Колбаса ВЕРНЕР Брауншвейгская сырокопчёная 150г",
@@ -5197,7 +5116,7 @@
       "sub_title": "",
       "description": "Колбаса Вернер полукопчёная Краковская - классика вкуса и традиций! Изготовленная по ГОСТу из отборного мяса и натуральных специй, эта колбаса отличается насыщенным ароматом и гармоничным вкусом с лёгкими дымными нотками. Это достигается за счёт традиционной технологии производства по ГОСТ, которая включает в себя натуральное копчение на щепе. В составе отсутствуют соя и мясо механической обвалки, что подтверждает высокое качество. Колбаса Карковская Вернер - идеальный выбор для любителей настоящих мясных деликатесов!",
       "rating": 0.0,
-      "price": 189.0,
+      "price": 179.0,
       "old_price": null,
       "price_piece_unit": null,
       "is_inout": false,
@@ -6471,7 +6390,7 @@
       "sub_title": "",
       "description": "",
       "rating": 0.0,
-      "price": 39.0,
+      "price": 49.0,
       "old_price": 79.0,
       "price_piece_unit": null,
       "is_inout": true,
@@ -7514,6 +7433,64 @@
                   "is_adults": false,
                   "is_inout": false,
                   "slug": "kolbasy",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6754,
+      "plu": "4054779",
+      "title": "Хлеб Золотой Колобок Австрийский 255г",
+      "sub_title": "",
+      "description": "",
+      "rating": 0.0,
+      "price": 39.0,
+      "old_price": null,
+      "price_piece_unit": null,
+      "is_inout": false,
+      "is_favorite": false,
+      "slug": "khleb-zolotoi-kolobok-avstriiskii-255g-6754",
+      "images": [
+        {
+          "id": 36783,
+          "title": "",
+          "image": "https://chizhik.x5static.net/media/chizhik-assets/product_images/293464.jfif"
+        }
+      ],
+      "categories_tree": [
+        {
+          "id": 133,
+          "name": "Основной каталог",
+          "image": null,
+          "icon": null,
+          "depth": 1,
+          "is_adults": false,
+          "is_inout": false,
+          "slug": "osnovnoi-katalog",
+          "children": [
+            {
+              "id": 119,
+              "name": "Хлеб и выпечка",
+              "image": "https://chizhik.x5static.net/media/chizhik-assets/categories/Card_4.png",
+              "icon": "https://chizhik.x5static.net/media/chizhik-assets/categories/icon/Type%D0%B5__%D0%9B%D0%97-min.png",
+              "depth": 2,
+              "is_adults": false,
+              "is_inout": false,
+              "slug": "khleb-i-vypechka",
+              "children": [
+                {
+                  "id": 123,
+                  "name": "Хлеб",
+                  "image": null,
+                  "icon": null,
+                  "depth": 3,
+                  "is_adults": false,
+                  "is_inout": false,
+                  "slug": "khleb",
                   "children": []
                 }
               ]

@@ -20,16 +20,28 @@
         ],
         "properties": {
           "id": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "264C39231",
+              "264C39180"
+            ]
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "parent_name": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "Напитки",
+              "Мясная гастрономия"
+            ]
           },
           "type": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "subcategory"
+            ]
           }
         }
       }
@@ -153,7 +165,8 @@
             }
           },
           "initial_weight_step": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "is_available": {
             "type": "boolean"
@@ -171,10 +184,12 @@
             "type": "null"
           },
           "min_weight": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "orange_loyalty_points": {
             "type": "integer"
@@ -204,7 +219,8 @@
                 "type": "null"
               },
               "regular": {
-                "type": "string"
+                "type": "string",
+                "j2sEnumRejected": true
               }
             }
           },
@@ -215,7 +231,17 @@
             "type": "null"
           },
           "property_clarification": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "1.5 л",
+              "500 г",
+              "250 г",
+              "330 г",
+              "50 г",
+              "80 г",
+              "70 г",
+              "150 г"
+            ]
           },
           "rating": {
             "type": "object",
@@ -233,22 +259,30 @@
             }
           },
           "step": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "stickers": {
             "type": "null"
           },
           "stock_limit": {
-            "type": "string"
+            "type": "string",
+            "j2sEnumRejected": true
           },
           "uom": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "шт"
+            ]
           }
         }
       }
     },
     "query_type": {
-      "type": "string"
+      "type": "string",
+      "enum": [
+        "strict"
+      ]
     },
     "search_query_id": {
       "type": "string",
