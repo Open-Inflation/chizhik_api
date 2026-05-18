@@ -26,9 +26,21 @@
               "264C39180"
             ]
           },
+          "main_name": {
+            "type": "string",
+            "enum": [
+              "Основной каталог"
+            ]
+          },
           "name": {
             "type": "string",
             "j2sEnumRejected": true
+          },
+          "parent_id": {
+            "type": "string",
+            "enum": [
+              "264C39228"
+            ]
           },
           "parent_name": {
             "type": "string",
@@ -240,23 +252,33 @@
               "50 г",
               "80 г",
               "70 г",
-              "150 г"
+              "150 г",
+              "1 л",
+              "500 мл",
+              "108 г"
             ]
           },
           "rating": {
-            "type": "object",
-            "required": [
-              "rates_count",
-              "rating_average"
-            ],
-            "properties": {
-              "rates_count": {
-                "type": "integer"
+            "anyOf": [
+              {
+                "type": "object",
+                "required": [
+                  "rates_count",
+                  "rating_average"
+                ],
+                "properties": {
+                  "rates_count": {
+                    "type": "integer"
+                  },
+                  "rating_average": {
+                    "type": "number"
+                  }
+                }
               },
-              "rating_average": {
-                "type": "number"
+              {
+                "type": "null"
               }
-            }
+            ]
           },
           "step": {
             "type": "string",

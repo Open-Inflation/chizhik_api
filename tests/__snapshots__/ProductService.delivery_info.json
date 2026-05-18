@@ -21,8 +21,8 @@
   "step": "1.0",
   "rating": {
     "rating_average": 0.0,
-    "rates_count": 45,
-    "reviews_count": 19
+    "rates_count": 52,
+    "reviews_count": 25
   },
   "promo": null,
   "prices": [
@@ -45,7 +45,7 @@
   "cpd_labels": null,
   "property_clarification": "350 мл",
   "has_age_restriction": true,
-  "stock_limit": "18.00",
+  "stock_limit": "17.00",
   "median_price": null,
   "initial_weight_step": "1.0",
   "min_weight": "1.0",
@@ -100,8 +100,11 @@
   "features": null,
   "pharmacy": null,
   "stickers": null,
+  "social_proof": null,
   "navigation_section": null,
   "price_unit_label": null,
   "package_quantity": null,
-  "social_proof": null
+  "x5_packet_banner": null,
+  "allergens": null,
+  "main_v2_photo": null
 }

@@ -85,13 +85,15 @@
             "gradient_end": {
               "type": "string",
               "enum": [
-                "#f7f8fa"
+                "#f7f8fa",
+                "#DBF6FF"
               ]
             },
             "gradient_start": {
               "type": "string",
               "enum": [
-                "#f7f8fa"
+                "#f7f8fa",
+                "#DBF6FF"
               ]
             },
             "id": {

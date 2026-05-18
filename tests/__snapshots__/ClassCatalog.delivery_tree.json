@@ -7,6 +7,26 @@
     "additional_icons": [],
     "categories": [
       {
+        "id": "264C55533",
+        "name": "Отдых на природе",
+        "advert": null,
+        "image_link": "https://catalog-images.x5static.net/category/264C55533-icon-chizhik_6bb3ae9a69b0743f470fde7b52e5b184/345x345.png",
+        "gradient_start": "#DBF6FF",
+        "gradient_end": "#DBF6FF",
+        "title_color": "#302E33",
+        "additional_icons": [
+          {
+            "type": "extended",
+            "url": "https://catalog-images.x5static.net/category/264C55533-additional-extended-chizhik_cc32d365712e780c18764a69d8b78521/312x348.png"
+          }
+        ],
+        "deeplink": null,
+        "category_type": "default",
+        "parent_id": null,
+        "description": null,
+        "image_link_rectangle": "https://catalog-images.x5static.net/category/264C55533-icon-chizhik_6bb3ae9a69b0743f470fde7b52e5b184/492x336.png"
+      },
+      {
         "id": "264C39140",
         "name": "Молочные продукты, яйцо",
         "advert": null,

@@ -44,6 +44,9 @@
   ],
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "properties": {
+    "allergens": {
+      "type": "null"
+    },
     "attributes": {
       "type": "array",
       "items": {
@@ -181,6 +184,9 @@
         }
       }
     },
+    "main_v2_photo": {
+      "type": "null"
+    },
     "marketplace_informer": {
       "type": "null"
     },
@@ -295,6 +301,9 @@
       "enum": [
         "шт"
       ]
+    },
+    "x5_packet_banner": {
+      "type": "null"
     }
   }
 }
